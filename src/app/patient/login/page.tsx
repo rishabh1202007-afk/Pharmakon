@@ -32,26 +32,18 @@ export default function PatientLogin() {
     <div className="bg-[#04101A] min-h-screen">
       <main className="min-h-screen relative flex items-center justify-center overflow-hidden">
         {/* Background Decor */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-[50vw] h-[50vw] bg-teal-500/10 rounded-full blur-[150px] transform translate-x-1/2 -translate-y-1/2" />
-          <div className="absolute bottom-0 left-0 w-[50vw] h-[50vw] bg-blue-600/10 rounded-full blur-[150px] transform -translate-x-1/2 translate-y-1/2" />
-          <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay" />
-          
-          {/* Floating elements */}
-          <motion.div 
-            animate={{ y: [0, -20, 0], opacity: [0.3, 0.6, 0.3] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-1/4 left-1/4 hidden lg:block"
-          >
-            <Activity className="w-12 h-12 text-teal-500/30" />
-          </motion.div>
-          <motion.div 
-            animate={{ y: [0, 20, 0], opacity: [0.2, 0.5, 0.2] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="absolute bottom-1/4 right-1/4 hidden lg:block"
-          >
-            <ShieldCheck className="w-16 h-16 text-blue-500/20" />
-          </motion.div>
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+          {/* Blurred Components Collage Background */}
+          <div className="absolute inset-0 flex flex-col gap-12 opacity-30 blur-md scale-105 pointer-events-none mask-image:linear-gradient(to_bottom,transparent,black,transparent)">
+            <PharmacySection />
+            <EmergencySection />
+          </div>
+
+          <div className="absolute inset-0 bg-[#04101A]/60" /> {/* Dark overlay for readability */}
+
+          <div className="absolute top-0 right-0 w-[50vw] h-[50vw] bg-teal-500/20 rounded-full blur-[150px] transform translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-[50vw] h-[50vw] bg-blue-600/20 rounded-full blur-[150px] transform -translate-x-1/2 translate-y-1/2" />
+          <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay" />
         </div>
 
         <div className="relative z-10 w-full max-w-md px-4 sm:px-6">
@@ -70,7 +62,7 @@ export default function PatientLogin() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-[#0B1F33]/80 backdrop-blur-xl border border-slate-800 rounded-3xl p-8 shadow-[0_0_50px_rgba(0,0,0,0.5)] relative overflow-hidden"
+            className="bg-[#0B1F33]/80 backdrop-blur-xl border border-slate-700/50 rounded-3xl p-8 shadow-[0_0_50px_rgba(0,0,0,0.5)] relative overflow-hidden"
           >
             {/* Subtle top highlight */}
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 via-emerald-400 to-blue-500" />
@@ -119,12 +111,12 @@ export default function PatientLogin() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder=" " 
                     aria-invalid={!!error}
-                    className="peer w-full bg-[#04101A] border border-slate-700 text-white rounded-xl py-3.5 pl-12 pr-4 focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1F33] transition-all placeholder-transparent"
+                    className="peer w-full bg-[#04101A]/80 border border-slate-700 text-white rounded-xl py-3.5 pl-12 pr-4 focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1F33] transition-all placeholder-transparent"
                     required
                   />
                   <label 
                     htmlFor="email"
-                    className="absolute left-12 text-slate-500 text-base transition-all duration-200 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-500 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-focus:top-0 peer-focus:text-xs peer-focus:text-teal-400 peer-focus:-translate-y-1/2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:-translate-y-1/2 pointer-events-none bg-[#0B1F33] px-1"
+                    className="absolute left-12 text-slate-500 text-base transition-all duration-200 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-500 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-focus:top-0 peer-focus:text-xs peer-focus:text-teal-400 peer-focus:-translate-y-1/2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:-translate-y-1/2 pointer-events-none bg-transparent px-1"
                   >
                     Email or Patient ID
                   </label>
@@ -142,12 +134,12 @@ export default function PatientLogin() {
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder=" " 
                     aria-invalid={!!error}
-                    className="peer w-full bg-[#04101A] border border-slate-700 text-white rounded-xl py-3.5 pl-12 pr-4 focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1F33] transition-all placeholder-transparent"
+                    className="peer w-full bg-[#04101A]/80 border border-slate-700 text-white rounded-xl py-3.5 pl-12 pr-4 focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1F33] transition-all placeholder-transparent"
                     required
                   />
                   <label 
                     htmlFor="password"
-                    className="absolute left-12 text-slate-500 text-base transition-all duration-200 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-500 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-focus:top-0 peer-focus:text-xs peer-focus:text-teal-400 peer-focus:-translate-y-1/2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:-translate-y-1/2 pointer-events-none bg-[#0B1F33] px-1"
+                    className="absolute left-12 text-slate-500 text-base transition-all duration-200 peer-placeholder-shown:text-base peer-placeholder-shown:text-slate-500 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-focus:top-0 peer-focus:text-xs peer-focus:text-teal-400 peer-focus:-translate-y-1/2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs peer-[:not(:placeholder-shown)]:-translate-y-1/2 pointer-events-none bg-transparent px-1"
                   >
                     Password
                   </label>
@@ -180,7 +172,7 @@ export default function PatientLogin() {
               </button>
             </form>
 
-            <div className="mt-8 text-center border-t border-slate-800 pt-6">
+            <div className="mt-8 text-center border-t border-slate-700/50 pt-6">
               <p className="text-slate-400 text-sm">
                 New to PharmaKon? <Link href="/patient/register" className="text-teal-400 hover:text-teal-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-400 rounded font-medium transition-colors">Create an account</Link>
               </p>
@@ -193,10 +185,6 @@ export default function PatientLogin() {
           </div>
         </div>
       </main>
-
-      {/* Sections Added for Showcase */}
-      <PharmacySection />
-      <EmergencySection />
     </div>
   );
 }

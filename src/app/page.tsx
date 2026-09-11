@@ -1,3 +1,4 @@
+import { EntryGateway } from "@/components/home/EntryGateway";
 import { HeroSection } from "@/components/home/HeroSection";
 import { EcosystemSection } from "@/components/home/EcosystemSection";
 import { PatientJourney } from "@/components/home/PatientJourney";
@@ -12,6 +13,7 @@ import { CtaSection } from "@/components/home/CtaSection";
 export default function Home() {
   return (
     <>
+      <EntryGateway />
       <HeroSection />
       <EcosystemSection />
       <PatientJourney />

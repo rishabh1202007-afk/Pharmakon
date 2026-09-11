@@ -34,9 +34,9 @@ export function HeroSection() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10 grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-        
+
         {/* Left: Content */}
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={mounted ? "visible" : "hidden"}
@@ -52,7 +52,7 @@ export function HeroSection() {
           <div className="mb-6">
             <SwipeText delay={0.2}>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.05]">
-                Healthcare, <br/>
+                Healthcare, <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400">
                   Reimagined.
                 </span>
@@ -60,7 +60,7 @@ export function HeroSection() {
             </SwipeText>
           </div>
 
-          <motion.p 
+          <motion.p
             variants={itemVariants}
             className="text-lg md:text-xl text-slate-300 max-w-lg leading-relaxed mb-10 font-medium"
           >
@@ -92,7 +92,7 @@ export function HeroSection() {
       </div>
 
       {/* 3D Visualization Background */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={mounted ? { opacity: 1 } : { opacity: 0 }}
         transition={{ duration: 1.5, delay: 0.5 }}
