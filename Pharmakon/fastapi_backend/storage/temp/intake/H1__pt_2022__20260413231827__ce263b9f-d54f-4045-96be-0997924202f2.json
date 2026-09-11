@@ -1,0 +1,17 @@
+{
+  "docType": "intake-temp",
+  "schemaVersion": 1,
+  "documentId": "H1__pt_2022__20260413231827__ce263b9f-d54f-4045-96be-0997924202f2",
+  "hospitalId": "H1",
+  "patientId": "pt 2022",
+  "createdAt": "2026-04-13T23:18:27.279Z",
+  "expiresAt": "2026-04-14T23:18:27.279Z",
+  "payload": {
+    "patientId": "pt 2022",
+    "hospitalId": "H1",
+    "source": "admission-conversion",
+    "capturedAt": "2026-04-13T23:18:27.274Z",
+    "intakeInput": null,
+    "intakeOutput": null
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "user_id": "DEMO_H1",
+    "role": "demo",
+    "hospital_id": "H1",
+    "patient_id": "PTC526355978",
+    "action": "sync_intake",
+    "ai_suggestion": "Proceed with standard Clopidogrel dosing and routine clinical monitoring.",
+    "final_decision": "Intake synchronized",
+    "timestamp": "2026-04-13T23:05:44.731Z",
+    "justification": "Deterministic intake sync completed."
+  },
+  {
+    "user_id": "DEMO_H1",
+    "role": "demo",
+    "hospital_id": "H1",
+    "patient_id": "PTC526355978",
+    "action": "convert_inpatient",
+    "ai_suggestion": "",
+    "final_decision": "In-patient conversion completed",
+    "timestamp": "2026-04-13T23:05:48.320Z",
+    "justification": "Converted from intake console at 2026-04-13T23:05:48.314Z"
+  }
+]
