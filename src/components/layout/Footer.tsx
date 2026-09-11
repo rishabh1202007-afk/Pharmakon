@@ -16,6 +16,13 @@ const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
   </svg>
 );
 
+const YoutubeIcon = ({ size = 20 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+  </svg>
+);
+
 const GithubIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
@@ -47,18 +54,14 @@ export function Footer() {
               A connected healthcare ecosystem bringing patients, physicians, hospitals, and intelligent technology together for a better future.
             </p>
             <div className="flex items-center space-x-4 text-slate-400">
-              <a href="#" className="hover:text-medical-600 transition-colors">
-                <TwitterIcon size={20} />
+              {/* Twitter removed */}
+              <a href="https://youtu.be/hpQ7keamgkg?si=l55iMV-sJVS_1OVp" target="_blank" rel="noopener noreferrer" className="hover:text-medical-600 transition-colors">
+                <YoutubeIcon size={20} />
               </a>
-              <a href="#" className="hover:text-medical-600 transition-colors">
-                <LinkedinIcon size={20} />
-              </a>
-              <a href="#" className="hover:text-medical-600 transition-colors">
+              <a href="https://github.com/GearHeadGhoul/Pharmakon" target="_blank" rel="noopener noreferrer" className="hover:text-medical-600 transition-colors">
                 <GithubIcon size={20} />
               </a>
-              <a href="#" className="hover:text-medical-600 transition-colors">
-                <Mail size={20} />
-              </a>
+              {/* Mail removed */}
             </div>
           </div>
 
@@ -88,9 +91,7 @@ export function Footer() {
             <h3 className="font-semibold text-slate-900 mb-4">Company</h3>
             <ul className="space-y-3">
               <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">About Us</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Careers</Link></li>
               <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Contact</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Press</Link></li>
             </ul>
           </div>
         </div>
@@ -100,9 +101,7 @@ export function Footer() {
             © {new Date().getFullYear()} PharmaKon Healthcare. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <Link href="#" className="text-sm text-slate-400 hover:text-slate-900 transition-colors">Privacy</Link>
-            <Link href="#" className="text-sm text-slate-400 hover:text-slate-900 transition-colors">Terms</Link>
-            <Link href="#" className="text-sm text-slate-400 hover:text-slate-900 transition-colors">Accessibility</Link>
+            <Link href="#" className="text-sm text-slate-400 hover:text-slate-900 transition-colors">Terms & Conditions</Link>
             <Link href="#" className="text-sm text-slate-400 hover:text-slate-900 transition-colors">Security</Link>
           </div>
         </div>
