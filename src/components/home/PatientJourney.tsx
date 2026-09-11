@@ -123,7 +123,6 @@ export function PatientJourney() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                onMouseEnter={() => setActiveStep(index)}
                 className="relative group"
               >
                 {/* Step Connector Node (Desktop) */}
@@ -131,9 +130,8 @@ export function PatientJourney() {
 
                 <div className={`
                   bg-[#102D46] rounded-2xl p-8 border border-slate-700/50 transition-all duration-300
-                  hover:-translate-y-2 hover:border-teal-500/30 hover:shadow-2xl ${step.shadow}
+                  hover:-translate-y-4 hover:border-teal-500/50 hover:shadow-2xl ${step.shadow}
                   flex flex-col items-center text-center relative z-20 h-full
-                  ${activeStep === index ? 'lg:-translate-y-4 lg:border-teal-500/50' : 'lg:translate-y-12'}
                 `}>
                   
                   <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${step.color} flex items-center justify-center mb-6 shadow-lg rotate-3 group-hover:rotate-6 transition-transform`}>

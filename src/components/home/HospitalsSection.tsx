@@ -57,7 +57,7 @@ export function HospitalsSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           
           {/* Left: Hospital List */}
-          <div className="flex flex-col gap-4 max-h-[600px] overflow-y-auto pr-2 no-scrollbar">
+          <div className="flex flex-col gap-4 max-h-[600px] overflow-y-auto scroll-smooth pr-2 no-scrollbar">
             {hospitals.map((hospital, index) => {
               const isActive = hospital.id === activeId;
               return (
@@ -70,7 +70,7 @@ export function HospitalsSection() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className={`p-6 rounded-2xl border transition-all duration-300 cursor-pointer shrink-0 ${
                     isActive 
-                    ? 'bg-[#04101A] shadow-[0_20px_50px_-20px_rgba(20,184,166,0.2)] border-teal-500/50 scale-[1.02] sticky top-0 bottom-0 z-10' 
+                    ? 'bg-[#04101A] shadow-[0_20px_50px_-20px_rgba(20,184,166,0.2)] border-teal-500/50' 
                     : 'bg-slate-900/50 border-slate-800 hover:bg-slate-800 hover:border-teal-500/30 hover:shadow-md'
                   }`}
                 >
