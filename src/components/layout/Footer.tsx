@@ -35,16 +35,16 @@ export function Footer() {
     <footer className="bg-slate-50 border-t border-slate-200 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-12">
-          
+
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <Image 
-                src="/PharmaKon.png" 
-                alt="PharmaKon Logo" 
-                width={32} 
-                height={32} 
-                className="w-8 h-8 object-contain" 
+              <Image
+                src="/PharmaKon.png"
+                alt="PharmaKon Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8 object-contain"
               />
               <span className="font-bold text-xl tracking-tight text-slate-900">
                 PharmaKon
@@ -69,11 +69,11 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-slate-900 mb-4">PharmaKon</h3>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Healthcare</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Solutions</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">AI Intelligence</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Doctors</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Hospitals</Link></li>
+              <li><Link href="/#ecosystem" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Healthcare</Link></li>
+              <li><Link href="/#solutions" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Solutions</Link></li>
+              <li><Link href="/#diagnostics" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">AI Intelligence</Link></li>
+              <li><Link href="/#doctors" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Doctors</Link></li>
+              <li><Link href="/hospitals" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Hospitals</Link></li>
             </ul>
           </div>
 
@@ -90,8 +90,8 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-slate-900 mb-4">Company</h3>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">About Us</Link></li>
-              <li><Link href="#" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Contact</Link></li>
+              <li><Link href="/#about" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">About Us</Link></li>
+              <li><Link href="/#contact" className="text-sm text-slate-500 hover:text-medical-600 transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>

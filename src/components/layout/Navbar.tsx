@@ -31,8 +31,8 @@ export function Navbar() {
       <motion.nav
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out border-b border-transparent",
-          isScrolled 
-            ? "bg-white/80 backdrop-blur-md shadow-sm border-slate-200 py-3" 
+          isScrolled
+            ? "bg-white/80 backdrop-blur-md shadow-sm border-slate-200 py-3"
             : "bg-transparent py-5"
         )}
       >
@@ -40,12 +40,12 @@ export function Navbar() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 flex items-center gap-2 hover:opacity-90 transition-opacity">
-              <Image 
-                src="/PharmaKon.png" 
-                alt="PharmaKon Logo" 
-                width={32} 
-                height={32} 
-                className="w-8 h-8 object-contain" 
+              <Image
+                src="/PharmaKon.png"
+                alt="PharmaKon Logo"
+                width={32}
+                height={32}
+                className="w-8 h-8 object-contain"
               />
               <span className="font-bold text-xl tracking-tight text-slate-900">
                 PharmaKon

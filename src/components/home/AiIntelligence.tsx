@@ -41,7 +41,7 @@ export function AiIntelligence() {
               Decision Support Architecture
             </span>
           </motion.button>
-          
+
           <div className="mb-6">
             <SwipeText>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
@@ -50,8 +50,8 @@ export function AiIntelligence() {
               </h2>
             </SwipeText>
           </div>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -64,7 +64,7 @@ export function AiIntelligence() {
 
         <AnimatePresence>
           {isExpanded && (
-            <motion.div 
+            <motion.div
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
@@ -74,7 +74,7 @@ export function AiIntelligence() {
               <div className="max-w-5xl mx-auto relative mt-8 pb-16">
                 {/* Animated background flow line */}
                 <div className="absolute top-0 bottom-0 left-[27px] md:left-1/2 w-[2px] bg-slate-800 md:-translate-x-1/2 overflow-hidden rounded-full">
-                  <motion.div 
+                  <motion.div
                     animate={{ y: ["-100%", "500%"] }}
                     transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
                     className="w-full h-32 bg-gradient-to-b from-transparent via-teal-400 to-transparent"
@@ -83,15 +83,14 @@ export function AiIntelligence() {
 
                 <div className="space-y-12 md:space-y-20 pt-8">
                   {PIPELINE.map((step, i) => (
-                    <motion.div 
+                    <motion.div
                       key={step.id}
                       initial={{ opacity: 0, y: 30 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                      className={`flex items-center gap-6 md:gap-16 relative z-10 ${
-                        i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse text-left md:text-right"
-                      }`}
+                      className={`flex items-center gap-6 md:gap-16 relative z-10 ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse text-left md:text-right"
+                        }`}
                     >
                       {/* Desktop Empty Space for alignment */}
                       <div className="hidden md:block md:flex-1" />
@@ -102,7 +101,7 @@ export function AiIntelligence() {
                           <step.icon className="w-6 h-6 text-teal-400" />
                         </div>
                         {/* Glowing ring */}
-                        <motion.div 
+                        <motion.div
                           animate={{ scale: [1, 1.4, 1], opacity: [0.2, 0.5, 0.2] }}
                           transition={{ duration: 2.5, repeat: Infinity, delay: i * 0.3 }}
                           className="absolute inset-0 rounded-2xl bg-teal-500 blur-lg -z-10"
@@ -113,7 +112,7 @@ export function AiIntelligence() {
                       <div className="flex-1 md:flex-none md:w-[calc(50%-4rem)]">
                         <div className={`p-6 rounded-2xl bg-primary-900/50 backdrop-blur-md border border-slate-700/50 hover:bg-primary-900 transition-colors shadow-xl group relative overflow-hidden`}>
                           <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                          
+
                           <h3 className={`text-xl font-bold text-white mb-3 flex items-center gap-3 ${i % 2 !== 0 && "md:flex-row-reverse"}`}>
                             <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary-950 border border-slate-700 text-sm font-mono text-teal-400">
                               0{i + 1}

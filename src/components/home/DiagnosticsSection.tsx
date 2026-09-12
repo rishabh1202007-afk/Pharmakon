@@ -3,10 +3,14 @@
 import { motion } from "framer-motion";
 import { Dna, Microscope, Scan, ArrowRight, Brain, Activity } from "lucide-react";
 import { SwipeText } from "@/components/ui/SwipeText";
+import { Diagnostics3D } from "./Diagnostics3D";
 
 export function DiagnosticsSection() {
   return (
     <section id="diagnostics" className="py-24 bg-[#04101A] relative overflow-hidden">
+      {/* 3D Background */}
+      <Diagnostics3D />
+
       {/* Ambient Lighting & Grid */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Soft, masked grid */}
