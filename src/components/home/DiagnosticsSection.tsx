@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Dna, Microscope, Scan, ArrowRight, Brain, Activity } from "lucide-react";
 import { SwipeText } from "@/components/ui/SwipeText";
 import { Diagnostics3D } from "./Diagnostics3D";
+import Link from "next/link";
 
 export function DiagnosticsSection() {
   return (
@@ -59,10 +60,10 @@ export function DiagnosticsSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <button className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-800/50 hover:bg-teal-500/10 border border-slate-700 hover:border-teal-500/50 text-white rounded-2xl font-semibold transition-all duration-300 backdrop-blur-xl overflow-hidden">
+            <Link href="/facilities" className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-slate-800/50 hover:bg-teal-500/10 border border-slate-700 hover:border-teal-500/50 text-white rounded-2xl font-semibold transition-all duration-300 backdrop-blur-xl overflow-hidden">
               <span className="relative z-10 group-hover:text-teal-300 transition-colors">Explore Facilities</span>
               <ArrowRight className="w-5 h-5 relative z-10 text-teal-400 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </Link>
           </motion.div>
         </div>
 

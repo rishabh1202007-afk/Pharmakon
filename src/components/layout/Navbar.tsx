@@ -47,7 +47,10 @@ export function Navbar() {
                 height={32}
                 className="w-8 h-8 object-contain"
               />
-              <span className="font-bold text-xl tracking-tight text-slate-900">
+              <span className={cn(
+                "font-bold text-xl tracking-tight",
+                isScrolled ? "text-slate-900" : "text-white"
+              )}>
                 PharmaKon
               </span>
             </Link>
@@ -68,7 +71,12 @@ export function Navbar() {
                       }
                     }
                   }}
-                  className="px-3 py-2 text-sm font-medium text-slate-600 hover:text-medical-600 hover:bg-medical-50 rounded-md transition-colors"
+                  className={cn(
+                    "px-3 py-2 text-sm font-medium rounded-md transition-colors",
+                    isScrolled 
+                      ? "text-slate-600 hover:text-medical-600 hover:bg-medical-50" 
+                      : "text-slate-300 hover:text-white hover:bg-white/10"
+                  )}
                 >
                   {link.name}
                 </Link>
@@ -77,7 +85,12 @@ export function Navbar() {
 
             {/* Right Actions */}
             <div className="hidden lg:flex items-center space-x-3">
-              <button className="p-2 text-slate-400 hover:text-slate-600 transition-colors rounded-full hover:bg-slate-100 mr-2">
+              <button className={cn(
+                "p-2 transition-colors rounded-full mr-2",
+                isScrolled 
+                  ? "text-slate-400 hover:text-slate-600 hover:bg-slate-100" 
+                  : "text-slate-400 hover:text-white hover:bg-white/10"
+              )}>
                 <Search size={18} />
               </button>
               <Link href="/patient/login" className="flex items-center gap-2 bg-teal-50 text-teal-700 px-5 py-2.5 rounded-full text-sm font-bold hover:bg-teal-100 transition-all">
@@ -92,7 +105,12 @@ export function Navbar() {
             <div className="lg:hidden flex items-center">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 text-slate-600 hover:bg-slate-100 rounded-md transition-colors"
+                className={cn(
+                  "p-2 rounded-md transition-colors",
+                  isScrolled
+                    ? "text-slate-600 hover:bg-slate-100"
+                    : "text-slate-300 hover:bg-white/10"
+                )}
               >
                 {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
