@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-04-04T10:42:17.473Z",
+    "temperature": "99.4",
+    "bloodPressure": "162/102",
+    "pulse": "136",
+    "spo2": "90",
+    "respiratoryRate": "30",
+    "painScore": "0",
+    "recordedBy": "Intake System"
+  }
+]

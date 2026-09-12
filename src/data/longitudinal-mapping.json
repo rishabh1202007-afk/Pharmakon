@@ -1,0 +1,19 @@
+{
+  "demoPatients": [
+    {
+      "longitudinalId": "PHK-PT-7F42A91C",
+      "description": "Demo Cross-Hospital Patient Identity",
+      "createdAt": "2026-09-04T00:00:00.000Z",
+      "mappings": [
+        {
+          "hospitalId": "H1",
+          "patientId": "pt_2022"
+        },
+        {
+          "hospitalId": "H2",
+          "patientId": "PHK-H2-DEMO-001"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "docType": "patient-record",
+  "schemaVersion": 1,
+  "patientId": "PTC001X32",
+  "createdAt": "2026-04-04T10:42:17.473Z",
+  "updatedAt": "2026-04-04T10:42:17.473Z",
+  "status": "admitted",
+  "dms": {
+    "source": "intake-console",
+    "intakeHistory": [
+      {
+        "tempDocumentId": "PTC001X32__20260404104158__64c0c510-3d33-47ff-9ff2-f11224de23ff",
+        "tempDocumentPath": "D:\\Pharma\\Pharmakon\\fastapi_backend\\storage\\temp\\intake\\PTC001X32__20260404104158__64c0c510-3d33-47ff-9ff2-f11224de23ff.json",
+        "capturedAt": "2026-04-04T10:41:58.844Z"
+      }
+    ]
+  },
+  "record": {
+    "patientId": "PTC001X32",
+    "fields": {
+      "riskLabel": "Moderate risk",
+      "severity": "high",
+      "confidence": 0.94,
+      "verdictAction": "Reduce initial Codeine dose and increase monitoring frequency.",
+      "primaryGene": "CYP2D6",
+      "diplotype": "Not Resolved",
+      "phenotype": "Intermediate Metabolizer",
+      "variantCount": 46311,
+      "dataCompleteness": "Parsed",
+      "sourceFile": "HG00098.anno.vcf",
+      "sourceTimestamp": "2026-04-04T10:41:58.796Z",
+      "vitals_temperature": "99.4",
+      "vitals_bloodPressure": "162/102",
+      "vitals_pulse": "136",
+      "vitals_pulseBaseline": 70,
+      "vitals_spo2": "90",
+      "vitals_spo2Baseline": 97.5,
+      "vitals_respiratoryRate": "30",
+      "labs_wbc": 563332,
+      "labs_wbcBaseline": 6900,
+      "labs_rbc": 3.8,
+      "labs_rbcBaseline": 5.05,
+      "manual_alertLog": [
+        {
+          "time": "10:42:12",
+          "severity": "Critical",
+          "source": "Telemetry Monitor",
+          "finding": "Sustained tachycardia >110 bpm for 18 minutes.",
+          "action": "Escalated to attending",
+          "owner": "Charge RN",
+          "state": "Open"
+        },
+        {
+          "time": "10:29:05",
+          "severity": "High",
+          "source": "Medication Correlator",
+          "finding": "Medication-response instability requires immediate reassessment.",
+          "action": "Medication review required",
+          "owner": "Clinical Pharmacist",
+          "state": "In Progress"
+        }
+      ],
+      "manual_handoffLog": [
+        {
+          "time": "10:46",
+          "actor": "Charge RN",
+          "entry": "Escalation accepted. Continuous monitoring protocol activated."
+        },
+        {
+          "time": "10:30",
+          "actor": "Respiratory Therapy",
+          "entry": "Oxygen support reviewed; re-evaluation scheduled in 15 minutes."
+        }
+      ],
+      "ai_clinicalRecordLog": [
+        {
+          "timestamp": "2026-04-04T10:42:17.468Z",
+          "statement": "Clinical risk remains active and requires continued monitored intervention.",
+          "rationale": "Alert distribution: critical=1, high=1, moderate=0.",
+          "confidence": 0.96
+        },
+        {
+          "timestamp": "2026-04-04T10:42:17.468Z",
+          "statement": "Escalation workflow remains aligned with active alert burden and handoff trail.",
+          "rationale": "Handoff entries: 2. Latest handoff actor: Charge RN.",
+          "confidence": 0.92
+        },
+        {
+          "timestamp": "2026-04-04T10:42:17.468Z",
+          "statement": "No manual overrides detected in the current monitoring interval.",
+          "rationale": "No additional clinician note attached in current interval.",
+          "confidence": 0.91
+        }
+      ],
+      "patientType": "in-patient",
+      "admissionStatus": "in-patient",
+      "admittedAt": "2026-04-04T10:42:17.462Z",
+      "admittedBy": "Intake Console",
+      "admissionNote": "Converted from intake console at 2026-04-04T10:42:17.448Z"
+    },
+    "edits": [],
+    "notes": [],
+    "createdAt": "2026-04-04T10:41:58.862Z",
+    "updatedAt": "2026-04-04T10:42:17.468Z"
+  }
+}

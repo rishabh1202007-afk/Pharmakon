@@ -1,0 +1,13 @@
+[
+  {
+    "user_id": "ADM_H2_01",
+    "role": "admin",
+    "hospital_id": "H2",
+    "patient_id": "PHK-H2-DEMO-001",
+    "action": "sync_intake",
+    "ai_suggestion": "Recommend dose reduction with frequent monitoring due to CYP2C19 phenotype.",
+    "final_decision": "Synthetic demo intake created",
+    "timestamp": "2026-09-04T08:30:00.000Z",
+    "justification": "Synthetic demo patient for longitudinal cross-hospital feature testing."
+  }
+]
