@@ -1,0 +1,825 @@
+Sample,Drug,Timestamp,Diplotype,Activity_Score,Phenotype,Risk_Label,Severity,Confidence_Score,RSIDs,Chromosomes,Positions
+HG00103,Fluconazole,2026-03-20T10:36:46.308789,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00107,Fluconazole,2026-03-20T10:36:46.309382,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00120,Fluconazole,2026-03-20T10:36:46.312224,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00121,Fluconazole,2026-03-20T10:36:46.312492,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00125,Fluconazole,2026-03-20T10:36:46.313134,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00132,Fluconazole,2026-03-20T10:36:46.314619,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00136,Fluconazole,2026-03-20T10:36:46.315023,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00137,Fluconazole,2026-03-20T10:36:46.315229,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00138,Fluconazole,2026-03-20T10:36:46.315427,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00150,Fluconazole,2026-03-20T10:36:46.317354,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00154,Fluconazole,2026-03-20T10:36:46.317737,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00155,Fluconazole,2026-03-20T10:36:46.317925,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00178,Fluconazole,2026-03-20T10:36:46.319993,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00185,Fluconazole,2026-03-20T10:36:46.321156,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00188,Fluconazole,2026-03-20T10:36:46.321728,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00231,Fluconazole,2026-03-20T10:36:46.322358,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG00232,Fluconazole,2026-03-20T10:36:46.322577,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00234,Fluconazole,2026-03-20T10:36:46.323140,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00236,Fluconazole,2026-03-20T10:36:46.323730,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00244,Fluconazole,2026-03-20T10:36:46.325093,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00252,Fluconazole,2026-03-20T10:36:46.326043,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00257,Fluconazole,2026-03-20T10:36:46.326980,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00258,Fluconazole,2026-03-20T10:36:46.327453,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00261,Fluconazole,2026-03-20T10:36:46.328376,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00262,Fluconazole,2026-03-20T10:36:46.328632,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00265,Fluconazole,2026-03-20T10:36:46.329563,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00274,Fluconazole,2026-03-20T10:36:46.331381,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00276,Fluconazole,2026-03-20T10:36:46.331777,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00277,Fluconazole,2026-03-20T10:36:46.331977,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00278,Fluconazole,2026-03-20T10:36:46.332202,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00281,Fluconazole,2026-03-20T10:36:46.332591,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00284,Fluconazole,2026-03-20T10:36:46.333008,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00290,Fluconazole,2026-03-20T10:36:46.333593,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG00304,Fluconazole,2026-03-20T10:36:46.334400,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00309,Fluconazole,2026-03-20T10:36:46.335187,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00310,Fluconazole,2026-03-20T10:36:46.335398,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00315,Fluconazole,2026-03-20T10:36:46.336120,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00323,Fluconazole,2026-03-20T10:36:46.337112,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00326,Fluconazole,2026-03-20T10:36:46.337679,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00332,Fluconazole,2026-03-20T10:36:46.338835,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00337,Fluconazole,2026-03-20T10:36:46.339604,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00342,Fluconazole,2026-03-20T10:36:46.340360,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00343,Fluconazole,2026-03-20T10:36:46.340550,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00345,Fluconazole,2026-03-20T10:36:46.340929,*29.001/*29,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs182132442,10.0,96731876
+HG00358,Fluconazole,2026-03-20T10:36:46.343912,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00362,Fluconazole,2026-03-20T10:36:46.344597,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG00365,Fluconazole,2026-03-20T10:36:46.345130,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG00366,Fluconazole,2026-03-20T10:36:46.345406,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00368,Fluconazole,2026-03-20T10:36:46.345820,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00369,Fluconazole,2026-03-20T10:36:46.346009,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00376,Fluconazole,2026-03-20T10:36:46.346954,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00378,Fluconazole,2026-03-20T10:36:46.347155,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00407,Fluconazole,2026-03-20T10:36:46.349025,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00419,Fluconazole,2026-03-20T10:36:46.350254,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00421,Fluconazole,2026-03-20T10:36:46.350454,*1.014/*3,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs1057910,rs1057911,rs9332244",10.0,"96749005,96748737,96741053"
+HG00457,Fluconazole,2026-03-20T10:36:46.353327,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00472,Fluconazole,2026-03-20T10:36:46.354125,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00530,Fluconazole,2026-03-20T10:36:46.356096,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00543,Fluconazole,2026-03-20T10:36:46.357491,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00554,Fluconazole,2026-03-20T10:36:46.358064,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG00581,Fluconazole,2026-03-20T10:36:46.359612,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00607,Fluconazole,2026-03-20T10:36:46.361883,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00610,Fluconazole,2026-03-20T10:36:46.362268,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00628,Fluconazole,2026-03-20T10:36:46.364161,*29.001/*29,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs182132442,10.0,96731876
+HG00637,Fluconazole,2026-03-20T10:36:46.365119,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00653,Fluconazole,2026-03-20T10:36:46.366264,*3/*18,0.5,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs1057910,10.0,96741053
+HG00663,Fluconazole,2026-03-20T10:36:46.367206,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00731,Fluconazole,2026-03-20T10:36:46.372220,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00732,Fluconazole,2026-03-20T10:36:46.373010,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00736,Fluconazole,2026-03-20T10:36:46.373384,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00737,Fluconazole,2026-03-20T10:36:46.373678,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG00740,Fluconazole,2026-03-20T10:36:46.374074,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01031,Fluconazole,2026-03-20T10:36:46.377378,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01046,Fluconazole,2026-03-20T10:36:46.377578,*87.001/*87,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs546318684,10.0,96731951
+HG01051,Fluconazole,2026-03-20T10:36:46.378665,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG01052,Fluconazole,2026-03-20T10:36:46.378868,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01054,Fluconazole,2026-03-20T10:36:46.379063,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01055,Fluconazole,2026-03-20T10:36:46.379254,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01061,Fluconazole,2026-03-20T10:36:46.379819,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01066,Fluconazole,2026-03-20T10:36:46.381063,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01067,Fluconazole,2026-03-20T10:36:46.381254,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01069,Fluconazole,2026-03-20T10:36:46.381532,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01075,Fluconazole,2026-03-20T10:36:46.382277,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01077,Fluconazole,2026-03-20T10:36:46.382466,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01080,Fluconazole,2026-03-20T10:36:46.382846,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01082,Fluconazole,2026-03-20T10:36:46.383033,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01086,Fluconazole,2026-03-20T10:36:46.383586,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01089,Fluconazole,2026-03-20T10:36:46.383961,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG01092,Fluconazole,2026-03-20T10:36:46.384151,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01095,Fluconazole,2026-03-20T10:36:46.384526,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01097,Fluconazole,2026-03-20T10:36:46.384723,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01104,Fluconazole,2026-03-20T10:36:46.385916,*12.001/*12,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs9332239,10.0,96748777
+HG01105,Fluconazole,2026-03-20T10:36:46.386119,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01111,Fluconazole,2026-03-20T10:36:46.387195,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01131,Fluconazole,2026-03-20T10:36:46.389864,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01133,Fluconazole,2026-03-20T10:36:46.390064,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01134,Fluconazole,2026-03-20T10:36:46.390266,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01142,Fluconazole,2026-03-20T10:36:46.391198,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01148,Fluconazole,2026-03-20T10:36:46.391398,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01170,Fluconazole,2026-03-20T10:36:46.392705,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG01171,Fluconazole,2026-03-20T10:36:46.392991,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01174,Fluconazole,2026-03-20T10:36:46.393399,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01182,Fluconazole,2026-03-20T10:36:46.394219,*1.015/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01183,Fluconazole,2026-03-20T10:36:46.394419,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01190,Fluconazole,2026-03-20T10:36:46.394977,*61/*2.004,1.0,IM,Slight increase in exposure – Usually safe,low,0.25,"rs9332242,rs202201137",10.0,"96748893,96748682"
+HG01191,Fluconazole,2026-03-20T10:36:46.395165,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01198,Fluconazole,2026-03-20T10:36:46.396174,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01200,Fluconazole,2026-03-20T10:36:46.396372,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01205,Fluconazole,2026-03-20T10:36:46.396757,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01241,Fluconazole,2026-03-20T10:36:46.397063,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01253,Fluconazole,2026-03-20T10:36:46.398180,*1.015/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01259,Fluconazole,2026-03-20T10:36:46.398928,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01260,Fluconazole,2026-03-20T10:36:46.399118,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01272,Fluconazole,2026-03-20T10:36:46.399691,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01275,Fluconazole,2026-03-20T10:36:46.399885,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01277,Fluconazole,2026-03-20T10:36:46.400083,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01281,Fluconazole,2026-03-20T10:36:46.400458,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01286,Fluconazole,2026-03-20T10:36:46.400831,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01302,Fluconazole,2026-03-20T10:36:46.401020,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01312,Fluconazole,2026-03-20T10:36:46.402010,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01325,Fluconazole,2026-03-20T10:36:46.402413,*61/*2.004,1.0,IM,Slight increase in exposure – Usually safe,low,0.25,"rs9332242,rs202201137",10.0,"96748893,96748682"
+HG01326,Fluconazole,2026-03-20T10:36:46.402612,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01342,Fluconazole,2026-03-20T10:36:46.403556,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01348,Fluconazole,2026-03-20T10:36:46.404381,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01354,Fluconazole,2026-03-20T10:36:46.405201,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01357,Fluconazole,2026-03-20T10:36:46.405583,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01359,Fluconazole,2026-03-20T10:36:46.405783,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01360,Fluconazole,2026-03-20T10:36:46.405972,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01377,Fluconazole,2026-03-20T10:36:46.407681,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01378,Fluconazole,2026-03-20T10:36:46.407869,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01383,Fluconazole,2026-03-20T10:36:46.408057,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01384,Fluconazole,2026-03-20T10:36:46.408256,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01389,Fluconazole,2026-03-20T10:36:46.408447,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01395,Fluconazole,2026-03-20T10:36:46.409189,*1.009/*1.015,2.0,NM,Normal handling – Standard dosing,low,1.0,"rs2017319,rs149158426",10.0,"96748635,96709023"
+HG01396,Fluconazole,2026-03-20T10:36:46.409381,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01405,Fluconazole,2026-03-20T10:36:46.411817,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01431,Fluconazole,2026-03-20T10:36:46.412697,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01437,Fluconazole,2026-03-20T10:36:46.413271,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01440,Fluconazole,2026-03-20T10:36:46.413655,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01444,Fluconazole,2026-03-20T10:36:46.414218,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01447,Fluconazole,2026-03-20T10:36:46.414413,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01459,Fluconazole,2026-03-20T10:36:46.414968,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01464,Fluconazole,2026-03-20T10:36:46.415542,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01465,Fluconazole,2026-03-20T10:36:46.415742,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01474,Fluconazole,2026-03-20T10:36:46.416115,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01485,Fluconazole,2026-03-20T10:36:46.416490,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01488,Fluconazole,2026-03-20T10:36:46.416861,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01489,Fluconazole,2026-03-20T10:36:46.417057,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01491,Fluconazole,2026-03-20T10:36:46.417244,*1.015/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01504,Fluconazole,2026-03-20T10:36:46.419755,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01506,Fluconazole,2026-03-20T10:36:46.419950,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01512,Fluconazole,2026-03-20T10:36:46.420706,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01519,Fluconazole,2026-03-20T10:36:46.421652,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01522,Fluconazole,2026-03-20T10:36:46.422025,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01528,Fluconazole,2026-03-20T10:36:46.422785,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01530,Fluconazole,2026-03-20T10:36:46.422979,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01536,Fluconazole,2026-03-20T10:36:46.424018,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01551,Fluconazole,2026-03-20T10:36:46.424638,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01586,Fluconazole,2026-03-20T10:36:46.427267,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01603,Fluconazole,2026-03-20T10:36:46.429192,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01605,Fluconazole,2026-03-20T10:36:46.429392,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01606,Fluconazole,2026-03-20T10:36:46.429590,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01615,Fluconazole,2026-03-20T10:36:46.431341,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01617,Fluconazole,2026-03-20T10:36:46.431568,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01618,Fluconazole,2026-03-20T10:36:46.431761,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01620,Fluconazole,2026-03-20T10:36:46.432196,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01623,Fluconazole,2026-03-20T10:36:46.432439,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01624,Fluconazole,2026-03-20T10:36:46.432641,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01630,Fluconazole,2026-03-20T10:36:46.433387,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01668,Fluconazole,2026-03-20T10:36:46.433982,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01669,Fluconazole,2026-03-20T10:36:46.434193,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01673,Fluconazole,2026-03-20T10:36:46.434783,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01679,Fluconazole,2026-03-20T10:36:46.435937,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01680,Fluconazole,2026-03-20T10:36:46.436134,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01682,Fluconazole,2026-03-20T10:36:46.436353,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01685,Fluconazole,2026-03-20T10:36:46.436754,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01694,Fluconazole,2026-03-20T10:36:46.437137,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01695,Fluconazole,2026-03-20T10:36:46.437342,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01699,Fluconazole,2026-03-20T10:36:46.437723,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01702,Fluconazole,2026-03-20T10:36:46.438093,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01747,Fluconazole,2026-03-20T10:36:46.439580,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01756,Fluconazole,2026-03-20T10:36:46.439770,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01761,Fluconazole,2026-03-20T10:36:46.440147,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01762,Fluconazole,2026-03-20T10:36:46.440338,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01765,Fluconazole,2026-03-20T10:36:46.440532,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01767,Fluconazole,2026-03-20T10:36:46.440913,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01771,Fluconazole,2026-03-20T10:36:46.441490,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG01777,Fluconazole,2026-03-20T10:36:46.442818,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01779,Fluconazole,2026-03-20T10:36:46.443189,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01785,Fluconazole,2026-03-20T10:36:46.444822,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01786,Fluconazole,2026-03-20T10:36:46.445034,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01789,Fluconazole,2026-03-20T10:36:46.445240,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01790,Fluconazole,2026-03-20T10:36:46.445437,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01796,Fluconazole,2026-03-20T10:36:46.446597,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01807,Fluconazole,2026-03-20T10:36:46.449119,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01812,Fluconazole,2026-03-20T10:36:46.450072,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01842,Fluconazole,2026-03-20T10:36:46.451388,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01845,Fluconazole,2026-03-20T10:36:46.452027,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01855,Fluconazole,2026-03-20T10:36:46.453879,*29.001/*29,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs1057910,rs1057911,rs182132442",10.0,"96731876,96748737,96741053"
+HG01866,Fluconazole,2026-03-20T10:36:46.455789,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01873,Fluconazole,2026-03-20T10:36:46.457090,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01882,Fluconazole,2026-03-20T10:36:46.458027,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01886,Fluconazole,2026-03-20T10:36:46.458595,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01894,Fluconazole,2026-03-20T10:36:46.459536,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG01896,Fluconazole,2026-03-20T10:36:46.459730,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG01914,Fluconazole,2026-03-20T10:36:46.460140,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG01915,Fluconazole,2026-03-20T10:36:46.460330,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG01947,Fluconazole,2026-03-20T10:36:46.464036,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01977,Fluconazole,2026-03-20T10:36:46.470579,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01985,Fluconazole,2026-03-20T10:36:46.471350,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG01986,Fluconazole,2026-03-20T10:36:46.471552,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG01989,Fluconazole,2026-03-20T10:36:46.471938,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG01990,Fluconazole,2026-03-20T10:36:46.472133,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG01997,Fluconazole,2026-03-20T10:36:46.472752,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02009,Fluconazole,2026-03-20T10:36:46.473713,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02010,Fluconazole,2026-03-20T10:36:46.473906,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02014,Fluconazole,2026-03-20T10:36:46.474468,*5/*8.002,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs9332243,rs9332240,rs28371686",10.0,"96748852,96741058,96748940"
+HG02023,Fluconazole,2026-03-20T10:36:46.475513,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02025,Fluconazole,2026-03-20T10:36:46.475702,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02040,Fluconazole,2026-03-20T10:36:46.477039,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02051,Fluconazole,2026-03-20T10:36:46.478287,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02052,Fluconazole,2026-03-20T10:36:46.478567,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02054,Fluconazole,2026-03-20T10:36:46.479044,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02076,Fluconazole,2026-03-20T10:36:46.481292,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02108,Fluconazole,2026-03-20T10:36:46.484460,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs9332241",10.0,"96748635,96748873"
+HG02133,Fluconazole,2026-03-20T10:36:46.486722,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02134,Fluconazole,2026-03-20T10:36:46.486929,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02139,Fluconazole,2026-03-20T10:36:46.487704,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02143,Fluconazole,2026-03-20T10:36:46.488454,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02144,Fluconazole,2026-03-20T10:36:46.488644,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02215,Fluconazole,2026-03-20T10:36:46.493117,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG02238,Fluconazole,2026-03-20T10:36:46.495767,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02239,Fluconazole,2026-03-20T10:36:46.495985,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02255,Fluconazole,2026-03-20T10:36:46.496756,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02284,Fluconazole,2026-03-20T10:36:46.499859,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02301,Fluconazole,2026-03-20T10:36:46.501162,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02308,Fluconazole,2026-03-20T10:36:46.501727,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02309,Fluconazole,2026-03-20T10:36:46.502697,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs9332241",10.0,"96748635,96748873"
+HG02312,Fluconazole,2026-03-20T10:36:46.502986,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02314,Fluconazole,2026-03-20T10:36:46.503213,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02315,Fluconazole,2026-03-20T10:36:46.503414,*1.009/*5,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+HG02323,Fluconazole,2026-03-20T10:36:46.504200,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02332,Fluconazole,2026-03-20T10:36:46.504796,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02348,Fluconazole,2026-03-20T10:36:46.506097,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02401,Fluconazole,2026-03-20T10:36:46.511645,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02427,Fluconazole,2026-03-20T10:36:46.513655,*3/*5,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs28371686",10.0,"96748737,96741058,96741053"
+HG02429,Fluconazole,2026-03-20T10:36:46.513877,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02445,Fluconazole,2026-03-20T10:36:46.514729,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02449,Fluconazole,2026-03-20T10:36:46.514933,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02450,Fluconazole,2026-03-20T10:36:46.515134,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02461,Fluconazole,2026-03-20T10:36:46.515633,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02462,Fluconazole,2026-03-20T10:36:46.515864,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02464,Fluconazole,2026-03-20T10:36:46.516063,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02465,Fluconazole,2026-03-20T10:36:46.516256,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs28371686",10.0,"96741058,96740981"
+HG02479,Fluconazole,2026-03-20T10:36:46.517174,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02481,Fluconazole,2026-03-20T10:36:46.517362,*1.007/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02484,Fluconazole,2026-03-20T10:36:46.517568,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+HG02485,Fluconazole,2026-03-20T10:36:46.517878,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02489,Fluconazole,2026-03-20T10:36:46.518081,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02490,Fluconazole,2026-03-20T10:36:46.518276,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02494,Fluconazole,2026-03-20T10:36:46.518925,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02496,Fluconazole,2026-03-20T10:36:46.519115,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02497,Fluconazole,2026-03-20T10:36:46.519305,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02501,Fluconazole,2026-03-20T10:36:46.519494,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02502,Fluconazole,2026-03-20T10:36:46.519683,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02505,Fluconazole,2026-03-20T10:36:46.519873,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02508,Fluconazole,2026-03-20T10:36:46.520065,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02537,Fluconazole,2026-03-20T10:36:46.521376,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02546,Fluconazole,2026-03-20T10:36:46.521935,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02549,Fluconazole,2026-03-20T10:36:46.522126,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332243,rs9332240,rs2256871",10.0,"96748852,96748940,96708974"
+HG02557,Fluconazole,2026-03-20T10:36:46.522690,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02562,Fluconazole,2026-03-20T10:36:46.523244,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02573,Fluconazole,2026-03-20T10:36:46.523981,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02574,Fluconazole,2026-03-20T10:36:46.524168,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02583,Fluconazole,2026-03-20T10:36:46.524927,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02586,Fluconazole,2026-03-20T10:36:46.525325,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02595,Fluconazole,2026-03-20T10:36:46.526228,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02601,Fluconazole,2026-03-20T10:36:46.526805,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02610,Fluconazole,2026-03-20T10:36:46.527732,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG02620,Fluconazole,2026-03-20T10:36:46.528761,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02628,Fluconazole,2026-03-20T10:36:46.529549,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02629,Fluconazole,2026-03-20T10:36:46.529748,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02642,Fluconazole,2026-03-20T10:36:46.530328,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02643,Fluconazole,2026-03-20T10:36:46.530527,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02645,Fluconazole,2026-03-20T10:36:46.530722,*86.001/*86,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs369745682,10.0,96708941
+HG02646,Fluconazole,2026-03-20T10:36:46.530912,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02648,Fluconazole,2026-03-20T10:36:46.531106,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02660,Fluconazole,2026-03-20T10:36:46.532639,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02667,Fluconazole,2026-03-20T10:36:46.533207,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02676,Fluconazole,2026-03-20T10:36:46.533581,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02679,Fluconazole,2026-03-20T10:36:46.534148,*1.007/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02684,Fluconazole,2026-03-20T10:36:46.534783,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02685,Fluconazole,2026-03-20T10:36:46.534987,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02694,Fluconazole,2026-03-20T10:36:46.536158,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG02699,Fluconazole,2026-03-20T10:36:46.536734,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02700,Fluconazole,2026-03-20T10:36:46.536939,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02703,Fluconazole,2026-03-20T10:36:46.537497,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02715,Fluconazole,2026-03-20T10:36:46.537778,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02716,Fluconazole,2026-03-20T10:36:46.538056,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02721,Fluconazole,2026-03-20T10:36:46.538333,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02728,Fluconazole,2026-03-20T10:36:46.539650,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02756,Fluconazole,2026-03-20T10:36:46.541121,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02760,Fluconazole,2026-03-20T10:36:46.541827,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+HG02763,Fluconazole,2026-03-20T10:36:46.542053,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02768,Fluconazole,2026-03-20T10:36:46.542366,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02769,Fluconazole,2026-03-20T10:36:46.542595,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs9332242",10.0,"96748635,96748893"
+HG02771,Fluconazole,2026-03-20T10:36:46.542809,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02775,Fluconazole,2026-03-20T10:36:46.543475,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG02787,Fluconazole,2026-03-20T10:36:46.544839,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02792,Fluconazole,2026-03-20T10:36:46.545447,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02798,Fluconazole,2026-03-20T10:36:46.545825,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02804,Fluconazole,2026-03-20T10:36:46.546204,*1.005/*3.001,1.0,IM,Slight increase in exposure – Usually safe,low,0.111,rs1057911,10.0,96748737
+HG02805,Fluconazole,2026-03-20T10:36:46.546393,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02807,Fluconazole,2026-03-20T10:36:46.546586,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02808,Fluconazole,2026-03-20T10:36:46.546776,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02811,Fluconazole,2026-03-20T10:36:46.547149,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02814,Fluconazole,2026-03-20T10:36:46.547530,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02817,Fluconazole,2026-03-20T10:36:46.547901,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02820,Fluconazole,2026-03-20T10:36:46.548276,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs112354725",10.0,"96740981,96748701"
+HG02840,Fluconazole,2026-03-20T10:36:46.549023,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02852,Fluconazole,2026-03-20T10:36:46.549400,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02854,Fluconazole,2026-03-20T10:36:46.549594,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02860,Fluconazole,2026-03-20T10:36:46.549970,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02861,Fluconazole,2026-03-20T10:36:46.550159,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG02870,Fluconazole,2026-03-20T10:36:46.550350,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02879,Fluconazole,2026-03-20T10:36:46.550723,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02885,Fluconazole,2026-03-20T10:36:46.551472,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02888,Fluconazole,2026-03-20T10:36:46.551907,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02890,Fluconazole,2026-03-20T10:36:46.552309,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02896,Fluconazole,2026-03-20T10:36:46.552894,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02922,Fluconazole,2026-03-20T10:36:46.553089,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs9332241,rs28371686",10.0,"96741058,96748873"
+HG02941,Fluconazole,2026-03-20T10:36:46.553666,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02946,Fluconazole,2026-03-20T10:36:46.554234,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02952,Fluconazole,2026-03-20T10:36:46.554614,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02953,Fluconazole,2026-03-20T10:36:46.554808,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02971,Fluconazole,2026-03-20T10:36:46.555367,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG02973,Fluconazole,2026-03-20T10:36:46.555561,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG02981,Fluconazole,2026-03-20T10:36:46.556703,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG02982,Fluconazole,2026-03-20T10:36:46.556893,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03007,Fluconazole,2026-03-20T10:36:46.557467,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03019,Fluconazole,2026-03-20T10:36:46.558590,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03021,Fluconazole,2026-03-20T10:36:46.558786,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03024,Fluconazole,2026-03-20T10:36:46.559158,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03025,Fluconazole,2026-03-20T10:36:46.559349,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03045,Fluconazole,2026-03-20T10:36:46.560423,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03046,Fluconazole,2026-03-20T10:36:46.560623,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03048,Fluconazole,2026-03-20T10:36:46.560812,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03049,Fluconazole,2026-03-20T10:36:46.561001,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03054,Fluconazole,2026-03-20T10:36:46.561372,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03058,Fluconazole,2026-03-20T10:36:46.561933,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03073,Fluconazole,2026-03-20T10:36:46.563434,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03074,Fluconazole,2026-03-20T10:36:46.563621,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03079,Fluconazole,2026-03-20T10:36:46.564184,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03085,Fluconazole,2026-03-20T10:36:46.564946,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03086,Fluconazole,2026-03-20T10:36:46.565170,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03088,Fluconazole,2026-03-20T10:36:46.565358,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG03096,Fluconazole,2026-03-20T10:36:46.565917,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03099,Fluconazole,2026-03-20T10:36:46.566290,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03108,Fluconazole,2026-03-20T10:36:46.567191,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03112,Fluconazole,2026-03-20T10:36:46.567755,*1.009/*5,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+HG03114,Fluconazole,2026-03-20T10:36:46.567945,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03115,Fluconazole,2026-03-20T10:36:46.568134,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03121,Fluconazole,2026-03-20T10:36:46.569079,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03123,Fluconazole,2026-03-20T10:36:46.569271,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03124,Fluconazole,2026-03-20T10:36:46.569458,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03127,Fluconazole,2026-03-20T10:36:46.569838,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG03130,Fluconazole,2026-03-20T10:36:46.570214,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03133,Fluconazole,2026-03-20T10:36:46.570588,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03135,Fluconazole,2026-03-20T10:36:46.570778,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03136,Fluconazole,2026-03-20T10:36:46.570967,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03139,Fluconazole,2026-03-20T10:36:46.571162,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+HG03157,Fluconazole,2026-03-20T10:36:46.571352,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03159,Fluconazole,2026-03-20T10:36:46.571541,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03160,Fluconazole,2026-03-20T10:36:46.571733,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03163,Fluconazole,2026-03-20T10:36:46.572105,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03166,Fluconazole,2026-03-20T10:36:46.572294,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG03168,Fluconazole,2026-03-20T10:36:46.572485,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03169,Fluconazole,2026-03-20T10:36:46.572684,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03172,Fluconazole,2026-03-20T10:36:46.572886,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03189,Fluconazole,2026-03-20T10:36:46.573300,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03190,Fluconazole,2026-03-20T10:36:46.573511,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03195,Fluconazole,2026-03-20T10:36:46.573941,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03198,Fluconazole,2026-03-20T10:36:46.574379,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03224,Fluconazole,2026-03-20T10:36:46.575770,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03234,Fluconazole,2026-03-20T10:36:46.576679,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03259,Fluconazole,2026-03-20T10:36:46.579285,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03267,Fluconazole,2026-03-20T10:36:46.579745,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG03270,Fluconazole,2026-03-20T10:36:46.580185,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03271,Fluconazole,2026-03-20T10:36:46.580403,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03279,Fluconazole,2026-03-20T10:36:46.580621,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG03280,Fluconazole,2026-03-20T10:36:46.580833,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03291,Fluconazole,2026-03-20T10:36:46.581046,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03294,Fluconazole,2026-03-20T10:36:46.581258,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03297,Fluconazole,2026-03-20T10:36:46.581673,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03301,Fluconazole,2026-03-20T10:36:46.582255,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+HG03303,Fluconazole,2026-03-20T10:36:46.582619,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03304,Fluconazole,2026-03-20T10:36:46.582914,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03313,Fluconazole,2026-03-20T10:36:46.583290,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+HG03342,Fluconazole,2026-03-20T10:36:46.583483,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03354,Fluconazole,2026-03-20T10:36:46.584234,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03366,Fluconazole,2026-03-20T10:36:46.584650,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03372,Fluconazole,2026-03-20T10:36:46.585640,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03380,Fluconazole,2026-03-20T10:36:46.586211,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03388,Fluconazole,2026-03-20T10:36:46.586774,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03391,Fluconazole,2026-03-20T10:36:46.586965,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG03394,Fluconazole,2026-03-20T10:36:46.587166,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03410,Fluconazole,2026-03-20T10:36:46.587735,*1.007/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG03419,Fluconazole,2026-03-20T10:36:46.587925,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03428,Fluconazole,2026-03-20T10:36:46.588115,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03436,Fluconazole,2026-03-20T10:36:46.588680,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03439,Fluconazole,2026-03-20T10:36:46.589060,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03442,Fluconazole,2026-03-20T10:36:46.589257,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03445,Fluconazole,2026-03-20T10:36:46.589450,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03446,Fluconazole,2026-03-20T10:36:46.589643,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03452,Fluconazole,2026-03-20T10:36:46.590224,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03457,Fluconazole,2026-03-20T10:36:46.590615,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03458,Fluconazole,2026-03-20T10:36:46.590804,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03460,Fluconazole,2026-03-20T10:36:46.591000,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03464,Fluconazole,2026-03-20T10:36:46.591380,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03472,Fluconazole,2026-03-20T10:36:46.591940,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03473,Fluconazole,2026-03-20T10:36:46.592128,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03476,Fluconazole,2026-03-20T10:36:46.592315,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03478,Fluconazole,2026-03-20T10:36:46.592503,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03484,Fluconazole,2026-03-20T10:36:46.592874,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03490,Fluconazole,2026-03-20T10:36:46.593448,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03499,Fluconazole,2026-03-20T10:36:46.594712,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs9332241",10.0,"96748635,96748873"
+HG03515,Fluconazole,2026-03-20T10:36:46.595340,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03517,Fluconazole,2026-03-20T10:36:46.595533,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03518,Fluconazole,2026-03-20T10:36:46.595726,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+HG03538,Fluconazole,2026-03-20T10:36:46.596565,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG03547,Fluconazole,2026-03-20T10:36:46.597047,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG03556,Fluconazole,2026-03-20T10:36:46.597459,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG03558,Fluconazole,2026-03-20T10:36:46.597877,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03563,Fluconazole,2026-03-20T10:36:46.598273,*86.001/*86,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs369745682,10.0,96708941
+HG03571,Fluconazole,2026-03-20T10:36:46.598859,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03572,Fluconazole,2026-03-20T10:36:46.599056,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+HG03577,Fluconazole,2026-03-20T10:36:46.599447,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG03578,Fluconazole,2026-03-20T10:36:46.599643,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03583,Fluconazole,2026-03-20T10:36:46.599832,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+HG03593,Fluconazole,2026-03-20T10:36:46.600402,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03594,Fluconazole,2026-03-20T10:36:46.600599,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03603,Fluconazole,2026-03-20T10:36:46.601361,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03619,Fluconazole,2026-03-20T10:36:46.602765,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03624,Fluconazole,2026-03-20T10:36:46.602958,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03629,Fluconazole,2026-03-20T10:36:46.603353,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG03636,Fluconazole,2026-03-20T10:36:46.603932,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03640,Fluconazole,2026-03-20T10:36:46.604136,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03644,Fluconazole,2026-03-20T10:36:46.604717,*66.001/*66,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs578144976,10.0,96741062
+HG03680,Fluconazole,2026-03-20T10:36:46.607155,*66.001/*66,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs578144976,10.0,96741062
+HG03684,Fluconazole,2026-03-20T10:36:46.607541,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG03686,Fluconazole,2026-03-20T10:36:46.607929,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG03687,Fluconazole,2026-03-20T10:36:46.608128,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03709,Fluconazole,2026-03-20T10:36:46.611298,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03711,Fluconazole,2026-03-20T10:36:46.611510,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03714,Fluconazole,2026-03-20T10:36:46.611922,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03716,Fluconazole,2026-03-20T10:36:46.612133,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03717,Fluconazole,2026-03-20T10:36:46.612339,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03733,Fluconazole,2026-03-20T10:36:46.613872,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03745,Fluconazole,2026-03-20T10:36:46.615642,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03750,Fluconazole,2026-03-20T10:36:46.616041,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03754,Fluconazole,2026-03-20T10:36:46.616620,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03760,Fluconazole,2026-03-20T10:36:46.617368,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03762,Fluconazole,2026-03-20T10:36:46.617564,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03775,Fluconazole,2026-03-20T10:36:46.619360,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03784,Fluconazole,2026-03-20T10:36:46.620913,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03785,Fluconazole,2026-03-20T10:36:46.621136,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03802,Fluconazole,2026-03-20T10:36:46.623108,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03808,Fluconazole,2026-03-20T10:36:46.623670,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03815,Fluconazole,2026-03-20T10:36:46.624424,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03817,Fluconazole,2026-03-20T10:36:46.624617,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03824,Fluconazole,2026-03-20T10:36:46.625183,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03837,Fluconazole,2026-03-20T10:36:46.626534,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03838,Fluconazole,2026-03-20T10:36:46.626734,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03844,Fluconazole,2026-03-20T10:36:46.627007,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03857,Fluconazole,2026-03-20T10:36:46.629049,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03858,Fluconazole,2026-03-20T10:36:46.629252,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03863,Fluconazole,2026-03-20T10:36:46.629815,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03867,Fluconazole,2026-03-20T10:36:46.630562,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03871,Fluconazole,2026-03-20T10:36:46.631432,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG03884,Fluconazole,2026-03-20T10:36:46.632615,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03887,Fluconazole,2026-03-20T10:36:46.633184,*66.001/*66,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs578144976,10.0,96741062
+HG03902,Fluconazole,2026-03-20T10:36:46.635066,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03908,Fluconazole,2026-03-20T10:36:46.635946,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03917,Fluconazole,2026-03-20T10:36:46.637063,*66.001/*66,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs578144976,10.0,96741062
+HG03920,Fluconazole,2026-03-20T10:36:46.637461,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03943,Fluconazole,2026-03-20T10:36:46.639351,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03945,Fluconazole,2026-03-20T10:36:46.639742,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03965,Fluconazole,2026-03-20T10:36:46.641419,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03971,Fluconazole,2026-03-20T10:36:46.642194,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+HG03974,Fluconazole,2026-03-20T10:36:46.642576,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03985,Fluconazole,2026-03-20T10:36:46.643333,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04003,Fluconazole,2026-03-20T10:36:46.645568,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04018,Fluconazole,2026-03-20T10:36:46.646557,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04023,Fluconazole,2026-03-20T10:36:46.647338,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04025,Fluconazole,2026-03-20T10:36:46.647535,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+HG04026,Fluconazole,2026-03-20T10:36:46.647742,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04042,Fluconazole,2026-03-20T10:36:46.648898,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04047,Fluconazole,2026-03-20T10:36:46.649099,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04059,Fluconazole,2026-03-20T10:36:46.649674,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04060,Fluconazole,2026-03-20T10:36:46.649866,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG04063,Fluconazole,2026-03-20T10:36:46.650439,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04070,Fluconazole,2026-03-20T10:36:46.650638,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04076,Fluconazole,2026-03-20T10:36:46.651023,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04096,Fluconazole,2026-03-20T10:36:46.652162,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04098,Fluconazole,2026-03-20T10:36:46.652399,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04099,Fluconazole,2026-03-20T10:36:46.652606,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04100,Fluconazole,2026-03-20T10:36:46.652811,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04107,Fluconazole,2026-03-20T10:36:46.653233,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04131,Fluconazole,2026-03-20T10:36:46.653667,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04141,Fluconazole,2026-03-20T10:36:46.654334,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04152,Fluconazole,2026-03-20T10:36:46.655031,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04156,Fluconazole,2026-03-20T10:36:46.655972,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04161,Fluconazole,2026-03-20T10:36:46.656781,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04164,Fluconazole,2026-03-20T10:36:46.657278,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04171,Fluconazole,2026-03-20T10:36:46.657525,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG04176,Fluconazole,2026-03-20T10:36:46.658002,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04185,Fluconazole,2026-03-20T10:36:46.659098,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04186,Fluconazole,2026-03-20T10:36:46.659327,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04188,Fluconazole,2026-03-20T10:36:46.659560,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04214,Fluconazole,2026-03-20T10:36:46.662105,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+HG04219,Fluconazole,2026-03-20T10:36:46.662516,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA06986,Fluconazole,2026-03-20T10:36:46.665008,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA06989,Fluconazole,2026-03-20T10:36:46.665283,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA06994,Fluconazole,2026-03-20T10:36:46.665526,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA07037,Fluconazole,2026-03-20T10:36:46.666024,*12.001/*12,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs9332239,10.0,96748777
+NA07347,Fluconazole,2026-03-20T10:36:46.667010,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11830,Fluconazole,2026-03-20T10:36:46.668136,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11831,Fluconazole,2026-03-20T10:36:46.668359,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11832,Fluconazole,2026-03-20T10:36:46.668599,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11840,Fluconazole,2026-03-20T10:36:46.668937,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11843,Fluconazole,2026-03-20T10:36:46.669164,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11892,Fluconazole,2026-03-20T10:36:46.669592,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11930,Fluconazole,2026-03-20T10:36:46.670807,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA11931,Fluconazole,2026-03-20T10:36:46.671014,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11932,Fluconazole,2026-03-20T10:36:46.671212,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11995,Fluconazole,2026-03-20T10:36:46.671963,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12003,Fluconazole,2026-03-20T10:36:46.672152,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12005,Fluconazole,2026-03-20T10:36:46.672538,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12043,Fluconazole,2026-03-20T10:36:46.672921,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12046,Fluconazole,2026-03-20T10:36:46.673488,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+NA12058,Fluconazole,2026-03-20T10:36:46.673688,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12155,Fluconazole,2026-03-20T10:36:46.674247,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12156,Fluconazole,2026-03-20T10:36:46.674456,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12272,Fluconazole,2026-03-20T10:36:46.675009,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12273,Fluconazole,2026-03-20T10:36:46.675196,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12283,Fluconazole,2026-03-20T10:36:46.675929,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+NA12287,Fluconazole,2026-03-20T10:36:46.676315,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12341,Fluconazole,2026-03-20T10:36:46.676709,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA12400,Fluconazole,2026-03-20T10:36:46.678264,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12413,Fluconazole,2026-03-20T10:36:46.678492,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12414,Fluconazole,2026-03-20T10:36:46.678697,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+NA12489,Fluconazole,2026-03-20T10:36:46.678889,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12716,Fluconazole,2026-03-20T10:36:46.679589,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12718,Fluconazole,2026-03-20T10:36:46.679970,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12762,Fluconazole,2026-03-20T10:36:46.681297,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332242,rs2256871",10.0,"96708974,96748893"
+NA12776,Fluconazole,2026-03-20T10:36:46.681853,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12813,Fluconazole,2026-03-20T10:36:46.682641,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12843,Fluconazole,2026-03-20T10:36:46.684140,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA12878,Fluconazole,2026-03-20T10:36:46.684922,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA18486,Fluconazole,2026-03-20T10:36:46.685822,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA18488,Fluconazole,2026-03-20T10:36:46.686056,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18489,Fluconazole,2026-03-20T10:36:46.686282,*1.009/*11.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2017319",10.0,"96748635,96740981"
+NA18498,Fluconazole,2026-03-20T10:36:46.686512,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18501,Fluconazole,2026-03-20T10:36:46.686978,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18504,Fluconazole,2026-03-20T10:36:46.687437,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA18507,Fluconazole,2026-03-20T10:36:46.688012,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs9332241",10.0,"96748635,96748873"
+NA18510,Fluconazole,2026-03-20T10:36:46.688476,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA18517,Fluconazole,2026-03-20T10:36:46.689163,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332243,rs9332240,rs2256871",10.0,"96748852,96748940,96708974"
+NA18519,Fluconazole,2026-03-20T10:36:46.689391,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA18563,Fluconazole,2026-03-20T10:36:46.696867,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18573,Fluconazole,2026-03-20T10:36:46.698382,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18591,Fluconazole,2026-03-20T10:36:46.699331,*16/*16.001,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs72558192,10.0,96731936
+NA18602,Fluconazole,2026-03-20T10:36:46.700635,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18619,Fluconazole,2026-03-20T10:36:46.703653,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18635,Fluconazole,2026-03-20T10:36:46.706827,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18642,Fluconazole,2026-03-20T10:36:46.708294,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18643,Fluconazole,2026-03-20T10:36:46.708491,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18645,Fluconazole,2026-03-20T10:36:46.708881,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18740,Fluconazole,2026-03-20T10:36:46.709624,*1.014/*1.005,2.0,NM,Normal handling – Standard dosing,low,1.0,rs9332244,10.0,96749005
+NA18757,Fluconazole,2026-03-20T10:36:46.711064,*29.001/*29,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs182132442,10.0,96731876
+NA18853,Fluconazole,2026-03-20T10:36:46.711286,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA18856,Fluconazole,2026-03-20T10:36:46.711487,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18865,Fluconazole,2026-03-20T10:36:46.712249,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA18873,Fluconazole,2026-03-20T10:36:46.713222,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA18874,Fluconazole,2026-03-20T10:36:46.713422,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18876,Fluconazole,2026-03-20T10:36:46.713614,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18877,Fluconazole,2026-03-20T10:36:46.713804,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18878,Fluconazole,2026-03-20T10:36:46.714002,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA18881,Fluconazole,2026-03-20T10:36:46.714405,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA18907,Fluconazole,2026-03-20T10:36:46.714597,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA18909,Fluconazole,2026-03-20T10:36:46.714975,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA18910,Fluconazole,2026-03-20T10:36:46.715180,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA18912,Fluconazole,2026-03-20T10:36:46.715421,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA18916,Fluconazole,2026-03-20T10:36:46.715874,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA18917,Fluconazole,2026-03-20T10:36:46.716072,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA18923,Fluconazole,2026-03-20T10:36:46.716273,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA18924,Fluconazole,2026-03-20T10:36:46.716473,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18944,Fluconazole,2026-03-20T10:36:46.718069,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18959,Fluconazole,2026-03-20T10:36:46.720978,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18976,Fluconazole,2026-03-20T10:36:46.724444,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19017,Fluconazole,2026-03-20T10:36:46.732794,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19019,Fluconazole,2026-03-20T10:36:46.733059,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19023,Fluconazole,2026-03-20T10:36:46.733596,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19026,Fluconazole,2026-03-20T10:36:46.734466,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19027,Fluconazole,2026-03-20T10:36:46.734679,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs1057911,rs2017319",10.0,"96748635,96748737"
+NA19028,Fluconazole,2026-03-20T10:36:46.734883,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19031,Fluconazole,2026-03-20T10:36:46.735703,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19036,Fluconazole,2026-03-20T10:36:46.736093,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19038,Fluconazole,2026-03-20T10:36:46.736468,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19042,Fluconazole,2026-03-20T10:36:46.736840,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19060,Fluconazole,2026-03-20T10:36:46.738341,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19096,Fluconazole,2026-03-20T10:36:46.747460,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19099,Fluconazole,2026-03-20T10:36:46.747869,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19102,Fluconazole,2026-03-20T10:36:46.748097,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19108,Fluconazole,2026-03-20T10:36:46.748477,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19114,Fluconazole,2026-03-20T10:36:46.748860,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs28371686",10.0,"96741058,96740981"
+NA19116,Fluconazole,2026-03-20T10:36:46.749052,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19117,Fluconazole,2026-03-20T10:36:46.749243,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19119,Fluconazole,2026-03-20T10:36:46.749612,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA19121,Fluconazole,2026-03-20T10:36:46.749797,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19130,Fluconazole,2026-03-20T10:36:46.750177,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19138,Fluconazole,2026-03-20T10:36:46.750735,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19141,Fluconazole,2026-03-20T10:36:46.750925,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA19144,Fluconazole,2026-03-20T10:36:46.751321,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19149,Fluconazole,2026-03-20T10:36:46.752269,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19152,Fluconazole,2026-03-20T10:36:46.752431,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19160,Fluconazole,2026-03-20T10:36:46.752900,*1.009/*11.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2017319",10.0,"96748635,96740981"
+NA19171,Fluconazole,2026-03-20T10:36:46.753056,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19172,Fluconazole,2026-03-20T10:36:46.753212,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19175,Fluconazole,2026-03-20T10:36:46.753365,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19184,Fluconazole,2026-03-20T10:36:46.753520,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19185,Fluconazole,2026-03-20T10:36:46.753675,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19197,Fluconazole,2026-03-20T10:36:46.754143,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA19198,Fluconazole,2026-03-20T10:36:46.754299,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19200,Fluconazole,2026-03-20T10:36:46.754456,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19204,Fluconazole,2026-03-20T10:36:46.754763,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19206,Fluconazole,2026-03-20T10:36:46.754918,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19214,Fluconazole,2026-03-20T10:36:46.755881,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19225,Fluconazole,2026-03-20T10:36:46.756345,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19235,Fluconazole,2026-03-20T10:36:46.756500,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19236,Fluconazole,2026-03-20T10:36:46.756655,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19239,Fluconazole,2026-03-20T10:36:46.756964,*1.007/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19247,Fluconazole,2026-03-20T10:36:46.757127,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19248,Fluconazole,2026-03-20T10:36:46.757285,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA19308,Fluconazole,2026-03-20T10:36:46.757899,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19310,Fluconazole,2026-03-20T10:36:46.758204,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19315,Fluconazole,2026-03-20T10:36:46.758659,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19317,Fluconazole,2026-03-20T10:36:46.758963,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19318,Fluconazole,2026-03-20T10:36:46.759124,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19319,Fluconazole,2026-03-20T10:36:46.759283,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19321,Fluconazole,2026-03-20T10:36:46.759602,*5/*8.002,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs9332243,rs9332240,rs28371686",10.0,"96748852,96741058,96748940"
+NA19323,Fluconazole,2026-03-20T10:36:46.759762,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19324,Fluconazole,2026-03-20T10:36:46.759918,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19332,Fluconazole,2026-03-20T10:36:46.760653,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19334,Fluconazole,2026-03-20T10:36:46.760809,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19347,Fluconazole,2026-03-20T10:36:46.761281,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19350,Fluconazole,2026-03-20T10:36:46.761436,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19351,Fluconazole,2026-03-20T10:36:46.761594,*31.001/*31,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs57505750,10.0,96740958
+NA19355,Fluconazole,2026-03-20T10:36:46.761750,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19375,Fluconazole,2026-03-20T10:36:46.762365,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19379,Fluconazole,2026-03-20T10:36:46.762969,*1.007/*1.005,2.0,NM,Normal handling – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19380,Fluconazole,2026-03-20T10:36:46.763127,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19383,Fluconazole,2026-03-20T10:36:46.763284,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA19384,Fluconazole,2026-03-20T10:36:46.763440,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA19385,Fluconazole,2026-03-20T10:36:46.763594,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19390,Fluconazole,2026-03-20T10:36:46.763749,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19391,Fluconazole,2026-03-20T10:36:46.763903,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19393,Fluconazole,2026-03-20T10:36:46.764060,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19394,Fluconazole,2026-03-20T10:36:46.764216,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19399,Fluconazole,2026-03-20T10:36:46.764680,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19403,Fluconazole,2026-03-20T10:36:46.765168,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19428,Fluconazole,2026-03-20T10:36:46.765527,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332243,rs9332240,rs2256871",10.0,"96748852,96748940,96708974"
+NA19435,Fluconazole,2026-03-20T10:36:46.766442,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19436,Fluconazole,2026-03-20T10:36:46.766599,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19437,Fluconazole,2026-03-20T10:36:46.766754,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19438,Fluconazole,2026-03-20T10:36:46.766912,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332243,rs9332240,rs2256871",10.0,"96748852,96748940,96708974"
+NA19445,Fluconazole,2026-03-20T10:36:46.767664,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19446,Fluconazole,2026-03-20T10:36:46.767839,*1.009/*31.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs57505750,rs2017319",10.0,"96748635,96740958"
+NA19448,Fluconazole,2026-03-20T10:36:46.767999,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19449,Fluconazole,2026-03-20T10:36:46.768157,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA19451,Fluconazole,2026-03-20T10:36:46.768314,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19454,Fluconazole,2026-03-20T10:36:46.768742,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA19456,Fluconazole,2026-03-20T10:36:46.769072,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs28371685,10.0,96740981
+NA19461,Fluconazole,2026-03-20T10:36:46.769391,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19462,Fluconazole,2026-03-20T10:36:46.769553,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19463,Fluconazole,2026-03-20T10:36:46.769714,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19466,Fluconazole,2026-03-20T10:36:46.769874,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19468,Fluconazole,2026-03-20T10:36:46.770197,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19472,Fluconazole,2026-03-20T10:36:46.770524,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19474,Fluconazole,2026-03-20T10:36:46.770838,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19475,Fluconazole,2026-03-20T10:36:46.771003,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19651,Fluconazole,2026-03-20T10:36:46.771626,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19654,Fluconazole,2026-03-20T10:36:46.771946,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19676,Fluconazole,2026-03-20T10:36:46.773365,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19700,Fluconazole,2026-03-20T10:36:46.774313,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19703,Fluconazole,2026-03-20T10:36:46.774622,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19704,Fluconazole,2026-03-20T10:36:46.774778,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19707,Fluconazole,2026-03-20T10:36:46.774941,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19712,Fluconazole,2026-03-20T10:36:46.775255,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19716,Fluconazole,2026-03-20T10:36:46.775661,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19717,Fluconazole,2026-03-20T10:36:46.775826,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19720,Fluconazole,2026-03-20T10:36:46.776130,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19725,Fluconazole,2026-03-20T10:36:46.776596,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19728,Fluconazole,2026-03-20T10:36:46.776910,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19756,Fluconazole,2026-03-20T10:36:46.779349,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19764,Fluconazole,2026-03-20T10:36:46.780175,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19773,Fluconazole,2026-03-20T10:36:46.780630,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19774,Fluconazole,2026-03-20T10:36:46.780792,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19777,Fluconazole,2026-03-20T10:36:46.781098,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19780,Fluconazole,2026-03-20T10:36:46.781404,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19789,Fluconazole,2026-03-20T10:36:46.782340,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19794,Fluconazole,2026-03-20T10:36:46.782662,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19795,Fluconazole,2026-03-20T10:36:46.782821,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA19818,Fluconazole,2026-03-20T10:36:46.782983,*11.001/*11,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs28371685,rs9332242",10.0,"96740981,96748893"
+NA19834,Fluconazole,2026-03-20T10:36:46.783385,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19900,Fluconazole,2026-03-20T10:36:46.783812,*8.002/*8.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19901,Fluconazole,2026-03-20T10:36:46.783967,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19908,Fluconazole,2026-03-20T10:36:46.784295,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA19913,Fluconazole,2026-03-20T10:36:46.784604,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA19914,Fluconazole,2026-03-20T10:36:46.784759,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA19917,Fluconazole,2026-03-20T10:36:46.785067,*1.005/*3.001,1.0,IM,Slight increase in exposure – Usually safe,low,0.111,rs1057911,10.0,96748737
+NA19920,Fluconazole,2026-03-20T10:36:46.785222,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19922,Fluconazole,2026-03-20T10:36:46.785841,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA19982,Fluconazole,2026-03-20T10:36:46.786158,*1.009/*5,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+NA19984,Fluconazole,2026-03-20T10:36:46.786329,*5/*5.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,rs28371686,10.0,96741058
+NA20127,Fluconazole,2026-03-20T10:36:46.786636,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA20276,Fluconazole,2026-03-20T10:36:46.786942,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA20278,Fluconazole,2026-03-20T10:36:46.787106,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20282,Fluconazole,2026-03-20T10:36:46.787418,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA20287,Fluconazole,2026-03-20T10:36:46.787572,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA20289,Fluconazole,2026-03-20T10:36:46.787727,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,"rs9332242,rs2256871",10.0,"96708974,96748893"
+NA20294,Fluconazole,2026-03-20T10:36:46.788031,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA20296,Fluconazole,2026-03-20T10:36:46.788184,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA20298,Fluconazole,2026-03-20T10:36:46.788344,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA20317,Fluconazole,2026-03-20T10:36:46.788804,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20320,Fluconazole,2026-03-20T10:36:46.789117,*9.001/*9,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs2256871,10.0,96708974
+NA20321,Fluconazole,2026-03-20T10:36:46.789272,*1.009/*9.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,"rs2017319,rs2256871",10.0,"96748635,96708974"
+NA20339,Fluconazole,2026-03-20T10:36:46.789730,*8.003/*8.004,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,0.062,rs9332241,10.0,96748873
+NA20355,Fluconazole,2026-03-20T10:36:46.790654,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA20359,Fluconazole,2026-03-20T10:36:46.791110,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20412,Fluconazole,2026-03-20T10:36:46.791677,*1.009/*88.001,1.5,IM,Slight increase in exposure – Usually safe,low,1.0,rs2017319,10.0,96748635
+NA20507,Fluconazole,2026-03-20T10:36:46.792783,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20510,Fluconazole,2026-03-20T10:36:46.793244,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20513,Fluconazole,2026-03-20T10:36:46.793830,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20514,Fluconazole,2026-03-20T10:36:46.794067,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20515,Fluconazole,2026-03-20T10:36:46.794230,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20516,Fluconazole,2026-03-20T10:36:46.794386,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20522,Fluconazole,2026-03-20T10:36:46.795491,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20525,Fluconazole,2026-03-20T10:36:46.795803,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20529,Fluconazole,2026-03-20T10:36:46.796273,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20531,Fluconazole,2026-03-20T10:36:46.796585,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20535,Fluconazole,2026-03-20T10:36:46.797203,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20536,Fluconazole,2026-03-20T10:36:46.797358,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20538,Fluconazole,2026-03-20T10:36:46.797516,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20539,Fluconazole,2026-03-20T10:36:46.797688,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20540,Fluconazole,2026-03-20T10:36:46.797867,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20541,Fluconazole,2026-03-20T10:36:46.798045,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20543,Fluconazole,2026-03-20T10:36:46.799050,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20544,Fluconazole,2026-03-20T10:36:46.799215,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20581,Fluconazole,2026-03-20T10:36:46.799371,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20582,Fluconazole,2026-03-20T10:36:46.799528,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20585,Fluconazole,2026-03-20T10:36:46.799693,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20586,Fluconazole,2026-03-20T10:36:46.799859,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20589,Fluconazole,2026-03-20T10:36:46.800337,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20755,Fluconazole,2026-03-20T10:36:46.800955,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20756,Fluconazole,2026-03-20T10:36:46.801110,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20757,Fluconazole,2026-03-20T10:36:46.801267,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20762,Fluconazole,2026-03-20T10:36:46.802138,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20763,Fluconazole,2026-03-20T10:36:46.802314,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20764,Fluconazole,2026-03-20T10:36:46.802471,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20765,Fluconazole,2026-03-20T10:36:46.802631,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20769,Fluconazole,2026-03-20T10:36:46.803240,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20770,Fluconazole,2026-03-20T10:36:46.803394,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20783,Fluconazole,2026-03-20T10:36:46.804482,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20785,Fluconazole,2026-03-20T10:36:46.804644,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20786,Fluconazole,2026-03-20T10:36:46.804801,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20792,Fluconazole,2026-03-20T10:36:46.805261,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20795,Fluconazole,2026-03-20T10:36:46.805427,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20796,Fluconazole,2026-03-20T10:36:46.805619,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20798,Fluconazole,2026-03-20T10:36:46.806035,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20804,Fluconazole,2026-03-20T10:36:46.806988,*12.001/*12,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs9332239,10.0,96748777
+NA20805,Fluconazole,2026-03-20T10:36:46.807188,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20808,Fluconazole,2026-03-20T10:36:46.807651,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20809,Fluconazole,2026-03-20T10:36:46.807813,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20810,Fluconazole,2026-03-20T10:36:46.807978,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20811,Fluconazole,2026-03-20T10:36:46.808133,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20814,Fluconazole,2026-03-20T10:36:46.808788,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20819,Fluconazole,2026-03-20T10:36:46.809252,*12.001/*12,1.0,IM,Slight increase in exposure – Usually safe,low,1.0,rs9332239,10.0,96748777
+NA20821,Fluconazole,2026-03-20T10:36:46.809417,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20827,Fluconazole,2026-03-20T10:36:46.809877,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20845,Fluconazole,2026-03-20T10:36:46.810457,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs9332242",10.0,"96748737,96741053,96748893"
+NA20846,Fluconazole,2026-03-20T10:36:46.810618,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20849,Fluconazole,2026-03-20T10:36:46.810929,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20851,Fluconazole,2026-03-20T10:36:46.811240,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20854,Fluconazole,2026-03-20T10:36:46.811706,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20856,Fluconazole,2026-03-20T10:36:46.811867,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20861,Fluconazole,2026-03-20T10:36:46.812339,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20864,Fluconazole,2026-03-20T10:36:46.812805,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20870,Fluconazole,2026-03-20T10:36:46.813567,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20872,Fluconazole,2026-03-20T10:36:46.813720,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20876,Fluconazole,2026-03-20T10:36:46.814188,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20877,Fluconazole,2026-03-20T10:36:46.814343,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20882,Fluconazole,2026-03-20T10:36:46.814936,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20888,Fluconazole,2026-03-20T10:36:46.815770,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20889,Fluconazole,2026-03-20T10:36:46.815948,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20892,Fluconazole,2026-03-20T10:36:46.816415,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20894,Fluconazole,2026-03-20T10:36:46.816578,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20895,Fluconazole,2026-03-20T10:36:46.816741,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20896,Fluconazole,2026-03-20T10:36:46.816899,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20897,Fluconazole,2026-03-20T10:36:46.817061,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20899,Fluconazole,2026-03-20T10:36:46.817218,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA20905,Fluconazole,2026-03-20T10:36:46.818153,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20906,Fluconazole,2026-03-20T10:36:46.818317,*68/*3,0.5,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911,rs542577750",10.0,"96741128,96748737,96741053"
+NA21089,Fluconazole,2026-03-20T10:36:46.819647,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893
+NA21092,Fluconazole,2026-03-20T10:36:46.820131,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21094,Fluconazole,2026-03-20T10:36:46.820454,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21112,Fluconazole,2026-03-20T10:36:46.823110,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21114,Fluconazole,2026-03-20T10:36:46.823434,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21118,Fluconazole,2026-03-20T10:36:46.824053,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21120,Fluconazole,2026-03-20T10:36:46.824371,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21123,Fluconazole,2026-03-20T10:36:46.824685,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21129,Fluconazole,2026-03-20T10:36:46.825612,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21141,Fluconazole,2026-03-20T10:36:46.826420,*3/*3.001,0.0,PM,Increased fluconazole exposure – Monitor for side effects,moderate,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21142,Fluconazole,2026-03-20T10:36:46.826575,*2.004/*2.005,1.0,IM,Slight increase in exposure – Usually safe,low,0.04,rs9332242,10.0,96748893

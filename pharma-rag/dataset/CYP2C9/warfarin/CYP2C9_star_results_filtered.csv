@@ -1,0 +1,825 @@
+Sample,Drug,Timestamp,Diplotype,Activity_Score,Phenotype,Risk_Label,Severity,Confidence_Score,RSIDs,Chromosomes,Positions
+HG00103,Warfarin,2026-02-20T02:33:58.176211,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00107,Warfarin,2026-02-20T02:33:58.177610,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00120,Warfarin,2026-02-20T02:33:58.179607,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00121,Warfarin,2026-02-20T02:33:58.179607,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00125,Warfarin,2026-02-20T02:33:58.182131,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00132,Warfarin,2026-02-20T02:33:58.184842,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00136,Warfarin,2026-02-20T02:33:58.185839,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00137,Warfarin,2026-02-20T02:33:58.185839,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00138,Warfarin,2026-02-20T02:33:58.186846,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00150,Warfarin,2026-02-20T02:33:58.188866,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00154,Warfarin,2026-02-20T02:33:58.189878,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00155,Warfarin,2026-02-20T02:33:58.189878,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00178,Warfarin,2026-02-20T02:33:58.190867,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00185,Warfarin,2026-02-20T02:33:58.193826,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00188,Warfarin,2026-02-20T02:33:58.194840,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00231,Warfarin,2026-02-20T02:33:58.195842,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG00232,Warfarin,2026-02-20T02:33:58.195842,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00234,Warfarin,2026-02-20T02:33:58.196838,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00236,Warfarin,2026-02-20T02:33:58.196838,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00244,Warfarin,2026-02-20T02:33:58.198839,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00252,Warfarin,2026-02-20T02:33:58.201035,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00257,Warfarin,2026-02-20T02:33:58.203575,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00258,Warfarin,2026-02-20T02:33:58.203575,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00261,Warfarin,2026-02-20T02:33:58.205302,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00262,Warfarin,2026-02-20T02:33:58.205302,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00265,Warfarin,2026-02-20T02:33:58.206316,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00274,Warfarin,2026-02-20T02:33:58.208753,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00276,Warfarin,2026-02-20T02:33:58.208753,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00277,Warfarin,2026-02-20T02:33:58.208753,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00278,Warfarin,2026-02-20T02:33:58.210003,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00281,Warfarin,2026-02-20T02:33:58.210003,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00284,Warfarin,2026-02-20T02:33:58.210003,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00290,Warfarin,2026-02-20T02:33:58.211052,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG00304,Warfarin,2026-02-20T02:33:58.211052,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00309,Warfarin,2026-02-20T02:33:58.212578,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00310,Warfarin,2026-02-20T02:33:58.212578,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00315,Warfarin,2026-02-20T02:33:58.213084,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00323,Warfarin,2026-02-20T02:33:58.214606,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00326,Warfarin,2026-02-20T02:33:58.214606,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00332,Warfarin,2026-02-20T02:33:58.216615,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00337,Warfarin,2026-02-20T02:33:58.217619,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00342,Warfarin,2026-02-20T02:33:58.217619,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00343,Warfarin,2026-02-20T02:33:58.218696,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00345,Warfarin,2026-02-20T02:33:58.218696,*29.001/*29,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs182132442,10,96731876
+HG00358,Warfarin,2026-02-20T02:33:58.220712,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00362,Warfarin,2026-02-20T02:33:58.220712,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG00365,Warfarin,2026-02-20T02:33:58.220712,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG00366,Warfarin,2026-02-20T02:33:58.222388,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00368,Warfarin,2026-02-20T02:33:58.222388,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00369,Warfarin,2026-02-20T02:33:58.222934,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00376,Warfarin,2026-02-20T02:33:58.222934,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00378,Warfarin,2026-02-20T02:33:58.222934,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00407,Warfarin,2026-02-20T02:33:58.226483,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG00419,Warfarin,2026-02-20T02:33:58.226483,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00421,Warfarin,2026-02-20T02:33:58.226483,*1.014/*3,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332244,rs1057911,rs1057910",10,"9,67,49,00,59,67,48,73,00,00,00,000"
+HG00457,Warfarin,2026-02-20T02:33:58.229472,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00472,Warfarin,2026-02-20T02:33:58.230989,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00530,Warfarin,2026-02-20T02:33:58.233534,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00543,Warfarin,2026-02-20T02:33:58.234553,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00554,Warfarin,2026-02-20T02:33:58.235571,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG00581,Warfarin,2026-02-20T02:33:58.236564,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00607,Warfarin,2026-02-20T02:33:58.239844,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00610,Warfarin,2026-02-20T02:33:58.239844,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00628,Warfarin,2026-02-20T02:33:58.241872,*29.001/*29,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs182132442,10,96731876
+HG00637,Warfarin,2026-02-20T02:33:58.243891,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG00653,Warfarin,2026-02-20T02:33:58.244882,*3/*18,0.5,PM,High bleeding risk – Major dose reduction,high,1,rs1057910,10,96741053
+HG00663,Warfarin,2026-02-20T02:33:58.245898,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG00731,Warfarin,2026-02-20T02:33:58.250705,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00732,Warfarin,2026-02-20T02:33:58.250705,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00736,Warfarin,2026-02-20T02:33:58.252214,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00737,Warfarin,2026-02-20T02:33:58.252214,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG00740,Warfarin,2026-02-20T02:33:58.253222,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01031,Warfarin,2026-02-20T02:33:58.255745,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01046,Warfarin,2026-02-20T02:33:58.256741,*87.001/*87,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs546318684,10,96731951
+HG01051,Warfarin,2026-02-20T02:33:58.257741,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG01052,Warfarin,2026-02-20T02:33:58.257741,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01054,Warfarin,2026-02-20T02:33:58.257741,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01055,Warfarin,2026-02-20T02:33:58.257741,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01061,Warfarin,2026-02-20T02:33:58.258742,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01066,Warfarin,2026-02-20T02:33:58.258742,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01067,Warfarin,2026-02-20T02:33:58.259742,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01069,Warfarin,2026-02-20T02:33:58.259742,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01075,Warfarin,2026-02-20T02:33:58.260741,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01077,Warfarin,2026-02-20T02:33:58.260741,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01080,Warfarin,2026-02-20T02:33:58.261250,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01082,Warfarin,2026-02-20T02:33:58.261250,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01086,Warfarin,2026-02-20T02:33:58.262257,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01089,Warfarin,2026-02-20T02:33:58.262257,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+HG01092,Warfarin,2026-02-20T02:33:58.263270,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01095,Warfarin,2026-02-20T02:33:58.263270,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01097,Warfarin,2026-02-20T02:33:58.263270,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01104,Warfarin,2026-02-20T02:33:58.264778,*12.001/*12,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs9332239,10,96748777
+HG01105,Warfarin,2026-02-20T02:33:58.264778,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01111,Warfarin,2026-02-20T02:33:58.265810,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01131,Warfarin,2026-02-20T02:33:58.267817,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01133,Warfarin,2026-02-20T02:33:58.267817,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01134,Warfarin,2026-02-20T02:33:58.267817,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01142,Warfarin,2026-02-20T02:33:58.268810,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01148,Warfarin,2026-02-20T02:33:58.269827,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01170,Warfarin,2026-02-20T02:33:58.270831,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG01171,Warfarin,2026-02-20T02:33:58.270831,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01174,Warfarin,2026-02-20T02:33:58.270831,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01182,Warfarin,2026-02-20T02:33:58.272342,*1.015/*1.005,2,NM,Standard dosing,low,0.25,rs149158426,10,96709023
+HG01183,Warfarin,2026-02-20T02:33:58.272342,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01190,Warfarin,2026-02-20T02:33:58.273397,*61/*2.004,1,IM,Reduced clearance – Lower dose recommended,moderate,0.25,"rs9332242,rs202201137",10,"9,67,48,89,39,67,48,680"
+HG01191,Warfarin,2026-02-20T02:33:58.273397,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01198,Warfarin,2026-02-20T02:33:58.273397,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01200,Warfarin,2026-02-20T02:33:58.273397,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01205,Warfarin,2026-02-20T02:33:58.274404,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01241,Warfarin,2026-02-20T02:33:58.274404,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01253,Warfarin,2026-02-20T02:33:58.275412,*1.015/*1.005,2,NM,Standard dosing,low,0.25,rs149158426,10,96709023
+HG01259,Warfarin,2026-02-20T02:33:58.276424,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01260,Warfarin,2026-02-20T02:33:58.276424,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01272,Warfarin,2026-02-20T02:33:58.278418,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01275,Warfarin,2026-02-20T02:33:58.278418,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01277,Warfarin,2026-02-20T02:33:58.278418,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01281,Warfarin,2026-02-20T02:33:58.278418,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01286,Warfarin,2026-02-20T02:33:58.279414,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01302,Warfarin,2026-02-20T02:33:58.279414,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01312,Warfarin,2026-02-20T02:33:58.282444,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01325,Warfarin,2026-02-20T02:33:58.282444,*61/*2.004,1,IM,Reduced clearance – Lower dose recommended,moderate,0.25,"rs9332242,rs202201137",10,"9,67,48,89,39,67,48,680"
+HG01326,Warfarin,2026-02-20T02:33:58.282444,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01342,Warfarin,2026-02-20T02:33:58.284982,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01348,Warfarin,2026-02-20T02:33:58.285978,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01354,Warfarin,2026-02-20T02:33:58.287045,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01357,Warfarin,2026-02-20T02:33:58.287045,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01359,Warfarin,2026-02-20T02:33:58.288050,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01360,Warfarin,2026-02-20T02:33:58.288050,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01377,Warfarin,2026-02-20T02:33:58.290054,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01378,Warfarin,2026-02-20T02:33:58.290054,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01383,Warfarin,2026-02-20T02:33:58.291045,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01384,Warfarin,2026-02-20T02:33:58.291045,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01389,Warfarin,2026-02-20T02:33:58.291045,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01395,Warfarin,2026-02-20T02:33:58.292050,*1.009/*1.015,2,NM,Standard dosing,low,1,"rs2017319,rs149158426",10,"9,67,48,63,59,67,09,020"
+HG01396,Warfarin,2026-02-20T02:33:58.292050,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01405,Warfarin,2026-02-20T02:33:58.292050,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01431,Warfarin,2026-02-20T02:33:58.294569,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01437,Warfarin,2026-02-20T02:33:58.294569,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01440,Warfarin,2026-02-20T02:33:58.295565,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01444,Warfarin,2026-02-20T02:33:58.295565,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01447,Warfarin,2026-02-20T02:33:58.296574,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01459,Warfarin,2026-02-20T02:33:58.296574,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01464,Warfarin,2026-02-20T02:33:58.297871,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01465,Warfarin,2026-02-20T02:33:58.297871,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01474,Warfarin,2026-02-20T02:33:58.297871,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01485,Warfarin,2026-02-20T02:33:58.298954,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01488,Warfarin,2026-02-20T02:33:58.298954,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01489,Warfarin,2026-02-20T02:33:58.299954,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01491,Warfarin,2026-02-20T02:33:58.299954,*1.015/*1.005,2,NM,Standard dosing,low,0.25,rs149158426,10,96709023
+HG01504,Warfarin,2026-02-20T02:33:58.302112,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01506,Warfarin,2026-02-20T02:33:58.302112,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01512,Warfarin,2026-02-20T02:33:58.303122,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01519,Warfarin,2026-02-20T02:33:58.303122,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01522,Warfarin,2026-02-20T02:33:58.304630,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01528,Warfarin,2026-02-20T02:33:58.305648,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01530,Warfarin,2026-02-20T02:33:58.305648,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01536,Warfarin,2026-02-20T02:33:58.305648,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01551,Warfarin,2026-02-20T02:33:58.306638,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01586,Warfarin,2026-02-20T02:33:58.308639,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01603,Warfarin,2026-02-20T02:33:58.310639,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01605,Warfarin,2026-02-20T02:33:58.310639,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01606,Warfarin,2026-02-20T02:33:58.312253,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01615,Warfarin,2026-02-20T02:33:58.313785,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01617,Warfarin,2026-02-20T02:33:58.313785,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01618,Warfarin,2026-02-20T02:33:58.313785,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01620,Warfarin,2026-02-20T02:33:58.314783,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01623,Warfarin,2026-02-20T02:33:58.314783,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01624,Warfarin,2026-02-20T02:33:58.314783,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01630,Warfarin,2026-02-20T02:33:58.315783,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01668,Warfarin,2026-02-20T02:33:58.316783,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01669,Warfarin,2026-02-20T02:33:58.316783,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01673,Warfarin,2026-02-20T02:33:58.316783,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01679,Warfarin,2026-02-20T02:33:58.317784,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01680,Warfarin,2026-02-20T02:33:58.318786,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01682,Warfarin,2026-02-20T02:33:58.318786,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01685,Warfarin,2026-02-20T02:33:58.318786,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01694,Warfarin,2026-02-20T02:33:58.319804,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01695,Warfarin,2026-02-20T02:33:58.319804,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01699,Warfarin,2026-02-20T02:33:58.319804,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01702,Warfarin,2026-02-20T02:33:58.320804,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01747,Warfarin,2026-02-20T02:33:58.322321,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01756,Warfarin,2026-02-20T02:33:58.322321,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01761,Warfarin,2026-02-20T02:33:58.323331,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01762,Warfarin,2026-02-20T02:33:58.323331,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01765,Warfarin,2026-02-20T02:33:58.323331,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01767,Warfarin,2026-02-20T02:33:58.323331,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01771,Warfarin,2026-02-20T02:33:58.324838,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG01777,Warfarin,2026-02-20T02:33:58.325850,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01779,Warfarin,2026-02-20T02:33:58.325850,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01785,Warfarin,2026-02-20T02:33:58.326848,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01786,Warfarin,2026-02-20T02:33:58.326848,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01789,Warfarin,2026-02-20T02:33:58.326848,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01790,Warfarin,2026-02-20T02:33:58.326848,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01796,Warfarin,2026-02-20T02:33:58.327846,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01807,Warfarin,2026-02-20T02:33:58.330848,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01812,Warfarin,2026-02-20T02:33:58.330848,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01842,Warfarin,2026-02-20T02:33:58.333397,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01845,Warfarin,2026-02-20T02:33:58.333397,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01855,Warfarin,2026-02-20T02:33:58.335412,*29.001/*29,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs182132442,rs1057911,rs1057910",10,"9,67,48,73,79,67,31,87,00,00,00,000"
+HG01866,Warfarin,2026-02-20T02:33:58.337460,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG01873,Warfarin,2026-02-20T02:33:58.339758,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG01882,Warfarin,2026-02-20T02:33:58.340988,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01886,Warfarin,2026-02-20T02:33:58.340988,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01894,Warfarin,2026-02-20T02:33:58.343013,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG01896,Warfarin,2026-02-20T02:33:58.343013,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG01914,Warfarin,2026-02-20T02:33:58.343013,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG01915,Warfarin,2026-02-20T02:33:58.343013,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG01947,Warfarin,2026-02-20T02:33:58.347537,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01977,Warfarin,2026-02-20T02:33:58.351087,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG01985,Warfarin,2026-02-20T02:33:58.352097,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG01986,Warfarin,2026-02-20T02:33:58.352097,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG01989,Warfarin,2026-02-20T02:33:58.353112,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG01990,Warfarin,2026-02-20T02:33:58.353112,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG01997,Warfarin,2026-02-20T02:33:58.353112,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02009,Warfarin,2026-02-20T02:33:58.355055,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02010,Warfarin,2026-02-20T02:33:58.355055,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02014,Warfarin,2026-02-20T02:33:58.356309,*5/*8.002,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332243,rs9332240,rs28371686",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+HG02023,Warfarin,2026-02-20T02:33:58.357494,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02025,Warfarin,2026-02-20T02:33:58.357494,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG02040,Warfarin,2026-02-20T02:33:58.359493,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02051,Warfarin,2026-02-20T02:33:58.359493,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02052,Warfarin,2026-02-20T02:33:58.361002,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02054,Warfarin,2026-02-20T02:33:58.361002,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02076,Warfarin,2026-02-20T02:33:58.363021,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG02108,Warfarin,2026-02-20T02:33:58.367551,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2017319",10,"9,67,48,63,59,67,48,870"
+HG02133,Warfarin,2026-02-20T02:33:58.369551,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+HG02134,Warfarin,2026-02-20T02:33:58.369551,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02139,Warfarin,2026-02-20T02:33:58.371066,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02143,Warfarin,2026-02-20T02:33:58.372079,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02144,Warfarin,2026-02-20T02:33:58.372079,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02215,Warfarin,2026-02-20T02:33:58.377784,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG02238,Warfarin,2026-02-20T02:33:58.379785,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02239,Warfarin,2026-02-20T02:33:58.380785,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02255,Warfarin,2026-02-20T02:33:58.381293,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02284,Warfarin,2026-02-20T02:33:58.386844,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02301,Warfarin,2026-02-20T02:33:58.388844,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02308,Warfarin,2026-02-20T02:33:58.389844,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02309,Warfarin,2026-02-20T02:33:58.389844,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2017319",10,"9,67,48,63,59,67,48,870"
+HG02312,Warfarin,2026-02-20T02:33:58.389844,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02314,Warfarin,2026-02-20T02:33:58.390845,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02315,Warfarin,2026-02-20T02:33:58.390845,*1.009/*5,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs28371686,rs2017319",10,"9,67,48,63,59,67,41,050"
+HG02323,Warfarin,2026-02-20T02:33:58.390845,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02332,Warfarin,2026-02-20T02:33:58.392351,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02348,Warfarin,2026-02-20T02:33:58.393880,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02401,Warfarin,2026-02-20T02:33:58.400880,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02427,Warfarin,2026-02-20T02:33:58.404392,*3/*5,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371686,rs1057911,rs1057910",10,"9,67,48,73,79,67,41,05,00,00,00,000"
+HG02429,Warfarin,2026-02-20T02:33:58.404392,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02445,Warfarin,2026-02-20T02:33:58.406391,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02449,Warfarin,2026-02-20T02:33:58.406391,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+HG02450,Warfarin,2026-02-20T02:33:58.406391,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02461,Warfarin,2026-02-20T02:33:58.406391,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02462,Warfarin,2026-02-20T02:33:58.407391,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02464,Warfarin,2026-02-20T02:33:58.407391,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02465,Warfarin,2026-02-20T02:33:58.407391,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs28371686",10,"9,67,41,05,89,67,40,980"
+HG02479,Warfarin,2026-02-20T02:33:58.408392,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02481,Warfarin,2026-02-20T02:33:58.408392,*1.007/*1.005,2,NM,Standard dosing,low,0.02,rs112354725,10,96748701
+HG02484,Warfarin,2026-02-20T02:33:58.409412,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+HG02485,Warfarin,2026-02-20T02:33:58.409412,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02489,Warfarin,2026-02-20T02:33:58.409412,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02490,Warfarin,2026-02-20T02:33:58.409412,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02494,Warfarin,2026-02-20T02:33:58.410935,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02496,Warfarin,2026-02-20T02:33:58.410935,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02497,Warfarin,2026-02-20T02:33:58.410935,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02501,Warfarin,2026-02-20T02:33:58.411956,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02502,Warfarin,2026-02-20T02:33:58.411956,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02505,Warfarin,2026-02-20T02:33:58.411956,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02508,Warfarin,2026-02-20T02:33:58.411956,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02537,Warfarin,2026-02-20T02:33:58.414503,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02546,Warfarin,2026-02-20T02:33:58.414503,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02549,Warfarin,2026-02-20T02:33:58.414503,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332243,rs9332240,rs2256871",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+HG02557,Warfarin,2026-02-20T02:33:58.415529,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02562,Warfarin,2026-02-20T02:33:58.416530,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02573,Warfarin,2026-02-20T02:33:58.417530,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02574,Warfarin,2026-02-20T02:33:58.418530,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02583,Warfarin,2026-02-20T02:33:58.419527,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02586,Warfarin,2026-02-20T02:33:58.419527,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02595,Warfarin,2026-02-20T02:33:58.421049,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02601,Warfarin,2026-02-20T02:33:58.421049,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02610,Warfarin,2026-02-20T02:33:58.422074,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG02620,Warfarin,2026-02-20T02:33:58.423098,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02628,Warfarin,2026-02-20T02:33:58.424621,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02629,Warfarin,2026-02-20T02:33:58.424621,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+HG02642,Warfarin,2026-02-20T02:33:58.424621,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02643,Warfarin,2026-02-20T02:33:58.425651,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02645,Warfarin,2026-02-20T02:33:58.425651,*86.001/*86,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs369745682,10,96708941
+HG02646,Warfarin,2026-02-20T02:33:58.425651,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02648,Warfarin,2026-02-20T02:33:58.426646,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02660,Warfarin,2026-02-20T02:33:58.427645,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02667,Warfarin,2026-02-20T02:33:58.428652,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02676,Warfarin,2026-02-20T02:33:58.428652,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02679,Warfarin,2026-02-20T02:33:58.429649,*1.007/*1.005,2,NM,Standard dosing,low,0.02,rs112354725,10,96748701
+HG02684,Warfarin,2026-02-20T02:33:58.430646,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02685,Warfarin,2026-02-20T02:33:58.431154,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02694,Warfarin,2026-02-20T02:33:58.432176,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG02699,Warfarin,2026-02-20T02:33:58.433199,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02700,Warfarin,2026-02-20T02:33:58.434723,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02703,Warfarin,2026-02-20T02:33:58.435747,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02715,Warfarin,2026-02-20T02:33:58.435747,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02716,Warfarin,2026-02-20T02:33:58.435747,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02721,Warfarin,2026-02-20T02:33:58.436746,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02728,Warfarin,2026-02-20T02:33:58.437746,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02756,Warfarin,2026-02-20T02:33:58.439746,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02760,Warfarin,2026-02-20T02:33:58.440747,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+HG02763,Warfarin,2026-02-20T02:33:58.440747,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02768,Warfarin,2026-02-20T02:33:58.440747,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02769,Warfarin,2026-02-20T02:33:58.440747,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332242,rs2017319",10,"9,67,48,89,39,67,48,630"
+HG02771,Warfarin,2026-02-20T02:33:58.440747,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02775,Warfarin,2026-02-20T02:33:58.440747,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG02787,Warfarin,2026-02-20T02:33:58.443844,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02792,Warfarin,2026-02-20T02:33:58.444844,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG02798,Warfarin,2026-02-20T02:33:58.444844,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02804,Warfarin,2026-02-20T02:33:58.445843,*1.005/*3.001,1,IM,Reduced clearance – Lower dose recommended,moderate,0.111,rs1057911,10,96748737
+HG02805,Warfarin,2026-02-20T02:33:58.445843,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02807,Warfarin,2026-02-20T02:33:58.445843,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02808,Warfarin,2026-02-20T02:33:58.445843,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02811,Warfarin,2026-02-20T02:33:58.446848,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02814,Warfarin,2026-02-20T02:33:58.447844,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG02817,Warfarin,2026-02-20T02:33:58.447844,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02820,Warfarin,2026-02-20T02:33:58.447844,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs112354725,rs28371685",10,"9,67,40,98,19,67,48,700"
+HG02840,Warfarin,2026-02-20T02:33:58.448843,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02852,Warfarin,2026-02-20T02:33:58.450233,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02854,Warfarin,2026-02-20T02:33:58.450233,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02860,Warfarin,2026-02-20T02:33:58.450749,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02861,Warfarin,2026-02-20T02:33:58.450749,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG02870,Warfarin,2026-02-20T02:33:58.450749,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02879,Warfarin,2026-02-20T02:33:58.452275,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02885,Warfarin,2026-02-20T02:33:58.452275,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02888,Warfarin,2026-02-20T02:33:58.453284,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02890,Warfarin,2026-02-20T02:33:58.453284,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02896,Warfarin,2026-02-20T02:33:58.453284,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02922,Warfarin,2026-02-20T02:33:58.453284,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332241,rs28371686",10,"9,67,41,05,89,67,48,870"
+HG02941,Warfarin,2026-02-20T02:33:58.454800,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02946,Warfarin,2026-02-20T02:33:58.454800,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02952,Warfarin,2026-02-20T02:33:58.456300,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02953,Warfarin,2026-02-20T02:33:58.456300,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02971,Warfarin,2026-02-20T02:33:58.457333,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG02973,Warfarin,2026-02-20T02:33:58.457333,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG02981,Warfarin,2026-02-20T02:33:58.458333,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG02982,Warfarin,2026-02-20T02:33:58.458333,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03007,Warfarin,2026-02-20T02:33:58.459334,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03019,Warfarin,2026-02-20T02:33:58.460841,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03021,Warfarin,2026-02-20T02:33:58.460841,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03024,Warfarin,2026-02-20T02:33:58.460841,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03025,Warfarin,2026-02-20T02:33:58.462348,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03045,Warfarin,2026-02-20T02:33:58.463359,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03046,Warfarin,2026-02-20T02:33:58.463359,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03048,Warfarin,2026-02-20T02:33:58.463359,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03049,Warfarin,2026-02-20T02:33:58.463359,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03054,Warfarin,2026-02-20T02:33:58.463359,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03058,Warfarin,2026-02-20T02:33:58.464868,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03073,Warfarin,2026-02-20T02:33:58.467129,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03074,Warfarin,2026-02-20T02:33:58.467129,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03079,Warfarin,2026-02-20T02:33:58.468134,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03085,Warfarin,2026-02-20T02:33:58.469126,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03086,Warfarin,2026-02-20T02:33:58.469126,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03088,Warfarin,2026-02-20T02:33:58.469126,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG03096,Warfarin,2026-02-20T02:33:58.469126,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03099,Warfarin,2026-02-20T02:33:58.470632,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03108,Warfarin,2026-02-20T02:33:58.470632,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03112,Warfarin,2026-02-20T02:33:58.472192,*1.009/*5,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs28371686,rs2017319",10,"9,67,48,63,59,67,41,050"
+HG03114,Warfarin,2026-02-20T02:33:58.472192,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03115,Warfarin,2026-02-20T02:33:58.472192,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03121,Warfarin,2026-02-20T02:33:58.473207,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03123,Warfarin,2026-02-20T02:33:58.473207,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03124,Warfarin,2026-02-20T02:33:58.473207,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03127,Warfarin,2026-02-20T02:33:58.473207,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG03130,Warfarin,2026-02-20T02:33:58.474717,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03133,Warfarin,2026-02-20T02:33:58.474717,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03135,Warfarin,2026-02-20T02:33:58.475734,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03136,Warfarin,2026-02-20T02:33:58.475734,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03139,Warfarin,2026-02-20T02:33:58.475734,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+HG03157,Warfarin,2026-02-20T02:33:58.475734,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03159,Warfarin,2026-02-20T02:33:58.476743,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03160,Warfarin,2026-02-20T02:33:58.476743,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2256871",10,"9,67,08,97,49,67,48,870"
+HG03163,Warfarin,2026-02-20T02:33:58.476743,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03166,Warfarin,2026-02-20T02:33:58.476743,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG03168,Warfarin,2026-02-20T02:33:58.477733,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03169,Warfarin,2026-02-20T02:33:58.477733,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03172,Warfarin,2026-02-20T02:33:58.477733,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03189,Warfarin,2026-02-20T02:33:58.478793,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03190,Warfarin,2026-02-20T02:33:58.478793,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03195,Warfarin,2026-02-20T02:33:58.478793,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03198,Warfarin,2026-02-20T02:33:58.479804,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03224,Warfarin,2026-02-20T02:33:58.481318,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03234,Warfarin,2026-02-20T02:33:58.483391,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03259,Warfarin,2026-02-20T02:33:58.486166,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03267,Warfarin,2026-02-20T02:33:58.487159,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG03270,Warfarin,2026-02-20T02:33:58.487159,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03271,Warfarin,2026-02-20T02:33:58.487159,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03279,Warfarin,2026-02-20T02:33:58.488158,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG03280,Warfarin,2026-02-20T02:33:58.488158,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03291,Warfarin,2026-02-20T02:33:58.488158,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2256871",10,"9,67,08,97,49,67,48,870"
+HG03294,Warfarin,2026-02-20T02:33:58.488158,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03297,Warfarin,2026-02-20T02:33:58.489165,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03301,Warfarin,2026-02-20T02:33:58.489165,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+HG03303,Warfarin,2026-02-20T02:33:58.489165,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03304,Warfarin,2026-02-20T02:33:58.489165,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03313,Warfarin,2026-02-20T02:33:58.490682,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+HG03342,Warfarin,2026-02-20T02:33:58.490682,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03354,Warfarin,2026-02-20T02:33:58.490682,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03366,Warfarin,2026-02-20T02:33:58.492236,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03372,Warfarin,2026-02-20T02:33:58.492767,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2256871",10,"9,67,08,97,49,67,48,870"
+HG03380,Warfarin,2026-02-20T02:33:58.493807,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03388,Warfarin,2026-02-20T02:33:58.494817,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03391,Warfarin,2026-02-20T02:33:58.494817,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG03394,Warfarin,2026-02-20T02:33:58.494817,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03410,Warfarin,2026-02-20T02:33:58.495817,*1.007/*1.005,2,NM,Standard dosing,low,0.02,rs112354725,10,96748701
+HG03419,Warfarin,2026-02-20T02:33:58.495817,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03428,Warfarin,2026-02-20T02:33:58.495817,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03436,Warfarin,2026-02-20T02:33:58.496830,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03439,Warfarin,2026-02-20T02:33:58.497822,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03442,Warfarin,2026-02-20T02:33:58.497822,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03445,Warfarin,2026-02-20T02:33:58.498819,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03446,Warfarin,2026-02-20T02:33:58.498819,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03452,Warfarin,2026-02-20T02:33:58.498819,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03457,Warfarin,2026-02-20T02:33:58.499821,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03458,Warfarin,2026-02-20T02:33:58.499821,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03460,Warfarin,2026-02-20T02:33:58.499821,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03464,Warfarin,2026-02-20T02:33:58.500826,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03472,Warfarin,2026-02-20T02:33:58.500826,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03473,Warfarin,2026-02-20T02:33:58.500826,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03476,Warfarin,2026-02-20T02:33:58.502342,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03478,Warfarin,2026-02-20T02:33:58.502342,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03484,Warfarin,2026-02-20T02:33:58.502342,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03490,Warfarin,2026-02-20T02:33:58.503360,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03499,Warfarin,2026-02-20T02:33:58.503360,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2017319",10,"9,67,48,63,59,67,48,870"
+HG03515,Warfarin,2026-02-20T02:33:58.503360,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03517,Warfarin,2026-02-20T02:33:58.504875,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03518,Warfarin,2026-02-20T02:33:58.504875,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+HG03538,Warfarin,2026-02-20T02:33:58.505889,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+HG03547,Warfarin,2026-02-20T02:33:58.506883,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG03556,Warfarin,2026-02-20T02:33:58.506883,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+HG03558,Warfarin,2026-02-20T02:33:58.506883,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03563,Warfarin,2026-02-20T02:33:58.507898,*86.001/*86,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs369745682,10,96708941
+HG03571,Warfarin,2026-02-20T02:33:58.508898,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03572,Warfarin,2026-02-20T02:33:58.508898,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+HG03577,Warfarin,2026-02-20T02:33:58.509910,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG03578,Warfarin,2026-02-20T02:33:58.509910,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03583,Warfarin,2026-02-20T02:33:58.509910,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+HG03593,Warfarin,2026-02-20T02:33:58.510907,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03594,Warfarin,2026-02-20T02:33:58.510907,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03603,Warfarin,2026-02-20T02:33:58.511898,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03619,Warfarin,2026-02-20T02:33:58.513291,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03624,Warfarin,2026-02-20T02:33:58.514811,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03629,Warfarin,2026-02-20T02:33:58.514811,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG03636,Warfarin,2026-02-20T02:33:58.515823,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03640,Warfarin,2026-02-20T02:33:58.515823,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03644,Warfarin,2026-02-20T02:33:58.516821,*66.001/*66,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs578144976,10,96741062
+HG03680,Warfarin,2026-02-20T02:33:58.519822,*66.001/*66,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs578144976,10,96741062
+HG03684,Warfarin,2026-02-20T02:33:58.520835,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG03686,Warfarin,2026-02-20T02:33:58.520835,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG03687,Warfarin,2026-02-20T02:33:58.520835,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03709,Warfarin,2026-02-20T02:33:58.526040,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03711,Warfarin,2026-02-20T02:33:58.526040,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03714,Warfarin,2026-02-20T02:33:58.526040,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03716,Warfarin,2026-02-20T02:33:58.527141,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03717,Warfarin,2026-02-20T02:33:58.527141,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03733,Warfarin,2026-02-20T02:33:58.529170,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03745,Warfarin,2026-02-20T02:33:58.532235,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03750,Warfarin,2026-02-20T02:33:58.532235,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03754,Warfarin,2026-02-20T02:33:58.533301,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03760,Warfarin,2026-02-20T02:33:58.534814,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03762,Warfarin,2026-02-20T02:33:58.534814,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03775,Warfarin,2026-02-20T02:33:58.536832,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03784,Warfarin,2026-02-20T02:33:58.538834,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03785,Warfarin,2026-02-20T02:33:58.539831,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03802,Warfarin,2026-02-20T02:33:58.540833,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03808,Warfarin,2026-02-20T02:33:58.542342,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03815,Warfarin,2026-02-20T02:33:58.542876,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03817,Warfarin,2026-02-20T02:33:58.542876,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03824,Warfarin,2026-02-20T02:33:58.544003,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03837,Warfarin,2026-02-20T02:33:58.546357,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03838,Warfarin,2026-02-20T02:33:58.546357,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03844,Warfarin,2026-02-20T02:33:58.546357,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03857,Warfarin,2026-02-20T02:33:58.548371,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03858,Warfarin,2026-02-20T02:33:58.548371,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03863,Warfarin,2026-02-20T02:33:58.549372,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03867,Warfarin,2026-02-20T02:33:58.549372,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03871,Warfarin,2026-02-20T02:33:58.550888,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG03884,Warfarin,2026-02-20T02:33:58.551950,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03887,Warfarin,2026-02-20T02:33:58.552974,*66.001/*66,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs578144976,10,96741062
+HG03902,Warfarin,2026-02-20T02:33:58.556270,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03908,Warfarin,2026-02-20T02:33:58.556270,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03917,Warfarin,2026-02-20T02:33:58.557289,*66.001/*66,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs578144976,10,96741062
+HG03920,Warfarin,2026-02-20T02:33:58.558289,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03943,Warfarin,2026-02-20T02:33:58.560801,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03945,Warfarin,2026-02-20T02:33:58.562318,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03965,Warfarin,2026-02-20T02:33:58.563853,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03971,Warfarin,2026-02-20T02:33:58.564868,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+HG03974,Warfarin,2026-02-20T02:33:58.565912,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG03985,Warfarin,2026-02-20T02:33:58.565912,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04003,Warfarin,2026-02-20T02:33:58.568913,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04018,Warfarin,2026-02-20T02:33:58.569908,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04023,Warfarin,2026-02-20T02:33:58.570907,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04025,Warfarin,2026-02-20T02:33:58.570907,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+HG04026,Warfarin,2026-02-20T02:33:58.570907,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04042,Warfarin,2026-02-20T02:33:58.573008,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04047,Warfarin,2026-02-20T02:33:58.573008,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04059,Warfarin,2026-02-20T02:33:58.573008,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04060,Warfarin,2026-02-20T02:33:58.573008,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG04063,Warfarin,2026-02-20T02:33:58.574551,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04070,Warfarin,2026-02-20T02:33:58.574551,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04076,Warfarin,2026-02-20T02:33:58.576376,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04096,Warfarin,2026-02-20T02:33:58.577387,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04098,Warfarin,2026-02-20T02:33:58.577387,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04099,Warfarin,2026-02-20T02:33:58.577387,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04100,Warfarin,2026-02-20T02:33:58.578386,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04107,Warfarin,2026-02-20T02:33:58.578386,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04131,Warfarin,2026-02-20T02:33:58.578386,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04141,Warfarin,2026-02-20T02:33:58.579400,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04152,Warfarin,2026-02-20T02:33:58.579400,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04156,Warfarin,2026-02-20T02:33:58.580907,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04161,Warfarin,2026-02-20T02:33:58.581935,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04164,Warfarin,2026-02-20T02:33:58.581935,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04171,Warfarin,2026-02-20T02:33:58.581935,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG04176,Warfarin,2026-02-20T02:33:58.583205,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04185,Warfarin,2026-02-20T02:33:58.584210,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04186,Warfarin,2026-02-20T02:33:58.585602,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04188,Warfarin,2026-02-20T02:33:58.585602,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+HG04214,Warfarin,2026-02-20T02:33:58.588628,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+HG04219,Warfarin,2026-02-20T02:33:58.589631,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA06986,Warfarin,2026-02-20T02:33:58.592144,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA06989,Warfarin,2026-02-20T02:33:58.593162,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA06994,Warfarin,2026-02-20T02:33:58.593162,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA07037,Warfarin,2026-02-20T02:33:58.593162,*12.001/*12,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs9332239,10,96748777
+NA07347,Warfarin,2026-02-20T02:33:58.595020,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11830,Warfarin,2026-02-20T02:33:58.596034,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11831,Warfarin,2026-02-20T02:33:58.596034,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11832,Warfarin,2026-02-20T02:33:58.597038,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA11840,Warfarin,2026-02-20T02:33:58.597038,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11843,Warfarin,2026-02-20T02:33:58.597038,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA11892,Warfarin,2026-02-20T02:33:58.598185,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11930,Warfarin,2026-02-20T02:33:58.599319,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA11931,Warfarin,2026-02-20T02:33:58.599319,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA11932,Warfarin,2026-02-20T02:33:58.599319,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA11995,Warfarin,2026-02-20T02:33:58.600829,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12003,Warfarin,2026-02-20T02:33:58.600829,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12005,Warfarin,2026-02-20T02:33:58.600829,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12043,Warfarin,2026-02-20T02:33:58.602338,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12046,Warfarin,2026-02-20T02:33:58.602338,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+NA12058,Warfarin,2026-02-20T02:33:58.603608,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12155,Warfarin,2026-02-20T02:33:58.603608,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12156,Warfarin,2026-02-20T02:33:58.604612,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12272,Warfarin,2026-02-20T02:33:58.605879,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12273,Warfarin,2026-02-20T02:33:58.606897,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12283,Warfarin,2026-02-20T02:33:58.607899,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+NA12287,Warfarin,2026-02-20T02:33:58.607899,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12341,Warfarin,2026-02-20T02:33:58.608898,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA12400,Warfarin,2026-02-20T02:33:58.610929,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12413,Warfarin,2026-02-20T02:33:58.611943,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12414,Warfarin,2026-02-20T02:33:58.611943,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+NA12489,Warfarin,2026-02-20T02:33:58.611943,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12716,Warfarin,2026-02-20T02:33:58.612954,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12718,Warfarin,2026-02-20T02:33:58.612954,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12762,Warfarin,2026-02-20T02:33:58.616103,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332242,rs2256871",10,"9,67,48,89,39,67,08,970"
+NA12776,Warfarin,2026-02-20T02:33:58.618122,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12813,Warfarin,2026-02-20T02:33:58.619211,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA12843,Warfarin,2026-02-20T02:33:58.620730,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA12878,Warfarin,2026-02-20T02:33:58.622288,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA18486,Warfarin,2026-02-20T02:33:58.623387,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA18488,Warfarin,2026-02-20T02:33:58.623387,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18489,Warfarin,2026-02-20T02:33:58.623387,*1.009/*11.001,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs28371685,rs2017319",10,"9,67,48,63,59,67,40,980"
+NA18498,Warfarin,2026-02-20T02:33:58.623387,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18501,Warfarin,2026-02-20T02:33:58.624910,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18504,Warfarin,2026-02-20T02:33:58.624910,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA18507,Warfarin,2026-02-20T02:33:58.625910,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332241,rs2017319",10,"9,67,48,63,59,67,48,870"
+NA18510,Warfarin,2026-02-20T02:33:58.626919,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA18517,Warfarin,2026-02-20T02:33:58.627912,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332243,rs9332240,rs2256871",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+NA18519,Warfarin,2026-02-20T02:33:58.627912,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA18563,Warfarin,2026-02-20T02:33:58.637944,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18573,Warfarin,2026-02-20T02:33:58.640945,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18591,Warfarin,2026-02-20T02:33:58.642452,*16/*16.001,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs72558192,10,96731936
+NA18602,Warfarin,2026-02-20T02:33:58.644478,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18619,Warfarin,2026-02-20T02:33:58.649501,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18635,Warfarin,2026-02-20T02:33:58.653068,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18642,Warfarin,2026-02-20T02:33:58.655620,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18643,Warfarin,2026-02-20T02:33:58.655620,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18645,Warfarin,2026-02-20T02:33:58.655620,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18740,Warfarin,2026-02-20T02:33:58.656618,*1.014/*1.005,2,NM,Standard dosing,low,1,rs9332244,10,96749005
+NA18757,Warfarin,2026-02-20T02:33:58.657614,*29.001/*29,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs182132442,10,96731876
+NA18853,Warfarin,2026-02-20T02:33:58.657614,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA18856,Warfarin,2026-02-20T02:33:58.658621,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18865,Warfarin,2026-02-20T02:33:58.659619,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA18873,Warfarin,2026-02-20T02:33:58.659619,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA18874,Warfarin,2026-02-20T02:33:58.661142,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+NA18876,Warfarin,2026-02-20T02:33:58.661142,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18877,Warfarin,2026-02-20T02:33:58.661142,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18878,Warfarin,2026-02-20T02:33:58.661142,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA18881,Warfarin,2026-02-20T02:33:58.662167,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA18907,Warfarin,2026-02-20T02:33:58.662167,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA18909,Warfarin,2026-02-20T02:33:58.662167,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA18910,Warfarin,2026-02-20T02:33:58.663195,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA18912,Warfarin,2026-02-20T02:33:58.663195,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA18916,Warfarin,2026-02-20T02:33:58.663195,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA18917,Warfarin,2026-02-20T02:33:58.663195,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA18923,Warfarin,2026-02-20T02:33:58.663195,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA18924,Warfarin,2026-02-20T02:33:58.664722,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+NA18944,Warfarin,2026-02-20T02:33:58.665750,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18959,Warfarin,2026-02-20T02:33:58.668746,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA18976,Warfarin,2026-02-20T02:33:58.673298,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19017,Warfarin,2026-02-20T02:33:58.680845,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19019,Warfarin,2026-02-20T02:33:58.680845,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19023,Warfarin,2026-02-20T02:33:58.680845,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19026,Warfarin,2026-02-20T02:33:58.682367,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19027,Warfarin,2026-02-20T02:33:58.682367,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs1057911,rs2017319",10,"9,67,48,73,79,67,48,630"
+NA19028,Warfarin,2026-02-20T02:33:58.682367,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19031,Warfarin,2026-02-20T02:33:58.683391,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19036,Warfarin,2026-02-20T02:33:58.684391,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19038,Warfarin,2026-02-20T02:33:58.684901,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19042,Warfarin,2026-02-20T02:33:58.684901,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19060,Warfarin,2026-02-20T02:33:58.688918,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19096,Warfarin,2026-02-20T02:33:58.695445,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19099,Warfarin,2026-02-20T02:33:58.696445,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19102,Warfarin,2026-02-20T02:33:58.696445,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19108,Warfarin,2026-02-20T02:33:58.697445,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19114,Warfarin,2026-02-20T02:33:58.697445,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs28371686",10,"9,67,41,05,89,67,40,980"
+NA19116,Warfarin,2026-02-20T02:33:58.698445,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19117,Warfarin,2026-02-20T02:33:58.698445,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19119,Warfarin,2026-02-20T02:33:58.698445,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA19121,Warfarin,2026-02-20T02:33:58.698445,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19130,Warfarin,2026-02-20T02:33:58.699445,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19138,Warfarin,2026-02-20T02:33:58.700968,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19141,Warfarin,2026-02-20T02:33:58.700968,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA19144,Warfarin,2026-02-20T02:33:58.700968,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19149,Warfarin,2026-02-20T02:33:58.701989,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19152,Warfarin,2026-02-20T02:33:58.701989,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19160,Warfarin,2026-02-20T02:33:58.703013,*1.009/*11.001,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs28371685,rs2017319",10,"9,67,48,63,59,67,40,980"
+NA19171,Warfarin,2026-02-20T02:33:58.703013,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19172,Warfarin,2026-02-20T02:33:58.703013,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19175,Warfarin,2026-02-20T02:33:58.703013,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19184,Warfarin,2026-02-20T02:33:58.704536,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19185,Warfarin,2026-02-20T02:33:58.704536,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19197,Warfarin,2026-02-20T02:33:58.705560,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA19198,Warfarin,2026-02-20T02:33:58.705560,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19200,Warfarin,2026-02-20T02:33:58.705560,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19204,Warfarin,2026-02-20T02:33:58.705560,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19206,Warfarin,2026-02-20T02:33:58.706560,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19214,Warfarin,2026-02-20T02:33:58.707560,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19225,Warfarin,2026-02-20T02:33:58.707560,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19235,Warfarin,2026-02-20T02:33:58.708560,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19236,Warfarin,2026-02-20T02:33:58.708560,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19239,Warfarin,2026-02-20T02:33:58.708560,*1.007/*1.005,2,NM,Standard dosing,low,0.02,rs112354725,10,96748701
+NA19247,Warfarin,2026-02-20T02:33:58.709560,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19248,Warfarin,2026-02-20T02:33:58.709560,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA19308,Warfarin,2026-02-20T02:33:58.709560,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19310,Warfarin,2026-02-20T02:33:58.711082,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19315,Warfarin,2026-02-20T02:33:58.711082,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19317,Warfarin,2026-02-20T02:33:58.712104,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19318,Warfarin,2026-02-20T02:33:58.712104,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19319,Warfarin,2026-02-20T02:33:58.712104,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19321,Warfarin,2026-02-20T02:33:58.712104,*5/*8.002,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332243,rs9332240,rs28371686",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+NA19323,Warfarin,2026-02-20T02:33:58.713127,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19324,Warfarin,2026-02-20T02:33:58.713127,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19332,Warfarin,2026-02-20T02:33:58.714650,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19334,Warfarin,2026-02-20T02:33:58.714650,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19347,Warfarin,2026-02-20T02:33:58.715674,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19350,Warfarin,2026-02-20T02:33:58.715674,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19351,Warfarin,2026-02-20T02:33:58.716674,*31.001/*31,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs57505750,10,96740958
+NA19355,Warfarin,2026-02-20T02:33:58.716674,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19375,Warfarin,2026-02-20T02:33:58.717674,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19379,Warfarin,2026-02-20T02:33:58.718674,*1.007/*1.005,2,NM,Standard dosing,low,0.02,rs112354725,10,96748701
+NA19380,Warfarin,2026-02-20T02:33:58.718674,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19383,Warfarin,2026-02-20T02:33:58.718674,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs28371685,rs2256871",10,"9,67,40,98,19,67,08,970"
+NA19384,Warfarin,2026-02-20T02:33:58.719678,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA19385,Warfarin,2026-02-20T02:33:58.719678,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19390,Warfarin,2026-02-20T02:33:58.719678,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19391,Warfarin,2026-02-20T02:33:58.719678,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19393,Warfarin,2026-02-20T02:33:58.720675,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19394,Warfarin,2026-02-20T02:33:58.720675,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19399,Warfarin,2026-02-20T02:33:58.720675,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19403,Warfarin,2026-02-20T02:33:58.720675,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19428,Warfarin,2026-02-20T02:33:58.722197,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332243,rs9332240,rs2256871",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+NA19435,Warfarin,2026-02-20T02:33:58.723225,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19436,Warfarin,2026-02-20T02:33:58.723225,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19437,Warfarin,2026-02-20T02:33:58.723225,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19438,Warfarin,2026-02-20T02:33:58.723225,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332243,rs9332240,rs2256871",10,"9,67,48,94,09,67,48,85,00,00,00,000"
+NA19445,Warfarin,2026-02-20T02:33:58.724748,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19446,Warfarin,2026-02-20T02:33:58.725772,*1.009/*31.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs57505750,rs2017319",10,"9,67,40,95,89,67,48,630"
+NA19448,Warfarin,2026-02-20T02:33:58.725772,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19449,Warfarin,2026-02-20T02:33:58.725772,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA19451,Warfarin,2026-02-20T02:33:58.726772,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19454,Warfarin,2026-02-20T02:33:58.726772,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA19456,Warfarin,2026-02-20T02:33:58.727772,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371685,10,96740981
+NA19461,Warfarin,2026-02-20T02:33:58.727772,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19462,Warfarin,2026-02-20T02:33:58.728772,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19463,Warfarin,2026-02-20T02:33:58.728772,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19466,Warfarin,2026-02-20T02:33:58.728772,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19468,Warfarin,2026-02-20T02:33:58.729776,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19472,Warfarin,2026-02-20T02:33:58.730772,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19474,Warfarin,2026-02-20T02:33:58.731281,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19475,Warfarin,2026-02-20T02:33:58.731281,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19651,Warfarin,2026-02-20T02:33:58.732302,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19654,Warfarin,2026-02-20T02:33:58.733326,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19676,Warfarin,2026-02-20T02:33:58.736874,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19700,Warfarin,2026-02-20T02:33:58.738874,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19703,Warfarin,2026-02-20T02:33:58.738874,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19704,Warfarin,2026-02-20T02:33:58.739873,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19707,Warfarin,2026-02-20T02:33:58.739873,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19712,Warfarin,2026-02-20T02:33:58.739873,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19716,Warfarin,2026-02-20T02:33:58.740873,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19717,Warfarin,2026-02-20T02:33:58.741382,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19720,Warfarin,2026-02-20T02:33:58.741382,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19725,Warfarin,2026-02-20T02:33:58.742403,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19728,Warfarin,2026-02-20T02:33:58.743431,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19756,Warfarin,2026-02-20T02:33:58.747427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19764,Warfarin,2026-02-20T02:33:58.748427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19773,Warfarin,2026-02-20T02:33:58.749427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19774,Warfarin,2026-02-20T02:33:58.749427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19777,Warfarin,2026-02-20T02:33:58.749427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19780,Warfarin,2026-02-20T02:33:58.749427,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19789,Warfarin,2026-02-20T02:33:58.751972,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19794,Warfarin,2026-02-20T02:33:58.752481,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA19795,Warfarin,2026-02-20T02:33:58.752481,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA19818,Warfarin,2026-02-20T02:33:58.752481,*11.001/*11,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs28371685",10,"9,67,48,89,39,67,40,980"
+NA19834,Warfarin,2026-02-20T02:33:58.752481,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19900,Warfarin,2026-02-20T02:33:58.753503,*8.002/*8.001,0,PM,High bleeding risk – Major dose reduction,high,0.16,"rs9332243,rs9332240",10,"9,67,48,94,09,67,48,850"
+NA19901,Warfarin,2026-02-20T02:33:58.753503,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19908,Warfarin,2026-02-20T02:33:58.754528,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA19913,Warfarin,2026-02-20T02:33:58.754528,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA19914,Warfarin,2026-02-20T02:33:58.755527,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA19917,Warfarin,2026-02-20T02:33:58.755527,*1.005/*3.001,1,IM,Reduced clearance – Lower dose recommended,moderate,0.111,rs1057911,10,96748737
+NA19920,Warfarin,2026-02-20T02:33:58.755527,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19922,Warfarin,2026-02-20T02:33:58.756527,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA19982,Warfarin,2026-02-20T02:33:58.756527,*1.009/*5,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs28371686,rs2017319",10,"9,67,48,63,59,67,41,050"
+NA19984,Warfarin,2026-02-20T02:33:58.756527,*5/*5.001,0,PM,High bleeding risk – Major dose reduction,high,1,rs28371686,10,96741058
+NA20127,Warfarin,2026-02-20T02:33:58.757527,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA20276,Warfarin,2026-02-20T02:33:58.757527,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA20278,Warfarin,2026-02-20T02:33:58.758527,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20282,Warfarin,2026-02-20T02:33:58.758527,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA20287,Warfarin,2026-02-20T02:33:58.758527,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA20289,Warfarin,2026-02-20T02:33:58.758527,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs9332242,rs2256871",10,"9,67,48,89,39,67,08,970"
+NA20294,Warfarin,2026-02-20T02:33:58.759528,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA20296,Warfarin,2026-02-20T02:33:58.759528,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA20298,Warfarin,2026-02-20T02:33:58.759528,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA20317,Warfarin,2026-02-20T02:33:58.761050,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20320,Warfarin,2026-02-20T02:33:58.761050,*9.001/*9,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2256871,10,96708974
+NA20321,Warfarin,2026-02-20T02:33:58.762072,*1.009/*9.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,"rs2256871,rs2017319",10,"9,67,48,63,59,67,08,970"
+NA20339,Warfarin,2026-02-20T02:33:58.762072,*8.003/*8.004,0,PM,High bleeding risk – Major dose reduction,high,0.062,rs9332241,10,96748873
+NA20355,Warfarin,2026-02-20T02:33:58.764279,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA20359,Warfarin,2026-02-20T02:33:58.764837,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20412,Warfarin,2026-02-20T02:33:58.765377,*1.009/*88.001,1.5,IM,Reduced clearance – Lower dose recommended,moderate,1,rs2017319,10,96748635
+NA20507,Warfarin,2026-02-20T02:33:58.766982,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20510,Warfarin,2026-02-20T02:33:58.767511,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20513,Warfarin,2026-02-20T02:33:58.768620,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20514,Warfarin,2026-02-20T02:33:58.768620,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20515,Warfarin,2026-02-20T02:33:58.768620,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20516,Warfarin,2026-02-20T02:33:58.769158,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20522,Warfarin,2026-02-20T02:33:58.770231,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20525,Warfarin,2026-02-20T02:33:58.770745,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20529,Warfarin,2026-02-20T02:33:58.771280,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20531,Warfarin,2026-02-20T02:33:58.772328,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20535,Warfarin,2026-02-20T02:33:58.772874,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20536,Warfarin,2026-02-20T02:33:58.773432,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20538,Warfarin,2026-02-20T02:33:58.773432,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20539,Warfarin,2026-02-20T02:33:58.773972,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20540,Warfarin,2026-02-20T02:33:58.773972,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20541,Warfarin,2026-02-20T02:33:58.773972,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20543,Warfarin,2026-02-20T02:33:58.774515,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20544,Warfarin,2026-02-20T02:33:58.775044,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20581,Warfarin,2026-02-20T02:33:58.775044,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20582,Warfarin,2026-02-20T02:33:58.775044,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20585,Warfarin,2026-02-20T02:33:58.775593,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20586,Warfarin,2026-02-20T02:33:58.775593,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20589,Warfarin,2026-02-20T02:33:58.776709,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20755,Warfarin,2026-02-20T02:33:58.778111,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20756,Warfarin,2026-02-20T02:33:58.778700,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20757,Warfarin,2026-02-20T02:33:58.778700,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20762,Warfarin,2026-02-20T02:33:58.781380,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20763,Warfarin,2026-02-20T02:33:58.781380,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20764,Warfarin,2026-02-20T02:33:58.781380,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20765,Warfarin,2026-02-20T02:33:58.782531,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20769,Warfarin,2026-02-20T02:33:58.783612,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20770,Warfarin,2026-02-20T02:33:58.783612,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20783,Warfarin,2026-02-20T02:33:58.785791,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20785,Warfarin,2026-02-20T02:33:58.785791,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20786,Warfarin,2026-02-20T02:33:58.786327,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20792,Warfarin,2026-02-20T02:33:58.786863,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20795,Warfarin,2026-02-20T02:33:58.786863,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20796,Warfarin,2026-02-20T02:33:58.787397,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20798,Warfarin,2026-02-20T02:33:58.787929,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20804,Warfarin,2026-02-20T02:33:58.788987,*12.001/*12,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs9332239,10,96748777
+NA20805,Warfarin,2026-02-20T02:33:58.789543,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20808,Warfarin,2026-02-20T02:33:58.790088,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20809,Warfarin,2026-02-20T02:33:58.790626,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20810,Warfarin,2026-02-20T02:33:58.790626,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20811,Warfarin,2026-02-20T02:33:58.790626,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20814,Warfarin,2026-02-20T02:33:58.791682,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20819,Warfarin,2026-02-20T02:33:58.792196,*12.001/*12,1,IM,Reduced clearance – Lower dose recommended,moderate,1,rs9332239,10,96748777
+NA20821,Warfarin,2026-02-20T02:33:58.792196,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20827,Warfarin,2026-02-20T02:33:58.793775,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20845,Warfarin,2026-02-20T02:33:58.794782,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs9332242,rs1057911,rs1057910",10,"9,67,48,73,79,67,48,89,00,00,00,000"
+NA20846,Warfarin,2026-02-20T02:33:58.794782,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20849,Warfarin,2026-02-20T02:33:58.794782,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20851,Warfarin,2026-02-20T02:33:58.795783,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20854,Warfarin,2026-02-20T02:33:58.795783,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20856,Warfarin,2026-02-20T02:33:58.796729,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20861,Warfarin,2026-02-20T02:33:58.797234,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20864,Warfarin,2026-02-20T02:33:58.798313,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20870,Warfarin,2026-02-20T02:33:58.799395,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20872,Warfarin,2026-02-20T02:33:58.799395,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20876,Warfarin,2026-02-20T02:33:58.799934,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20877,Warfarin,2026-02-20T02:33:58.800497,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20882,Warfarin,2026-02-20T02:33:58.801055,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20888,Warfarin,2026-02-20T02:33:58.802111,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20889,Warfarin,2026-02-20T02:33:58.802111,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20892,Warfarin,2026-02-20T02:33:58.803118,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20894,Warfarin,2026-02-20T02:33:58.803118,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20895,Warfarin,2026-02-20T02:33:58.803118,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20896,Warfarin,2026-02-20T02:33:58.803118,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20897,Warfarin,2026-02-20T02:33:58.803118,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20899,Warfarin,2026-02-20T02:33:58.804625,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA20905,Warfarin,2026-02-20T02:33:58.805632,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA20906,Warfarin,2026-02-20T02:33:58.805632,*68/*3,0.5,PM,High bleeding risk – Major dose reduction,high,1,"rs542577750,rs1057911,rs1057910",10,"9,67,48,73,79,67,41,12,00,00,00,000"
+NA21089,Warfarin,2026-02-20T02:33:58.807634,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893
+NA21092,Warfarin,2026-02-20T02:33:58.808633,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21094,Warfarin,2026-02-20T02:33:58.808633,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21112,Warfarin,2026-02-20T02:33:58.813154,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21114,Warfarin,2026-02-20T02:33:58.813702,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21118,Warfarin,2026-02-20T02:33:58.814762,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21120,Warfarin,2026-02-20T02:33:58.815297,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21123,Warfarin,2026-02-20T02:33:58.815297,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21129,Warfarin,2026-02-20T02:33:58.816928,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21141,Warfarin,2026-02-20T02:33:58.818014,*3/*3.001,0,PM,High bleeding risk – Major dose reduction,high,1,"rs1057911,rs1057910",10,"9,67,48,73,79,67,41,050"
+NA21142,Warfarin,2026-02-20T02:33:58.818656,*2.004/*2.005,1,IM,Reduced clearance – Lower dose recommended,moderate,0.04,rs9332242,10,96748893

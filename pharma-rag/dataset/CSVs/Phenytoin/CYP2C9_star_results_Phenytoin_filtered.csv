@@ -1,0 +1,825 @@
+Sample,Drug,Timestamp,Diplotype,Activity_Score,Phenotype,Risk_Label,Severity,Confidence_Score,RSIDs,Chromosomes,Positions
+HG00103,Phenytoin,2026-03-20T10:33:17.035447,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00107,Phenytoin,2026-03-20T10:33:17.035931,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00120,Phenytoin,2026-03-20T10:33:17.037972,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00121,Phenytoin,2026-03-20T10:33:17.038138,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00125,Phenytoin,2026-03-20T10:33:17.038674,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00132,Phenytoin,2026-03-20T10:33:17.040218,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00136,Phenytoin,2026-03-20T10:33:17.040742,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00137,Phenytoin,2026-03-20T10:33:17.041003,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00138,Phenytoin,2026-03-20T10:33:17.041210,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00150,Phenytoin,2026-03-20T10:33:17.043664,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00154,Phenytoin,2026-03-20T10:33:17.044155,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00155,Phenytoin,2026-03-20T10:33:17.044356,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00178,Phenytoin,2026-03-20T10:33:17.047246,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00185,Phenytoin,2026-03-20T10:33:17.048242,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00188,Phenytoin,2026-03-20T10:33:17.048714,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00231,Phenytoin,2026-03-20T10:33:17.049207,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG00232,Phenytoin,2026-03-20T10:33:17.049373,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00234,Phenytoin,2026-03-20T10:33:17.049838,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00236,Phenytoin,2026-03-20T10:33:17.050492,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00244,Phenytoin,2026-03-20T10:33:17.052239,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00252,Phenytoin,2026-03-20T10:33:17.053029,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00257,Phenytoin,2026-03-20T10:33:17.053817,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00258,Phenytoin,2026-03-20T10:33:17.053977,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00261,Phenytoin,2026-03-20T10:33:17.054450,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00262,Phenytoin,2026-03-20T10:33:17.054610,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00265,Phenytoin,2026-03-20T10:33:17.055081,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00274,Phenytoin,2026-03-20T10:33:17.056365,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00276,Phenytoin,2026-03-20T10:33:17.056672,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00277,Phenytoin,2026-03-20T10:33:17.056826,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00278,Phenytoin,2026-03-20T10:33:17.057010,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00281,Phenytoin,2026-03-20T10:33:17.057325,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00284,Phenytoin,2026-03-20T10:33:17.057635,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00290,Phenytoin,2026-03-20T10:33:17.058162,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG00304,Phenytoin,2026-03-20T10:33:17.058344,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00309,Phenytoin,2026-03-20T10:33:17.058895,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00310,Phenytoin,2026-03-20T10:33:17.059066,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00315,Phenytoin,2026-03-20T10:33:17.059638,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00323,Phenytoin,2026-03-20T10:33:17.060410,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00326,Phenytoin,2026-03-20T10:33:17.060875,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00332,Phenytoin,2026-03-20T10:33:17.061794,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00337,Phenytoin,2026-03-20T10:33:17.062411,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00342,Phenytoin,2026-03-20T10:33:17.063045,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00343,Phenytoin,2026-03-20T10:33:17.063204,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00345,Phenytoin,2026-03-20T10:33:17.063517,*29.001/*29,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs182132442,10.0,96731876
+HG00358,Phenytoin,2026-03-20T10:33:17.064961,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00362,Phenytoin,2026-03-20T10:33:17.065436,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG00365,Phenytoin,2026-03-20T10:33:17.065747,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG00366,Phenytoin,2026-03-20T10:33:17.065901,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00368,Phenytoin,2026-03-20T10:33:17.067188,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00369,Phenytoin,2026-03-20T10:33:17.067534,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00376,Phenytoin,2026-03-20T10:33:17.068414,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00378,Phenytoin,2026-03-20T10:33:17.068589,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00407,Phenytoin,2026-03-20T10:33:17.070170,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG00419,Phenytoin,2026-03-20T10:33:17.070662,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00421,Phenytoin,2026-03-20T10:33:17.070827,*1.014/*3,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs9332244,rs1057910,rs1057911",10.0,"96748737,96741053,96749005"
+HG00457,Phenytoin,2026-03-20T10:33:17.072860,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00472,Phenytoin,2026-03-20T10:33:17.073521,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00530,Phenytoin,2026-03-20T10:33:17.075263,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00543,Phenytoin,2026-03-20T10:33:17.076469,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00554,Phenytoin,2026-03-20T10:33:17.076941,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG00581,Phenytoin,2026-03-20T10:33:17.078188,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00607,Phenytoin,2026-03-20T10:33:17.079871,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00610,Phenytoin,2026-03-20T10:33:17.080179,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00628,Phenytoin,2026-03-20T10:33:17.081702,*29.001/*29,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs182132442,10.0,96731876
+HG00637,Phenytoin,2026-03-20T10:33:17.082461,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00653,Phenytoin,2026-03-20T10:33:17.084087,*3/*18,0.5,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs1057910,10.0,96741053
+HG00663,Phenytoin,2026-03-20T10:33:17.084870,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG00731,Phenytoin,2026-03-20T10:33:17.088058,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00732,Phenytoin,2026-03-20T10:33:17.088214,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00736,Phenytoin,2026-03-20T10:33:17.088524,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00737,Phenytoin,2026-03-20T10:33:17.088680,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG00740,Phenytoin,2026-03-20T10:33:17.088991,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01031,Phenytoin,2026-03-20T10:33:17.091454,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01046,Phenytoin,2026-03-20T10:33:17.091715,*87.001/*87,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs546318684,10.0,96731951
+HG01051,Phenytoin,2026-03-20T10:33:17.092407,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG01052,Phenytoin,2026-03-20T10:33:17.092564,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01054,Phenytoin,2026-03-20T10:33:17.092754,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01055,Phenytoin,2026-03-20T10:33:17.092915,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01061,Phenytoin,2026-03-20T10:33:17.093390,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01066,Phenytoin,2026-03-20T10:33:17.093854,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01067,Phenytoin,2026-03-20T10:33:17.094008,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01069,Phenytoin,2026-03-20T10:33:17.094162,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01075,Phenytoin,2026-03-20T10:33:17.094775,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01077,Phenytoin,2026-03-20T10:33:17.094929,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01080,Phenytoin,2026-03-20T10:33:17.095235,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01082,Phenytoin,2026-03-20T10:33:17.095392,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01086,Phenytoin,2026-03-20T10:33:17.095856,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01089,Phenytoin,2026-03-20T10:33:17.096164,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+HG01092,Phenytoin,2026-03-20T10:33:17.096317,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01095,Phenytoin,2026-03-20T10:33:17.096628,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01097,Phenytoin,2026-03-20T10:33:17.096782,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01104,Phenytoin,2026-03-20T10:33:17.097392,*12.001/*12,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs9332239,10.0,96748777
+HG01105,Phenytoin,2026-03-20T10:33:17.097549,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01111,Phenytoin,2026-03-20T10:33:17.098173,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01131,Phenytoin,2026-03-20T10:33:17.099742,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01133,Phenytoin,2026-03-20T10:33:17.099917,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01134,Phenytoin,2026-03-20T10:33:17.100102,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01142,Phenytoin,2026-03-20T10:33:17.100983,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01148,Phenytoin,2026-03-20T10:33:17.101139,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01170,Phenytoin,2026-03-20T10:33:17.102194,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG01171,Phenytoin,2026-03-20T10:33:17.102350,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01174,Phenytoin,2026-03-20T10:33:17.102667,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01182,Phenytoin,2026-03-20T10:33:17.103121,*1.015/*1.005,2.0,NM,Standard dosing with monitoring,low,0.25,rs149158426,10.0,96709023
+HG01183,Phenytoin,2026-03-20T10:33:17.103284,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01190,Phenytoin,2026-03-20T10:33:17.103758,*61/*2.004,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.25,"rs202201137,rs9332242",10.0,"96748893,96748682"
+HG01191,Phenytoin,2026-03-20T10:33:17.103920,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01198,Phenytoin,2026-03-20T10:33:17.104285,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01200,Phenytoin,2026-03-20T10:33:17.104453,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01205,Phenytoin,2026-03-20T10:33:17.104770,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01241,Phenytoin,2026-03-20T10:33:17.104927,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01253,Phenytoin,2026-03-20T10:33:17.105847,*1.015/*1.005,2.0,NM,Standard dosing with monitoring,low,0.25,rs149158426,10.0,96709023
+HG01259,Phenytoin,2026-03-20T10:33:17.106466,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01260,Phenytoin,2026-03-20T10:33:17.106619,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01272,Phenytoin,2026-03-20T10:33:17.107080,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01275,Phenytoin,2026-03-20T10:33:17.107234,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01277,Phenytoin,2026-03-20T10:33:17.107390,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01281,Phenytoin,2026-03-20T10:33:17.107700,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01286,Phenytoin,2026-03-20T10:33:17.108047,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01302,Phenytoin,2026-03-20T10:33:17.108207,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01312,Phenytoin,2026-03-20T10:33:17.109230,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01325,Phenytoin,2026-03-20T10:33:17.109558,*61/*2.004,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.25,"rs202201137,rs9332242",10.0,"96748893,96748682"
+HG01326,Phenytoin,2026-03-20T10:33:17.109726,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01342,Phenytoin,2026-03-20T10:33:17.110198,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01348,Phenytoin,2026-03-20T10:33:17.110673,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01354,Phenytoin,2026-03-20T10:33:17.111295,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01357,Phenytoin,2026-03-20T10:33:17.111603,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01359,Phenytoin,2026-03-20T10:33:17.111764,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01360,Phenytoin,2026-03-20T10:33:17.111923,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01377,Phenytoin,2026-03-20T10:33:17.113403,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01378,Phenytoin,2026-03-20T10:33:17.113558,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01383,Phenytoin,2026-03-20T10:33:17.113712,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01384,Phenytoin,2026-03-20T10:33:17.113874,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01389,Phenytoin,2026-03-20T10:33:17.114030,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01395,Phenytoin,2026-03-20T10:33:17.115108,*1.009/*1.015,2.0,NM,Standard dosing with monitoring,low,1.0,"rs149158426,rs2017319",10.0,"96709023,96748635"
+HG01396,Phenytoin,2026-03-20T10:33:17.115360,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01405,Phenytoin,2026-03-20T10:33:17.116626,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01431,Phenytoin,2026-03-20T10:33:17.117708,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01437,Phenytoin,2026-03-20T10:33:17.118177,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01440,Phenytoin,2026-03-20T10:33:17.118479,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01444,Phenytoin,2026-03-20T10:33:17.118959,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01447,Phenytoin,2026-03-20T10:33:17.119122,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01459,Phenytoin,2026-03-20T10:33:17.119577,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01464,Phenytoin,2026-03-20T10:33:17.120036,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01465,Phenytoin,2026-03-20T10:33:17.120196,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01474,Phenytoin,2026-03-20T10:33:17.120500,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01485,Phenytoin,2026-03-20T10:33:17.120807,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01488,Phenytoin,2026-03-20T10:33:17.121112,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01489,Phenytoin,2026-03-20T10:33:17.121273,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01491,Phenytoin,2026-03-20T10:33:17.121425,*1.015/*1.005,2.0,NM,Standard dosing with monitoring,low,0.25,rs149158426,10.0,96709023
+HG01504,Phenytoin,2026-03-20T10:33:17.122799,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01506,Phenytoin,2026-03-20T10:33:17.123181,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01512,Phenytoin,2026-03-20T10:33:17.123901,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01519,Phenytoin,2026-03-20T10:33:17.124668,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01522,Phenytoin,2026-03-20T10:33:17.125000,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01528,Phenytoin,2026-03-20T10:33:17.125684,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01530,Phenytoin,2026-03-20T10:33:17.125856,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01536,Phenytoin,2026-03-20T10:33:17.126184,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01551,Phenytoin,2026-03-20T10:33:17.126670,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01586,Phenytoin,2026-03-20T10:33:17.128094,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01603,Phenytoin,2026-03-20T10:33:17.129635,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01605,Phenytoin,2026-03-20T10:33:17.129911,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01606,Phenytoin,2026-03-20T10:33:17.130118,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01615,Phenytoin,2026-03-20T10:33:17.131195,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01617,Phenytoin,2026-03-20T10:33:17.131376,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01618,Phenytoin,2026-03-20T10:33:17.131545,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01620,Phenytoin,2026-03-20T10:33:17.131869,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01623,Phenytoin,2026-03-20T10:33:17.132031,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01624,Phenytoin,2026-03-20T10:33:17.132191,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01630,Phenytoin,2026-03-20T10:33:17.132835,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01668,Phenytoin,2026-03-20T10:33:17.133824,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01669,Phenytoin,2026-03-20T10:33:17.134097,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01673,Phenytoin,2026-03-20T10:33:17.134650,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01679,Phenytoin,2026-03-20T10:33:17.135323,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01680,Phenytoin,2026-03-20T10:33:17.135489,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01682,Phenytoin,2026-03-20T10:33:17.135650,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01685,Phenytoin,2026-03-20T10:33:17.135976,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01694,Phenytoin,2026-03-20T10:33:17.136293,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01695,Phenytoin,2026-03-20T10:33:17.136450,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01699,Phenytoin,2026-03-20T10:33:17.136763,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01702,Phenytoin,2026-03-20T10:33:17.137135,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01747,Phenytoin,2026-03-20T10:33:17.138430,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01756,Phenytoin,2026-03-20T10:33:17.138586,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01761,Phenytoin,2026-03-20T10:33:17.138896,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01762,Phenytoin,2026-03-20T10:33:17.139053,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01765,Phenytoin,2026-03-20T10:33:17.139218,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01767,Phenytoin,2026-03-20T10:33:17.139527,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01771,Phenytoin,2026-03-20T10:33:17.139993,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG01777,Phenytoin,2026-03-20T10:33:17.140630,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01779,Phenytoin,2026-03-20T10:33:17.140790,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01785,Phenytoin,2026-03-20T10:33:17.141629,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01786,Phenytoin,2026-03-20T10:33:17.141865,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01789,Phenytoin,2026-03-20T10:33:17.142049,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01790,Phenytoin,2026-03-20T10:33:17.142241,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01796,Phenytoin,2026-03-20T10:33:17.142898,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01807,Phenytoin,2026-03-20T10:33:17.144536,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01812,Phenytoin,2026-03-20T10:33:17.145307,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01842,Phenytoin,2026-03-20T10:33:17.146618,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01845,Phenytoin,2026-03-20T10:33:17.147085,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01855,Phenytoin,2026-03-20T10:33:17.148470,*29.001/*29,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs182132442,rs1057910,rs1057911",10.0,"96748737,96741053,96731876"
+HG01866,Phenytoin,2026-03-20T10:33:17.150654,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG01873,Phenytoin,2026-03-20T10:33:17.152702,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG01882,Phenytoin,2026-03-20T10:33:17.153996,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01886,Phenytoin,2026-03-20T10:33:17.154667,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01894,Phenytoin,2026-03-20T10:33:17.155807,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG01896,Phenytoin,2026-03-20T10:33:17.156013,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG01914,Phenytoin,2026-03-20T10:33:17.156376,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG01915,Phenytoin,2026-03-20T10:33:17.156552,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG01947,Phenytoin,2026-03-20T10:33:17.160634,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01977,Phenytoin,2026-03-20T10:33:17.169195,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01985,Phenytoin,2026-03-20T10:33:17.169861,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG01986,Phenytoin,2026-03-20T10:33:17.170035,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG01989,Phenytoin,2026-03-20T10:33:17.170364,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG01990,Phenytoin,2026-03-20T10:33:17.170532,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG01997,Phenytoin,2026-03-20T10:33:17.171013,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02009,Phenytoin,2026-03-20T10:33:17.171790,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02010,Phenytoin,2026-03-20T10:33:17.171951,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02014,Phenytoin,2026-03-20T10:33:17.172443,*5/*8.002,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332243,rs9332240,rs28371686",10.0,"96748852,96748940,96741058"
+HG02023,Phenytoin,2026-03-20T10:33:17.173236,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02025,Phenytoin,2026-03-20T10:33:17.173397,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG02040,Phenytoin,2026-03-20T10:33:17.174512,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02051,Phenytoin,2026-03-20T10:33:17.175385,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02052,Phenytoin,2026-03-20T10:33:17.175560,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02054,Phenytoin,2026-03-20T10:33:17.175901,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02076,Phenytoin,2026-03-20T10:33:17.177932,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG02108,Phenytoin,2026-03-20T10:33:17.180548,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG02133,Phenytoin,2026-03-20T10:33:17.182060,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+HG02134,Phenytoin,2026-03-20T10:33:17.182224,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02139,Phenytoin,2026-03-20T10:33:17.182861,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02143,Phenytoin,2026-03-20T10:33:17.183640,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02144,Phenytoin,2026-03-20T10:33:17.183804,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02215,Phenytoin,2026-03-20T10:33:17.187498,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG02238,Phenytoin,2026-03-20T10:33:17.189334,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02239,Phenytoin,2026-03-20T10:33:17.189490,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02255,Phenytoin,2026-03-20T10:33:17.190114,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02284,Phenytoin,2026-03-20T10:33:17.192718,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02301,Phenytoin,2026-03-20T10:33:17.193855,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02308,Phenytoin,2026-03-20T10:33:17.194340,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02309,Phenytoin,2026-03-20T10:33:17.194497,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG02312,Phenytoin,2026-03-20T10:33:17.194651,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02314,Phenytoin,2026-03-20T10:33:17.194804,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02315,Phenytoin,2026-03-20T10:33:17.194960,*1.009/*5,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+HG02323,Phenytoin,2026-03-20T10:33:17.195566,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02332,Phenytoin,2026-03-20T10:33:17.196021,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02348,Phenytoin,2026-03-20T10:33:17.197025,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02401,Phenytoin,2026-03-20T10:33:17.201549,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02427,Phenytoin,2026-03-20T10:33:17.203085,*3/*5,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs28371686,rs1057910,rs1057911",10.0,"96748737,96741053,96741058"
+HG02429,Phenytoin,2026-03-20T10:33:17.203244,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02445,Phenytoin,2026-03-20T10:33:17.203881,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02449,Phenytoin,2026-03-20T10:33:17.204040,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+HG02450,Phenytoin,2026-03-20T10:33:17.204199,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02461,Phenytoin,2026-03-20T10:33:17.204514,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02462,Phenytoin,2026-03-20T10:33:17.204673,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02464,Phenytoin,2026-03-20T10:33:17.204829,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02465,Phenytoin,2026-03-20T10:33:17.204987,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs28371686,rs28371685",10.0,"96741058,96740981"
+HG02479,Phenytoin,2026-03-20T10:33:17.205748,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02481,Phenytoin,2026-03-20T10:33:17.205900,*1.007/*1.005,2.0,NM,Standard dosing with monitoring,low,0.02,rs112354725,10.0,96748701
+HG02484,Phenytoin,2026-03-20T10:33:17.206054,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG02485,Phenytoin,2026-03-20T10:33:17.206208,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02489,Phenytoin,2026-03-20T10:33:17.206363,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02490,Phenytoin,2026-03-20T10:33:17.206517,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02494,Phenytoin,2026-03-20T10:33:17.206976,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02496,Phenytoin,2026-03-20T10:33:17.207132,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02497,Phenytoin,2026-03-20T10:33:17.207293,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02501,Phenytoin,2026-03-20T10:33:17.207447,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02502,Phenytoin,2026-03-20T10:33:17.207600,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02505,Phenytoin,2026-03-20T10:33:17.207754,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02508,Phenytoin,2026-03-20T10:33:17.207908,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02537,Phenytoin,2026-03-20T10:33:17.209430,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02546,Phenytoin,2026-03-20T10:33:17.209892,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02549,Phenytoin,2026-03-20T10:33:17.210052,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332243,rs9332240",10.0,"96748852,96708974,96748940"
+HG02557,Phenytoin,2026-03-20T10:33:17.210504,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02562,Phenytoin,2026-03-20T10:33:17.210965,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02573,Phenytoin,2026-03-20T10:33:17.211571,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02574,Phenytoin,2026-03-20T10:33:17.211725,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02583,Phenytoin,2026-03-20T10:33:17.212346,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02586,Phenytoin,2026-03-20T10:33:17.212652,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02595,Phenytoin,2026-03-20T10:33:17.213273,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02601,Phenytoin,2026-03-20T10:33:17.213747,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02610,Phenytoin,2026-03-20T10:33:17.214215,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG02620,Phenytoin,2026-03-20T10:33:17.214828,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02628,Phenytoin,2026-03-20T10:33:17.215434,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02629,Phenytoin,2026-03-20T10:33:17.215588,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+HG02642,Phenytoin,2026-03-20T10:33:17.216039,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02643,Phenytoin,2026-03-20T10:33:17.216196,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02645,Phenytoin,2026-03-20T10:33:17.216367,*86.001/*86,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs369745682,10.0,96708941
+HG02646,Phenytoin,2026-03-20T10:33:17.216523,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02648,Phenytoin,2026-03-20T10:33:17.216687,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02660,Phenytoin,2026-03-20T10:33:17.217987,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02667,Phenytoin,2026-03-20T10:33:17.218446,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02676,Phenytoin,2026-03-20T10:33:17.218753,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02679,Phenytoin,2026-03-20T10:33:17.219070,*1.007/*1.005,2.0,NM,Standard dosing with monitoring,low,0.02,rs112354725,10.0,96748701
+HG02684,Phenytoin,2026-03-20T10:33:17.219533,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02685,Phenytoin,2026-03-20T10:33:17.219695,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02694,Phenytoin,2026-03-20T10:33:17.220464,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG02699,Phenytoin,2026-03-20T10:33:17.220926,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02700,Phenytoin,2026-03-20T10:33:17.221087,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02703,Phenytoin,2026-03-20T10:33:17.221393,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02715,Phenytoin,2026-03-20T10:33:17.221551,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02716,Phenytoin,2026-03-20T10:33:17.221710,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02721,Phenytoin,2026-03-20T10:33:17.221869,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02728,Phenytoin,2026-03-20T10:33:17.222651,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02756,Phenytoin,2026-03-20T10:33:17.223596,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02760,Phenytoin,2026-03-20T10:33:17.224059,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG02763,Phenytoin,2026-03-20T10:33:17.224214,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02768,Phenytoin,2026-03-20T10:33:17.224419,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02769,Phenytoin,2026-03-20T10:33:17.224747,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs9332242,rs2017319",10.0,"96748893,96748635"
+HG02771,Phenytoin,2026-03-20T10:33:17.224950,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02775,Phenytoin,2026-03-20T10:33:17.225451,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG02787,Phenytoin,2026-03-20T10:33:17.226461,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02792,Phenytoin,2026-03-20T10:33:17.226938,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02798,Phenytoin,2026-03-20T10:33:17.227251,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02804,Phenytoin,2026-03-20T10:33:17.227566,*1.005/*3.001,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.111,rs1057911,10.0,96748737
+HG02805,Phenytoin,2026-03-20T10:33:17.227723,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02807,Phenytoin,2026-03-20T10:33:17.227881,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02808,Phenytoin,2026-03-20T10:33:17.228037,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02811,Phenytoin,2026-03-20T10:33:17.228359,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02814,Phenytoin,2026-03-20T10:33:17.228672,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG02817,Phenytoin,2026-03-20T10:33:17.228986,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02820,Phenytoin,2026-03-20T10:33:17.229302,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs28371685,rs112354725",10.0,"96740981,96748701"
+HG02840,Phenytoin,2026-03-20T10:33:17.229948,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02852,Phenytoin,2026-03-20T10:33:17.230257,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02854,Phenytoin,2026-03-20T10:33:17.230419,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02860,Phenytoin,2026-03-20T10:33:17.230731,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02861,Phenytoin,2026-03-20T10:33:17.230888,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG02870,Phenytoin,2026-03-20T10:33:17.231045,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02879,Phenytoin,2026-03-20T10:33:17.231351,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02885,Phenytoin,2026-03-20T10:33:17.231955,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02888,Phenytoin,2026-03-20T10:33:17.232260,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02890,Phenytoin,2026-03-20T10:33:17.232439,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02896,Phenytoin,2026-03-20T10:33:17.232916,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02922,Phenytoin,2026-03-20T10:33:17.233074,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332241,rs28371686",10.0,"96748873,96741058"
+HG02941,Phenytoin,2026-03-20T10:33:17.233765,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02946,Phenytoin,2026-03-20T10:33:17.234325,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02952,Phenytoin,2026-03-20T10:33:17.234628,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02953,Phenytoin,2026-03-20T10:33:17.234781,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02971,Phenytoin,2026-03-20T10:33:17.235235,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG02973,Phenytoin,2026-03-20T10:33:17.235389,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG02981,Phenytoin,2026-03-20T10:33:17.236153,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG02982,Phenytoin,2026-03-20T10:33:17.236307,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03007,Phenytoin,2026-03-20T10:33:17.236768,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03019,Phenytoin,2026-03-20T10:33:17.237685,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03021,Phenytoin,2026-03-20T10:33:17.237848,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03024,Phenytoin,2026-03-20T10:33:17.238158,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03025,Phenytoin,2026-03-20T10:33:17.238311,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03045,Phenytoin,2026-03-20T10:33:17.239089,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03046,Phenytoin,2026-03-20T10:33:17.239241,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03048,Phenytoin,2026-03-20T10:33:17.239395,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03049,Phenytoin,2026-03-20T10:33:17.239549,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03054,Phenytoin,2026-03-20T10:33:17.239855,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03058,Phenytoin,2026-03-20T10:33:17.240314,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03073,Phenytoin,2026-03-20T10:33:17.241564,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03074,Phenytoin,2026-03-20T10:33:17.242208,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03079,Phenytoin,2026-03-20T10:33:17.242710,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03085,Phenytoin,2026-03-20T10:33:17.243350,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03086,Phenytoin,2026-03-20T10:33:17.243511,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03088,Phenytoin,2026-03-20T10:33:17.243670,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG03096,Phenytoin,2026-03-20T10:33:17.244141,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03099,Phenytoin,2026-03-20T10:33:17.244459,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03108,Phenytoin,2026-03-20T10:33:17.245085,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03112,Phenytoin,2026-03-20T10:33:17.245555,*1.009/*5,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+HG03114,Phenytoin,2026-03-20T10:33:17.245714,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03115,Phenytoin,2026-03-20T10:33:17.245875,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03121,Phenytoin,2026-03-20T10:33:17.246498,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03123,Phenytoin,2026-03-20T10:33:17.246654,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03124,Phenytoin,2026-03-20T10:33:17.246809,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03127,Phenytoin,2026-03-20T10:33:17.247122,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG03130,Phenytoin,2026-03-20T10:33:17.247430,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03133,Phenytoin,2026-03-20T10:33:17.247735,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03135,Phenytoin,2026-03-20T10:33:17.247892,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03136,Phenytoin,2026-03-20T10:33:17.248049,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03139,Phenytoin,2026-03-20T10:33:17.248206,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG03157,Phenytoin,2026-03-20T10:33:17.248364,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03159,Phenytoin,2026-03-20T10:33:17.248520,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03160,Phenytoin,2026-03-20T10:33:17.248675,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332241",10.0,"96708974,96748873"
+HG03163,Phenytoin,2026-03-20T10:33:17.248977,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03166,Phenytoin,2026-03-20T10:33:17.249136,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG03168,Phenytoin,2026-03-20T10:33:17.249290,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03169,Phenytoin,2026-03-20T10:33:17.249446,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03172,Phenytoin,2026-03-20T10:33:17.249605,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03189,Phenytoin,2026-03-20T10:33:17.249912,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03190,Phenytoin,2026-03-20T10:33:17.250078,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03195,Phenytoin,2026-03-20T10:33:17.250427,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03198,Phenytoin,2026-03-20T10:33:17.250767,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03224,Phenytoin,2026-03-20T10:33:17.251546,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03234,Phenytoin,2026-03-20T10:33:17.252168,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03259,Phenytoin,2026-03-20T10:33:17.253566,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03267,Phenytoin,2026-03-20T10:33:17.253879,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG03270,Phenytoin,2026-03-20T10:33:17.254187,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03271,Phenytoin,2026-03-20T10:33:17.254365,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03279,Phenytoin,2026-03-20T10:33:17.254524,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG03280,Phenytoin,2026-03-20T10:33:17.254680,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03291,Phenytoin,2026-03-20T10:33:17.254834,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332241",10.0,"96708974,96748873"
+HG03294,Phenytoin,2026-03-20T10:33:17.254994,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03297,Phenytoin,2026-03-20T10:33:17.255304,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03301,Phenytoin,2026-03-20T10:33:17.255769,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG03303,Phenytoin,2026-03-20T10:33:17.255926,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03304,Phenytoin,2026-03-20T10:33:17.256083,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03313,Phenytoin,2026-03-20T10:33:17.256459,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+HG03342,Phenytoin,2026-03-20T10:33:17.256620,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03354,Phenytoin,2026-03-20T10:33:17.257241,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03366,Phenytoin,2026-03-20T10:33:17.257762,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03372,Phenytoin,2026-03-20T10:33:17.258695,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332241",10.0,"96708974,96748873"
+HG03380,Phenytoin,2026-03-20T10:33:17.259382,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03388,Phenytoin,2026-03-20T10:33:17.259841,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03391,Phenytoin,2026-03-20T10:33:17.260011,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG03394,Phenytoin,2026-03-20T10:33:17.260170,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03410,Phenytoin,2026-03-20T10:33:17.260651,*1.007/*1.005,2.0,NM,Standard dosing with monitoring,low,0.02,rs112354725,10.0,96748701
+HG03419,Phenytoin,2026-03-20T10:33:17.260807,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03428,Phenytoin,2026-03-20T10:33:17.260962,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03436,Phenytoin,2026-03-20T10:33:17.261429,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03439,Phenytoin,2026-03-20T10:33:17.261742,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03442,Phenytoin,2026-03-20T10:33:17.261896,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03445,Phenytoin,2026-03-20T10:33:17.262058,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03446,Phenytoin,2026-03-20T10:33:17.262212,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03452,Phenytoin,2026-03-20T10:33:17.262674,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03457,Phenytoin,2026-03-20T10:33:17.262990,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03458,Phenytoin,2026-03-20T10:33:17.263228,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03460,Phenytoin,2026-03-20T10:33:17.263407,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03464,Phenytoin,2026-03-20T10:33:17.263720,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03472,Phenytoin,2026-03-20T10:33:17.264181,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03473,Phenytoin,2026-03-20T10:33:17.264335,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03476,Phenytoin,2026-03-20T10:33:17.264490,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03478,Phenytoin,2026-03-20T10:33:17.264644,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03484,Phenytoin,2026-03-20T10:33:17.264949,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03490,Phenytoin,2026-03-20T10:33:17.265415,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03499,Phenytoin,2026-03-20T10:33:17.265725,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG03515,Phenytoin,2026-03-20T10:33:17.266188,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03517,Phenytoin,2026-03-20T10:33:17.266505,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03518,Phenytoin,2026-03-20T10:33:17.266953,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+HG03538,Phenytoin,2026-03-20T10:33:17.267677,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+HG03547,Phenytoin,2026-03-20T10:33:17.267996,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG03556,Phenytoin,2026-03-20T10:33:17.268305,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+HG03558,Phenytoin,2026-03-20T10:33:17.268615,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03563,Phenytoin,2026-03-20T10:33:17.268922,*86.001/*86,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs369745682,10.0,96708941
+HG03571,Phenytoin,2026-03-20T10:33:17.269387,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03572,Phenytoin,2026-03-20T10:33:17.269542,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+HG03577,Phenytoin,2026-03-20T10:33:17.269847,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG03578,Phenytoin,2026-03-20T10:33:17.270008,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03583,Phenytoin,2026-03-20T10:33:17.270163,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+HG03593,Phenytoin,2026-03-20T10:33:17.270626,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03594,Phenytoin,2026-03-20T10:33:17.270785,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03603,Phenytoin,2026-03-20T10:33:17.271390,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03619,Phenytoin,2026-03-20T10:33:17.272312,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03624,Phenytoin,2026-03-20T10:33:17.272476,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03629,Phenytoin,2026-03-20T10:33:17.272796,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG03636,Phenytoin,2026-03-20T10:33:17.273428,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03640,Phenytoin,2026-03-20T10:33:17.273613,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03644,Phenytoin,2026-03-20T10:33:17.274106,*66.001/*66,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs578144976,10.0,96741062
+HG03680,Phenytoin,2026-03-20T10:33:17.276635,*66.001/*66,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs578144976,10.0,96741062
+HG03684,Phenytoin,2026-03-20T10:33:17.276973,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG03686,Phenytoin,2026-03-20T10:33:17.277304,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG03687,Phenytoin,2026-03-20T10:33:17.277475,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03709,Phenytoin,2026-03-20T10:33:17.279948,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03711,Phenytoin,2026-03-20T10:33:17.280114,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03714,Phenytoin,2026-03-20T10:33:17.280436,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03716,Phenytoin,2026-03-20T10:33:17.280597,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03717,Phenytoin,2026-03-20T10:33:17.280756,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03733,Phenytoin,2026-03-20T10:33:17.282002,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03745,Phenytoin,2026-03-20T10:33:17.283561,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03750,Phenytoin,2026-03-20T10:33:17.283928,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03754,Phenytoin,2026-03-20T10:33:17.284438,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03760,Phenytoin,2026-03-20T10:33:17.285069,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03762,Phenytoin,2026-03-20T10:33:17.285223,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03775,Phenytoin,2026-03-20T10:33:17.286956,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03784,Phenytoin,2026-03-20T10:33:17.288026,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03785,Phenytoin,2026-03-20T10:33:17.288184,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03802,Phenytoin,2026-03-20T10:33:17.289709,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03808,Phenytoin,2026-03-20T10:33:17.290167,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03815,Phenytoin,2026-03-20T10:33:17.290775,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03817,Phenytoin,2026-03-20T10:33:17.290930,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03824,Phenytoin,2026-03-20T10:33:17.291632,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03837,Phenytoin,2026-03-20T10:33:17.292999,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03838,Phenytoin,2026-03-20T10:33:17.293176,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03844,Phenytoin,2026-03-20T10:33:17.293405,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03857,Phenytoin,2026-03-20T10:33:17.294759,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03858,Phenytoin,2026-03-20T10:33:17.294920,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03863,Phenytoin,2026-03-20T10:33:17.295381,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03867,Phenytoin,2026-03-20T10:33:17.295836,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03871,Phenytoin,2026-03-20T10:33:17.296454,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG03884,Phenytoin,2026-03-20T10:33:17.297376,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03887,Phenytoin,2026-03-20T10:33:17.297835,*66.001/*66,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs578144976,10.0,96741062
+HG03902,Phenytoin,2026-03-20T10:33:17.299389,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03908,Phenytoin,2026-03-20T10:33:17.300059,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03917,Phenytoin,2026-03-20T10:33:17.301027,*66.001/*66,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs578144976,10.0,96741062
+HG03920,Phenytoin,2026-03-20T10:33:17.301364,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03943,Phenytoin,2026-03-20T10:33:17.302941,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03945,Phenytoin,2026-03-20T10:33:17.303303,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03965,Phenytoin,2026-03-20T10:33:17.304760,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03971,Phenytoin,2026-03-20T10:33:17.305546,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+HG03974,Phenytoin,2026-03-20T10:33:17.305931,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03985,Phenytoin,2026-03-20T10:33:17.306635,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04003,Phenytoin,2026-03-20T10:33:17.308605,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04018,Phenytoin,2026-03-20T10:33:17.309757,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04023,Phenytoin,2026-03-20T10:33:17.310505,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04025,Phenytoin,2026-03-20T10:33:17.310683,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+HG04026,Phenytoin,2026-03-20T10:33:17.310861,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04042,Phenytoin,2026-03-20T10:33:17.311879,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04047,Phenytoin,2026-03-20T10:33:17.312067,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04059,Phenytoin,2026-03-20T10:33:17.312565,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04060,Phenytoin,2026-03-20T10:33:17.312728,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG04063,Phenytoin,2026-03-20T10:33:17.313288,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04070,Phenytoin,2026-03-20T10:33:17.313472,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04076,Phenytoin,2026-03-20T10:33:17.313800,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04096,Phenytoin,2026-03-20T10:33:17.314597,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04098,Phenytoin,2026-03-20T10:33:17.314769,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04099,Phenytoin,2026-03-20T10:33:17.314932,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04100,Phenytoin,2026-03-20T10:33:17.315100,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04107,Phenytoin,2026-03-20T10:33:17.315420,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04131,Phenytoin,2026-03-20T10:33:17.315735,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04141,Phenytoin,2026-03-20T10:33:17.316213,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04152,Phenytoin,2026-03-20T10:33:17.316870,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04156,Phenytoin,2026-03-20T10:33:17.317365,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04161,Phenytoin,2026-03-20T10:33:17.317851,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04164,Phenytoin,2026-03-20T10:33:17.318172,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04171,Phenytoin,2026-03-20T10:33:17.318352,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG04176,Phenytoin,2026-03-20T10:33:17.318676,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04185,Phenytoin,2026-03-20T10:33:17.319468,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04186,Phenytoin,2026-03-20T10:33:17.319635,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04188,Phenytoin,2026-03-20T10:33:17.319851,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04214,Phenytoin,2026-03-20T10:33:17.321771,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+HG04219,Phenytoin,2026-03-20T10:33:17.322089,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA06986,Phenytoin,2026-03-20T10:33:17.323752,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA06989,Phenytoin,2026-03-20T10:33:17.323910,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA06994,Phenytoin,2026-03-20T10:33:17.324152,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA07037,Phenytoin,2026-03-20T10:33:17.324501,*12.001/*12,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs9332239,10.0,96748777
+NA07347,Phenytoin,2026-03-20T10:33:17.325171,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11830,Phenytoin,2026-03-20T10:33:17.326003,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11831,Phenytoin,2026-03-20T10:33:17.326158,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11832,Phenytoin,2026-03-20T10:33:17.326317,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11840,Phenytoin,2026-03-20T10:33:17.326478,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11843,Phenytoin,2026-03-20T10:33:17.326668,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11892,Phenytoin,2026-03-20T10:33:17.326973,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11930,Phenytoin,2026-03-20T10:33:17.327929,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA11931,Phenytoin,2026-03-20T10:33:17.328089,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11932,Phenytoin,2026-03-20T10:33:17.328248,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11995,Phenytoin,2026-03-20T10:33:17.328865,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12003,Phenytoin,2026-03-20T10:33:17.329022,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12005,Phenytoin,2026-03-20T10:33:17.329333,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12043,Phenytoin,2026-03-20T10:33:17.329643,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12046,Phenytoin,2026-03-20T10:33:17.330108,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+NA12058,Phenytoin,2026-03-20T10:33:17.330269,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12155,Phenytoin,2026-03-20T10:33:17.330722,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12156,Phenytoin,2026-03-20T10:33:17.330912,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12272,Phenytoin,2026-03-20T10:33:17.331375,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12273,Phenytoin,2026-03-20T10:33:17.331527,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12283,Phenytoin,2026-03-20T10:33:17.331993,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+NA12287,Phenytoin,2026-03-20T10:33:17.332488,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12341,Phenytoin,2026-03-20T10:33:17.332822,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA12400,Phenytoin,2026-03-20T10:33:17.333860,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12413,Phenytoin,2026-03-20T10:33:17.334034,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12414,Phenytoin,2026-03-20T10:33:17.334206,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+NA12489,Phenytoin,2026-03-20T10:33:17.334371,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12716,Phenytoin,2026-03-20T10:33:17.334694,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12718,Phenytoin,2026-03-20T10:33:17.335016,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12762,Phenytoin,2026-03-20T10:33:17.336115,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs9332242,rs2256871",10.0,"96748893,96708974"
+NA12776,Phenytoin,2026-03-20T10:33:17.336579,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12813,Phenytoin,2026-03-20T10:33:17.337206,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12843,Phenytoin,2026-03-20T10:33:17.338441,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA12878,Phenytoin,2026-03-20T10:33:17.339039,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA18486,Phenytoin,2026-03-20T10:33:17.339488,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA18488,Phenytoin,2026-03-20T10:33:17.339641,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18489,Phenytoin,2026-03-20T10:33:17.339796,*1.009/*11.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs28371685",10.0,"96748635,96740981"
+NA18498,Phenytoin,2026-03-20T10:33:17.339957,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18501,Phenytoin,2026-03-20T10:33:17.340259,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18504,Phenytoin,2026-03-20T10:33:17.340561,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA18507,Phenytoin,2026-03-20T10:33:17.340864,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+NA18510,Phenytoin,2026-03-20T10:33:17.341364,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA18517,Phenytoin,2026-03-20T10:33:17.341902,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332243,rs9332240",10.0,"96748852,96708974,96748940"
+NA18519,Phenytoin,2026-03-20T10:33:17.342057,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA18563,Phenytoin,2026-03-20T10:33:17.347719,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18573,Phenytoin,2026-03-20T10:33:17.349007,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18591,Phenytoin,2026-03-20T10:33:17.349764,*16/*16.001,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs72558192,10.0,96731936
+NA18602,Phenytoin,2026-03-20T10:33:17.350831,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18619,Phenytoin,2026-03-20T10:33:17.353212,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18635,Phenytoin,2026-03-20T10:33:17.355636,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18642,Phenytoin,2026-03-20T10:33:17.356882,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18643,Phenytoin,2026-03-20T10:33:17.357078,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18645,Phenytoin,2026-03-20T10:33:17.357386,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18740,Phenytoin,2026-03-20T10:33:17.357992,*1.014/*1.005,2.0,NM,Standard dosing with monitoring,low,1.0,rs9332244,10.0,96749005
+NA18757,Phenytoin,2026-03-20T10:33:17.358764,*29.001/*29,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs182132442,10.0,96731876
+NA18853,Phenytoin,2026-03-20T10:33:17.358922,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA18856,Phenytoin,2026-03-20T10:33:17.359077,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18865,Phenytoin,2026-03-20T10:33:17.359697,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA18873,Phenytoin,2026-03-20T10:33:17.360471,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA18874,Phenytoin,2026-03-20T10:33:17.360637,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+NA18876,Phenytoin,2026-03-20T10:33:17.360795,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18877,Phenytoin,2026-03-20T10:33:17.360951,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18878,Phenytoin,2026-03-20T10:33:17.361107,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA18881,Phenytoin,2026-03-20T10:33:17.361412,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA18907,Phenytoin,2026-03-20T10:33:17.361568,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA18909,Phenytoin,2026-03-20T10:33:17.361874,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA18910,Phenytoin,2026-03-20T10:33:17.362028,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA18912,Phenytoin,2026-03-20T10:33:17.362189,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA18916,Phenytoin,2026-03-20T10:33:17.362498,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA18917,Phenytoin,2026-03-20T10:33:17.362661,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA18923,Phenytoin,2026-03-20T10:33:17.362815,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA18924,Phenytoin,2026-03-20T10:33:17.362969,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+NA18944,Phenytoin,2026-03-20T10:33:17.364341,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18959,Phenytoin,2026-03-20T10:33:17.366309,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18976,Phenytoin,2026-03-20T10:33:17.368906,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19017,Phenytoin,2026-03-20T10:33:17.375248,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19019,Phenytoin,2026-03-20T10:33:17.375506,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19023,Phenytoin,2026-03-20T10:33:17.376058,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19026,Phenytoin,2026-03-20T10:33:17.376872,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19027,Phenytoin,2026-03-20T10:33:17.377170,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs1057911",10.0,"96748737,96748635"
+NA19028,Phenytoin,2026-03-20T10:33:17.377465,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19031,Phenytoin,2026-03-20T10:33:17.377848,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19036,Phenytoin,2026-03-20T10:33:17.378240,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19038,Phenytoin,2026-03-20T10:33:17.378697,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19042,Phenytoin,2026-03-20T10:33:17.379001,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19060,Phenytoin,2026-03-20T10:33:17.380393,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19096,Phenytoin,2026-03-20T10:33:17.385513,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19099,Phenytoin,2026-03-20T10:33:17.385818,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19102,Phenytoin,2026-03-20T10:33:17.385972,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19108,Phenytoin,2026-03-20T10:33:17.386275,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19114,Phenytoin,2026-03-20T10:33:17.386584,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs28371686,rs28371685",10.0,"96741058,96740981"
+NA19116,Phenytoin,2026-03-20T10:33:17.386744,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19117,Phenytoin,2026-03-20T10:33:17.386903,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19119,Phenytoin,2026-03-20T10:33:17.387206,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA19121,Phenytoin,2026-03-20T10:33:17.387360,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19130,Phenytoin,2026-03-20T10:33:17.387663,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19138,Phenytoin,2026-03-20T10:33:17.388238,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19141,Phenytoin,2026-03-20T10:33:17.388394,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA19144,Phenytoin,2026-03-20T10:33:17.388706,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19149,Phenytoin,2026-03-20T10:33:17.389163,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19152,Phenytoin,2026-03-20T10:33:17.389316,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19160,Phenytoin,2026-03-20T10:33:17.389775,*1.009/*11.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs28371685",10.0,"96748635,96740981"
+NA19171,Phenytoin,2026-03-20T10:33:17.389932,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19172,Phenytoin,2026-03-20T10:33:17.390086,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19175,Phenytoin,2026-03-20T10:33:17.390242,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19184,Phenytoin,2026-03-20T10:33:17.390399,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19185,Phenytoin,2026-03-20T10:33:17.390563,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19197,Phenytoin,2026-03-20T10:33:17.391041,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA19198,Phenytoin,2026-03-20T10:33:17.391208,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19200,Phenytoin,2026-03-20T10:33:17.391368,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19204,Phenytoin,2026-03-20T10:33:17.391673,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19206,Phenytoin,2026-03-20T10:33:17.391825,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19214,Phenytoin,2026-03-20T10:33:17.392580,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19225,Phenytoin,2026-03-20T10:33:17.393051,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19235,Phenytoin,2026-03-20T10:33:17.393206,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19236,Phenytoin,2026-03-20T10:33:17.393359,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19239,Phenytoin,2026-03-20T10:33:17.393661,*1.007/*1.005,2.0,NM,Standard dosing with monitoring,low,0.02,rs112354725,10.0,96748701
+NA19247,Phenytoin,2026-03-20T10:33:17.393814,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19248,Phenytoin,2026-03-20T10:33:17.393968,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA19308,Phenytoin,2026-03-20T10:33:17.394579,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19310,Phenytoin,2026-03-20T10:33:17.394888,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19315,Phenytoin,2026-03-20T10:33:17.395345,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19317,Phenytoin,2026-03-20T10:33:17.395648,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19318,Phenytoin,2026-03-20T10:33:17.395808,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19319,Phenytoin,2026-03-20T10:33:17.395962,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19321,Phenytoin,2026-03-20T10:33:17.396272,*5/*8.002,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332243,rs9332240,rs28371686",10.0,"96748852,96748940,96741058"
+NA19323,Phenytoin,2026-03-20T10:33:17.396426,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19324,Phenytoin,2026-03-20T10:33:17.396580,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19332,Phenytoin,2026-03-20T10:33:17.397191,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19334,Phenytoin,2026-03-20T10:33:17.397347,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19347,Phenytoin,2026-03-20T10:33:17.397813,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19350,Phenytoin,2026-03-20T10:33:17.397965,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19351,Phenytoin,2026-03-20T10:33:17.398119,*31.001/*31,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs57505750,10.0,96740958
+NA19355,Phenytoin,2026-03-20T10:33:17.398272,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19375,Phenytoin,2026-03-20T10:33:17.398872,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19379,Phenytoin,2026-03-20T10:33:17.399493,*1.007/*1.005,2.0,NM,Standard dosing with monitoring,low,0.02,rs112354725,10.0,96748701
+NA19380,Phenytoin,2026-03-20T10:33:17.399648,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19383,Phenytoin,2026-03-20T10:33:17.399802,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs28371685",10.0,"96708974,96740981"
+NA19384,Phenytoin,2026-03-20T10:33:17.399956,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA19385,Phenytoin,2026-03-20T10:33:17.400109,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19390,Phenytoin,2026-03-20T10:33:17.400263,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19391,Phenytoin,2026-03-20T10:33:17.400414,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19393,Phenytoin,2026-03-20T10:33:17.400567,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19394,Phenytoin,2026-03-20T10:33:17.400720,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19399,Phenytoin,2026-03-20T10:33:17.401168,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19403,Phenytoin,2026-03-20T10:33:17.401473,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19428,Phenytoin,2026-03-20T10:33:17.401780,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332243,rs9332240",10.0,"96748852,96708974,96748940"
+NA19435,Phenytoin,2026-03-20T10:33:17.402534,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19436,Phenytoin,2026-03-20T10:33:17.402686,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19437,Phenytoin,2026-03-20T10:33:17.402839,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19438,Phenytoin,2026-03-20T10:33:17.402995,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2256871,rs9332243,rs9332240",10.0,"96748852,96708974,96748940"
+NA19445,Phenytoin,2026-03-20T10:33:17.403796,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19446,Phenytoin,2026-03-20T10:33:17.403959,*1.009/*31.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs57505750,rs2017319",10.0,"96740958,96748635"
+NA19448,Phenytoin,2026-03-20T10:33:17.404115,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19449,Phenytoin,2026-03-20T10:33:17.404322,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19451,Phenytoin,2026-03-20T10:33:17.404560,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19454,Phenytoin,2026-03-20T10:33:17.404958,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA19456,Phenytoin,2026-03-20T10:33:17.405273,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs28371685,10.0,96740981
+NA19461,Phenytoin,2026-03-20T10:33:17.405581,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19462,Phenytoin,2026-03-20T10:33:17.405736,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19463,Phenytoin,2026-03-20T10:33:17.405888,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19466,Phenytoin,2026-03-20T10:33:17.406042,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19468,Phenytoin,2026-03-20T10:33:17.406408,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19472,Phenytoin,2026-03-20T10:33:17.406713,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19474,Phenytoin,2026-03-20T10:33:17.407017,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19475,Phenytoin,2026-03-20T10:33:17.407172,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19651,Phenytoin,2026-03-20T10:33:17.407774,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19654,Phenytoin,2026-03-20T10:33:17.408088,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19676,Phenytoin,2026-03-20T10:33:17.409466,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19700,Phenytoin,2026-03-20T10:33:17.410382,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19703,Phenytoin,2026-03-20T10:33:17.410686,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19704,Phenytoin,2026-03-20T10:33:17.410841,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19707,Phenytoin,2026-03-20T10:33:17.411000,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19712,Phenytoin,2026-03-20T10:33:17.411309,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19716,Phenytoin,2026-03-20T10:33:17.411614,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19717,Phenytoin,2026-03-20T10:33:17.411768,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19720,Phenytoin,2026-03-20T10:33:17.412070,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19725,Phenytoin,2026-03-20T10:33:17.412543,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19728,Phenytoin,2026-03-20T10:33:17.412852,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19756,Phenytoin,2026-03-20T10:33:17.415098,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19764,Phenytoin,2026-03-20T10:33:17.415849,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19773,Phenytoin,2026-03-20T10:33:17.416301,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19774,Phenytoin,2026-03-20T10:33:17.416461,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19777,Phenytoin,2026-03-20T10:33:17.416766,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19780,Phenytoin,2026-03-20T10:33:17.417072,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19789,Phenytoin,2026-03-20T10:33:17.418005,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19794,Phenytoin,2026-03-20T10:33:17.418318,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19795,Phenytoin,2026-03-20T10:33:17.418473,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA19818,Phenytoin,2026-03-20T10:33:17.418629,*11.001/*11,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs9332242,rs28371685",10.0,"96748893,96740981"
+NA19834,Phenytoin,2026-03-20T10:33:17.418938,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19900,Phenytoin,2026-03-20T10:33:17.419585,*8.002/*8.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.16,"rs9332243,rs9332240",10.0,"96748852,96748940"
+NA19901,Phenytoin,2026-03-20T10:33:17.419846,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19908,Phenytoin,2026-03-20T10:33:17.420156,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA19913,Phenytoin,2026-03-20T10:33:17.420458,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA19914,Phenytoin,2026-03-20T10:33:17.420610,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA19917,Phenytoin,2026-03-20T10:33:17.420915,*1.005/*3.001,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.111,rs1057911,10.0,96748737
+NA19920,Phenytoin,2026-03-20T10:33:17.421068,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19922,Phenytoin,2026-03-20T10:33:17.421380,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA19982,Phenytoin,2026-03-20T10:33:17.421690,*1.009/*5,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs28371686",10.0,"96748635,96741058"
+NA19984,Phenytoin,2026-03-20T10:33:17.421844,*5/*5.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,rs28371686,10.0,96741058
+NA20127,Phenytoin,2026-03-20T10:33:17.422148,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA20276,Phenytoin,2026-03-20T10:33:17.422466,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA20278,Phenytoin,2026-03-20T10:33:17.422619,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20282,Phenytoin,2026-03-20T10:33:17.422922,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA20287,Phenytoin,2026-03-20T10:33:17.423078,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA20289,Phenytoin,2026-03-20T10:33:17.423246,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs9332242,rs2256871",10.0,"96748893,96708974"
+NA20294,Phenytoin,2026-03-20T10:33:17.423671,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA20296,Phenytoin,2026-03-20T10:33:17.423827,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA20298,Phenytoin,2026-03-20T10:33:17.424007,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA20317,Phenytoin,2026-03-20T10:33:17.424478,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20320,Phenytoin,2026-03-20T10:33:17.424792,*9.001/*9,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2256871,10.0,96708974
+NA20321,Phenytoin,2026-03-20T10:33:17.424946,*1.009/*9.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA20339,Phenytoin,2026-03-20T10:33:17.425396,*8.003/*8.004,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,0.062,rs9332241,10.0,96748873
+NA20355,Phenytoin,2026-03-20T10:33:17.426311,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA20359,Phenytoin,2026-03-20T10:33:17.426771,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20412,Phenytoin,2026-03-20T10:33:17.427086,*1.009/*88.001,1.5,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs2017319,10.0,96748635
+NA20507,Phenytoin,2026-03-20T10:33:17.428000,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20510,Phenytoin,2026-03-20T10:33:17.428459,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20513,Phenytoin,2026-03-20T10:33:17.428915,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20514,Phenytoin,2026-03-20T10:33:17.429081,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20515,Phenytoin,2026-03-20T10:33:17.429235,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20516,Phenytoin,2026-03-20T10:33:17.429391,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20522,Phenytoin,2026-03-20T10:33:17.430318,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20525,Phenytoin,2026-03-20T10:33:17.430629,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20529,Phenytoin,2026-03-20T10:33:17.431094,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20531,Phenytoin,2026-03-20T10:33:17.431402,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20535,Phenytoin,2026-03-20T10:33:17.432013,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20536,Phenytoin,2026-03-20T10:33:17.432177,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20538,Phenytoin,2026-03-20T10:33:17.432332,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20539,Phenytoin,2026-03-20T10:33:17.432493,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20540,Phenytoin,2026-03-20T10:33:17.432648,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20541,Phenytoin,2026-03-20T10:33:17.432804,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20543,Phenytoin,2026-03-20T10:33:17.433124,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20544,Phenytoin,2026-03-20T10:33:17.433327,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20581,Phenytoin,2026-03-20T10:33:17.433484,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20582,Phenytoin,2026-03-20T10:33:17.433638,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20585,Phenytoin,2026-03-20T10:33:17.433797,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20586,Phenytoin,2026-03-20T10:33:17.433956,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20589,Phenytoin,2026-03-20T10:33:17.434419,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20755,Phenytoin,2026-03-20T10:33:17.435240,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20756,Phenytoin,2026-03-20T10:33:17.435410,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20757,Phenytoin,2026-03-20T10:33:17.435573,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20762,Phenytoin,2026-03-20T10:33:17.436355,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20763,Phenytoin,2026-03-20T10:33:17.436521,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20764,Phenytoin,2026-03-20T10:33:17.436679,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20765,Phenytoin,2026-03-20T10:33:17.436852,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20769,Phenytoin,2026-03-20T10:33:17.437473,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20770,Phenytoin,2026-03-20T10:33:17.437630,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20783,Phenytoin,2026-03-20T10:33:17.438714,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20785,Phenytoin,2026-03-20T10:33:17.438882,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20786,Phenytoin,2026-03-20T10:33:17.439040,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20792,Phenytoin,2026-03-20T10:33:17.439510,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20795,Phenytoin,2026-03-20T10:33:17.439665,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20796,Phenytoin,2026-03-20T10:33:17.439820,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20798,Phenytoin,2026-03-20T10:33:17.440127,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20804,Phenytoin,2026-03-20T10:33:17.441035,*12.001/*12,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs9332239,10.0,96748777
+NA20805,Phenytoin,2026-03-20T10:33:17.441210,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20808,Phenytoin,2026-03-20T10:33:17.441662,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20809,Phenytoin,2026-03-20T10:33:17.441816,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20810,Phenytoin,2026-03-20T10:33:17.441970,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20811,Phenytoin,2026-03-20T10:33:17.442126,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20814,Phenytoin,2026-03-20T10:33:17.442594,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20819,Phenytoin,2026-03-20T10:33:17.443072,*12.001/*12,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,1.0,rs9332239,10.0,96748777
+NA20821,Phenytoin,2026-03-20T10:33:17.443336,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20827,Phenytoin,2026-03-20T10:33:17.443813,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20845,Phenytoin,2026-03-20T10:33:17.444270,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748737,96748893,96741053"
+NA20846,Phenytoin,2026-03-20T10:33:17.444430,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20849,Phenytoin,2026-03-20T10:33:17.444743,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20851,Phenytoin,2026-03-20T10:33:17.445050,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20854,Phenytoin,2026-03-20T10:33:17.445510,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20856,Phenytoin,2026-03-20T10:33:17.445669,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20861,Phenytoin,2026-03-20T10:33:17.446126,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20864,Phenytoin,2026-03-20T10:33:17.446583,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20870,Phenytoin,2026-03-20T10:33:17.447352,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20872,Phenytoin,2026-03-20T10:33:17.447504,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20876,Phenytoin,2026-03-20T10:33:17.447964,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20877,Phenytoin,2026-03-20T10:33:17.448118,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20882,Phenytoin,2026-03-20T10:33:17.448580,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20888,Phenytoin,2026-03-20T10:33:17.449327,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20889,Phenytoin,2026-03-20T10:33:17.449499,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20892,Phenytoin,2026-03-20T10:33:17.449961,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20894,Phenytoin,2026-03-20T10:33:17.450123,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20895,Phenytoin,2026-03-20T10:33:17.450283,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20896,Phenytoin,2026-03-20T10:33:17.450436,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20897,Phenytoin,2026-03-20T10:33:17.450596,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20899,Phenytoin,2026-03-20T10:33:17.450750,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA20905,Phenytoin,2026-03-20T10:33:17.451886,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20906,Phenytoin,2026-03-20T10:33:17.452048,*68/*3,0.5,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs542577750,rs1057910,rs1057911",10.0,"96748737,96741128,96741053"
+NA21089,Phenytoin,2026-03-20T10:33:17.453163,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893
+NA21092,Phenytoin,2026-03-20T10:33:17.453624,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21094,Phenytoin,2026-03-20T10:33:17.453933,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21112,Phenytoin,2026-03-20T10:33:17.456503,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21114,Phenytoin,2026-03-20T10:33:17.456828,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21118,Phenytoin,2026-03-20T10:33:17.457447,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21120,Phenytoin,2026-03-20T10:33:17.457755,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21123,Phenytoin,2026-03-20T10:33:17.458076,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21129,Phenytoin,2026-03-20T10:33:17.459001,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21141,Phenytoin,2026-03-20T10:33:17.459766,*3/*3.001,0.0,PM,Very high toxicity risk – Avoid or drastically reduce dose,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21142,Phenytoin,2026-03-20T10:33:17.459920,*2.004/*2.005,1.0,IM,Increased plasma levels – Reduce starting dose by 25–50%,moderate,0.04,rs9332242,10.0,96748893

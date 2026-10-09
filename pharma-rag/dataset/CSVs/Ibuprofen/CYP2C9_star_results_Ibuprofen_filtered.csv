@@ -1,0 +1,825 @@
+Sample,Drug,Timestamp,Diplotype,Activity_Score,Phenotype,Risk_Label,Severity,Confidence_Score,RSIDs,Chromosomes,Positions
+HG00103,Ibuprofen,2026-03-20T02:21:37.939304,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00107,Ibuprofen,2026-03-20T02:21:37.939677,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00120,Ibuprofen,2026-03-20T02:21:37.941613,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00121,Ibuprofen,2026-03-20T02:21:37.941981,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00125,Ibuprofen,2026-03-20T02:21:37.942394,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00132,Ibuprofen,2026-03-20T02:21:37.943291,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00136,Ibuprofen,2026-03-20T02:21:37.943539,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00137,Ibuprofen,2026-03-20T02:21:37.943679,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00138,Ibuprofen,2026-03-20T02:21:37.943807,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00150,Ibuprofen,2026-03-20T02:21:37.945076,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00154,Ibuprofen,2026-03-20T02:21:37.945335,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00155,Ibuprofen,2026-03-20T02:21:37.945461,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00178,Ibuprofen,2026-03-20T02:21:37.947343,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00185,Ibuprofen,2026-03-20T02:21:37.948147,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00188,Ibuprofen,2026-03-20T02:21:37.948851,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00231,Ibuprofen,2026-03-20T02:21:37.949357,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG00232,Ibuprofen,2026-03-20T02:21:37.949506,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00234,Ibuprofen,2026-03-20T02:21:37.949938,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00236,Ibuprofen,2026-03-20T02:21:37.951308,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00244,Ibuprofen,2026-03-20T02:21:37.953201,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00252,Ibuprofen,2026-03-20T02:21:37.954684,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00257,Ibuprofen,2026-03-20T02:21:37.955358,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00258,Ibuprofen,2026-03-20T02:21:37.955525,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00261,Ibuprofen,2026-03-20T02:21:37.956277,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00262,Ibuprofen,2026-03-20T02:21:37.956468,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00265,Ibuprofen,2026-03-20T02:21:37.956896,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00274,Ibuprofen,2026-03-20T02:21:37.957975,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00276,Ibuprofen,2026-03-20T02:21:37.958245,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00277,Ibuprofen,2026-03-20T02:21:37.958380,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00278,Ibuprofen,2026-03-20T02:21:37.958520,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00281,Ibuprofen,2026-03-20T02:21:37.958847,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00284,Ibuprofen,2026-03-20T02:21:37.959104,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00290,Ibuprofen,2026-03-20T02:21:37.959507,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG00304,Ibuprofen,2026-03-20T02:21:37.959643,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00309,Ibuprofen,2026-03-20T02:21:37.960061,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00310,Ibuprofen,2026-03-20T02:21:37.960204,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00315,Ibuprofen,2026-03-20T02:21:37.960954,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00323,Ibuprofen,2026-03-20T02:21:37.962941,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00326,Ibuprofen,2026-03-20T02:21:37.963347,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00332,Ibuprofen,2026-03-20T02:21:37.964148,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00337,Ibuprofen,2026-03-20T02:21:37.964683,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00342,Ibuprofen,2026-03-20T02:21:37.965235,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00343,Ibuprofen,2026-03-20T02:21:37.965367,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00345,Ibuprofen,2026-03-20T02:21:37.965627,*29.001/*29,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs182132442,10.0,96731876
+HG00358,Ibuprofen,2026-03-20T02:21:37.966977,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00362,Ibuprofen,2026-03-20T02:21:37.967379,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG00365,Ibuprofen,2026-03-20T02:21:37.967644,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG00366,Ibuprofen,2026-03-20T02:21:37.967776,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00368,Ibuprofen,2026-03-20T02:21:37.968036,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00369,Ibuprofen,2026-03-20T02:21:37.968168,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00376,Ibuprofen,2026-03-20T02:21:37.968827,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00378,Ibuprofen,2026-03-20T02:21:37.968966,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00407,Ibuprofen,2026-03-20T02:21:37.970935,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00419,Ibuprofen,2026-03-20T02:21:37.971343,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00421,Ibuprofen,2026-03-20T02:21:37.971484,*1.014/*3,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332244,rs1057910,rs1057911",10.0,"96749005,96748737,96741053"
+HG00457,Ibuprofen,2026-03-20T02:21:37.973302,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00472,Ibuprofen,2026-03-20T02:21:37.973840,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00530,Ibuprofen,2026-03-20T02:21:37.975192,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00543,Ibuprofen,2026-03-20T02:21:37.976329,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00554,Ibuprofen,2026-03-20T02:21:37.976759,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG00581,Ibuprofen,2026-03-20T02:21:37.977909,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00607,Ibuprofen,2026-03-20T02:21:37.979554,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00610,Ibuprofen,2026-03-20T02:21:37.979827,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00628,Ibuprofen,2026-03-20T02:21:37.981138,*29.001/*29,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs182132442,10.0,96731876
+HG00637,Ibuprofen,2026-03-20T02:21:37.981795,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG00653,Ibuprofen,2026-03-20T02:21:37.982576,*3/*18,0.5,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs1057910,10.0,96741053
+HG00663,Ibuprofen,2026-03-20T02:21:37.983193,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00731,Ibuprofen,2026-03-20T02:21:37.985797,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00732,Ibuprofen,2026-03-20T02:21:37.985931,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00736,Ibuprofen,2026-03-20T02:21:37.986367,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00737,Ibuprofen,2026-03-20T02:21:37.986502,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG00740,Ibuprofen,2026-03-20T02:21:37.986769,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01031,Ibuprofen,2026-03-20T02:21:37.988775,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01046,Ibuprofen,2026-03-20T02:21:37.988908,*87.001/*87,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs546318684,10.0,96731951
+HG01051,Ibuprofen,2026-03-20T02:21:37.989407,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG01052,Ibuprofen,2026-03-20T02:21:37.989536,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01054,Ibuprofen,2026-03-20T02:21:37.989677,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01055,Ibuprofen,2026-03-20T02:21:37.989805,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01061,Ibuprofen,2026-03-20T02:21:37.990182,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01066,Ibuprofen,2026-03-20T02:21:37.990553,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01067,Ibuprofen,2026-03-20T02:21:37.990775,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01069,Ibuprofen,2026-03-20T02:21:37.990908,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01075,Ibuprofen,2026-03-20T02:21:37.991428,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01077,Ibuprofen,2026-03-20T02:21:37.991634,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01080,Ibuprofen,2026-03-20T02:21:37.991976,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01082,Ibuprofen,2026-03-20T02:21:37.992100,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01086,Ibuprofen,2026-03-20T02:21:37.992469,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01089,Ibuprofen,2026-03-20T02:21:37.993481,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG01092,Ibuprofen,2026-03-20T02:21:37.993619,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01095,Ibuprofen,2026-03-20T02:21:37.993899,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01097,Ibuprofen,2026-03-20T02:21:37.994022,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01104,Ibuprofen,2026-03-20T02:21:37.994571,*12.001/*12,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs9332239,10.0,96748777
+HG01105,Ibuprofen,2026-03-20T02:21:37.994715,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01111,Ibuprofen,2026-03-20T02:21:37.995226,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01131,Ibuprofen,2026-03-20T02:21:37.996591,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01133,Ibuprofen,2026-03-20T02:21:37.996726,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01134,Ibuprofen,2026-03-20T02:21:37.996859,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01142,Ibuprofen,2026-03-20T02:21:37.997509,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01148,Ibuprofen,2026-03-20T02:21:37.997641,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01170,Ibuprofen,2026-03-20T02:21:37.998587,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG01171,Ibuprofen,2026-03-20T02:21:37.998722,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01174,Ibuprofen,2026-03-20T02:21:37.998993,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01182,Ibuprofen,2026-03-20T02:21:37.999395,*1.015/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01183,Ibuprofen,2026-03-20T02:21:37.999536,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01190,Ibuprofen,2026-03-20T02:21:37.999932,*61/*2.004,1.0,IM,Increased exposure – Start with lower dose,moderate,0.25,"rs9332242,rs202201137",10.0,"96748893,96748682"
+HG01191,Ibuprofen,2026-03-20T02:21:38.000065,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01198,Ibuprofen,2026-03-20T02:21:38.000343,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01200,Ibuprofen,2026-03-20T02:21:38.000484,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01205,Ibuprofen,2026-03-20T02:21:38.000808,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01241,Ibuprofen,2026-03-20T02:21:38.000942,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01253,Ibuprofen,2026-03-20T02:21:38.001798,*1.015/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01259,Ibuprofen,2026-03-20T02:21:38.002344,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01260,Ibuprofen,2026-03-20T02:21:38.002499,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01272,Ibuprofen,2026-03-20T02:21:38.002881,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01275,Ibuprofen,2026-03-20T02:21:38.003009,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01277,Ibuprofen,2026-03-20T02:21:38.003135,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01281,Ibuprofen,2026-03-20T02:21:38.003381,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01286,Ibuprofen,2026-03-20T02:21:38.003628,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01302,Ibuprofen,2026-03-20T02:21:38.003755,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01312,Ibuprofen,2026-03-20T02:21:38.004364,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01325,Ibuprofen,2026-03-20T02:21:38.004617,*61/*2.004,1.0,IM,Increased exposure – Start with lower dose,moderate,0.25,"rs9332242,rs202201137",10.0,"96748893,96748682"
+HG01326,Ibuprofen,2026-03-20T02:21:38.004754,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01342,Ibuprofen,2026-03-20T02:21:38.005132,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01348,Ibuprofen,2026-03-20T02:21:38.005506,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01354,Ibuprofen,2026-03-20T02:21:38.006125,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01357,Ibuprofen,2026-03-20T02:21:38.006400,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01359,Ibuprofen,2026-03-20T02:21:38.006539,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01360,Ibuprofen,2026-03-20T02:21:38.006673,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01377,Ibuprofen,2026-03-20T02:21:38.008044,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01378,Ibuprofen,2026-03-20T02:21:38.008178,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01383,Ibuprofen,2026-03-20T02:21:38.008304,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01384,Ibuprofen,2026-03-20T02:21:38.008436,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01389,Ibuprofen,2026-03-20T02:21:38.008561,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01395,Ibuprofen,2026-03-20T02:21:38.009064,*1.009/*1.015,2.0,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs149158426",10.0,"96709023,96748635"
+HG01396,Ibuprofen,2026-03-20T02:21:38.009192,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01405,Ibuprofen,2026-03-20T02:21:38.009698,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01431,Ibuprofen,2026-03-20T02:21:38.010192,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01437,Ibuprofen,2026-03-20T02:21:38.010567,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01440,Ibuprofen,2026-03-20T02:21:38.010945,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01444,Ibuprofen,2026-03-20T02:21:38.011350,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01447,Ibuprofen,2026-03-20T02:21:38.011483,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01459,Ibuprofen,2026-03-20T02:21:38.011940,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01464,Ibuprofen,2026-03-20T02:21:38.012309,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01465,Ibuprofen,2026-03-20T02:21:38.012437,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01474,Ibuprofen,2026-03-20T02:21:38.012686,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01485,Ibuprofen,2026-03-20T02:21:38.012932,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01488,Ibuprofen,2026-03-20T02:21:38.013179,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01489,Ibuprofen,2026-03-20T02:21:38.013309,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01491,Ibuprofen,2026-03-20T02:21:38.013434,*1.015/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01504,Ibuprofen,2026-03-20T02:21:38.014536,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01506,Ibuprofen,2026-03-20T02:21:38.014660,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01512,Ibuprofen,2026-03-20T02:21:38.015166,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01519,Ibuprofen,2026-03-20T02:21:38.015856,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01522,Ibuprofen,2026-03-20T02:21:38.016172,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01528,Ibuprofen,2026-03-20T02:21:38.016732,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01530,Ibuprofen,2026-03-20T02:21:38.016869,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01536,Ibuprofen,2026-03-20T02:21:38.017129,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01551,Ibuprofen,2026-03-20T02:21:38.017530,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01586,Ibuprofen,2026-03-20T02:21:38.018651,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01603,Ibuprofen,2026-03-20T02:21:38.019911,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01605,Ibuprofen,2026-03-20T02:21:38.020040,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01606,Ibuprofen,2026-03-20T02:21:38.020169,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01615,Ibuprofen,2026-03-20T02:21:38.020954,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01617,Ibuprofen,2026-03-20T02:21:38.021093,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01618,Ibuprofen,2026-03-20T02:21:38.021224,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01620,Ibuprofen,2026-03-20T02:21:38.021477,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01623,Ibuprofen,2026-03-20T02:21:38.021604,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01624,Ibuprofen,2026-03-20T02:21:38.021742,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01630,Ibuprofen,2026-03-20T02:21:38.022296,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01668,Ibuprofen,2026-03-20T02:21:38.022704,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01669,Ibuprofen,2026-03-20T02:21:38.022858,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01673,Ibuprofen,2026-03-20T02:21:38.023256,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01679,Ibuprofen,2026-03-20T02:21:38.023765,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01680,Ibuprofen,2026-03-20T02:21:38.024105,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01682,Ibuprofen,2026-03-20T02:21:38.024288,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01685,Ibuprofen,2026-03-20T02:21:38.024603,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01694,Ibuprofen,2026-03-20T02:21:38.024931,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01695,Ibuprofen,2026-03-20T02:21:38.025093,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01699,Ibuprofen,2026-03-20T02:21:38.025426,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01702,Ibuprofen,2026-03-20T02:21:38.026272,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01747,Ibuprofen,2026-03-20T02:21:38.028079,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01756,Ibuprofen,2026-03-20T02:21:38.028246,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01761,Ibuprofen,2026-03-20T02:21:38.028576,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01762,Ibuprofen,2026-03-20T02:21:38.028786,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01765,Ibuprofen,2026-03-20T02:21:38.028954,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01767,Ibuprofen,2026-03-20T02:21:38.029261,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01771,Ibuprofen,2026-03-20T02:21:38.029689,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG01777,Ibuprofen,2026-03-20T02:21:38.030262,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01779,Ibuprofen,2026-03-20T02:21:38.030410,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01785,Ibuprofen,2026-03-20T02:21:38.031140,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01786,Ibuprofen,2026-03-20T02:21:38.031402,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01789,Ibuprofen,2026-03-20T02:21:38.031564,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01790,Ibuprofen,2026-03-20T02:21:38.031857,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01796,Ibuprofen,2026-03-20T02:21:38.032475,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01807,Ibuprofen,2026-03-20T02:21:38.033898,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01812,Ibuprofen,2026-03-20T02:21:38.034534,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01842,Ibuprofen,2026-03-20T02:21:38.035466,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01845,Ibuprofen,2026-03-20T02:21:38.036184,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01855,Ibuprofen,2026-03-20T02:21:38.037449,*29.001/*29,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs1057910,rs1057911,rs182132442",10.0,"96731876,96748737,96741053"
+HG01866,Ibuprofen,2026-03-20T02:21:38.038740,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01873,Ibuprofen,2026-03-20T02:21:38.039695,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01882,Ibuprofen,2026-03-20T02:21:38.040394,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01886,Ibuprofen,2026-03-20T02:21:38.040938,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01894,Ibuprofen,2026-03-20T02:21:38.042220,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG01896,Ibuprofen,2026-03-20T02:21:38.042358,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG01914,Ibuprofen,2026-03-20T02:21:38.042624,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG01915,Ibuprofen,2026-03-20T02:21:38.042766,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01947,Ibuprofen,2026-03-20T02:21:38.045345,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01977,Ibuprofen,2026-03-20T02:21:38.051291,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG01985,Ibuprofen,2026-03-20T02:21:38.051824,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG01986,Ibuprofen,2026-03-20T02:21:38.051959,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG01989,Ibuprofen,2026-03-20T02:21:38.052232,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG01990,Ibuprofen,2026-03-20T02:21:38.052369,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG01997,Ibuprofen,2026-03-20T02:21:38.052771,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02009,Ibuprofen,2026-03-20T02:21:38.053412,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02010,Ibuprofen,2026-03-20T02:21:38.053538,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02014,Ibuprofen,2026-03-20T02:21:38.053911,*5/*8.002,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs28371686,rs9332240,rs9332243",10.0,"96748852,96748940,96741058"
+HG02023,Ibuprofen,2026-03-20T02:21:38.054551,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02025,Ibuprofen,2026-03-20T02:21:38.054676,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02040,Ibuprofen,2026-03-20T02:21:38.055583,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02051,Ibuprofen,2026-03-20T02:21:38.056414,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02052,Ibuprofen,2026-03-20T02:21:38.056548,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02054,Ibuprofen,2026-03-20T02:21:38.056824,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02076,Ibuprofen,2026-03-20T02:21:38.058496,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02108,Ibuprofen,2026-03-20T02:21:38.060875,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG02133,Ibuprofen,2026-03-20T02:21:38.062269,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02134,Ibuprofen,2026-03-20T02:21:38.062414,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02139,Ibuprofen,2026-03-20T02:21:38.062993,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02143,Ibuprofen,2026-03-20T02:21:38.063510,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02144,Ibuprofen,2026-03-20T02:21:38.063647,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02215,Ibuprofen,2026-03-20T02:21:38.067548,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG02238,Ibuprofen,2026-03-20T02:21:38.069185,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02239,Ibuprofen,2026-03-20T02:21:38.069318,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02255,Ibuprofen,2026-03-20T02:21:38.069843,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02284,Ibuprofen,2026-03-20T02:21:38.072194,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02301,Ibuprofen,2026-03-20T02:21:38.073126,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02308,Ibuprofen,2026-03-20T02:21:38.073521,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02309,Ibuprofen,2026-03-20T02:21:38.073655,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG02312,Ibuprofen,2026-03-20T02:21:38.073787,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02314,Ibuprofen,2026-03-20T02:21:38.073922,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02315,Ibuprofen,2026-03-20T02:21:38.074057,*1.009/*5,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs2017319,rs28371686",10.0,"96741058,96748635"
+HG02323,Ibuprofen,2026-03-20T02:21:38.074591,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02332,Ibuprofen,2026-03-20T02:21:38.074988,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02348,Ibuprofen,2026-03-20T02:21:38.075855,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02401,Ibuprofen,2026-03-20T02:21:38.079952,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02427,Ibuprofen,2026-03-20T02:21:38.081232,*3/*5,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs28371686,rs1057910,rs1057911",10.0,"96748737,96741053,96741058"
+HG02429,Ibuprofen,2026-03-20T02:21:38.081358,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02445,Ibuprofen,2026-03-20T02:21:38.081921,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02449,Ibuprofen,2026-03-20T02:21:38.082055,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02450,Ibuprofen,2026-03-20T02:21:38.082183,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02461,Ibuprofen,2026-03-20T02:21:38.082425,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02462,Ibuprofen,2026-03-20T02:21:38.082549,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02464,Ibuprofen,2026-03-20T02:21:38.082681,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02465,Ibuprofen,2026-03-20T02:21:38.082815,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs28371686",10.0,"96740981,96741058"
+HG02479,Ibuprofen,2026-03-20T02:21:38.083438,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02481,Ibuprofen,2026-03-20T02:21:38.083560,*1.007/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02484,Ibuprofen,2026-03-20T02:21:38.083688,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG02485,Ibuprofen,2026-03-20T02:21:38.083823,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02489,Ibuprofen,2026-03-20T02:21:38.083960,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02490,Ibuprofen,2026-03-20T02:21:38.084087,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02494,Ibuprofen,2026-03-20T02:21:38.084459,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02496,Ibuprofen,2026-03-20T02:21:38.084582,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02497,Ibuprofen,2026-03-20T02:21:38.084710,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02501,Ibuprofen,2026-03-20T02:21:38.084841,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02502,Ibuprofen,2026-03-20T02:21:38.084971,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02505,Ibuprofen,2026-03-20T02:21:38.085094,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02508,Ibuprofen,2026-03-20T02:21:38.085221,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02537,Ibuprofen,2026-03-20T02:21:38.086274,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02546,Ibuprofen,2026-03-20T02:21:38.086814,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02549,Ibuprofen,2026-03-20T02:21:38.086957,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+HG02557,Ibuprofen,2026-03-20T02:21:38.087331,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02562,Ibuprofen,2026-03-20T02:21:38.087696,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02573,Ibuprofen,2026-03-20T02:21:38.088190,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02574,Ibuprofen,2026-03-20T02:21:38.088314,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02583,Ibuprofen,2026-03-20T02:21:38.088800,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02586,Ibuprofen,2026-03-20T02:21:38.089043,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02595,Ibuprofen,2026-03-20T02:21:38.089539,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02601,Ibuprofen,2026-03-20T02:21:38.089917,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02610,Ibuprofen,2026-03-20T02:21:38.090297,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG02620,Ibuprofen,2026-03-20T02:21:38.090894,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02628,Ibuprofen,2026-03-20T02:21:38.091417,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02629,Ibuprofen,2026-03-20T02:21:38.091543,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02642,Ibuprofen,2026-03-20T02:21:38.092051,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02643,Ibuprofen,2026-03-20T02:21:38.092218,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02645,Ibuprofen,2026-03-20T02:21:38.092359,*86.001/*86,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs369745682,10.0,96708941
+HG02646,Ibuprofen,2026-03-20T02:21:38.092497,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02648,Ibuprofen,2026-03-20T02:21:38.092636,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02660,Ibuprofen,2026-03-20T02:21:38.093626,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02667,Ibuprofen,2026-03-20T02:21:38.094002,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02676,Ibuprofen,2026-03-20T02:21:38.094286,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02679,Ibuprofen,2026-03-20T02:21:38.094533,*1.007/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02684,Ibuprofen,2026-03-20T02:21:38.094948,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02685,Ibuprofen,2026-03-20T02:21:38.095081,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02694,Ibuprofen,2026-03-20T02:21:38.095816,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG02699,Ibuprofen,2026-03-20T02:21:38.096254,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02700,Ibuprofen,2026-03-20T02:21:38.096398,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02703,Ibuprofen,2026-03-20T02:21:38.096679,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02715,Ibuprofen,2026-03-20T02:21:38.096810,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02716,Ibuprofen,2026-03-20T02:21:38.096945,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02721,Ibuprofen,2026-03-20T02:21:38.097075,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02728,Ibuprofen,2026-03-20T02:21:38.097694,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02756,Ibuprofen,2026-03-20T02:21:38.098431,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02760,Ibuprofen,2026-03-20T02:21:38.098793,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG02763,Ibuprofen,2026-03-20T02:21:38.098918,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02768,Ibuprofen,2026-03-20T02:21:38.099042,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02769,Ibuprofen,2026-03-20T02:21:38.099169,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs9332242",10.0,"96748893,96748635"
+HG02771,Ibuprofen,2026-03-20T02:21:38.099293,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02775,Ibuprofen,2026-03-20T02:21:38.099652,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG02787,Ibuprofen,2026-03-20T02:21:38.100411,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02792,Ibuprofen,2026-03-20T02:21:38.100868,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG02798,Ibuprofen,2026-03-20T02:21:38.101136,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02804,Ibuprofen,2026-03-20T02:21:38.101384,*1.005/*3.001,1.0,IM,Increased exposure – Start with lower dose,moderate,0.111,rs1057911,10.0,96748737
+HG02805,Ibuprofen,2026-03-20T02:21:38.101509,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02807,Ibuprofen,2026-03-20T02:21:38.102525,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02808,Ibuprofen,2026-03-20T02:21:38.102675,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02811,Ibuprofen,2026-03-20T02:21:38.102957,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02814,Ibuprofen,2026-03-20T02:21:38.103230,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02817,Ibuprofen,2026-03-20T02:21:38.103475,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02820,Ibuprofen,2026-03-20T02:21:38.103729,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs112354725",10.0,"96740981,96748701"
+HG02840,Ibuprofen,2026-03-20T02:21:38.104264,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02852,Ibuprofen,2026-03-20T02:21:38.104531,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02854,Ibuprofen,2026-03-20T02:21:38.104666,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02860,Ibuprofen,2026-03-20T02:21:38.104937,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02861,Ibuprofen,2026-03-20T02:21:38.105068,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG02870,Ibuprofen,2026-03-20T02:21:38.105208,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02879,Ibuprofen,2026-03-20T02:21:38.105477,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02885,Ibuprofen,2026-03-20T02:21:38.106096,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02888,Ibuprofen,2026-03-20T02:21:38.106369,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02890,Ibuprofen,2026-03-20T02:21:38.106498,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02896,Ibuprofen,2026-03-20T02:21:38.106872,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02922,Ibuprofen,2026-03-20T02:21:38.106999,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs28371686,rs9332241",10.0,"96748873,96741058"
+HG02941,Ibuprofen,2026-03-20T02:21:38.107371,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02946,Ibuprofen,2026-03-20T02:21:38.107735,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02952,Ibuprofen,2026-03-20T02:21:38.107977,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02953,Ibuprofen,2026-03-20T02:21:38.108100,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02971,Ibuprofen,2026-03-20T02:21:38.108466,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG02973,Ibuprofen,2026-03-20T02:21:38.108590,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02981,Ibuprofen,2026-03-20T02:21:38.109199,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG02982,Ibuprofen,2026-03-20T02:21:38.109323,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03007,Ibuprofen,2026-03-20T02:21:38.109692,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03019,Ibuprofen,2026-03-20T02:21:38.110424,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03021,Ibuprofen,2026-03-20T02:21:38.110551,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03024,Ibuprofen,2026-03-20T02:21:38.110900,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03025,Ibuprofen,2026-03-20T02:21:38.111036,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03045,Ibuprofen,2026-03-20T02:21:38.112035,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03046,Ibuprofen,2026-03-20T02:21:38.112178,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03048,Ibuprofen,2026-03-20T02:21:38.112310,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03049,Ibuprofen,2026-03-20T02:21:38.112441,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03054,Ibuprofen,2026-03-20T02:21:38.112699,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03058,Ibuprofen,2026-03-20T02:21:38.113090,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03073,Ibuprofen,2026-03-20T02:21:38.114091,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03074,Ibuprofen,2026-03-20T02:21:38.114215,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03079,Ibuprofen,2026-03-20T02:21:38.114586,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03085,Ibuprofen,2026-03-20T02:21:38.115094,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03086,Ibuprofen,2026-03-20T02:21:38.115223,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03088,Ibuprofen,2026-03-20T02:21:38.115354,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG03096,Ibuprofen,2026-03-20T02:21:38.115747,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03099,Ibuprofen,2026-03-20T02:21:38.116007,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03108,Ibuprofen,2026-03-20T02:21:38.116522,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03112,Ibuprofen,2026-03-20T02:21:38.116917,*1.009/*5,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs2017319,rs28371686",10.0,"96741058,96748635"
+HG03114,Ibuprofen,2026-03-20T02:21:38.117050,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03115,Ibuprofen,2026-03-20T02:21:38.117179,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03121,Ibuprofen,2026-03-20T02:21:38.117756,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03123,Ibuprofen,2026-03-20T02:21:38.117899,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03124,Ibuprofen,2026-03-20T02:21:38.118032,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03127,Ibuprofen,2026-03-20T02:21:38.118289,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG03130,Ibuprofen,2026-03-20T02:21:38.118532,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03133,Ibuprofen,2026-03-20T02:21:38.118774,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03135,Ibuprofen,2026-03-20T02:21:38.118896,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03136,Ibuprofen,2026-03-20T02:21:38.119018,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03139,Ibuprofen,2026-03-20T02:21:38.119174,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG03157,Ibuprofen,2026-03-20T02:21:38.119300,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03159,Ibuprofen,2026-03-20T02:21:38.119422,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03160,Ibuprofen,2026-03-20T02:21:38.119548,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03163,Ibuprofen,2026-03-20T02:21:38.119791,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03166,Ibuprofen,2026-03-20T02:21:38.119913,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG03168,Ibuprofen,2026-03-20T02:21:38.120036,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03169,Ibuprofen,2026-03-20T02:21:38.120157,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03172,Ibuprofen,2026-03-20T02:21:38.120285,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03189,Ibuprofen,2026-03-20T02:21:38.120531,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03190,Ibuprofen,2026-03-20T02:21:38.120745,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03195,Ibuprofen,2026-03-20T02:21:38.121021,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03198,Ibuprofen,2026-03-20T02:21:38.121271,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03224,Ibuprofen,2026-03-20T02:21:38.121978,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03234,Ibuprofen,2026-03-20T02:21:38.122490,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03259,Ibuprofen,2026-03-20T02:21:38.123606,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03267,Ibuprofen,2026-03-20T02:21:38.123859,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG03270,Ibuprofen,2026-03-20T02:21:38.124108,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03271,Ibuprofen,2026-03-20T02:21:38.124234,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03279,Ibuprofen,2026-03-20T02:21:38.124356,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG03280,Ibuprofen,2026-03-20T02:21:38.124478,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03291,Ibuprofen,2026-03-20T02:21:38.124600,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03294,Ibuprofen,2026-03-20T02:21:38.124724,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03297,Ibuprofen,2026-03-20T02:21:38.124987,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03301,Ibuprofen,2026-03-20T02:21:38.125378,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+HG03303,Ibuprofen,2026-03-20T02:21:38.125505,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03304,Ibuprofen,2026-03-20T02:21:38.125728,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03313,Ibuprofen,2026-03-20T02:21:38.125993,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+HG03342,Ibuprofen,2026-03-20T02:21:38.126125,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03354,Ibuprofen,2026-03-20T02:21:38.126662,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03366,Ibuprofen,2026-03-20T02:21:38.126915,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03372,Ibuprofen,2026-03-20T02:21:38.127423,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96748873,96708974"
+HG03380,Ibuprofen,2026-03-20T02:21:38.127785,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03388,Ibuprofen,2026-03-20T02:21:38.128149,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03391,Ibuprofen,2026-03-20T02:21:38.128276,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG03394,Ibuprofen,2026-03-20T02:21:38.128399,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03410,Ibuprofen,2026-03-20T02:21:38.128761,*1.007/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG03419,Ibuprofen,2026-03-20T02:21:38.128884,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03428,Ibuprofen,2026-03-20T02:21:38.129008,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03436,Ibuprofen,2026-03-20T02:21:38.129379,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03439,Ibuprofen,2026-03-20T02:21:38.129624,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03442,Ibuprofen,2026-03-20T02:21:38.129750,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03445,Ibuprofen,2026-03-20T02:21:38.129874,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03446,Ibuprofen,2026-03-20T02:21:38.129996,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03452,Ibuprofen,2026-03-20T02:21:38.130365,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03457,Ibuprofen,2026-03-20T02:21:38.130673,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03458,Ibuprofen,2026-03-20T02:21:38.130806,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03460,Ibuprofen,2026-03-20T02:21:38.130939,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03464,Ibuprofen,2026-03-20T02:21:38.131219,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03472,Ibuprofen,2026-03-20T02:21:38.131729,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03473,Ibuprofen,2026-03-20T02:21:38.131887,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03476,Ibuprofen,2026-03-20T02:21:38.132026,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03478,Ibuprofen,2026-03-20T02:21:38.132161,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03484,Ibuprofen,2026-03-20T02:21:38.132419,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03490,Ibuprofen,2026-03-20T02:21:38.132903,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03499,Ibuprofen,2026-03-20T02:21:38.133183,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+HG03515,Ibuprofen,2026-03-20T02:21:38.133555,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03517,Ibuprofen,2026-03-20T02:21:38.133679,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03518,Ibuprofen,2026-03-20T02:21:38.133808,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+HG03538,Ibuprofen,2026-03-20T02:21:38.134177,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG03547,Ibuprofen,2026-03-20T02:21:38.134427,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG03556,Ibuprofen,2026-03-20T02:21:38.134680,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG03558,Ibuprofen,2026-03-20T02:21:38.134942,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03563,Ibuprofen,2026-03-20T02:21:38.135198,*86.001/*86,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs369745682,10.0,96708941
+HG03571,Ibuprofen,2026-03-20T02:21:38.135571,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03572,Ibuprofen,2026-03-20T02:21:38.135825,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03577,Ibuprofen,2026-03-20T02:21:38.136141,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG03578,Ibuprofen,2026-03-20T02:21:38.136288,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03583,Ibuprofen,2026-03-20T02:21:38.136422,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+HG03593,Ibuprofen,2026-03-20T02:21:38.136811,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03594,Ibuprofen,2026-03-20T02:21:38.136941,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03603,Ibuprofen,2026-03-20T02:21:38.137465,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03619,Ibuprofen,2026-03-20T02:21:38.138222,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03624,Ibuprofen,2026-03-20T02:21:38.138350,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03629,Ibuprofen,2026-03-20T02:21:38.138617,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG03636,Ibuprofen,2026-03-20T02:21:38.138987,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03640,Ibuprofen,2026-03-20T02:21:38.139119,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03644,Ibuprofen,2026-03-20T02:21:38.139503,*66.001/*66,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs578144976,10.0,96741062
+HG03680,Ibuprofen,2026-03-20T02:21:38.141165,*66.001/*66,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs578144976,10.0,96741062
+HG03684,Ibuprofen,2026-03-20T02:21:38.141441,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG03686,Ibuprofen,2026-03-20T02:21:38.141706,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG03687,Ibuprofen,2026-03-20T02:21:38.141898,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03709,Ibuprofen,2026-03-20T02:21:38.143918,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03711,Ibuprofen,2026-03-20T02:21:38.144060,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03714,Ibuprofen,2026-03-20T02:21:38.144332,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03716,Ibuprofen,2026-03-20T02:21:38.144462,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03717,Ibuprofen,2026-03-20T02:21:38.144591,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03733,Ibuprofen,2026-03-20T02:21:38.145604,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03745,Ibuprofen,2026-03-20T02:21:38.146797,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03750,Ibuprofen,2026-03-20T02:21:38.147048,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03754,Ibuprofen,2026-03-20T02:21:38.147425,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03760,Ibuprofen,2026-03-20T02:21:38.147932,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03762,Ibuprofen,2026-03-20T02:21:38.148057,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03775,Ibuprofen,2026-03-20T02:21:38.149089,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03784,Ibuprofen,2026-03-20T02:21:38.150024,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03785,Ibuprofen,2026-03-20T02:21:38.150159,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03802,Ibuprofen,2026-03-20T02:21:38.151560,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03808,Ibuprofen,2026-03-20T02:21:38.151963,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03815,Ibuprofen,2026-03-20T02:21:38.152486,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03817,Ibuprofen,2026-03-20T02:21:38.152628,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03824,Ibuprofen,2026-03-20T02:21:38.153027,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03837,Ibuprofen,2026-03-20T02:21:38.153887,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03838,Ibuprofen,2026-03-20T02:21:38.154023,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03844,Ibuprofen,2026-03-20T02:21:38.154161,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03857,Ibuprofen,2026-03-20T02:21:38.155167,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03858,Ibuprofen,2026-03-20T02:21:38.155301,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03863,Ibuprofen,2026-03-20T02:21:38.155697,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03867,Ibuprofen,2026-03-20T02:21:38.156262,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03871,Ibuprofen,2026-03-20T02:21:38.156805,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG03884,Ibuprofen,2026-03-20T02:21:38.157600,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03887,Ibuprofen,2026-03-20T02:21:38.157999,*66.001/*66,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs578144976,10.0,96741062
+HG03902,Ibuprofen,2026-03-20T02:21:38.159350,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03908,Ibuprofen,2026-03-20T02:21:38.159745,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03917,Ibuprofen,2026-03-20T02:21:38.160513,*66.001/*66,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs578144976,10.0,96741062
+HG03920,Ibuprofen,2026-03-20T02:21:38.160974,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03943,Ibuprofen,2026-03-20T02:21:38.162387,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03945,Ibuprofen,2026-03-20T02:21:38.162641,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03965,Ibuprofen,2026-03-20T02:21:38.163759,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03971,Ibuprofen,2026-03-20T02:21:38.165095,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+HG03974,Ibuprofen,2026-03-20T02:21:38.165365,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG03985,Ibuprofen,2026-03-20T02:21:38.166124,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04003,Ibuprofen,2026-03-20T02:21:38.167422,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04018,Ibuprofen,2026-03-20T02:21:38.168049,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04023,Ibuprofen,2026-03-20T02:21:38.168548,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04025,Ibuprofen,2026-03-20T02:21:38.168681,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+HG04026,Ibuprofen,2026-03-20T02:21:38.168825,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04042,Ibuprofen,2026-03-20T02:21:38.169637,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04047,Ibuprofen,2026-03-20T02:21:38.169781,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04059,Ibuprofen,2026-03-20T02:21:38.170148,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04060,Ibuprofen,2026-03-20T02:21:38.170270,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG04063,Ibuprofen,2026-03-20T02:21:38.170650,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04070,Ibuprofen,2026-03-20T02:21:38.170787,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04076,Ibuprofen,2026-03-20T02:21:38.171107,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04096,Ibuprofen,2026-03-20T02:21:38.171778,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04098,Ibuprofen,2026-03-20T02:21:38.171926,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04099,Ibuprofen,2026-03-20T02:21:38.172112,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04100,Ibuprofen,2026-03-20T02:21:38.172254,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04107,Ibuprofen,2026-03-20T02:21:38.172507,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04131,Ibuprofen,2026-03-20T02:21:38.172760,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04141,Ibuprofen,2026-03-20T02:21:38.173138,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04152,Ibuprofen,2026-03-20T02:21:38.173518,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04156,Ibuprofen,2026-03-20T02:21:38.173887,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04161,Ibuprofen,2026-03-20T02:21:38.174275,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04164,Ibuprofen,2026-03-20T02:21:38.174544,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04171,Ibuprofen,2026-03-20T02:21:38.174667,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG04176,Ibuprofen,2026-03-20T02:21:38.174915,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04185,Ibuprofen,2026-03-20T02:21:38.175551,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04186,Ibuprofen,2026-03-20T02:21:38.175687,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04188,Ibuprofen,2026-03-20T02:21:38.175885,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+HG04214,Ibuprofen,2026-03-20T02:21:38.177520,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+HG04219,Ibuprofen,2026-03-20T02:21:38.177810,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA06986,Ibuprofen,2026-03-20T02:21:38.179079,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA06989,Ibuprofen,2026-03-20T02:21:38.179204,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA06994,Ibuprofen,2026-03-20T02:21:38.179328,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA07037,Ibuprofen,2026-03-20T02:21:38.179575,*12.001/*12,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs9332239,10.0,96748777
+NA07347,Ibuprofen,2026-03-20T02:21:38.180104,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11830,Ibuprofen,2026-03-20T02:21:38.180794,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11831,Ibuprofen,2026-03-20T02:21:38.180935,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11832,Ibuprofen,2026-03-20T02:21:38.181078,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11840,Ibuprofen,2026-03-20T02:21:38.181208,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11843,Ibuprofen,2026-03-20T02:21:38.181335,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11892,Ibuprofen,2026-03-20T02:21:38.181575,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11930,Ibuprofen,2026-03-20T02:21:38.182353,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA11931,Ibuprofen,2026-03-20T02:21:38.182481,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11932,Ibuprofen,2026-03-20T02:21:38.182611,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA11995,Ibuprofen,2026-03-20T02:21:38.183111,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12003,Ibuprofen,2026-03-20T02:21:38.183242,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12005,Ibuprofen,2026-03-20T02:21:38.183501,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12043,Ibuprofen,2026-03-20T02:21:38.183750,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12046,Ibuprofen,2026-03-20T02:21:38.184132,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+NA12058,Ibuprofen,2026-03-20T02:21:38.184265,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12155,Ibuprofen,2026-03-20T02:21:38.184633,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12156,Ibuprofen,2026-03-20T02:21:38.184765,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12272,Ibuprofen,2026-03-20T02:21:38.185139,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12273,Ibuprofen,2026-03-20T02:21:38.185262,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12283,Ibuprofen,2026-03-20T02:21:38.185640,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+NA12287,Ibuprofen,2026-03-20T02:21:38.185994,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12341,Ibuprofen,2026-03-20T02:21:38.186309,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA12400,Ibuprofen,2026-03-20T02:21:38.187124,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12413,Ibuprofen,2026-03-20T02:21:38.187262,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12414,Ibuprofen,2026-03-20T02:21:38.187440,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+NA12489,Ibuprofen,2026-03-20T02:21:38.187577,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12716,Ibuprofen,2026-03-20T02:21:38.187821,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12718,Ibuprofen,2026-03-20T02:21:38.188074,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12762,Ibuprofen,2026-03-20T02:21:38.188944,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332242,rs2256871",10.0,"96748893,96708974"
+NA12776,Ibuprofen,2026-03-20T02:21:38.189313,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12813,Ibuprofen,2026-03-20T02:21:38.189800,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA12843,Ibuprofen,2026-03-20T02:21:38.190780,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA12878,Ibuprofen,2026-03-20T02:21:38.191392,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA18486,Ibuprofen,2026-03-20T02:21:38.191789,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA18488,Ibuprofen,2026-03-20T02:21:38.191923,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18489,Ibuprofen,2026-03-20T02:21:38.192057,*1.009/*11.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs28371685",10.0,"96740981,96748635"
+NA18498,Ibuprofen,2026-03-20T02:21:38.192196,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18501,Ibuprofen,2026-03-20T02:21:38.192444,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18504,Ibuprofen,2026-03-20T02:21:38.192689,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA18507,Ibuprofen,2026-03-20T02:21:38.192939,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs9332241",10.0,"96748873,96748635"
+NA18510,Ibuprofen,2026-03-20T02:21:38.193185,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA18517,Ibuprofen,2026-03-20T02:21:38.193552,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA18519,Ibuprofen,2026-03-20T02:21:38.193675,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA18563,Ibuprofen,2026-03-20T02:21:38.198366,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18573,Ibuprofen,2026-03-20T02:21:38.199350,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18591,Ibuprofen,2026-03-20T02:21:38.199964,*16/*16.001,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs72558192,10.0,96731936
+NA18602,Ibuprofen,2026-03-20T02:21:38.200928,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18619,Ibuprofen,2026-03-20T02:21:38.203010,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18635,Ibuprofen,2026-03-20T02:21:38.204966,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18642,Ibuprofen,2026-03-20T02:21:38.206008,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18643,Ibuprofen,2026-03-20T02:21:38.206163,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18645,Ibuprofen,2026-03-20T02:21:38.206454,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18740,Ibuprofen,2026-03-20T02:21:38.206956,*1.014/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,1.0,rs9332244,10.0,96749005
+NA18757,Ibuprofen,2026-03-20T02:21:38.207562,*29.001/*29,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs182132442,10.0,96731876
+NA18853,Ibuprofen,2026-03-20T02:21:38.207686,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA18856,Ibuprofen,2026-03-20T02:21:38.207816,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18865,Ibuprofen,2026-03-20T02:21:38.208315,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA18873,Ibuprofen,2026-03-20T02:21:38.208936,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA18874,Ibuprofen,2026-03-20T02:21:38.209066,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18876,Ibuprofen,2026-03-20T02:21:38.209197,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18877,Ibuprofen,2026-03-20T02:21:38.209322,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18878,Ibuprofen,2026-03-20T02:21:38.209449,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA18881,Ibuprofen,2026-03-20T02:21:38.209727,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA18907,Ibuprofen,2026-03-20T02:21:38.209862,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA18909,Ibuprofen,2026-03-20T02:21:38.210355,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18910,Ibuprofen,2026-03-20T02:21:38.210522,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA18912,Ibuprofen,2026-03-20T02:21:38.210753,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA18916,Ibuprofen,2026-03-20T02:21:38.211099,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA18917,Ibuprofen,2026-03-20T02:21:38.211246,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA18923,Ibuprofen,2026-03-20T02:21:38.211393,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA18924,Ibuprofen,2026-03-20T02:21:38.211558,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18944,Ibuprofen,2026-03-20T02:21:38.212652,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18959,Ibuprofen,2026-03-20T02:21:38.214213,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA18976,Ibuprofen,2026-03-20T02:21:38.216665,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19017,Ibuprofen,2026-03-20T02:21:38.221230,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19019,Ibuprofen,2026-03-20T02:21:38.221364,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19023,Ibuprofen,2026-03-20T02:21:38.221612,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19026,Ibuprofen,2026-03-20T02:21:38.221993,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19027,Ibuprofen,2026-03-20T02:21:38.222122,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs1057911",10.0,"96748737,96748635"
+NA19028,Ibuprofen,2026-03-20T02:21:38.222246,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19031,Ibuprofen,2026-03-20T02:21:38.222499,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19036,Ibuprofen,2026-03-20T02:21:38.222750,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19038,Ibuprofen,2026-03-20T02:21:38.222995,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19042,Ibuprofen,2026-03-20T02:21:38.223243,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19060,Ibuprofen,2026-03-20T02:21:38.224225,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19096,Ibuprofen,2026-03-20T02:21:38.228725,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19099,Ibuprofen,2026-03-20T02:21:38.228971,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19102,Ibuprofen,2026-03-20T02:21:38.229097,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19108,Ibuprofen,2026-03-20T02:21:38.229345,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19114,Ibuprofen,2026-03-20T02:21:38.229597,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs28371686",10.0,"96740981,96741058"
+NA19116,Ibuprofen,2026-03-20T02:21:38.229723,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19117,Ibuprofen,2026-03-20T02:21:38.229850,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19119,Ibuprofen,2026-03-20T02:21:38.230096,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA19121,Ibuprofen,2026-03-20T02:21:38.230220,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19130,Ibuprofen,2026-03-20T02:21:38.230471,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19138,Ibuprofen,2026-03-20T02:21:38.230937,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19141,Ibuprofen,2026-03-20T02:21:38.231072,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA19144,Ibuprofen,2026-03-20T02:21:38.231337,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19149,Ibuprofen,2026-03-20T02:21:38.231799,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19152,Ibuprofen,2026-03-20T02:21:38.231960,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19160,Ibuprofen,2026-03-20T02:21:38.232337,*1.009/*11.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs28371685",10.0,"96740981,96748635"
+NA19171,Ibuprofen,2026-03-20T02:21:38.232469,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19172,Ibuprofen,2026-03-20T02:21:38.232602,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19175,Ibuprofen,2026-03-20T02:21:38.232726,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19184,Ibuprofen,2026-03-20T02:21:38.232855,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19185,Ibuprofen,2026-03-20T02:21:38.232979,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19197,Ibuprofen,2026-03-20T02:21:38.233344,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA19198,Ibuprofen,2026-03-20T02:21:38.233467,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19200,Ibuprofen,2026-03-20T02:21:38.233598,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19204,Ibuprofen,2026-03-20T02:21:38.233847,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19206,Ibuprofen,2026-03-20T02:21:38.233969,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19214,Ibuprofen,2026-03-20T02:21:38.234577,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19225,Ibuprofen,2026-03-20T02:21:38.234959,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19235,Ibuprofen,2026-03-20T02:21:38.235091,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19236,Ibuprofen,2026-03-20T02:21:38.235220,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19239,Ibuprofen,2026-03-20T02:21:38.235473,*1.007/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19247,Ibuprofen,2026-03-20T02:21:38.235751,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19248,Ibuprofen,2026-03-20T02:21:38.235894,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA19308,Ibuprofen,2026-03-20T02:21:38.236609,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19310,Ibuprofen,2026-03-20T02:21:38.236883,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19315,Ibuprofen,2026-03-20T02:21:38.237283,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19317,Ibuprofen,2026-03-20T02:21:38.237530,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19318,Ibuprofen,2026-03-20T02:21:38.237655,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19319,Ibuprofen,2026-03-20T02:21:38.237780,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19321,Ibuprofen,2026-03-20T02:21:38.238026,*5/*8.002,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs28371686,rs9332240,rs9332243",10.0,"96748852,96748940,96741058"
+NA19323,Ibuprofen,2026-03-20T02:21:38.238151,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19324,Ibuprofen,2026-03-20T02:21:38.238274,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19332,Ibuprofen,2026-03-20T02:21:38.238763,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19334,Ibuprofen,2026-03-20T02:21:38.238885,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19347,Ibuprofen,2026-03-20T02:21:38.239252,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19350,Ibuprofen,2026-03-20T02:21:38.239380,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19351,Ibuprofen,2026-03-20T02:21:38.239506,*31.001/*31,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs57505750,10.0,96740958
+NA19355,Ibuprofen,2026-03-20T02:21:38.239633,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19375,Ibuprofen,2026-03-20T02:21:38.240117,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19379,Ibuprofen,2026-03-20T02:21:38.240680,*1.007/*1.005,2.0,NM,Normal metabolism – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19380,Ibuprofen,2026-03-20T02:21:38.240816,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19383,Ibuprofen,2026-03-20T02:21:38.241739,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA19384,Ibuprofen,2026-03-20T02:21:38.241879,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA19385,Ibuprofen,2026-03-20T02:21:38.242144,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19390,Ibuprofen,2026-03-20T02:21:38.242295,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19391,Ibuprofen,2026-03-20T02:21:38.242437,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19393,Ibuprofen,2026-03-20T02:21:38.242570,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19394,Ibuprofen,2026-03-20T02:21:38.242697,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19399,Ibuprofen,2026-03-20T02:21:38.243076,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19403,Ibuprofen,2026-03-20T02:21:38.243337,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19428,Ibuprofen,2026-03-20T02:21:38.243589,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA19435,Ibuprofen,2026-03-20T02:21:38.244220,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19436,Ibuprofen,2026-03-20T02:21:38.244352,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19437,Ibuprofen,2026-03-20T02:21:38.244489,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19438,Ibuprofen,2026-03-20T02:21:38.244623,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA19445,Ibuprofen,2026-03-20T02:21:38.245141,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19446,Ibuprofen,2026-03-20T02:21:38.245266,*1.009/*31.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs57505750",10.0,"96740958,96748635"
+NA19448,Ibuprofen,2026-03-20T02:21:38.245392,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19449,Ibuprofen,2026-03-20T02:21:38.245516,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA19451,Ibuprofen,2026-03-20T02:21:38.245643,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19454,Ibuprofen,2026-03-20T02:21:38.245988,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA19456,Ibuprofen,2026-03-20T02:21:38.246285,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs28371685,10.0,96740981
+NA19461,Ibuprofen,2026-03-20T02:21:38.246562,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19462,Ibuprofen,2026-03-20T02:21:38.246702,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19463,Ibuprofen,2026-03-20T02:21:38.246837,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19466,Ibuprofen,2026-03-20T02:21:38.246973,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19468,Ibuprofen,2026-03-20T02:21:38.247217,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19472,Ibuprofen,2026-03-20T02:21:38.247462,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19474,Ibuprofen,2026-03-20T02:21:38.247710,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19475,Ibuprofen,2026-03-20T02:21:38.247835,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19651,Ibuprofen,2026-03-20T02:21:38.248323,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19654,Ibuprofen,2026-03-20T02:21:38.248577,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19676,Ibuprofen,2026-03-20T02:21:38.249687,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19700,Ibuprofen,2026-03-20T02:21:38.250413,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19703,Ibuprofen,2026-03-20T02:21:38.250743,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19704,Ibuprofen,2026-03-20T02:21:38.250877,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19707,Ibuprofen,2026-03-20T02:21:38.251014,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19712,Ibuprofen,2026-03-20T02:21:38.251282,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19716,Ibuprofen,2026-03-20T02:21:38.251536,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19717,Ibuprofen,2026-03-20T02:21:38.251751,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19720,Ibuprofen,2026-03-20T02:21:38.252007,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19725,Ibuprofen,2026-03-20T02:21:38.252400,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19728,Ibuprofen,2026-03-20T02:21:38.252666,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19756,Ibuprofen,2026-03-20T02:21:38.254426,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19764,Ibuprofen,2026-03-20T02:21:38.255071,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19773,Ibuprofen,2026-03-20T02:21:38.255441,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19774,Ibuprofen,2026-03-20T02:21:38.255567,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19777,Ibuprofen,2026-03-20T02:21:38.256001,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19780,Ibuprofen,2026-03-20T02:21:38.256636,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19789,Ibuprofen,2026-03-20T02:21:38.257468,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19794,Ibuprofen,2026-03-20T02:21:38.257718,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA19795,Ibuprofen,2026-03-20T02:21:38.257842,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA19818,Ibuprofen,2026-03-20T02:21:38.257967,*11.001/*11,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs28371685,rs9332242",10.0,"96740981,96748893"
+NA19834,Ibuprofen,2026-03-20T02:21:38.258216,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19900,Ibuprofen,2026-03-20T02:21:38.258460,*8.002/*8.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19901,Ibuprofen,2026-03-20T02:21:38.258583,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19908,Ibuprofen,2026-03-20T02:21:38.258829,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA19913,Ibuprofen,2026-03-20T02:21:38.259076,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA19914,Ibuprofen,2026-03-20T02:21:38.259201,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA19917,Ibuprofen,2026-03-20T02:21:38.259445,*1.005/*3.001,1.0,IM,Increased exposure – Start with lower dose,moderate,0.111,rs1057911,10.0,96748737
+NA19920,Ibuprofen,2026-03-20T02:21:38.259569,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19922,Ibuprofen,2026-03-20T02:21:38.259811,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19982,Ibuprofen,2026-03-20T02:21:38.260055,*1.009/*5,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs2017319,rs28371686",10.0,"96741058,96748635"
+NA19984,Ibuprofen,2026-03-20T02:21:38.260189,*5/*5.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,rs28371686,10.0,96741058
+NA20127,Ibuprofen,2026-03-20T02:21:38.260434,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20276,Ibuprofen,2026-03-20T02:21:38.260784,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA20278,Ibuprofen,2026-03-20T02:21:38.260959,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20282,Ibuprofen,2026-03-20T02:21:38.261242,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20287,Ibuprofen,2026-03-20T02:21:38.261384,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA20289,Ibuprofen,2026-03-20T02:21:38.261541,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,"rs9332242,rs2256871",10.0,"96748893,96708974"
+NA20294,Ibuprofen,2026-03-20T02:21:38.261958,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA20296,Ibuprofen,2026-03-20T02:21:38.262094,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20298,Ibuprofen,2026-03-20T02:21:38.262243,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA20317,Ibuprofen,2026-03-20T02:21:38.262622,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20320,Ibuprofen,2026-03-20T02:21:38.262872,*9.001/*9,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs2256871,10.0,96708974
+NA20321,Ibuprofen,2026-03-20T02:21:38.262997,*1.009/*9.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,"rs2017319,rs2256871",10.0,"96708974,96748635"
+NA20339,Ibuprofen,2026-03-20T02:21:38.263359,*8.003/*8.004,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,0.062,rs9332241,10.0,96748873
+NA20355,Ibuprofen,2026-03-20T02:21:38.264086,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20359,Ibuprofen,2026-03-20T02:21:38.264454,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20412,Ibuprofen,2026-03-20T02:21:38.264711,*1.009/*88.001,1.5,NM,Normal metabolism – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20507,Ibuprofen,2026-03-20T02:21:38.265493,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20510,Ibuprofen,2026-03-20T02:21:38.266066,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20513,Ibuprofen,2026-03-20T02:21:38.266464,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20514,Ibuprofen,2026-03-20T02:21:38.266605,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20515,Ibuprofen,2026-03-20T02:21:38.266744,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20516,Ibuprofen,2026-03-20T02:21:38.266958,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20522,Ibuprofen,2026-03-20T02:21:38.267804,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20525,Ibuprofen,2026-03-20T02:21:38.268055,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20529,Ibuprofen,2026-03-20T02:21:38.268435,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20531,Ibuprofen,2026-03-20T02:21:38.268687,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20535,Ibuprofen,2026-03-20T02:21:38.269202,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20536,Ibuprofen,2026-03-20T02:21:38.269326,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20538,Ibuprofen,2026-03-20T02:21:38.269450,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20539,Ibuprofen,2026-03-20T02:21:38.269580,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20540,Ibuprofen,2026-03-20T02:21:38.269706,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20541,Ibuprofen,2026-03-20T02:21:38.269830,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20543,Ibuprofen,2026-03-20T02:21:38.270079,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20544,Ibuprofen,2026-03-20T02:21:38.270208,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20581,Ibuprofen,2026-03-20T02:21:38.270332,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20582,Ibuprofen,2026-03-20T02:21:38.270455,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20585,Ibuprofen,2026-03-20T02:21:38.270640,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20586,Ibuprofen,2026-03-20T02:21:38.270776,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20589,Ibuprofen,2026-03-20T02:21:38.271176,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20755,Ibuprofen,2026-03-20T02:21:38.272411,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20756,Ibuprofen,2026-03-20T02:21:38.272545,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20757,Ibuprofen,2026-03-20T02:21:38.272686,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20762,Ibuprofen,2026-03-20T02:21:38.273336,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20763,Ibuprofen,2026-03-20T02:21:38.273465,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20764,Ibuprofen,2026-03-20T02:21:38.273591,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20765,Ibuprofen,2026-03-20T02:21:38.273724,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20769,Ibuprofen,2026-03-20T02:21:38.274216,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20770,Ibuprofen,2026-03-20T02:21:38.274339,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20783,Ibuprofen,2026-03-20T02:21:38.275227,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20785,Ibuprofen,2026-03-20T02:21:38.275357,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20786,Ibuprofen,2026-03-20T02:21:38.275483,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20792,Ibuprofen,2026-03-20T02:21:38.276056,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20795,Ibuprofen,2026-03-20T02:21:38.276202,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20796,Ibuprofen,2026-03-20T02:21:38.276342,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20798,Ibuprofen,2026-03-20T02:21:38.276616,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20804,Ibuprofen,2026-03-20T02:21:38.277431,*12.001/*12,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs9332239,10.0,96748777
+NA20805,Ibuprofen,2026-03-20T02:21:38.277580,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20808,Ibuprofen,2026-03-20T02:21:38.277964,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20809,Ibuprofen,2026-03-20T02:21:38.278090,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20810,Ibuprofen,2026-03-20T02:21:38.278293,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20811,Ibuprofen,2026-03-20T02:21:38.278439,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20814,Ibuprofen,2026-03-20T02:21:38.278914,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20819,Ibuprofen,2026-03-20T02:21:38.279329,*12.001/*12,1.0,IM,Increased exposure – Start with lower dose,moderate,1.0,rs9332239,10.0,96748777
+NA20821,Ibuprofen,2026-03-20T02:21:38.279458,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20827,Ibuprofen,2026-03-20T02:21:38.279846,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20845,Ibuprofen,2026-03-20T02:21:38.280220,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs9332242,rs1057910,rs1057911",10.0,"96748893,96748737,96741053"
+NA20846,Ibuprofen,2026-03-20T02:21:38.280349,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20849,Ibuprofen,2026-03-20T02:21:38.280659,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20851,Ibuprofen,2026-03-20T02:21:38.280954,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20854,Ibuprofen,2026-03-20T02:21:38.282585,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20856,Ibuprofen,2026-03-20T02:21:38.282730,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20861,Ibuprofen,2026-03-20T02:21:38.283159,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20864,Ibuprofen,2026-03-20T02:21:38.283540,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20870,Ibuprofen,2026-03-20T02:21:38.284161,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20872,Ibuprofen,2026-03-20T02:21:38.284285,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20876,Ibuprofen,2026-03-20T02:21:38.284675,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20877,Ibuprofen,2026-03-20T02:21:38.284812,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20882,Ibuprofen,2026-03-20T02:21:38.285190,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20888,Ibuprofen,2026-03-20T02:21:38.285810,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20889,Ibuprofen,2026-03-20T02:21:38.286042,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20892,Ibuprofen,2026-03-20T02:21:38.286450,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20894,Ibuprofen,2026-03-20T02:21:38.286591,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20895,Ibuprofen,2026-03-20T02:21:38.286730,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20896,Ibuprofen,2026-03-20T02:21:38.286868,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20897,Ibuprofen,2026-03-20T02:21:38.287000,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20899,Ibuprofen,2026-03-20T02:21:38.287123,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA20905,Ibuprofen,2026-03-20T02:21:38.287872,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA20906,Ibuprofen,2026-03-20T02:21:38.288008,*68/*3,0.5,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911,rs542577750",10.0,"96741128,96748737,96741053"
+NA21089,Ibuprofen,2026-03-20T02:21:38.288887,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893
+NA21092,Ibuprofen,2026-03-20T02:21:38.289259,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21094,Ibuprofen,2026-03-20T02:21:38.289506,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21112,Ibuprofen,2026-03-20T02:21:38.291752,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21114,Ibuprofen,2026-03-20T02:21:38.292034,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21118,Ibuprofen,2026-03-20T02:21:38.292592,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21120,Ibuprofen,2026-03-20T02:21:38.292867,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21123,Ibuprofen,2026-03-20T02:21:38.293153,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21129,Ibuprofen,2026-03-20T02:21:38.293967,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21141,Ibuprofen,2026-03-20T02:21:38.294646,*3/*3.001,0.0,PM,Very high exposure – Avoid or use alternative NSAID,high,1.0,"rs1057910,rs1057911",10.0,"96748737,96741053"
+NA21142,Ibuprofen,2026-03-20T02:21:38.294829,*2.004/*2.005,1.0,IM,Increased exposure – Start with lower dose,moderate,0.04,rs9332242,10.0,96748893

@@ -1,0 +1,825 @@
+Sample,Drug,Timestamp,Diplotype,Activity_Score,Phenotype,Risk_Label,Severity,Confidence_Score,RSIDs,Chromosomes,Positions
+HG00103,Glipizide,2026-03-20T02:32:18.468267,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00107,Glipizide,2026-03-20T02:32:18.470106,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00120,Glipizide,2026-03-20T02:32:18.475249,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00121,Glipizide,2026-03-20T02:32:18.475836,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00125,Glipizide,2026-03-20T02:32:18.477072,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00132,Glipizide,2026-03-20T02:32:18.480166,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00136,Glipizide,2026-03-20T02:32:18.480913,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00137,Glipizide,2026-03-20T02:32:18.481341,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00138,Glipizide,2026-03-20T02:32:18.481698,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00150,Glipizide,2026-03-20T02:32:18.487142,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00154,Glipizide,2026-03-20T02:32:18.488443,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00155,Glipizide,2026-03-20T02:32:18.489098,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00178,Glipizide,2026-03-20T02:32:18.492658,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00185,Glipizide,2026-03-20T02:32:18.495476,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00188,Glipizide,2026-03-20T02:32:18.497173,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00231,Glipizide,2026-03-20T02:32:18.498777,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG00232,Glipizide,2026-03-20T02:32:18.499353,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00234,Glipizide,2026-03-20T02:32:18.500891,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00236,Glipizide,2026-03-20T02:32:18.504017,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00244,Glipizide,2026-03-20T02:32:18.508058,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00252,Glipizide,2026-03-20T02:32:18.510826,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00257,Glipizide,2026-03-20T02:32:18.513622,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00258,Glipizide,2026-03-20T02:32:18.514152,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00261,Glipizide,2026-03-20T02:32:18.516364,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00262,Glipizide,2026-03-20T02:32:18.516736,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00265,Glipizide,2026-03-20T02:32:18.518073,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00274,Glipizide,2026-03-20T02:32:18.523771,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00276,Glipizide,2026-03-20T02:32:18.524888,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00277,Glipizide,2026-03-20T02:32:18.525262,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00278,Glipizide,2026-03-20T02:32:18.525773,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00281,Glipizide,2026-03-20T02:32:18.526798,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00284,Glipizide,2026-03-20T02:32:18.527716,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00290,Glipizide,2026-03-20T02:32:18.528824,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG00304,Glipizide,2026-03-20T02:32:18.529184,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00309,Glipizide,2026-03-20T02:32:18.530362,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00310,Glipizide,2026-03-20T02:32:18.530777,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00315,Glipizide,2026-03-20T02:32:18.532571,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00323,Glipizide,2026-03-20T02:32:18.534412,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00326,Glipizide,2026-03-20T02:32:18.536207,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00332,Glipizide,2026-03-20T02:32:18.539120,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00337,Glipizide,2026-03-20T02:32:18.540504,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00342,Glipizide,2026-03-20T02:32:18.541870,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00343,Glipizide,2026-03-20T02:32:18.542227,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00345,Glipizide,2026-03-20T02:32:18.542967,*29.001/*29,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs182132442,10.0,96731876
+HG00358,Glipizide,2026-03-20T02:32:18.548415,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00362,Glipizide,2026-03-20T02:32:18.549856,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG00365,Glipizide,2026-03-20T02:32:18.550589,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG00366,Glipizide,2026-03-20T02:32:18.551052,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00368,Glipizide,2026-03-20T02:32:18.551774,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00369,Glipizide,2026-03-20T02:32:18.552144,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00376,Glipizide,2026-03-20T02:32:18.553868,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00378,Glipizide,2026-03-20T02:32:18.554253,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00407,Glipizide,2026-03-20T02:32:18.558216,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00419,Glipizide,2026-03-20T02:32:18.559443,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00421,Glipizide,2026-03-20T02:32:18.560148,*1.014/*3,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332244,rs1057911,rs1057910",10.0,"96749005,96741053,96748737"
+HG00457,Glipizide,2026-03-20T02:32:18.565187,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00472,Glipizide,2026-03-20T02:32:18.566589,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00530,Glipizide,2026-03-20T02:32:18.570028,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00543,Glipizide,2026-03-20T02:32:18.572407,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00554,Glipizide,2026-03-20T02:32:18.573466,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG00581,Glipizide,2026-03-20T02:32:18.576186,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00607,Glipizide,2026-03-20T02:32:18.580049,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00610,Glipizide,2026-03-20T02:32:18.580744,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00628,Glipizide,2026-03-20T02:32:18.584116,*29.001/*29,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs182132442,10.0,96731876
+HG00637,Glipizide,2026-03-20T02:32:18.587260,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG00653,Glipizide,2026-03-20T02:32:18.589982,*3/*18,0.5,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs1057910,10.0,96741053
+HG00663,Glipizide,2026-03-20T02:32:18.591757,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG00731,Glipizide,2026-03-20T02:32:18.600022,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00732,Glipizide,2026-03-20T02:32:18.600371,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00736,Glipizide,2026-03-20T02:32:18.601049,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00737,Glipizide,2026-03-20T02:32:18.601399,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG00740,Glipizide,2026-03-20T02:32:18.602103,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01031,Glipizide,2026-03-20T02:32:18.607610,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01046,Glipizide,2026-03-20T02:32:18.607973,*87.001/*87,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs546318684,10.0,96731951
+HG01051,Glipizide,2026-03-20T02:32:18.609527,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG01052,Glipizide,2026-03-20T02:32:18.610852,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01054,Glipizide,2026-03-20T02:32:18.611448,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01055,Glipizide,2026-03-20T02:32:18.612077,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01061,Glipizide,2026-03-20T02:32:18.613353,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01066,Glipizide,2026-03-20T02:32:18.614379,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01067,Glipizide,2026-03-20T02:32:18.614727,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01069,Glipizide,2026-03-20T02:32:18.615074,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01075,Glipizide,2026-03-20T02:32:18.616491,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01077,Glipizide,2026-03-20T02:32:18.616844,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01080,Glipizide,2026-03-20T02:32:18.617534,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01082,Glipizide,2026-03-20T02:32:18.618239,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01086,Glipizide,2026-03-20T02:32:18.620449,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01089,Glipizide,2026-03-20T02:32:18.621217,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG01092,Glipizide,2026-03-20T02:32:18.621565,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01095,Glipizide,2026-03-20T02:32:18.622266,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01097,Glipizide,2026-03-20T02:32:18.622610,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01104,Glipizide,2026-03-20T02:32:18.623969,*12.001/*12,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs9332239,10.0,96748777
+HG01105,Glipizide,2026-03-20T02:32:18.624323,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01111,Glipizide,2026-03-20T02:32:18.625875,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01131,Glipizide,2026-03-20T02:32:18.630385,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01133,Glipizide,2026-03-20T02:32:18.630777,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01134,Glipizide,2026-03-20T02:32:18.631161,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01142,Glipizide,2026-03-20T02:32:18.633369,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01148,Glipizide,2026-03-20T02:32:18.633727,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01170,Glipizide,2026-03-20T02:32:18.636231,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG01171,Glipizide,2026-03-20T02:32:18.636587,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01174,Glipizide,2026-03-20T02:32:18.637279,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01182,Glipizide,2026-03-20T02:32:18.638297,*1.015/*1.005,2.0,NM,Normal response – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01183,Glipizide,2026-03-20T02:32:18.638667,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01190,Glipizide,2026-03-20T02:32:18.639688,*61/*2.004,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.25,"rs202201137,rs9332242",10.0,"96748682,96748893"
+HG01191,Glipizide,2026-03-20T02:32:18.640033,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01198,Glipizide,2026-03-20T02:32:18.640737,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01200,Glipizide,2026-03-20T02:32:18.641090,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01205,Glipizide,2026-03-20T02:32:18.641784,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01241,Glipizide,2026-03-20T02:32:18.642130,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01253,Glipizide,2026-03-20T02:32:18.644189,*1.015/*1.005,2.0,NM,Normal response – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01259,Glipizide,2026-03-20T02:32:18.645613,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01260,Glipizide,2026-03-20T02:32:18.645962,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01272,Glipizide,2026-03-20T02:32:18.647020,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01275,Glipizide,2026-03-20T02:32:18.647371,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01277,Glipizide,2026-03-20T02:32:18.647721,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01281,Glipizide,2026-03-20T02:32:18.648398,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01286,Glipizide,2026-03-20T02:32:18.649089,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01302,Glipizide,2026-03-20T02:32:18.649432,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01312,Glipizide,2026-03-20T02:32:18.651610,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01325,Glipizide,2026-03-20T02:32:18.652773,*61/*2.004,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.25,"rs202201137,rs9332242",10.0,"96748682,96748893"
+HG01326,Glipizide,2026-03-20T02:32:18.653385,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01342,Glipizide,2026-03-20T02:32:18.654728,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01348,Glipizide,2026-03-20T02:32:18.655911,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01354,Glipizide,2026-03-20T02:32:18.657774,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01357,Glipizide,2026-03-20T02:32:18.658481,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01359,Glipizide,2026-03-20T02:32:18.658859,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01360,Glipizide,2026-03-20T02:32:18.659330,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01377,Glipizide,2026-03-20T02:32:18.662931,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01378,Glipizide,2026-03-20T02:32:18.663312,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01383,Glipizide,2026-03-20T02:32:18.663674,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01384,Glipizide,2026-03-20T02:32:18.664044,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01389,Glipizide,2026-03-20T02:32:18.664393,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01395,Glipizide,2026-03-20T02:32:18.665762,*1.009/*1.015,2.0,NM,Normal response – Standard dosing,low,1.0,"rs149158426,rs2017319",10.0,"96709023,96748635"
+HG01396,Glipizide,2026-03-20T02:32:18.666106,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01405,Glipizide,2026-03-20T02:32:18.667458,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01431,Glipizide,2026-03-20T02:32:18.669979,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01437,Glipizide,2026-03-20T02:32:18.671420,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01440,Glipizide,2026-03-20T02:32:18.672111,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01444,Glipizide,2026-03-20T02:32:18.673159,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01447,Glipizide,2026-03-20T02:32:18.673517,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01459,Glipizide,2026-03-20T02:32:18.674534,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01464,Glipizide,2026-03-20T02:32:18.675577,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01465,Glipizide,2026-03-20T02:32:18.676011,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01474,Glipizide,2026-03-20T02:32:18.676921,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01485,Glipizide,2026-03-20T02:32:18.677656,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01488,Glipizide,2026-03-20T02:32:18.678351,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01489,Glipizide,2026-03-20T02:32:18.678730,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01491,Glipizide,2026-03-20T02:32:18.679078,*1.015/*1.005,2.0,NM,Normal response – Standard dosing,low,0.25,rs149158426,10.0,96709023
+HG01504,Glipizide,2026-03-20T02:32:18.682126,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01506,Glipizide,2026-03-20T02:32:18.682469,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01512,Glipizide,2026-03-20T02:32:18.683843,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01519,Glipizide,2026-03-20T02:32:18.686724,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01522,Glipizide,2026-03-20T02:32:18.688034,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01528,Glipizide,2026-03-20T02:32:18.689379,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01530,Glipizide,2026-03-20T02:32:18.689734,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01536,Glipizide,2026-03-20T02:32:18.690385,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01551,Glipizide,2026-03-20T02:32:18.691363,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01586,Glipizide,2026-03-20T02:32:18.694628,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01603,Glipizide,2026-03-20T02:32:18.698172,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01605,Glipizide,2026-03-20T02:32:18.698548,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01606,Glipizide,2026-03-20T02:32:18.698899,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01615,Glipizide,2026-03-20T02:32:18.700973,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01617,Glipizide,2026-03-20T02:32:18.701328,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01618,Glipizide,2026-03-20T02:32:18.701673,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01620,Glipizide,2026-03-20T02:32:18.702465,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01623,Glipizide,2026-03-20T02:32:18.702809,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01624,Glipizide,2026-03-20T02:32:18.703190,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01630,Glipizide,2026-03-20T02:32:18.705193,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01668,Glipizide,2026-03-20T02:32:18.706168,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01669,Glipizide,2026-03-20T02:32:18.706526,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01673,Glipizide,2026-03-20T02:32:18.707509,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01679,Glipizide,2026-03-20T02:32:18.708802,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01680,Glipizide,2026-03-20T02:32:18.709330,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01682,Glipizide,2026-03-20T02:32:18.709711,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01685,Glipizide,2026-03-20T02:32:18.710866,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01694,Glipizide,2026-03-20T02:32:18.711535,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01695,Glipizide,2026-03-20T02:32:18.711867,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01699,Glipizide,2026-03-20T02:32:18.712536,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01702,Glipizide,2026-03-20T02:32:18.713191,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01747,Glipizide,2026-03-20T02:32:18.716008,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01756,Glipizide,2026-03-20T02:32:18.716346,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01761,Glipizide,2026-03-20T02:32:18.717012,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01762,Glipizide,2026-03-20T02:32:18.717346,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01765,Glipizide,2026-03-20T02:32:18.717752,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01767,Glipizide,2026-03-20T02:32:18.718464,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01771,Glipizide,2026-03-20T02:32:18.721043,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG01777,Glipizide,2026-03-20T02:32:18.722442,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01779,Glipizide,2026-03-20T02:32:18.722909,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01785,Glipizide,2026-03-20T02:32:18.724296,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01786,Glipizide,2026-03-20T02:32:18.724801,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01789,Glipizide,2026-03-20T02:32:18.725140,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01790,Glipizide,2026-03-20T02:32:18.725600,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01796,Glipizide,2026-03-20T02:32:18.728060,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01807,Glipizide,2026-03-20T02:32:18.731978,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01812,Glipizide,2026-03-20T02:32:18.733590,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01842,Glipizide,2026-03-20T02:32:18.738575,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01845,Glipizide,2026-03-20T02:32:18.739928,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01855,Glipizide,2026-03-20T02:32:18.743143,*29.001/*29,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs182132442,rs1057911,rs1057910",10.0,"96741053,96731876,96748737"
+HG01866,Glipizide,2026-03-20T02:32:18.747453,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01873,Glipizide,2026-03-20T02:32:18.749758,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG01882,Glipizide,2026-03-20T02:32:18.753507,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01886,Glipizide,2026-03-20T02:32:18.755301,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01894,Glipizide,2026-03-20T02:32:18.757958,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG01896,Glipizide,2026-03-20T02:32:18.758315,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG01914,Glipizide,2026-03-20T02:32:18.759079,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG01915,Glipizide,2026-03-20T02:32:18.759449,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG01947,Glipizide,2026-03-20T02:32:18.766181,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01977,Glipizide,2026-03-20T02:32:18.777741,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG01985,Glipizide,2026-03-20T02:32:18.779382,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG01986,Glipizide,2026-03-20T02:32:18.779760,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG01989,Glipizide,2026-03-20T02:32:18.780554,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG01990,Glipizide,2026-03-20T02:32:18.780956,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG01997,Glipizide,2026-03-20T02:32:18.782072,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02009,Glipizide,2026-03-20T02:32:18.783816,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02010,Glipizide,2026-03-20T02:32:18.784241,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02014,Glipizide,2026-03-20T02:32:18.785502,*5/*8.002,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332240,rs28371686,rs9332243",10.0,"96748852,96741058,96748940"
+HG02023,Glipizide,2026-03-20T02:32:18.787665,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02025,Glipizide,2026-03-20T02:32:18.788042,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02040,Glipizide,2026-03-20T02:32:18.790625,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02051,Glipizide,2026-03-20T02:32:18.792893,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02052,Glipizide,2026-03-20T02:32:18.793252,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02054,Glipizide,2026-03-20T02:32:18.794130,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02076,Glipizide,2026-03-20T02:32:18.799515,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02108,Glipizide,2026-03-20T02:32:18.807858,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs9332241,rs2017319",10.0,"96748635,96748873"
+HG02133,Glipizide,2026-03-20T02:32:18.813043,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+HG02134,Glipizide,2026-03-20T02:32:18.813764,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02139,Glipizide,2026-03-20T02:32:18.816217,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02143,Glipizide,2026-03-20T02:32:18.818401,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02144,Glipizide,2026-03-20T02:32:18.819179,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02215,Glipizide,2026-03-20T02:32:18.832143,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG02238,Glipizide,2026-03-20T02:32:18.836531,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02239,Glipizide,2026-03-20T02:32:18.836938,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02255,Glipizide,2026-03-20T02:32:18.838993,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02284,Glipizide,2026-03-20T02:32:18.846200,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02301,Glipizide,2026-03-20T02:32:18.848674,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02308,Glipizide,2026-03-20T02:32:18.849696,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02309,Glipizide,2026-03-20T02:32:18.850053,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs9332241,rs2017319",10.0,"96748635,96748873"
+HG02312,Glipizide,2026-03-20T02:32:18.850396,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02314,Glipizide,2026-03-20T02:32:18.850820,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02315,Glipizide,2026-03-20T02:32:18.851195,*1.009/*5,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371686,rs2017319",10.0,"96748635,96741058"
+HG02323,Glipizide,2026-03-20T02:32:18.853524,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02332,Glipizide,2026-03-20T02:32:18.854667,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02348,Glipizide,2026-03-20T02:32:18.856806,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02401,Glipizide,2026-03-20T02:32:18.870081,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02427,Glipizide,2026-03-20T02:32:18.874831,*3/*5,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs28371686,rs1057911,rs1057910",10.0,"96741058,96741053,96748737"
+HG02429,Glipizide,2026-03-20T02:32:18.875179,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02445,Glipizide,2026-03-20T02:32:18.876719,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02449,Glipizide,2026-03-20T02:32:18.877075,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02450,Glipizide,2026-03-20T02:32:18.877418,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02461,Glipizide,2026-03-20T02:32:18.878069,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02462,Glipizide,2026-03-20T02:32:18.878397,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02464,Glipizide,2026-03-20T02:32:18.878742,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02465,Glipizide,2026-03-20T02:32:18.879226,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs28371686",10.0,"96740981,96741058"
+HG02479,Glipizide,2026-03-20T02:32:18.880932,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02481,Glipizide,2026-03-20T02:32:18.881262,*1.007/*1.005,2.0,NM,Normal response – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02484,Glipizide,2026-03-20T02:32:18.881591,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+HG02485,Glipizide,2026-03-20T02:32:18.881919,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02489,Glipizide,2026-03-20T02:32:18.882247,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02490,Glipizide,2026-03-20T02:32:18.882581,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02494,Glipizide,2026-03-20T02:32:18.883548,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02496,Glipizide,2026-03-20T02:32:18.883875,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02497,Glipizide,2026-03-20T02:32:18.884393,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02501,Glipizide,2026-03-20T02:32:18.885031,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02502,Glipizide,2026-03-20T02:32:18.885444,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02505,Glipizide,2026-03-20T02:32:18.885798,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02508,Glipizide,2026-03-20T02:32:18.886249,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02537,Glipizide,2026-03-20T02:32:18.888965,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02546,Glipizide,2026-03-20T02:32:18.890516,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02549,Glipizide,2026-03-20T02:32:18.890863,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+HG02557,Glipizide,2026-03-20T02:32:18.892562,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02562,Glipizide,2026-03-20T02:32:18.894077,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02573,Glipizide,2026-03-20T02:32:18.896636,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02574,Glipizide,2026-03-20T02:32:18.896986,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02583,Glipizide,2026-03-20T02:32:18.898292,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02586,Glipizide,2026-03-20T02:32:18.898935,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02595,Glipizide,2026-03-20T02:32:18.900357,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02601,Glipizide,2026-03-20T02:32:18.901383,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02610,Glipizide,2026-03-20T02:32:18.902517,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG02620,Glipizide,2026-03-20T02:32:18.903878,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02628,Glipizide,2026-03-20T02:32:18.906572,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02629,Glipizide,2026-03-20T02:32:18.906929,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG02642,Glipizide,2026-03-20T02:32:18.907929,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02643,Glipizide,2026-03-20T02:32:18.908279,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02645,Glipizide,2026-03-20T02:32:18.908630,*86.001/*86,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs369745682,10.0,96708941
+HG02646,Glipizide,2026-03-20T02:32:18.909049,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02648,Glipizide,2026-03-20T02:32:18.909487,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02660,Glipizide,2026-03-20T02:32:18.913433,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02667,Glipizide,2026-03-20T02:32:18.915011,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02676,Glipizide,2026-03-20T02:32:18.915820,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02679,Glipizide,2026-03-20T02:32:18.916521,*1.007/*1.005,2.0,NM,Normal response – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG02684,Glipizide,2026-03-20T02:32:18.918029,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02685,Glipizide,2026-03-20T02:32:18.918687,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02694,Glipizide,2026-03-20T02:32:18.921430,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG02699,Glipizide,2026-03-20T02:32:18.923110,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02700,Glipizide,2026-03-20T02:32:18.923461,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02703,Glipizide,2026-03-20T02:32:18.924327,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02715,Glipizide,2026-03-20T02:32:18.924694,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02716,Glipizide,2026-03-20T02:32:18.925120,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02721,Glipizide,2026-03-20T02:32:18.925648,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02728,Glipizide,2026-03-20T02:32:18.929146,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02756,Glipizide,2026-03-20T02:32:18.932289,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02760,Glipizide,2026-03-20T02:32:18.933438,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+HG02763,Glipizide,2026-03-20T02:32:18.933777,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02768,Glipizide,2026-03-20T02:32:18.934267,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02769,Glipizide,2026-03-20T02:32:18.935280,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs9332242,rs2017319",10.0,"96748635,96748893"
+HG02771,Glipizide,2026-03-20T02:32:18.935988,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02775,Glipizide,2026-03-20T02:32:18.937956,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG02787,Glipizide,2026-03-20T02:32:18.940184,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02792,Glipizide,2026-03-20T02:32:18.941240,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG02798,Glipizide,2026-03-20T02:32:18.941945,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02804,Glipizide,2026-03-20T02:32:18.943123,*1.005/*3.001,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.111,rs1057911,10.0,96748737
+HG02805,Glipizide,2026-03-20T02:32:18.943958,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02807,Glipizide,2026-03-20T02:32:18.944682,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02808,Glipizide,2026-03-20T02:32:18.945494,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02811,Glipizide,2026-03-20T02:32:18.946382,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02814,Glipizide,2026-03-20T02:32:18.947394,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG02817,Glipizide,2026-03-20T02:32:18.948546,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02820,Glipizide,2026-03-20T02:32:18.949685,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs112354725",10.0,"96740981,96748701"
+HG02840,Glipizide,2026-03-20T02:32:18.951717,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02852,Glipizide,2026-03-20T02:32:18.953384,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02854,Glipizide,2026-03-20T02:32:18.954044,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02860,Glipizide,2026-03-20T02:32:18.955343,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02861,Glipizide,2026-03-20T02:32:18.955707,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG02870,Glipizide,2026-03-20T02:32:18.956087,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02879,Glipizide,2026-03-20T02:32:18.956809,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02885,Glipizide,2026-03-20T02:32:18.958208,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02888,Glipizide,2026-03-20T02:32:18.959035,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02890,Glipizide,2026-03-20T02:32:18.959408,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02896,Glipizide,2026-03-20T02:32:18.961134,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02922,Glipizide,2026-03-20T02:32:18.961722,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332241,rs28371686",10.0,"96741058,96748873"
+HG02941,Glipizide,2026-03-20T02:32:18.963483,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02946,Glipizide,2026-03-20T02:32:18.965183,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02952,Glipizide,2026-03-20T02:32:18.966367,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02953,Glipizide,2026-03-20T02:32:18.966934,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02971,Glipizide,2026-03-20T02:32:18.969010,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG02973,Glipizide,2026-03-20T02:32:18.969704,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG02981,Glipizide,2026-03-20T02:32:18.972800,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG02982,Glipizide,2026-03-20T02:32:18.973334,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03007,Glipizide,2026-03-20T02:32:18.975045,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03019,Glipizide,2026-03-20T02:32:18.978654,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03021,Glipizide,2026-03-20T02:32:18.979209,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03024,Glipizide,2026-03-20T02:32:18.979906,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03025,Glipizide,2026-03-20T02:32:18.980355,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03045,Glipizide,2026-03-20T02:32:18.982103,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03046,Glipizide,2026-03-20T02:32:18.982473,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03048,Glipizide,2026-03-20T02:32:18.982832,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03049,Glipizide,2026-03-20T02:32:18.983180,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03054,Glipizide,2026-03-20T02:32:18.984450,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03058,Glipizide,2026-03-20T02:32:18.986538,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03073,Glipizide,2026-03-20T02:32:18.990295,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03074,Glipizide,2026-03-20T02:32:18.990646,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03079,Glipizide,2026-03-20T02:32:18.991770,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03085,Glipizide,2026-03-20T02:32:18.993397,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03086,Glipizide,2026-03-20T02:32:18.993786,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03088,Glipizide,2026-03-20T02:32:18.994332,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG03096,Glipizide,2026-03-20T02:32:18.995661,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03099,Glipizide,2026-03-20T02:32:18.996452,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03108,Glipizide,2026-03-20T02:32:18.997885,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03112,Glipizide,2026-03-20T02:32:18.999119,*1.009/*5,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371686,rs2017319",10.0,"96748635,96741058"
+HG03114,Glipizide,2026-03-20T02:32:18.999482,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03115,Glipizide,2026-03-20T02:32:18.999830,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03121,Glipizide,2026-03-20T02:32:19.001372,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03123,Glipizide,2026-03-20T02:32:19.001736,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03124,Glipizide,2026-03-20T02:32:19.002105,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03127,Glipizide,2026-03-20T02:32:19.002806,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG03130,Glipizide,2026-03-20T02:32:19.003501,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03133,Glipizide,2026-03-20T02:32:19.004364,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03135,Glipizide,2026-03-20T02:32:19.004717,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03136,Glipizide,2026-03-20T02:32:19.005073,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03139,Glipizide,2026-03-20T02:32:19.005424,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+HG03157,Glipizide,2026-03-20T02:32:19.005779,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03159,Glipizide,2026-03-20T02:32:19.006137,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03160,Glipizide,2026-03-20T02:32:19.006488,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96708974,96748873"
+HG03163,Glipizide,2026-03-20T02:32:19.007162,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03166,Glipizide,2026-03-20T02:32:19.007504,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG03168,Glipizide,2026-03-20T02:32:19.007845,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03169,Glipizide,2026-03-20T02:32:19.008193,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03172,Glipizide,2026-03-20T02:32:19.008537,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03189,Glipizide,2026-03-20T02:32:19.009455,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03190,Glipizide,2026-03-20T02:32:19.010173,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03195,Glipizide,2026-03-20T02:32:19.011351,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03198,Glipizide,2026-03-20T02:32:19.012455,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03224,Glipizide,2026-03-20T02:32:19.015940,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03234,Glipizide,2026-03-20T02:32:19.017864,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03259,Glipizide,2026-03-20T02:32:19.022871,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03267,Glipizide,2026-03-20T02:32:19.023584,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG03270,Glipizide,2026-03-20T02:32:19.024414,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03271,Glipizide,2026-03-20T02:32:19.024798,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03279,Glipizide,2026-03-20T02:32:19.025157,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG03280,Glipizide,2026-03-20T02:32:19.025519,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03291,Glipizide,2026-03-20T02:32:19.026082,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96708974,96748873"
+HG03294,Glipizide,2026-03-20T02:32:19.026775,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03297,Glipizide,2026-03-20T02:32:19.027976,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03301,Glipizide,2026-03-20T02:32:19.029644,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+HG03303,Glipizide,2026-03-20T02:32:19.030147,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03304,Glipizide,2026-03-20T02:32:19.030492,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03313,Glipizide,2026-03-20T02:32:19.031181,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+HG03342,Glipizide,2026-03-20T02:32:19.031536,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03354,Glipizide,2026-03-20T02:32:19.032939,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03366,Glipizide,2026-03-20T02:32:19.033661,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03372,Glipizide,2026-03-20T02:32:19.035502,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332241,rs2256871",10.0,"96708974,96748873"
+HG03380,Glipizide,2026-03-20T02:32:19.036565,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03388,Glipizide,2026-03-20T02:32:19.037618,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03391,Glipizide,2026-03-20T02:32:19.037967,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG03394,Glipizide,2026-03-20T02:32:19.038318,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03410,Glipizide,2026-03-20T02:32:19.039427,*1.007/*1.005,2.0,NM,Normal response – Standard dosing,low,0.02,rs112354725,10.0,96748701
+HG03419,Glipizide,2026-03-20T02:32:19.039780,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03428,Glipizide,2026-03-20T02:32:19.040217,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03436,Glipizide,2026-03-20T02:32:19.041299,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03439,Glipizide,2026-03-20T02:32:19.041977,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03442,Glipizide,2026-03-20T02:32:19.042315,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03445,Glipizide,2026-03-20T02:32:19.042661,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03446,Glipizide,2026-03-20T02:32:19.043021,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03452,Glipizide,2026-03-20T02:32:19.044305,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03457,Glipizide,2026-03-20T02:32:19.045919,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03458,Glipizide,2026-03-20T02:32:19.046554,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03460,Glipizide,2026-03-20T02:32:19.047133,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03464,Glipizide,2026-03-20T02:32:19.048035,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03472,Glipizide,2026-03-20T02:32:19.049053,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03473,Glipizide,2026-03-20T02:32:19.049417,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03476,Glipizide,2026-03-20T02:32:19.049763,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03478,Glipizide,2026-03-20T02:32:19.050112,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03484,Glipizide,2026-03-20T02:32:19.050910,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03490,Glipizide,2026-03-20T02:32:19.052231,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03499,Glipizide,2026-03-20T02:32:19.053013,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs9332241,rs2017319",10.0,"96748635,96748873"
+HG03515,Glipizide,2026-03-20T02:32:19.054467,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03517,Glipizide,2026-03-20T02:32:19.055025,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03518,Glipizide,2026-03-20T02:32:19.055393,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+HG03538,Glipizide,2026-03-20T02:32:19.056439,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+HG03547,Glipizide,2026-03-20T02:32:19.057145,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG03556,Glipizide,2026-03-20T02:32:19.057840,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+HG03558,Glipizide,2026-03-20T02:32:19.058542,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03563,Glipizide,2026-03-20T02:32:19.059576,*86.001/*86,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs369745682,10.0,96708941
+HG03571,Glipizide,2026-03-20T02:32:19.061867,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03572,Glipizide,2026-03-20T02:32:19.062542,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+HG03577,Glipizide,2026-03-20T02:32:19.063472,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG03578,Glipizide,2026-03-20T02:32:19.063834,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03583,Glipizide,2026-03-20T02:32:19.064196,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+HG03593,Glipizide,2026-03-20T02:32:19.065352,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03594,Glipizide,2026-03-20T02:32:19.065733,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03603,Glipizide,2026-03-20T02:32:19.067122,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03619,Glipizide,2026-03-20T02:32:19.070489,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03624,Glipizide,2026-03-20T02:32:19.071339,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03629,Glipizide,2026-03-20T02:32:19.072434,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG03636,Glipizide,2026-03-20T02:32:19.073463,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03640,Glipizide,2026-03-20T02:32:19.073855,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03644,Glipizide,2026-03-20T02:32:19.074953,*66.001/*66,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs578144976,10.0,96741062
+HG03680,Glipizide,2026-03-20T02:32:19.079668,*66.001/*66,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs578144976,10.0,96741062
+HG03684,Glipizide,2026-03-20T02:32:19.080418,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG03686,Glipizide,2026-03-20T02:32:19.081114,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG03687,Glipizide,2026-03-20T02:32:19.081525,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03709,Glipizide,2026-03-20T02:32:19.089322,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03711,Glipizide,2026-03-20T02:32:19.089689,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03714,Glipizide,2026-03-20T02:32:19.090520,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03716,Glipizide,2026-03-20T02:32:19.090888,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03717,Glipizide,2026-03-20T02:32:19.091271,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03733,Glipizide,2026-03-20T02:32:19.096557,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03745,Glipizide,2026-03-20T02:32:19.099534,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03750,Glipizide,2026-03-20T02:32:19.100259,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03754,Glipizide,2026-03-20T02:32:19.102020,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03760,Glipizide,2026-03-20T02:32:19.103508,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03762,Glipizide,2026-03-20T02:32:19.103862,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03775,Glipizide,2026-03-20T02:32:19.106665,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03784,Glipizide,2026-03-20T02:32:19.110376,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03785,Glipizide,2026-03-20T02:32:19.110761,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03802,Glipizide,2026-03-20T02:32:19.114424,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03808,Glipizide,2026-03-20T02:32:19.115496,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03815,Glipizide,2026-03-20T02:32:19.116878,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03817,Glipizide,2026-03-20T02:32:19.117243,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03824,Glipizide,2026-03-20T02:32:19.118322,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03837,Glipizide,2026-03-20T02:32:19.120900,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03838,Glipizide,2026-03-20T02:32:19.121267,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03844,Glipizide,2026-03-20T02:32:19.121626,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03857,Glipizide,2026-03-20T02:32:19.124402,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03858,Glipizide,2026-03-20T02:32:19.124770,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03863,Glipizide,2026-03-20T02:32:19.125844,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03867,Glipizide,2026-03-20T02:32:19.126897,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03871,Glipizide,2026-03-20T02:32:19.128288,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG03884,Glipizide,2026-03-20T02:32:19.130518,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03887,Glipizide,2026-03-20T02:32:19.131569,*66.001/*66,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs578144976,10.0,96741062
+HG03902,Glipizide,2026-03-20T02:32:19.135912,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03908,Glipizide,2026-03-20T02:32:19.137214,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03917,Glipizide,2026-03-20T02:32:19.139810,*66.001/*66,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs578144976,10.0,96741062
+HG03920,Glipizide,2026-03-20T02:32:19.140519,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03943,Glipizide,2026-03-20T02:32:19.144020,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03945,Glipizide,2026-03-20T02:32:19.144725,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03965,Glipizide,2026-03-20T02:32:19.148378,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03971,Glipizide,2026-03-20T02:32:19.149747,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+HG03974,Glipizide,2026-03-20T02:32:19.150446,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG03985,Glipizide,2026-03-20T02:32:19.151880,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04003,Glipizide,2026-03-20T02:32:19.156770,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04018,Glipizide,2026-03-20T02:32:19.158480,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04023,Glipizide,2026-03-20T02:32:19.159940,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04025,Glipizide,2026-03-20T02:32:19.160290,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+HG04026,Glipizide,2026-03-20T02:32:19.160648,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04042,Glipizide,2026-03-20T02:32:19.163532,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04047,Glipizide,2026-03-20T02:32:19.163910,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04059,Glipizide,2026-03-20T02:32:19.164945,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04060,Glipizide,2026-03-20T02:32:19.165294,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG04063,Glipizide,2026-03-20T02:32:19.166344,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04070,Glipizide,2026-03-20T02:32:19.166710,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04076,Glipizide,2026-03-20T02:32:19.167480,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04096,Glipizide,2026-03-20T02:32:19.169416,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04098,Glipizide,2026-03-20T02:32:19.169809,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04099,Glipizide,2026-03-20T02:32:19.170303,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04100,Glipizide,2026-03-20T02:32:19.170676,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04107,Glipizide,2026-03-20T02:32:19.171390,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04131,Glipizide,2026-03-20T02:32:19.172108,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04141,Glipizide,2026-03-20T02:32:19.173137,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04152,Glipizide,2026-03-20T02:32:19.174416,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04156,Glipizide,2026-03-20T02:32:19.175488,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04161,Glipizide,2026-03-20T02:32:19.176559,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04164,Glipizide,2026-03-20T02:32:19.177230,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04171,Glipizide,2026-03-20T02:32:19.177565,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG04176,Glipizide,2026-03-20T02:32:19.178226,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04185,Glipizide,2026-03-20T02:32:19.180061,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04186,Glipizide,2026-03-20T02:32:19.180402,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04188,Glipizide,2026-03-20T02:32:19.180740,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+HG04214,Glipizide,2026-03-20T02:32:19.185231,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+HG04219,Glipizide,2026-03-20T02:32:19.186669,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA06986,Glipizide,2026-03-20T02:32:19.190411,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA06989,Glipizide,2026-03-20T02:32:19.190741,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA06994,Glipizide,2026-03-20T02:32:19.191082,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA07037,Glipizide,2026-03-20T02:32:19.191778,*12.001/*12,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs9332239,10.0,96748777
+NA07347,Glipizide,2026-03-20T02:32:19.193180,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11830,Glipizide,2026-03-20T02:32:19.195022,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11831,Glipizide,2026-03-20T02:32:19.195356,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11832,Glipizide,2026-03-20T02:32:19.195708,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA11840,Glipizide,2026-03-20T02:32:19.196042,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11843,Glipizide,2026-03-20T02:32:19.196387,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA11892,Glipizide,2026-03-20T02:32:19.197055,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11930,Glipizide,2026-03-20T02:32:19.199077,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA11931,Glipizide,2026-03-20T02:32:19.199543,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA11932,Glipizide,2026-03-20T02:32:19.199923,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA11995,Glipizide,2026-03-20T02:32:19.202111,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12003,Glipizide,2026-03-20T02:32:19.202443,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12005,Glipizide,2026-03-20T02:32:19.203166,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12043,Glipizide,2026-03-20T02:32:19.203852,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12046,Glipizide,2026-03-20T02:32:19.204912,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+NA12058,Glipizide,2026-03-20T02:32:19.205282,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12155,Glipizide,2026-03-20T02:32:19.206277,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12156,Glipizide,2026-03-20T02:32:19.206607,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12272,Glipizide,2026-03-20T02:32:19.207579,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12273,Glipizide,2026-03-20T02:32:19.207902,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12283,Glipizide,2026-03-20T02:32:19.208965,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+NA12287,Glipizide,2026-03-20T02:32:19.209783,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12341,Glipizide,2026-03-20T02:32:19.210430,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA12400,Glipizide,2026-03-20T02:32:19.212368,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12413,Glipizide,2026-03-20T02:32:19.212697,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12414,Glipizide,2026-03-20T02:32:19.213042,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+NA12489,Glipizide,2026-03-20T02:32:19.213396,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12716,Glipizide,2026-03-20T02:32:19.214058,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12718,Glipizide,2026-03-20T02:32:19.215326,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12762,Glipizide,2026-03-20T02:32:19.219140,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332242,rs2256871",10.0,"96708974,96748893"
+NA12776,Glipizide,2026-03-20T02:32:19.220249,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12813,Glipizide,2026-03-20T02:32:19.221554,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA12843,Glipizide,2026-03-20T02:32:19.224295,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA12878,Glipizide,2026-03-20T02:32:19.225657,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA18486,Glipizide,2026-03-20T02:32:19.226664,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA18488,Glipizide,2026-03-20T02:32:19.226997,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18489,Glipizide,2026-03-20T02:32:19.227327,*1.009/*11.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs28371685,rs2017319",10.0,"96740981,96748635"
+NA18498,Glipizide,2026-03-20T02:32:19.227660,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18501,Glipizide,2026-03-20T02:32:19.228311,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18504,Glipizide,2026-03-20T02:32:19.228951,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA18507,Glipizide,2026-03-20T02:32:19.229740,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs9332241,rs2017319",10.0,"96748635,96748873"
+NA18510,Glipizide,2026-03-20T02:32:19.230496,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA18517,Glipizide,2026-03-20T02:32:19.232713,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA18519,Glipizide,2026-03-20T02:32:19.233071,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA18563,Glipizide,2026-03-20T02:32:19.245160,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18573,Glipizide,2026-03-20T02:32:19.248129,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18591,Glipizide,2026-03-20T02:32:19.249793,*16/*16.001,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs72558192,10.0,96731936
+NA18602,Glipizide,2026-03-20T02:32:19.252203,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18619,Glipizide,2026-03-20T02:32:19.257103,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18635,Glipizide,2026-03-20T02:32:19.262887,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18642,Glipizide,2026-03-20T02:32:19.265332,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18643,Glipizide,2026-03-20T02:32:19.265714,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18645,Glipizide,2026-03-20T02:32:19.266434,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18740,Glipizide,2026-03-20T02:32:19.267800,*1.014/*1.005,2.0,NM,Normal response – Standard dosing,low,1.0,rs9332244,10.0,96749005
+NA18757,Glipizide,2026-03-20T02:32:19.269395,*29.001/*29,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs182132442,10.0,96731876
+NA18853,Glipizide,2026-03-20T02:32:19.269804,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA18856,Glipizide,2026-03-20T02:32:19.270197,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18865,Glipizide,2026-03-20T02:32:19.271522,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA18873,Glipizide,2026-03-20T02:32:19.273085,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA18874,Glipizide,2026-03-20T02:32:19.273421,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18876,Glipizide,2026-03-20T02:32:19.273740,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18877,Glipizide,2026-03-20T02:32:19.274161,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18878,Glipizide,2026-03-20T02:32:19.274486,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA18881,Glipizide,2026-03-20T02:32:19.275123,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA18907,Glipizide,2026-03-20T02:32:19.275466,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA18909,Glipizide,2026-03-20T02:32:19.276118,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA18910,Glipizide,2026-03-20T02:32:19.276434,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA18912,Glipizide,2026-03-20T02:32:19.276746,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA18916,Glipizide,2026-03-20T02:32:19.277679,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA18917,Glipizide,2026-03-20T02:32:19.278003,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA18923,Glipizide,2026-03-20T02:32:19.278320,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA18924,Glipizide,2026-03-20T02:32:19.278634,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA18944,Glipizide,2026-03-20T02:32:19.281441,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18959,Glipizide,2026-03-20T02:32:19.286664,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA18976,Glipizide,2026-03-20T02:32:19.293304,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19017,Glipizide,2026-03-20T02:32:19.304299,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19019,Glipizide,2026-03-20T02:32:19.304626,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19023,Glipizide,2026-03-20T02:32:19.305249,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19026,Glipizide,2026-03-20T02:32:19.306162,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19027,Glipizide,2026-03-20T02:32:19.306484,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs1057911,rs2017319",10.0,"96748635,96748737"
+NA19028,Glipizide,2026-03-20T02:32:19.306807,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19031,Glipizide,2026-03-20T02:32:19.307517,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19036,Glipizide,2026-03-20T02:32:19.308164,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19038,Glipizide,2026-03-20T02:32:19.308800,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19042,Glipizide,2026-03-20T02:32:19.309506,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19060,Glipizide,2026-03-20T02:32:19.312095,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19096,Glipizide,2026-03-20T02:32:19.321918,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19099,Glipizide,2026-03-20T02:32:19.323000,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19102,Glipizide,2026-03-20T02:32:19.323343,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19108,Glipizide,2026-03-20T02:32:19.323952,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19114,Glipizide,2026-03-20T02:32:19.324724,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs28371686",10.0,"96740981,96741058"
+NA19116,Glipizide,2026-03-20T02:32:19.325058,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19117,Glipizide,2026-03-20T02:32:19.325369,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19119,Glipizide,2026-03-20T02:32:19.325995,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA19121,Glipizide,2026-03-20T02:32:19.326320,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19130,Glipizide,2026-03-20T02:32:19.326931,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19138,Glipizide,2026-03-20T02:32:19.327871,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19141,Glipizide,2026-03-20T02:32:19.328181,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA19144,Glipizide,2026-03-20T02:32:19.328795,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19149,Glipizide,2026-03-20T02:32:19.329701,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19152,Glipizide,2026-03-20T02:32:19.330009,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19160,Glipizide,2026-03-20T02:32:19.330993,*1.009/*11.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs28371685,rs2017319",10.0,"96740981,96748635"
+NA19171,Glipizide,2026-03-20T02:32:19.331329,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19172,Glipizide,2026-03-20T02:32:19.331642,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19175,Glipizide,2026-03-20T02:32:19.331950,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19184,Glipizide,2026-03-20T02:32:19.332266,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19185,Glipizide,2026-03-20T02:32:19.332583,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19197,Glipizide,2026-03-20T02:32:19.333492,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA19198,Glipizide,2026-03-20T02:32:19.333799,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19200,Glipizide,2026-03-20T02:32:19.334114,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19204,Glipizide,2026-03-20T02:32:19.335092,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19206,Glipizide,2026-03-20T02:32:19.335412,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19214,Glipizide,2026-03-20T02:32:19.336999,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19225,Glipizide,2026-03-20T02:32:19.337921,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19235,Glipizide,2026-03-20T02:32:19.338230,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19236,Glipizide,2026-03-20T02:32:19.338668,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19239,Glipizide,2026-03-20T02:32:19.339493,*1.007/*1.005,2.0,NM,Normal response – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19247,Glipizide,2026-03-20T02:32:19.339844,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19248,Glipizide,2026-03-20T02:32:19.340241,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA19308,Glipizide,2026-03-20T02:32:19.341470,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19310,Glipizide,2026-03-20T02:32:19.342102,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19315,Glipizide,2026-03-20T02:32:19.343106,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19317,Glipizide,2026-03-20T02:32:19.343715,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19318,Glipizide,2026-03-20T02:32:19.344102,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19319,Glipizide,2026-03-20T02:32:19.344424,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19321,Glipizide,2026-03-20T02:32:19.345060,*5/*8.002,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332240,rs28371686,rs9332243",10.0,"96748852,96741058,96748940"
+NA19323,Glipizide,2026-03-20T02:32:19.345397,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19324,Glipizide,2026-03-20T02:32:19.345721,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19332,Glipizide,2026-03-20T02:32:19.346983,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19334,Glipizide,2026-03-20T02:32:19.347294,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19347,Glipizide,2026-03-20T02:32:19.348226,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19350,Glipizide,2026-03-20T02:32:19.348535,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19351,Glipizide,2026-03-20T02:32:19.348841,*31.001/*31,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs57505750,10.0,96740958
+NA19355,Glipizide,2026-03-20T02:32:19.349220,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19375,Glipizide,2026-03-20T02:32:19.350559,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19379,Glipizide,2026-03-20T02:32:19.351779,*1.007/*1.005,2.0,NM,Normal response – Standard dosing,low,0.02,rs112354725,10.0,96748701
+NA19380,Glipizide,2026-03-20T02:32:19.352106,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19383,Glipizide,2026-03-20T02:32:19.352418,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs2256871",10.0,"96740981,96708974"
+NA19384,Glipizide,2026-03-20T02:32:19.352729,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA19385,Glipizide,2026-03-20T02:32:19.353040,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19390,Glipizide,2026-03-20T02:32:19.353373,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19391,Glipizide,2026-03-20T02:32:19.353690,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19393,Glipizide,2026-03-20T02:32:19.354087,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19394,Glipizide,2026-03-20T02:32:19.354994,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19399,Glipizide,2026-03-20T02:32:19.355944,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19403,Glipizide,2026-03-20T02:32:19.356568,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19428,Glipizide,2026-03-20T02:32:19.357178,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA19435,Glipizide,2026-03-20T02:32:19.358714,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19436,Glipizide,2026-03-20T02:32:19.359146,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19437,Glipizide,2026-03-20T02:32:19.359453,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19438,Glipizide,2026-03-20T02:32:19.359752,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332240,rs9332243,rs2256871",10.0,"96748852,96708974,96748940"
+NA19445,Glipizide,2026-03-20T02:32:19.360998,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19446,Glipizide,2026-03-20T02:32:19.361296,*1.009/*31.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs57505750,rs2017319",10.0,"96748635,96740958"
+NA19448,Glipizide,2026-03-20T02:32:19.361593,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19449,Glipizide,2026-03-20T02:32:19.361888,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA19451,Glipizide,2026-03-20T02:32:19.362190,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19454,Glipizide,2026-03-20T02:32:19.362772,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA19456,Glipizide,2026-03-20T02:32:19.363347,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs28371685,10.0,96740981
+NA19461,Glipizide,2026-03-20T02:32:19.363937,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19462,Glipizide,2026-03-20T02:32:19.364296,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19463,Glipizide,2026-03-20T02:32:19.364588,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19466,Glipizide,2026-03-20T02:32:19.364880,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19468,Glipizide,2026-03-20T02:32:19.365469,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19472,Glipizide,2026-03-20T02:32:19.366048,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19474,Glipizide,2026-03-20T02:32:19.366635,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19475,Glipizide,2026-03-20T02:32:19.366934,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19651,Glipizide,2026-03-20T02:32:19.368144,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19654,Glipizide,2026-03-20T02:32:19.368736,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19676,Glipizide,2026-03-20T02:32:19.372584,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19700,Glipizide,2026-03-20T02:32:19.374324,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19703,Glipizide,2026-03-20T02:32:19.374906,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19704,Glipizide,2026-03-20T02:32:19.375206,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19707,Glipizide,2026-03-20T02:32:19.375516,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19712,Glipizide,2026-03-20T02:32:19.376114,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19716,Glipizide,2026-03-20T02:32:19.376707,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19717,Glipizide,2026-03-20T02:32:19.377000,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19720,Glipizide,2026-03-20T02:32:19.377582,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19725,Glipizide,2026-03-20T02:32:19.378470,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19728,Glipizide,2026-03-20T02:32:19.379065,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19756,Glipizide,2026-03-20T02:32:19.383181,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19764,Glipizide,2026-03-20T02:32:19.385054,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19773,Glipizide,2026-03-20T02:32:19.385963,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19774,Glipizide,2026-03-20T02:32:19.386297,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19777,Glipizide,2026-03-20T02:32:19.386886,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19780,Glipizide,2026-03-20T02:32:19.387482,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19789,Glipizide,2026-03-20T02:32:19.389315,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19794,Glipizide,2026-03-20T02:32:19.390486,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA19795,Glipizide,2026-03-20T02:32:19.391771,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA19818,Glipizide,2026-03-20T02:32:19.392309,*11.001/*11,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371685,rs9332242",10.0,"96740981,96748893"
+NA19834,Glipizide,2026-03-20T02:32:19.393374,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19900,Glipizide,2026-03-20T02:32:19.394211,*8.002/*8.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.16,"rs9332240,rs9332243",10.0,"96748852,96748940"
+NA19901,Glipizide,2026-03-20T02:32:19.394586,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19908,Glipizide,2026-03-20T02:32:19.395196,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA19913,Glipizide,2026-03-20T02:32:19.395801,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA19914,Glipizide,2026-03-20T02:32:19.396102,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA19917,Glipizide,2026-03-20T02:32:19.396687,*1.005/*3.001,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.111,rs1057911,10.0,96748737
+NA19920,Glipizide,2026-03-20T02:32:19.396981,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19922,Glipizide,2026-03-20T02:32:19.397559,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA19982,Glipizide,2026-03-20T02:32:19.398155,*1.009/*5,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs28371686,rs2017319",10.0,"96748635,96741058"
+NA19984,Glipizide,2026-03-20T02:32:19.398449,*5/*5.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,rs28371686,10.0,96741058
+NA20127,Glipizide,2026-03-20T02:32:19.399024,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20276,Glipizide,2026-03-20T02:32:19.400286,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA20278,Glipizide,2026-03-20T02:32:19.400927,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20282,Glipizide,2026-03-20T02:32:19.401943,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20287,Glipizide,2026-03-20T02:32:19.402270,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA20289,Glipizide,2026-03-20T02:32:19.402568,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,"rs9332242,rs2256871",10.0,"96708974,96748893"
+NA20294,Glipizide,2026-03-20T02:32:19.403160,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA20296,Glipizide,2026-03-20T02:32:19.403470,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20298,Glipizide,2026-03-20T02:32:19.403834,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA20317,Glipizide,2026-03-20T02:32:19.404915,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20320,Glipizide,2026-03-20T02:32:19.405507,*9.001/*9,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs2256871,10.0,96708974
+NA20321,Glipizide,2026-03-20T02:32:19.405805,*1.009/*9.001,1.5,NM,Normal response – Standard dosing,low,1.0,"rs2256871,rs2017319",10.0,"96748635,96708974"
+NA20339,Glipizide,2026-03-20T02:32:19.406690,*8.003/*8.004,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,0.062,rs9332241,10.0,96748873
+NA20355,Glipizide,2026-03-20T02:32:19.408423,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20359,Glipizide,2026-03-20T02:32:19.409300,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20412,Glipizide,2026-03-20T02:32:19.409879,*1.009/*88.001,1.5,NM,Normal response – Standard dosing,low,1.0,rs2017319,10.0,96748635
+NA20507,Glipizide,2026-03-20T02:32:19.411626,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20510,Glipizide,2026-03-20T02:32:19.412499,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20513,Glipizide,2026-03-20T02:32:19.413387,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20514,Glipizide,2026-03-20T02:32:19.413704,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20515,Glipizide,2026-03-20T02:32:19.413999,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20516,Glipizide,2026-03-20T02:32:19.414306,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20522,Glipizide,2026-03-20T02:32:19.416111,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20525,Glipizide,2026-03-20T02:32:19.416713,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20529,Glipizide,2026-03-20T02:32:19.417605,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20531,Glipizide,2026-03-20T02:32:19.418214,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20535,Glipizide,2026-03-20T02:32:19.419394,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20536,Glipizide,2026-03-20T02:32:19.419695,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20538,Glipizide,2026-03-20T02:32:19.419999,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20539,Glipizide,2026-03-20T02:32:19.420313,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20540,Glipizide,2026-03-20T02:32:19.420620,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20541,Glipizide,2026-03-20T02:32:19.420950,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20543,Glipizide,2026-03-20T02:32:19.421548,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20544,Glipizide,2026-03-20T02:32:19.421860,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20581,Glipizide,2026-03-20T02:32:19.422157,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20582,Glipizide,2026-03-20T02:32:19.422457,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20585,Glipizide,2026-03-20T02:32:19.422769,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20586,Glipizide,2026-03-20T02:32:19.423086,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20589,Glipizide,2026-03-20T02:32:19.423986,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20755,Glipizide,2026-03-20T02:32:19.425166,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20756,Glipizide,2026-03-20T02:32:19.425471,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20757,Glipizide,2026-03-20T02:32:19.425787,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20762,Glipizide,2026-03-20T02:32:19.427248,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20763,Glipizide,2026-03-20T02:32:19.427566,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20764,Glipizide,2026-03-20T02:32:19.427863,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20765,Glipizide,2026-03-20T02:32:19.428166,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20769,Glipizide,2026-03-20T02:32:19.429329,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20770,Glipizide,2026-03-20T02:32:19.429637,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20783,Glipizide,2026-03-20T02:32:19.431793,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20785,Glipizide,2026-03-20T02:32:19.432099,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20786,Glipizide,2026-03-20T02:32:19.432397,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20792,Glipizide,2026-03-20T02:32:19.433267,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20795,Glipizide,2026-03-20T02:32:19.433571,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20796,Glipizide,2026-03-20T02:32:19.433868,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20798,Glipizide,2026-03-20T02:32:19.434544,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20804,Glipizide,2026-03-20T02:32:19.436344,*12.001/*12,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs9332239,10.0,96748777
+NA20805,Glipizide,2026-03-20T02:32:19.436651,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20808,Glipizide,2026-03-20T02:32:19.437515,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20809,Glipizide,2026-03-20T02:32:19.437825,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20810,Glipizide,2026-03-20T02:32:19.438116,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20811,Glipizide,2026-03-20T02:32:19.438410,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20814,Glipizide,2026-03-20T02:32:19.439413,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20819,Glipizide,2026-03-20T02:32:19.440402,*12.001/*12,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,1.0,rs9332239,10.0,96748777
+NA20821,Glipizide,2026-03-20T02:32:19.440716,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20827,Glipizide,2026-03-20T02:32:19.441591,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20845,Glipizide,2026-03-20T02:32:19.442529,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs9332242,rs1057911,rs1057910",10.0,"96748893,96741053,96748737"
+NA20846,Glipizide,2026-03-20T02:32:19.442834,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20849,Glipizide,2026-03-20T02:32:19.443454,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20851,Glipizide,2026-03-20T02:32:19.444169,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20854,Glipizide,2026-03-20T02:32:19.445155,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20856,Glipizide,2026-03-20T02:32:19.445451,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20861,Glipizide,2026-03-20T02:32:19.446350,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20864,Glipizide,2026-03-20T02:32:19.447302,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20870,Glipizide,2026-03-20T02:32:19.448790,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20872,Glipizide,2026-03-20T02:32:19.449238,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20876,Glipizide,2026-03-20T02:32:19.450215,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20877,Glipizide,2026-03-20T02:32:19.450565,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20882,Glipizide,2026-03-20T02:32:19.451451,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20888,Glipizide,2026-03-20T02:32:19.452919,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20889,Glipizide,2026-03-20T02:32:19.453232,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20892,Glipizide,2026-03-20T02:32:19.454276,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20894,Glipizide,2026-03-20T02:32:19.454676,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20895,Glipizide,2026-03-20T02:32:19.455012,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20896,Glipizide,2026-03-20T02:32:19.455330,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20897,Glipizide,2026-03-20T02:32:19.455658,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20899,Glipizide,2026-03-20T02:32:19.455965,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA20905,Glipizide,2026-03-20T02:32:19.457715,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA20906,Glipizide,2026-03-20T02:32:19.458011,*68/*3,0.5,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs542577750,rs1057911,rs1057910",10.0,"96741128,96741053,96748737"
+NA21089,Glipizide,2026-03-20T02:32:19.460183,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
+NA21092,Glipizide,2026-03-20T02:32:19.461047,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21094,Glipizide,2026-03-20T02:32:19.462352,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21112,Glipizide,2026-03-20T02:32:19.467295,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21114,Glipizide,2026-03-20T02:32:19.467885,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21118,Glipizide,2026-03-20T02:32:19.469126,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21120,Glipizide,2026-03-20T02:32:19.469898,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21123,Glipizide,2026-03-20T02:32:19.470552,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21129,Glipizide,2026-03-20T02:32:19.472246,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21141,Glipizide,2026-03-20T02:32:19.473768,*3/*3.001,0.0,PM,High risk of hypoglycemia – Consider lower dose or alternative,high,1.0,"rs1057911,rs1057910",10.0,"96741053,96748737"
+NA21142,Glipizide,2026-03-20T02:32:19.474061,*2.004/*2.005,1.0,IM,Moderate hypoglycemia risk – Start with reduced dose,moderate,0.04,rs9332242,10.0,96748893
