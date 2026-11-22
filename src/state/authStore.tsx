@@ -1,25 +1,22 @@
-import { createContext, useContext, useMemo, useReducer, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useReducer, type ReactNode } from 'react';
 import {
   HOSPITALS,
-  createDemoUser,
-  findCredential,
   hasPermission,
-  persistSession,
-  readStoredSession,
-  toStaffUser,
   type HospitalOption,
   type StaffPermission,
   type StaffRole,
   type StaffSession,
+  type StaffUser,
 } from './authSession';
 
 interface AuthState {
   session: StaffSession | null;
+  isLoading: boolean;
 }
 
 type AuthAction =
-  | { type: 'SET_SESSION'; payload: StaffSession }
-  | { type: 'SIGN_OUT' };
+  | { type: 'SET_SESSION'; payload: StaffSession | null }
+  | { type: 'SET_LOADING'; payload: boolean };
 
 interface LoginResult {
   ok: boolean;
@@ -29,25 +26,26 @@ interface LoginResult {
 
 interface AuthContextValue {
   session: StaffSession | null;
-  user: StaffSession['user'] | null;
+  user: StaffUser | null;
   hospital: HospitalOption | null;
   role: StaffRole | null;
   hospitals: HospitalOption[];
   isAuthenticated: boolean;
   isDemoMode: boolean;
   hasActiveSession: boolean;
-  loginWithCredentials: (hospitalId: string, username: string, password: string) => LoginResult;
-  enterDemoMode: (hospitalId: string) => LoginResult;
-  signOut: () => void;
+  isLoading: boolean;
+  loginWithCredentials: (hospitalId: string, username: string, password: string) => Promise<LoginResult>;
+  enterDemoMode: (hospitalId: string) => Promise<LoginResult>;
+  signOut: () => Promise<void>;
   can: (permission: StaffPermission) => boolean;
 }
 
 function reducer(state: AuthState, action: AuthAction): AuthState {
   switch (action.type) {
     case 'SET_SESSION':
-      return { ...state, session: action.payload };
-    case 'SIGN_OUT':
-      return { ...state, session: null };
+      return { ...state, session: action.payload, isLoading: false };
+    case 'SET_LOADING':
+      return { ...state, isLoading: action.payload };
     default:
       return state;
   }
@@ -56,61 +54,103 @@ function reducer(state: AuthState, action: AuthAction): AuthState {
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [state, dispatch] = useReducer(reducer, { session: readStoredSession() });
+  const [state, dispatch] = useReducer(reducer, { session: null, isLoading: true });
 
-  const loginWithCredentials = (hospitalId: string, username: string, password: string): LoginResult => {
-    const hospital = HOSPITALS.find((entry) => entry.hospital_id === hospitalId) ?? null;
-    if (!hospital) {
-      return { ok: false, message: 'Please select a valid hospital organization.' };
-    }
+  // Restore session from backend on mount
+  useEffect(() => {
+    let isMounted = true;
+    fetch('/api/auth/session', { credentials: 'include' })
+      .then((res) => res.json())
+      .then((data) => {
+        if (!isMounted) return;
+        if (data && data.authenticated && data.session) {
+          dispatch({ type: 'SET_SESSION', payload: data.session });
+        } else {
+          dispatch({ type: 'SET_SESSION', payload: null });
+        }
+      })
+      .catch(() => {
+        if (!isMounted) return;
+        dispatch({ type: 'SET_SESSION', payload: null });
+      });
 
-    if (!username.trim() || !password.trim()) {
-      return { ok: false, message: 'Username and password are required.' };
-    }
-
-    const credential = findCredential(hospital.hospital_id, username, password);
-    if (!credential) {
-      return { ok: false, message: 'Invalid credentials for the selected hospital.' };
-    }
-
-    const session: StaffSession = {
-      mode: 'authenticated',
-      hospital,
-      user: toStaffUser(credential),
-      startedAt: new Date().toISOString(),
+    return () => {
+      isMounted = false;
     };
+  }, []);
 
-    dispatch({ type: 'SET_SESSION', payload: session });
-    persistSession(session);
-    return { ok: true, message: 'Authenticated successfully.', role: session.user.role };
+  const loginWithCredentials = async (hospitalId: string, username: string, password: string): Promise<LoginResult> => {
+    if (!hospitalId || !username.trim() || !password.trim()) {
+      return { ok: false, message: 'Hospital, username, and password are required.' };
+    }
+
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ hospitalId, username, password }),
+        credentials: 'include',
+      });
+
+      const data = await response.json();
+      if (!response.ok || !data.ok) {
+        return { ok: false, message: data.message || 'Authentication failed.' };
+      }
+
+      const hospital = HOSPITALS.find((h) => h.hospital_id === hospitalId) || { hospital_id: hospitalId, name: hospitalId };
+      const session: StaffSession = {
+        mode: 'authenticated',
+        hospital,
+        user: data.user,
+        startedAt: new Date().toISOString(),
+      };
+
+      dispatch({ type: 'SET_SESSION', payload: session });
+      return { ok: true, message: 'Authenticated successfully.', role: data.user.role };
+    } catch (err) {
+      return { ok: false, message: 'Network error during sign-in.' };
+    }
   };
 
-  const enterDemoMode = (hospitalId: string): LoginResult => {
-    const hospital = HOSPITALS.find((entry) => entry.hospital_id === hospitalId) ?? null;
-    if (!hospital) {
-      return { ok: false, message: 'Please select a valid hospital organization for demo mode.' };
+  const enterDemoMode = async (hospitalId: string): Promise<LoginResult> => {
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ hospitalId, demoMode: true }),
+        credentials: 'include',
+      });
+
+      const data = await response.json();
+      if (!response.ok || !data.ok) {
+        return { ok: false, message: data.message || 'Failed to start demo mode.' };
+      }
+
+      const hospital = HOSPITALS.find((h) => h.hospital_id === hospitalId) || { hospital_id: hospitalId, name: hospitalId };
+      const session: StaffSession = {
+        mode: 'demo',
+        hospital,
+        user: data.user,
+        startedAt: new Date().toISOString(),
+      };
+
+      dispatch({ type: 'SET_SESSION', payload: session });
+      return { ok: true, message: 'Demo mode started.', role: 'demo' };
+    } catch (err) {
+      return { ok: false, message: 'Network error during demo initialization.' };
     }
-
-    const demoUser = createDemoUser(hospital.hospital_id);
-    if (!demoUser) {
-      return { ok: false, message: 'Unable to initialize demo mode for the selected hospital.' };
-    }
-
-    const session: StaffSession = {
-      mode: 'demo',
-      hospital,
-      user: demoUser,
-      startedAt: new Date().toISOString(),
-    };
-
-    dispatch({ type: 'SET_SESSION', payload: session });
-    persistSession(session);
-    return { ok: true, message: 'Demo mode started.', role: 'demo' };
   };
 
-  const signOut = () => {
-    dispatch({ type: 'SIGN_OUT' });
-    persistSession(null);
+  const signOut = async () => {
+    try {
+      await fetch('/api/auth/logout', {
+        method: 'POST',
+        credentials: 'include',
+      });
+    } catch (err) {
+      // ignore
+    }
+    dispatch({ type: 'SET_SESSION', payload: null });
   };
 
   const value = useMemo<AuthContextValue>(() => {
@@ -126,12 +166,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       isAuthenticated: session?.mode === 'authenticated',
       isDemoMode: session?.mode === 'demo',
       hasActiveSession: Boolean(session),
+      isLoading: state.isLoading,
       loginWithCredentials,
       enterDemoMode,
       signOut,
       can: (permission) => hasPermission(session, permission),
     };
-  }, [state.session]);
+  }, [state.session, state.isLoading]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

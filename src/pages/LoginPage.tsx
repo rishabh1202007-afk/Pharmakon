@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { useAuth } from '../state/authStore';
+import { IS_DEV_MODE } from '../state/authSession';
 
 export function LoginPage() {
   const navigate = useNavigate();
@@ -21,11 +22,11 @@ export function LoginPage() {
     return <Navigate to={isDemoMode ? '/landing' : '/dashboard'} replace />;
   }
 
-  const handleLogin = (event: FormEvent<HTMLFormElement>) => {
+  const handleLogin = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsSubmitting(true);
 
-    const result = loginWithCredentials(hospitalId, username, password);
+    const result = await loginWithCredentials(hospitalId, username, password);
     if (!result.ok) {
       setError(result.message);
       setIsSubmitting(false);
@@ -36,9 +37,9 @@ export function LoginPage() {
     navigate(result.role === 'admin' ? '/upload' : '/dashboard', { replace: true });
   };
 
-  const launchDemoMode = () => {
+  const launchDemoMode = async () => {
     setIsSubmitting(true);
-    const result = enterDemoMode(hospitalId);
+    const result = await enterDemoMode(hospitalId);
     if (!result.ok) {
       setError(result.message);
       setIsSubmitting(false);
@@ -81,7 +82,7 @@ export function LoginPage() {
               onChange={(event) => setUsername(event.target.value)}
               type="text"
               autoComplete="username"
-              placeholder="doc1 / nurse1 / lab1"
+              placeholder={IS_DEV_MODE ? 'doc1 / nurse1 / lab1' : 'Enter staff username'}
             />
           </label>
 
@@ -92,7 +93,7 @@ export function LoginPage() {
               onChange={(event) => setPassword(event.target.value)}
               type="password"
               autoComplete="current-password"
-              placeholder="pass"
+              placeholder={IS_DEV_MODE ? 'pass' : 'Enter staff password'}
             />
           </label>
 
@@ -105,7 +106,11 @@ export function LoginPage() {
           <button type="button" className="auth-demo-button" onClick={launchDemoMode} disabled={isSubmitting}>
             Product Tour (Demo Mode)
           </button>
-          <small>Demo mode is clearly marked and non-clinical. Use <strong>pass</strong> for seeded users.</small>
+          <small>
+            {IS_DEV_MODE
+              ? 'Demo mode is clearly marked and non-clinical. Use pass for seeded users.'
+              : 'Production secure sign-in. Product Tour demo mode is active for non-clinical evaluation.'}
+          </small>
         </div>
 
         {error ? <p className="auth-error">{error}</p> : null}

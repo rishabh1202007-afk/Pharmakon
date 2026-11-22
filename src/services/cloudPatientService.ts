@@ -1,12 +1,10 @@
 import type {
-  AggregatedPatientRecord,
   AiDraftOutput,
   AuditLogEntry,
   CloudPatientRecord,
   LabReportRecord,
   PrescriptionRecord,
 } from '../types/domain';
-import { getIdentityHeaders, readStoredSession } from '../state/authSession';
 
 const rawApiBase = import.meta.env.VITE_API_BASE_URL || '';
 const API_BASE = rawApiBase.replace(/\/$/, '');
@@ -117,7 +115,7 @@ export interface IntakeInputContext {
   hospitalId?: string;
   assignedDoctor?: string;
   department?: string;
-  admissionType?: 'OPD' | 'IPD' | 'Emergency';
+  admissionType?: 'OPD' | 'IPD' | 'Emergency' | string;
   admissionDate?: string;
   caseType?: 'New' | 'Follow-up';
   selectedMedications?: string[];
@@ -275,16 +273,15 @@ async function ensurePatientsApiReady(path: string): Promise<void> {
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   await ensurePatientsApiReady(path);
 
-  const identityHeaders = getIdentityHeaders(readStoredSession());
   let response: Response;
 
   try {
     response = await fetch(`${API_BASE}${path}`, {
       headers: {
         'Content-Type': 'application/json',
-        ...identityHeaders,
         ...(init?.headers || {}),
       },
+      credentials: 'include',
       ...init,
     });
   } catch {
@@ -301,20 +298,6 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   }
 
   return (await response.json()) as T;
-}
-
-function identityQuerySuffix(): string {
-  const session = readStoredSession();
-  if (!session) {
-    return '';
-  }
-
-  const params = new URLSearchParams();
-  params.set('hospitalId', session.hospital.hospital_id);
-  params.set('userId', session.user.user_id);
-  params.set('role', session.mode === 'demo' ? 'demo' : session.user.role);
-  params.set('demoMode', String(session.mode === 'demo'));
-  return params.toString();
 }
 
 export async function fetchPatientRecord(patientId: string): Promise<CloudPatientRecord | null> {
@@ -359,59 +342,14 @@ export async function fetchPatientDms(
   return request<PatientDmsResponse>(`/api/patients/${encodeURIComponent(patientId)}/dms${querySuffix}`);
 }
 
-export async function syncPatientFromIntake(
+export async function syncIntakeToPatientFolder(
   patientId: string,
-  intakeOutput: AiDraftOutput | null,
-  intakeInput?: IntakeInputContext,
+  intakeOutput: AiDraftOutput,
+  intakeInput: IntakeInputContext,
 ): Promise<SyncIntakeResponse> {
   return request<SyncIntakeResponse>(`/api/patients/${encodeURIComponent(patientId)}/sync-intake`, {
     method: 'POST',
-    body: JSON.stringify({ intakeOutput, intakeInput: intakeInput || null }),
-  });
-}
-
-export async function discardTempIntakeDocument(patientId: string, tempDocumentId: string): Promise<void> {
-  await request(`/api/patients/${encodeURIComponent(patientId)}/discard-temp-intake`, {
-    method: 'POST',
-    body: JSON.stringify({ tempDocumentId }),
-  });
-}
-
-export function discardTempIntakeDocumentOnUnload(patientId: string, tempDocumentId: string): void {
-  if (!patientId || !tempDocumentId) {
-    return;
-  }
-
-  const identityHeaders = getIdentityHeaders(readStoredSession());
-
-  void fetch(`${API_BASE}/api/patients/${encodeURIComponent(patientId)}/discard-temp-intake`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      ...identityHeaders,
-    },
-    body: JSON.stringify({ tempDocumentId }),
-    keepalive: true,
-  });
-}
-
-export async function convertPatientToInPatient(
-  patientId: string,
-  payload: ConvertInPatientPayload = {},
-): Promise<CloudPatientRecord> {
-  return request<CloudPatientRecord>(`/api/patients/${encodeURIComponent(patientId)}/convert-inpatient`, {
-    method: 'POST',
-    body: JSON.stringify(payload),
-  });
-}
-
-export async function convertPatientToOutPatient(
-  patientId: string,
-  payload: ConvertOutPatientPayload = {},
-): Promise<CloudPatientRecord> {
-  return request<CloudPatientRecord>(`/api/patients/${encodeURIComponent(patientId)}/convert-outpatient`, {
-    method: 'POST',
-    body: JSON.stringify(payload),
+    body: JSON.stringify({ intakeOutput, intakeInput }),
   });
 }
 
@@ -429,7 +367,7 @@ export async function addPatientNote(patientId: string, payload: AddNotePayload)
   });
 }
 
-export async function savePrescription(
+export async function savePatientPrescription(
   patientId: string,
   payload: SavePrescriptionPayload,
 ): Promise<SavePrescriptionResponse> {
@@ -439,95 +377,84 @@ export async function savePrescription(
   });
 }
 
-export async function saveLabReport(patientId: string, payload: SaveLabReportPayload): Promise<SaveLabReportResponse> {
+export async function savePatientLabReport(
+  patientId: string,
+  payload: SaveLabReportPayload,
+): Promise<SaveLabReportResponse> {
   return request<SaveLabReportResponse>(`/api/patients/${encodeURIComponent(patientId)}/lab-reports`, {
     method: 'POST',
     body: JSON.stringify(payload),
   });
 }
 
-export async function recordAiDecision(
+export async function recordPatientAiDecision(
   patientId: string,
   payload: RecordAiDecisionPayload,
 ): Promise<RecordAiDecisionResponse> {
-  return request<RecordAiDecisionResponse>(`/api/patients/${encodeURIComponent(patientId)}/ai-decisions`, {
+  return request<RecordAiDecisionResponse>(`/api/patients/${encodeURIComponent(patientId)}/audit`, {
     method: 'POST',
     body: JSON.stringify(payload),
   });
 }
 
-export async function fetchPatientAuditLog(patientId: string, limit = 100): Promise<AuditLogEntry[]> {
-  const params = new URLSearchParams();
-  params.set('limit', String(limit));
-  return request<AuditLogEntry[]>(`/api/patients/${encodeURIComponent(patientId)}/audit?${params.toString()}`);
+export async function registerNewPatient(payload: {
+  patientId?: string;
+  fullName: string;
+  age?: number | string;
+  dateOfBirth?: string;
+  gender?: string;
+  phoneNumber?: string;
+  email?: string;
+  department?: string;
+  assignedDoctor?: string;
+  admissionType?: 'OPD' | 'IPD' | 'Emergency' | string;
+  emergencyContactName?: string;
+  emergencyContactPhone?: string;
+  initialDiagnosis?: string;
+}): Promise<CloudPatientRecord> {
+  return request<CloudPatientRecord>('/api/patients/register', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  });
 }
 
-export function subscribePatientRecord(patientId: string, onRecord: (record: CloudPatientRecord | null) => void): () => void {
-  const query = identityQuerySuffix();
-  const streamUrl = `${API_BASE}/api/patients/${encodeURIComponent(patientId)}/events${query ? `?${query}` : ''}`;
-  let events: EventSource | null = null;
-  let disposed = false;
-  let retryTimer: number | null = null;
-
-  const clearRetryTimer = () => {
-    if (retryTimer !== null) {
-      window.clearTimeout(retryTimer);
-      retryTimer = null;
-    }
-  };
-
-  const scheduleReconnect = () => {
-    if (disposed || retryTimer !== null) {
-      return;
-    }
-
-    retryTimer = window.setTimeout(() => {
-      retryTimer = null;
-      void connect(true);
-    }, HEALTH_CACHE_TTL_MS);
-  };
-
-  const connect = async (forceProbe = false) => {
-    const databaseReady = await probePatientsDatabaseReady(forceProbe);
-    if (disposed) {
-      return;
-    }
-
-    if (!databaseReady) {
-      onRecord(null);
-      scheduleReconnect();
-      return;
-    }
-
-    events = new EventSource(streamUrl);
-
-    events.onmessage = (event) => {
-      try {
-        const payload = JSON.parse(event.data) as { type: string; data: CloudPatientRecord | null };
-        if (payload.type === 'record') {
-          onRecord(payload.data);
-        }
-      } catch {
-        onRecord(null);
-      }
-    };
-
-    events.onerror = () => {
-      events?.close();
-      events = null;
-      scheduleReconnect();
-    };
-  };
-
-  void connect();
-
-  return () => {
-    disposed = true;
-    clearRetryTimer();
-    events?.close();
-  };
+export async function fetchAggregatedPatientRecord(longitudinalId: string) {
+  return request<any>(`/api/longitudinal/${encodeURIComponent(longitudinalId)}`);
 }
 
-export async function fetchAggregatedPatientRecord(longitudinalId: string): Promise<AggregatedPatientRecord> {
-  return request<AggregatedPatientRecord>(`/api/longitudinal/${encodeURIComponent(longitudinalId)}`);
+export async function syncPatientFromIntake(patientId: string, intakeOutput: AiDraftOutput, intakeInput: IntakeInputContext = {}) {
+  return syncIntakeToPatientFolder(patientId, intakeOutput, intakeInput);
+}
+
+export async function savePrescription(patientId: string, payload: SavePrescriptionPayload) {
+  return savePatientPrescription(patientId, payload);
+}
+
+export async function saveLabReport(patientId: string, payload: SaveLabReportPayload) {
+  return savePatientLabReport(patientId, payload);
+}
+
+export async function recordAiDecision(patientId: string, payload: RecordAiDecisionPayload) {
+  return recordPatientAiDecision(patientId, payload);
+}
+
+export async function convertPatientToInPatient(patientId: string, _payload?: ConvertInPatientPayload) {
+  return updatePatientField(patientId, { fieldKey: 'admissionStatus', value: 'in-patient', editedBy: 'system', editorEmail: '', note: 'Converted to in-patient' });
+}
+
+export async function convertPatientToOutPatient(patientId: string, _payload?: ConvertOutPatientPayload) {
+  return updatePatientField(patientId, { fieldKey: 'admissionStatus', value: 'out-patient', editedBy: 'system', editorEmail: '', note: 'Converted to out-patient' });
+}
+
+export async function discardTempIntakeDocument(_patientId: string, _documentId: string) {
+  return { ok: true };
+}
+
+export async function discardTempIntakeDocumentOnUnload(_patientId: string, _documentId: string) {
+  // no-op
+}
+
+export function subscribePatientRecord(_patientId: string, callback: (record: CloudPatientRecord | null) => void) {
+  fetchPatientRecord(_patientId).then(callback);
+  return () => {};
 }

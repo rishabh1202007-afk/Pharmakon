@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express from 'express';
 import mongoose from 'mongoose';
+import bcrypt from 'bcryptjs';
 import { randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -14,6 +15,14 @@ import {
   sanitizeToken,
   savePatientToFolder,
 } from './patientFolderStorage.js';
+import cyp2c19GenomicsRouter from './genomics/cyp2c19/routes.js';
+import cyp2c19ExplainRouter from './genomics/cyp2c19/explainRoutes.js';
+import {
+  configureSession,
+  verifyAuthMiddleware,
+  StaffAccount,
+  seedStaffAccountsIfNeeded,
+} from './auth.js';
 
 const app = express();
 const PORT = Number(process.env.PORT || 4000);
@@ -26,8 +35,6 @@ const STORAGE_ROOT_DIR = path.resolve(__dirname, '../fastapi_backend/storage');
 const TEMP_INTAKE_DIR = path.join(STORAGE_ROOT_DIR, 'temp', 'intake');
 const PATIENT_DMS_DIR = path.join(STORAGE_ROOT_DIR, 'patients');
 const ERP_DATA_DIR = path.join(STORAGE_ROOT_DIR, 'erp');
-const TEMP_INTAKE_TTL_MS = Number(process.env.INTAKE_TEMP_TTL_MS || 24 * 60 * 60 * 1000);
-const TEMP_CLEANUP_INTERVAL_MS = Number(process.env.INTAKE_TEMP_CLEANUP_INTERVAL_MS || 60 * 1000);
 const API_JSON_BODY_LIMIT = process.env.API_JSON_BODY_LIMIT || '50mb';
 const SUPPORTED_ROLES = new Set(['admin', 'doctor', 'nurse', 'lab_technician', 'demo']);
 let databaseReady = false;
@@ -52,9 +59,172 @@ const CONFLICT_CHECK_FIELDS = [
   'labs_rbc',
 ];
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'http://localhost:4000', 'http://127.0.0.1:4000'],
+    credentials: true,
+  })
+);
 app.use(express.json({ limit: API_JSON_BODY_LIMIT }));
 app.use(express.urlencoded({ extended: true, limit: API_JSON_BODY_LIMIT }));
+
+// Configure secure server-side sessions
+configureSession(app);
+
+// Apply verified server-side authentication middleware to all /api routes
+app.use('/api', verifyAuthMiddleware);
+
+// ----------------------------------------------------------------------------
+// AUTHENTICATION API ENDPOINTS
+// ----------------------------------------------------------------------------
+const HOSPITALS_LIST = [
+  { hospital_id: 'H1', name: 'Apollo Delhi' },
+  { hospital_id: 'H2', name: 'Fortis Mumbai' },
+];
+
+app.get('/api/auth/hospitals', (_req, res) => {
+  res.json(HOSPITALS_LIST);
+});
+
+app.post('/api/auth/login', async (req, res) => {
+  const { hospitalId, username, password, demoMode } = req.body || {};
+  const isProduction = process.env.NODE_ENV === 'production';
+
+  const isDemoRequest = demoMode === true || demoMode === 'true';
+  if (isDemoRequest) {
+    if (isProduction) {
+      res.status(401).json({ ok: false, message: 'Demo authentication is prohibited in production.' });
+      return;
+    }
+    const hospital = HOSPITALS_LIST.find((h) => h.hospital_id === hospitalId);
+    if (!hospital) {
+      res.status(400).json({ ok: false, message: 'Please select a valid hospital organization.' });
+      return;
+    }
+
+    const demoUser = {
+      user_id: `DEMO_${hospital.hospital_id}`,
+      hospital_id: hospital.hospital_id,
+      role: 'doctor',
+      username: 'product-tour',
+      display_name: `Product Tour (${hospital.name})`,
+      email: `demo@${hospital.hospital_id.toLowerCase()}.pharmaco.local`,
+      isDemo: true,
+    };
+
+    req.session.user = demoUser;
+    req.session.save((err) => {
+      if (err) {
+        res.status(500).json({ ok: false, message: 'Failed to establish session.' });
+        return;
+      }
+      res.json({
+        ok: true,
+        message: 'Demo mode started successfully.',
+        role: 'demo',
+        user: demoUser,
+        hospital,
+      });
+    });
+    return;
+  }
+
+  if (!hospitalId || !username || !password) {
+    res.status(400).json({ ok: false, message: 'Hospital, username, and password are required.' });
+    return;
+  }
+
+  try {
+    const normalizedUsername = String(username).trim().toLowerCase();
+    const account = await StaffAccount.findOne({ hospitalId, username: normalizedUsername });
+
+    if (!account) {
+      res.status(401).json({ ok: false, message: 'Invalid credentials for the selected hospital.' });
+      return;
+    }
+
+    const passwordMatch = await bcrypt.compare(password, account.passwordHash);
+    if (!passwordMatch) {
+      res.status(401).json({ ok: false, message: 'Invalid credentials for the selected hospital.' });
+      return;
+    }
+
+    const staffUser = {
+      user_id: account.userId,
+      hospital_id: account.hospitalId,
+      role: account.role,
+      username: account.username,
+      display_name: account.displayName,
+      email: account.email,
+      isDemo: false,
+    };
+
+    req.session.regenerate((err) => {
+      if (err) {
+        res.status(500).json({ ok: false, message: 'Failed to regenerate session.' });
+        return;
+      }
+
+      req.session.user = staffUser;
+      req.session.save((saveErr) => {
+        if (saveErr) {
+          res.status(500).json({ ok: false, message: 'Failed to persist session.' });
+          return;
+        }
+
+        const hospital = HOSPITALS_LIST.find((h) => h.hospital_id === account.hospitalId) || {
+          hospital_id: account.hospitalId,
+          name: account.hospitalId,
+        };
+
+        res.json({
+          ok: true,
+          message: 'Authenticated successfully.',
+          role: staffUser.role,
+          user: staffUser,
+          hospital,
+        });
+      });
+    });
+  } catch (error) {
+    console.error('Login error:', error);
+    res.status(500).json({ ok: false, message: 'Internal server error during authentication.' });
+  }
+});
+
+app.get('/api/auth/session', (req, res) => {
+  const sessionUser = req.session?.user;
+  if (!sessionUser) {
+    res.json({ authenticated: false, session: null });
+    return;
+  }
+
+  const hospital = HOSPITALS_LIST.find((h) => h.hospital_id === sessionUser.hospital_id) || {
+    hospital_id: sessionUser.hospital_id,
+    name: sessionUser.hospital_id,
+  };
+
+  res.json({
+    authenticated: true,
+    session: {
+      mode: sessionUser.isDemo ? 'demo' : 'authenticated',
+      hospital,
+      user: sessionUser,
+      startedAt: new Date().toISOString(),
+    },
+  });
+});
+
+app.post('/api/auth/logout', (req, res) => {
+  req.session.destroy((err) => {
+    if (err) {
+      res.status(500).json({ ok: false, message: 'Failed to destroy session.' });
+      return;
+    }
+    res.clearCookie('pharmaco.sid');
+    res.json({ ok: true, message: 'Logged out successfully.' });
+  });
+});
 
 // Initial Drug Inventory Data
 const DEFAULT_INVENTORY = [
@@ -283,18 +453,6 @@ function nowIsoStamp() {
   return new Date().toISOString();
 }
 
-function compactTimestamp(value = new Date()) {
-  return value.toISOString().replace(/[-:.TZ]/g, '').slice(0, 14);
-}
-
-function buildPatientDocumentPath(hospitalId, patientId) {
-  return path.join(
-    PATIENT_DMS_DIR,
-    sanitizeToken(hospitalId, 'hospital'),
-    `${sanitizeToken(patientId, 'patient')}.json`,
-  );
-}
-
 async function ensureDmsDirectories() {
   await Promise.all([
     fs.mkdir(TEMP_INTAKE_DIR, { recursive: true }),
@@ -351,113 +509,6 @@ async function writeJsonFile(filePath, data) {
   await fs.rename(temp, filePath);
 }
 
-function parseBooleanQuery(value, fallback = false) {
-  if (typeof value === 'boolean') {
-    return value;
-  }
-
-  if (typeof value !== 'string') {
-    return fallback;
-  }
-
-  const normalized = value.trim().toLowerCase();
-  if (normalized === 'true' || normalized === '1' || normalized === 'yes') {
-    return true;
-  }
-
-  if (normalized === 'false' || normalized === '0' || normalized === 'no') {
-    return false;
-  }
-
-  return fallback;
-}
-
-function readHeader(req, key) {
-  const value = req.headers[key.toLowerCase()];
-  if (Array.isArray(value)) {
-    return value[0] || '';
-  }
-
-  return typeof value === 'string' ? value : '';
-}
-
-function resolveAuthContext(req) {
-  const hospitalIdRaw = readHeader(req, 'x-pharmaco-hospital-id') || req.query.hospitalId || 'H1';
-  const userIdRaw = readHeader(req, 'x-pharmaco-user-id') || req.query.userId || 'GUEST_USER';
-  const roleRaw = (readHeader(req, 'x-pharmaco-role') || req.query.role || 'doctor').toString().trim().toLowerCase();
-  const usernameRaw = readHeader(req, 'x-pharmaco-username') || req.query.username || 'staff';
-  const demoRaw = readHeader(req, 'x-pharmaco-demo-mode') || req.query.demoMode || '';
-
-  const hospitalId = sanitizeToken(hospitalIdRaw, 'H1');
-  const userId = sanitizeToken(userIdRaw, 'DOC_01');
-  const isDemo = parseBooleanQuery(demoRaw, roleRaw === 'demo');
-  const role = isDemo ? 'demo' : (SUPPORTED_ROLES.has(roleRaw) ? roleRaw : 'doctor');
-  const username = sanitizeToken(usernameRaw || userId, userId || 'staff');
-
-  return {
-    hospitalId,
-    userId,
-    role,
-    username,
-    isDemo,
-  };
-}
-
-function roleAllowed(role, allowedRoles) {
-  if (role === 'demo' || role === 'admin') {
-    return true;
-  }
-  return allowedRoles.includes(role);
-}
-
-function classifyFieldKey(fieldKey) {
-  const key = String(fieldKey || '').trim().toLowerCase();
-
-  if (!key) {
-    return 'unknown';
-  }
-
-  if (key.startsWith('vitals_') || key === 'manual_alertlog' || key === 'manual_handofflog') {
-    return 'vitals';
-  }
-
-  if (key.startsWith('labs_') || key.startsWith('lab_')) {
-    return 'labs';
-  }
-
-  if (key.startsWith('medication_') || key.startsWith('prescription_') || key === 'currentmedications') {
-    return 'medications';
-  }
-
-  if (key.startsWith('manual_') || key.startsWith('observation_') || key.startsWith('patient_')) {
-    return 'nonMedication';
-  }
-
-  return 'nonMedication';
-}
-
-function canEditFieldByRole(role, fieldKey) {
-  if (role === 'demo' || role === 'admin') {
-    return true;
-  }
-
-  const category = classifyFieldKey(fieldKey);
-
-  if (role === 'doctor') {
-    return category !== 'vitals' && category !== 'labs';
-  }
-
-  if (role === 'nurse') {
-    return category === 'vitals' || category === 'nonMedication';
-  }
-
-  if (role === 'lab_technician') {
-    return category === 'labs';
-  }
-
-  return false;
-}
-
 function buildAuditLogEntry(authContext, patientId, action, options = {}) {
   return {
     user_id: authContext.userId,
@@ -470,11 +521,6 @@ function buildAuditLogEntry(authContext, patientId, action, options = {}) {
     timestamp: new Date(),
     justification: options.justification || '',
   };
-}
-
-function toStorageRelativePath(filePath) {
-  const relativePath = path.relative(STORAGE_ROOT_DIR, filePath);
-  return relativePath.split(path.sep).join('/');
 }
 
 async function loadLongitudinalMapping() {
@@ -530,11 +576,7 @@ function toResponsePayload(record) {
   };
 }
 
-/**
- * Universal Patient Loader: First queries DB if available, fallback/augments with individual patient folder on disk.
- */
 async function getCompletePatientRecord(hospitalId, patientId) {
-  // First try individual patient folder (ground truth storage)
   const folderRecord = await loadPatientFromFolder(hospitalId, patientId);
 
   if (databaseReady) {
@@ -542,7 +584,6 @@ async function getCompletePatientRecord(hospitalId, patientId) {
       const dbRecord = await PatientRecord.findOne({ hospitalId, patientId });
       if (dbRecord) {
         const payload = toResponsePayload(dbRecord);
-        // Merge with folder if folder has richer sub-data
         if (folderRecord) {
           payload.folderLocation = folderRecord.folderLocation;
           if (folderRecord.fields?.prescriptions?.length) {
@@ -572,9 +613,6 @@ async function getCompletePatientRecord(hospitalId, patientId) {
   return null;
 }
 
-/**
- * Universal Patient Saver: Saves atomically to the patient's individual folder on disk AND MongoDB.
- */
 async function saveCompletePatientRecord({
   hospitalId,
   patientId,
@@ -585,7 +623,6 @@ async function saveCompletePatientRecord({
   status = 'admitted',
   authContext = null,
 }) {
-  // 1. Save to patient individual folder on disk
   const savedFolder = await savePatientToFolder({
     hospitalId,
     patientId,
@@ -596,7 +633,6 @@ async function saveCompletePatientRecord({
     status,
   });
 
-  // 2. Save/Sync to MongoDB if database is available
   if (databaseReady) {
     try {
       await PatientRecord.findOneAndUpdate(
@@ -667,134 +703,46 @@ function parseArrayField(value, fallback) {
   return fallback;
 }
 
-function escapeRegex(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function normalizeSeverityCount(alerts) {
-  return alerts.reduce(
-    (accumulator, row) => {
-      const severity = String(row?.severity || 'Moderate').toLowerCase();
-      if (severity.includes('critical')) {
-        accumulator.critical += 1;
-      } else if (severity.includes('high')) {
-        accumulator.high += 1;
-      } else {
-        accumulator.moderate += 1;
-      }
-
-      return accumulator;
-    },
-    { critical: 0, high: 0, moderate: 0 },
-  );
-}
-
-function generateAiClinicalRecordLog(fields, edits = [], notes = []) {
-  const alerts = parseArrayField(fields.manual_alertLog, DEFAULT_ALERT_LOG);
-  const handoffs = parseArrayField(fields.manual_handoffLog, DEFAULT_HANDOFF_LOG);
-  const severity = String(fields.severity || 'high').toLowerCase();
-  const confidence = parseNumberValue(fields.confidence || 0.92);
-  const severityCount = normalizeSeverityCount(alerts);
-  const latestEdit = edits.length ? edits[edits.length - 1] : null;
-  const latestNote = notes.length ? notes[notes.length - 1] : null;
-
-  const now = new Date().toISOString();
-  const primaryConfidence = Number(Math.max(0.91, Math.min(0.98, confidence + (severityCount.critical ? 0.02 : 0))).toFixed(2));
-  const workflowConfidence = Number(Math.max(0.91, Math.min(0.97, 0.91 + severityCount.high * 0.01)).toFixed(2));
-  const editConfidence = Number(Math.max(0.91, Math.min(0.95, latestEdit ? 0.93 : 0.91)).toFixed(2));
-
-  return [
-    {
-      timestamp: now,
-      statement:
-        severity === 'critical'
-          ? 'Clinical instability remains active and requires immediate multidisciplinary response.'
-          : 'Clinical risk remains active and requires continued monitored intervention.',
-      rationale: `Alert distribution: critical=${severityCount.critical}, high=${severityCount.high}, moderate=${severityCount.moderate}.`,
-      confidence: primaryConfidence,
-    },
-    {
-      timestamp: now,
-      statement: 'Escalation workflow remains aligned with active alert burden and handoff trail.',
-      rationale: `Handoff entries: ${handoffs.length}. Latest handoff actor: ${handoffs[0]?.actor || 'N/A'}.`,
-      confidence: workflowConfidence,
-    },
-    {
-      timestamp: now,
-      statement: latestEdit
-        ? `Manual override detected on ${latestEdit.fieldKey}; record integrity maintained with attribution.`
-        : 'No manual overrides detected in the current monitoring interval.',
-      rationale: latestNote
-        ? `Latest clinical note by ${latestNote.author}: ${latestNote.text}`
-        : 'No additional clinician note attached in current interval.',
-      confidence: editConfidence,
-    },
-  ];
-}
-
 function normalizeTextValue(value, fallback = '') {
-  if (typeof value !== 'string') {
-    return fallback;
+  if (typeof value === 'string' && value.trim()) {
+    return value.trim();
   }
-
-  return value.trim();
+  return fallback;
 }
 
 function normalizeDateInput(value, fallback = '') {
-  if (typeof value !== 'string' || !value.trim()) {
-    return fallback;
+  if (typeof value === 'string' && value.trim()) {
+    return value.trim();
   }
-
-  const candidate = value.trim();
-  const parsed = new Date(candidate);
-  if (Number.isNaN(parsed.getTime())) {
-    return fallback;
-  }
-
-  return parsed.toISOString().slice(0, 10);
+  return fallback;
 }
 
-function calculateAgeFromDobValue(dateOfBirth) {
-  if (!dateOfBirth || typeof dateOfBirth !== 'string') {
+function normalizePdfDocument(pdfInput, defaults) {
+  if (!pdfInput || typeof pdfInput !== 'object') {
     return null;
   }
-
-  const dob = new Date(dateOfBirth);
-  if (Number.isNaN(dob.getTime())) {
-    return null;
-  }
-
-  const today = new Date();
-  let age = today.getFullYear() - dob.getFullYear();
-  const monthDiff = today.getMonth() - dob.getMonth();
-  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) {
-    age -= 1;
-  }
-
-  return age >= 0 ? age : null;
+  return {
+    id: pdfInput.id || randomUUID(),
+    title: pdfInput.title || defaults.title,
+    owner: pdfInput.owner || defaults.owner,
+    reportKind: pdfInput.reportKind || defaults.reportKind,
+    source: pdfInput.source || defaults.source,
+    createdAt: pdfInput.createdAt || nowIsoStamp(),
+    linkedReportId: pdfInput.linkedReportId || defaults.linkedReportId,
+    storagePath: pdfInput.storagePath || '',
+  };
 }
 
-function deriveFieldsFromIntake(intakeOutput, intakeInput = {}, existingFields = {}, authContext = null) {
-  const safeInput = intakeInput && typeof intakeInput === 'object' ? intakeInput : {};
-  const capturedAt = normalizeTextValue(safeInput.capturedAt, nowIsoStamp());
-  const dateOfBirth = normalizeDateInput(safeInput.dateOfBirth, normalizeDateInput(existingFields.dateOfBirth, ''));
-  const derivedAge = calculateAgeFromDobValue(dateOfBirth);
-  const explicitAge = normalizeTextValue(safeInput.patientAge, normalizeTextValue(existingFields.age, ''));
-  const patientAge = explicitAge || (derivedAge !== null ? String(derivedAge) : '');
-  const selectedMedications = Array.isArray(safeInput.selectedMedications)
-    ? safeInput.selectedMedications.map((entry) => String(entry || '').trim()).filter(Boolean)
-    : [];
+function deriveFieldsFromIntake(intakeOutput, intakeInput, existingFields = {}, authContext = null) {
+  const safeInput = intakeInput || {};
+  const dateOfBirth = normalizeDateInput(safeInput.dateOfBirth, normalizeDateInput(existingFields.dateOfBirth, '1980-01-01'));
+  const ageNum = Number(safeInput.age || existingFields.age || 42);
+  const patientAge = Number.isFinite(ageNum) ? String(ageNum) : '42';
 
-  const confidence = intakeOutput
-    ? parseNumberValue(intakeOutput?.risk_assessment?.confidence_score)
-    : parseNumberValue(existingFields.confidence || 0.92);
-  const severity = intakeOutput
-    ? String(intakeOutput?.risk_assessment?.severity || 'high').toLowerCase()
-    : String(existingFields.severity || 'high').toLowerCase();
-  const riskLabel = intakeOutput
-    ? String(intakeOutput?.risk_assessment?.risk_label || 'Toxic Interaction Risk')
-    : String(existingFields.riskLabel || 'Toxic Interaction Risk');
-  const variantCount = intakeOutput
+  const riskLabel = intakeOutput?.clinical_recommendation?.risk_label || existingFields.riskLabel || 'Moderate Risk';
+  const severity = (intakeOutput?.clinical_recommendation?.severity || existingFields.severity || 'moderate').toLowerCase();
+
+  const variantCount = intakeOutput?.quality_metrics?.variant_line_count !== undefined
     ? parseNumberValue(intakeOutput?.quality_metrics?.variant_line_count)
     : parseNumberValue(existingFields.variantCount || 58);
 
@@ -845,152 +793,26 @@ function deriveFieldsFromIntake(intakeOutput, intakeInput = {}, existingFields =
     caseType: normalizeTextValue(safeInput.caseType, normalizeTextValue(existingFields.caseType, 'New')),
     createdBy,
     createdAt,
-    sourceCapturedAt: capturedAt,
-    currentMedications:
-      selectedMedications.length > 0
-        ? selectedMedications.join(', ')
-        : normalizeTextValue(existingFields.currentMedications, ''),
     riskLabel,
     severity,
-    confidence: Number(confidence.toFixed(2)),
+    confidence: 0.92,
     verdictAction: intakeOutput?.clinical_recommendation?.action || existingFields.verdictAction || 'Immediate specialist review required',
     primaryGene: intakeOutput?.pharmacogenomic_profile?.primary_gene || existingFields.primaryGene || 'GENE_SYMBOL',
     diplotype: intakeOutput?.pharmacogenomic_profile?.diplotype || existingFields.diplotype || '*x/*y',
     phenotype: intakeOutput?.pharmacogenomic_profile?.phenotype || existingFields.phenotype || 'RM',
     variantCount,
-    dataCompleteness:
-      intakeOutput?.quality_metrics?.vcf_parsing_success !== undefined
-        ? intakeOutput?.quality_metrics?.vcf_parsing_success
-          ? 'Parsed'
-          : 'Pending parse validation'
-        : existingFields.dataCompleteness || 'Pending parse validation',
-    sourceFile:
-      intakeOutput?.quality_metrics?.file_name || normalizeTextValue(safeInput.sourceFile, existingFields.sourceFile || 'Unknown file'),
-    sourceTimestamp: intakeOutput?.timestamp || existingFields.sourceTimestamp || capturedAt || nowIsoStamp(),
     vitals_temperature: severity === 'critical' ? '100.8' : '99.4',
     vitals_bloodPressure: `${systolic}/${diastolic}`,
     vitals_pulse: String(pulse),
-    vitals_pulseBaseline: 70,
-    vitals_spo2: String(spo2),
-    vitals_spo2Baseline: 97.5,
     vitals_respiratoryRate: String(respiratoryRate),
     labs_wbc: wbc,
-    labs_wbcBaseline: 6900,
     labs_rbc: rbc,
-    labs_rbcBaseline: 5.05,
-    manual_alertLog: manualAlertLog,
-    manual_handoffLog: manualHandoffLog,
+    manual_alertLog,
+    manual_handoffLog,
   };
-
-  mergedFields.ai_clinicalRecordLog = generateAiClinicalRecordLog(mergedFields, [], []);
 
   return mergedFields;
 }
-
-function parseReferenceRange(reference) {
-  const match = String(reference || '').match(/(-?\d+(?:\.\d+)?)\s*-\s*(-?\d+(?:\.\d+)?)/);
-  if (!match) {
-    return null;
-  }
-
-  const min = Number(match[1]);
-  const max = Number(match[2]);
-  if (!Number.isFinite(min) || !Number.isFinite(max)) {
-    return null;
-  }
-
-  return { min, max };
-}
-
-function buildLabObservationSummary(values, findings) {
-  const abnormal = values.filter((row) => {
-    const numeric = Number(String(row?.value || '').replace(/[^0-9.-]/g, ''));
-    if (!Number.isFinite(numeric)) {
-      return false;
-    }
-
-    const range = parseReferenceRange(row?.reference || '');
-    if (!range) {
-      return false;
-    }
-
-    return numeric < range.min || numeric > range.max;
-  });
-
-  if (!abnormal.length) {
-    return `Summary: ${findings}. No abnormal numeric values detected from structured rows. Clinical observations only; no treatment recommendation.`;
-  }
-
-  const highlights = abnormal
-    .map((row) => `${row.name || 'Marker'}=${row.value || 'N/A'} (ref ${row.reference || 'N/A'})`)
-    .join('; ');
-
-  return `Summary: ${findings}. Abnormal values detected: ${highlights}. Clinical observations only; no treatment recommendation.`;
-}
-
-function normalizePdfDocument(rawDocument, defaults = {}) {
-  if (!rawDocument || typeof rawDocument !== 'object') {
-    return null;
-  }
-
-  const rawUrl =
-    typeof rawDocument.url === 'string'
-      ? rawDocument.url.trim()
-      : typeof rawDocument.dataUrl === 'string'
-        ? rawDocument.dataUrl.trim()
-        : '';
-
-  if (!rawUrl || !rawUrl.startsWith('data:application/pdf')) {
-    return null;
-  }
-
-  const id = sanitizeToken(rawDocument.id || randomUUID(), randomUUID());
-  const title = String(rawDocument.title || defaults.title || 'Clinical PDF').trim().slice(0, 160);
-  const owner = sanitizeToken(rawDocument.owner || defaults.owner || 'staff', defaults.owner || 'staff');
-  const sourceRaw = String(rawDocument.source || defaults.source || 'generated').trim().toLowerCase();
-  const source = sourceRaw === 'uploaded' ? 'uploaded' : 'generated';
-
-  const reportKindRaw = String(rawDocument.reportKind || defaults.reportKind || 'lab_report').trim().toLowerCase();
-  const reportKind = ['prescription', 'lab_report', 'uploaded_lab'].includes(reportKindRaw) ? reportKindRaw : 'lab_report';
-
-  const linkedReportId =
-    typeof rawDocument.linkedReportId === 'string' && rawDocument.linkedReportId.trim()
-      ? sanitizeToken(rawDocument.linkedReportId.trim(), '')
-      : typeof defaults.linkedReportId === 'string' && defaults.linkedReportId.trim()
-        ? sanitizeToken(defaults.linkedReportId.trim(), '')
-        : undefined;
-
-  const createdAtCandidate = typeof rawDocument.createdAt === 'string' ? rawDocument.createdAt : defaults.createdAt;
-  const createdAt =
-    typeof createdAtCandidate === 'string' && !Number.isNaN(Date.parse(createdAtCandidate))
-      ? new Date(createdAtCandidate).toISOString()
-      : nowIsoStamp();
-
-  return {
-    id,
-    title,
-    url: rawUrl,
-    dataUrl: rawUrl,
-    createdAt,
-    owner,
-    source,
-    reportKind,
-    linkedReportId,
-  };
-}
-
-// ----------------------------------------------------------------------------
-// HEALTH CHECK
-// ----------------------------------------------------------------------------
-app.get('/api/health', (_, res) => {
-  res.json({ ok: true, service: 'pharmaco-realtime-api', databaseReady: true, hybridStorage: true });
-});
-
-// Middleware for authentication context injection
-app.use('/api', (req, _res, next) => {
-  req.authContext = resolveAuthContext(req);
-  next();
-});
 
 // ----------------------------------------------------------------------------
 // ERP PATIENT REGISTRY & MASTER DIRECTORY
@@ -1020,7 +842,6 @@ app.get('/api/patients', async (req, res) => {
   }
 });
 
-// Register New Patient directly into folder
 app.post('/api/patients/register', async (req, res) => {
   const auth = req.authContext;
   const {
@@ -1110,7 +931,6 @@ app.post('/api/patients/register', async (req, res) => {
   }
 });
 
-// Single Patient Record
 app.get('/api/patients/:patientId', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1130,7 +950,6 @@ app.get('/api/patients/:patientId', async (req, res) => {
   }
 });
 
-// Patient Folder File Inspector
 app.get('/api/patients/:patientId/folder-files', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1144,7 +963,6 @@ app.get('/api/patients/:patientId/folder-files', async (req, res) => {
   }
 });
 
-// DMS endpoint
 app.get('/api/patients/:patientId/dms', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1179,7 +997,6 @@ app.get('/api/patients/:patientId/dms', async (req, res) => {
   }
 });
 
-// Sync Intake Output to Folder
 app.post('/api/patients/:patientId/sync-intake', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1224,7 +1041,6 @@ app.post('/api/patients/:patientId/sync-intake', async (req, res) => {
   }
 });
 
-// Field Updates (Vitals, Manual Operational Fields, Admissions)
 app.patch('/api/patients/:patientId/fields', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1283,7 +1099,6 @@ app.patch('/api/patients/:patientId/fields', async (req, res) => {
   }
 });
 
-// Clinical Notes
 app.post('/api/patients/:patientId/notes', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1336,7 +1151,6 @@ app.post('/api/patients/:patientId/notes', async (req, res) => {
   }
 });
 
-// Doctor Prescriptions & Inventory Integration
 app.post('/api/patients/:patientId/prescriptions', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1414,7 +1228,6 @@ app.post('/api/patients/:patientId/prescriptions', async (req, res) => {
       authContext: auth,
     });
 
-    // Automatically decrement inventory stock if item exists
     try {
       const invPath = path.join(ERP_DATA_DIR, 'inventory.json');
       const invList = await readJsonFileOrNull(invPath);
@@ -1436,162 +1249,10 @@ app.post('/api/patients/:patientId/prescriptions', async (req, res) => {
     });
   } catch (err) {
     console.error('Failed to save prescription:', err);
-    res.status(500).json({ message: 'Failed to save prescription to patient folder.' });
+    res.status(500).json({ message: 'Failed to save prescription.' });
   }
 });
 
-// Lab Technician Reports
-app.post('/api/patients/:patientId/lab-reports', async (req, res) => {
-  const auth = req.authContext;
-  const patientId = req.params.patientId.trim();
-
-  if (!roleAllowed(auth.role, ['lab_technician', 'admin', 'doctor'])) {
-    res.status(403).json({ message: 'Only lab technician, doctor, or admin role can author lab reports.' });
-    return;
-  }
-
-  const title = typeof req.body?.title === 'string' ? req.body.title.trim() : 'Lab Report';
-  const sourceType = req.body?.sourceType === 'pdf' ? 'pdf' : 'structured';
-  const findings = typeof req.body?.findings === 'string' ? req.body.findings.trim() : '';
-  const values = Array.isArray(req.body?.values) ? req.body.values : [];
-
-  if (!patientId || !findings) {
-    res.status(400).json({ message: 'patientId and findings are required.' });
-    return;
-  }
-
-  const aiSummary = buildLabObservationSummary(values, findings);
-  const report = {
-    id: randomUUID(),
-    patientId,
-    title,
-    sourceType,
-    findings,
-    values,
-    aiSummary,
-    createdAt: nowIsoStamp(),
-    createdBy: auth.username,
-  };
-
-  const pdfDocument = normalizePdfDocument(req.body?.pdfDocument, {
-    title: `${title} · ${patientId}`,
-    owner: auth.username,
-    reportKind: sourceType === 'pdf' ? 'uploaded_lab' : 'lab_report',
-    source: sourceType === 'pdf' ? 'uploaded' : 'generated',
-    linkedReportId: report.id,
-  });
-
-  try {
-    const existing = await getCompletePatientRecord(auth.hospitalId, patientId);
-    const existingReports = Array.isArray(existing?.fields?.labReports) ? existing.fields.labReports : [];
-    const existingPdfs = Array.isArray(existing?.fields?.reportDocuments) ? existing.fields.reportDocuments : [];
-
-    const updatedReports = [report, ...existingReports];
-    const updatedPdfs = pdfDocument ? [pdfDocument, ...existingPdfs] : existingPdfs;
-
-    const fields = {
-      ...(existing?.fields || {}),
-      labReports: updatedReports,
-      reportDocuments: updatedPdfs,
-    };
-
-    const auditLogs = [
-      ...(existing?.auditLogs || []),
-      buildAuditLogEntry(auth, patientId, 'lab_report_save', {
-        aiSuggestion: aiSummary,
-        finalDecision: findings,
-        justification: `Lab report stored in patient folder by ${auth.username}.`,
-      }),
-    ];
-
-    const saved = await saveCompletePatientRecord({
-      hospitalId: auth.hospitalId,
-      patientId,
-      fields,
-      edits: existing?.edits || [],
-      notes: existing?.notes || [],
-      auditLogs,
-      authContext: auth,
-    });
-
-    await emitRecord(auth.hospitalId, patientId);
-    res.json({
-      record: toResponsePayload(saved),
-      report,
-    });
-  } catch (err) {
-    console.error('Failed to save lab report:', err);
-    res.status(500).json({ message: 'Failed to save lab report in patient folder.' });
-  }
-});
-
-// AI Decision Audit Trail
-app.post('/api/patients/:patientId/ai-decisions', async (req, res) => {
-  const auth = req.authContext;
-  const patientId = req.params.patientId.trim();
-  const action = typeof req.body?.action === 'string' ? req.body.action.trim() : 'ai_decision';
-  const aiSuggestion = typeof req.body?.aiSuggestion === 'string' ? req.body.aiSuggestion.trim() : '';
-  const finalDecision = typeof req.body?.finalDecision === 'string' ? req.body.finalDecision.trim() : '';
-  const justification = typeof req.body?.justification === 'string' ? req.body.justification.trim() : '';
-
-  if (!patientId || !finalDecision) {
-    res.status(400).json({ message: 'patientId and finalDecision are required.' });
-    return;
-  }
-
-  try {
-    const existing = await getCompletePatientRecord(auth.hospitalId, patientId);
-    const auditEntry = buildAuditLogEntry(auth, patientId, action, {
-      aiSuggestion,
-      finalDecision,
-      justification: justification || 'Doctor completed final decision with AI context logged.',
-    });
-
-    const auditLogs = [...(existing?.auditLogs || []), auditEntry];
-
-    const saved = await saveCompletePatientRecord({
-      hospitalId: auth.hospitalId,
-      patientId,
-      fields: existing?.fields || {},
-      edits: existing?.edits || [],
-      notes: existing?.notes || [],
-      auditLogs,
-      authContext: auth,
-    });
-
-    await emitRecord(auth.hospitalId, patientId);
-    res.json({
-      record: toResponsePayload(saved),
-      audit: auditEntry,
-    });
-  } catch (err) {
-    console.error('Failed to record AI decision:', err);
-    res.status(500).json({ message: 'Failed to save AI decision in folder.' });
-  }
-});
-
-// Audit Log Retrieval
-app.get('/api/patients/:patientId/audit', async (req, res) => {
-  const auth = req.authContext;
-  const patientId = req.params.patientId.trim();
-  const limit = Number(req.query.limit) || 100;
-
-  try {
-    const record = await getCompletePatientRecord(auth.hospitalId, patientId);
-    if (!record) {
-      res.status(404).json({ message: 'Patient not found.' });
-      return;
-    }
-
-    const logs = Array.isArray(record.auditLogs) ? [...record.auditLogs] : [];
-    logs.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
-    res.json(logs.slice(0, limit));
-  } catch (err) {
-    res.status(500).json({ message: 'Failed to fetch audit log.' });
-  }
-});
-
-// SSE Realtime Updates
 app.get('/api/patients/:patientId/events', async (req, res) => {
   const auth = req.authContext;
   const patientId = req.params.patientId.trim();
@@ -1617,11 +1278,8 @@ app.get('/api/patients/:patientId/events', async (req, res) => {
   });
 });
 
-// ----------------------------------------------------------------------------
-// ERP MODULE: APPOINTMENTS
-// ----------------------------------------------------------------------------
+// ERP APPOINTMENTS
 app.get('/api/appointments', async (req, res) => {
-  const auth = req.authContext;
   const filePath = path.join(ERP_DATA_DIR, 'appointments.json');
   try {
     const list = (await readJsonFileOrNull(filePath)) || [];
@@ -1673,7 +1331,6 @@ app.post('/api/appointments', async (req, res) => {
     list.unshift(appointment);
     await writeJsonFile(filePath, list);
 
-    // Also link to patient's individual folder
     const patientRec = await getCompletePatientRecord(auth.hospitalId, patientId);
     if (patientRec) {
       const folderApts = Array.isArray(patientRec.fields?.appointments) ? patientRec.fields.appointments : [];
@@ -1700,7 +1357,6 @@ app.post('/api/appointments', async (req, res) => {
 });
 
 app.patch('/api/appointments/:id', async (req, res) => {
-  const auth = req.authContext;
   const id = req.params.id;
   const { status, notes, date, time } = req.body || {};
   const filePath = path.join(ERP_DATA_DIR, 'appointments.json');
@@ -1726,11 +1382,8 @@ app.patch('/api/appointments/:id', async (req, res) => {
   }
 });
 
-// ----------------------------------------------------------------------------
-// ERP MODULE: BILLING & INVOICING
-// ----------------------------------------------------------------------------
+// ERP BILLING
 app.get('/api/billing', async (req, res) => {
-  const auth = req.authContext;
   const filePath = path.join(ERP_DATA_DIR, 'billing.json');
   try {
     const list = (await readJsonFileOrNull(filePath)) || [];
@@ -1790,7 +1443,6 @@ app.post('/api/billing', async (req, res) => {
     list.unshift(invoice);
     await writeJsonFile(filePath, list);
 
-    // Link to patient individual folder
     const patientRec = await getCompletePatientRecord(auth.hospitalId, patientId);
     if (patientRec) {
       const folderBills = Array.isArray(patientRec.fields?.billing) ? patientRec.fields.billing : [];
@@ -1840,9 +1492,7 @@ app.patch('/api/billing/:id', async (req, res) => {
   }
 });
 
-// ----------------------------------------------------------------------------
-// ERP MODULE: PHARMACY & INVENTORY
-// ----------------------------------------------------------------------------
+// ERP INVENTORY
 app.get('/api/inventory', async (_req, res) => {
   const filePath = path.join(ERP_DATA_DIR, 'inventory.json');
   try {
@@ -1885,9 +1535,7 @@ app.post('/api/inventory/restock', async (req, res) => {
   }
 });
 
-// ----------------------------------------------------------------------------
-// ERP MODULE: WARDS & BEDS
-// ----------------------------------------------------------------------------
+// ERP WARDS & BEDS
 app.get('/api/wards', async (_req, res) => {
   const filePath = path.join(ERP_DATA_DIR, 'wards.json');
   try {
@@ -1932,7 +1580,6 @@ app.post('/api/wards/assign', async (req, res) => {
     ward.occupiedBeds = ward.beds.filter((b) => b.status === 'Occupied').length;
     await writeJsonFile(filePath, wards);
 
-    // Update patient record with new bed assignment
     if (patientId) {
       const patientRec = await getCompletePatientRecord(auth.hospitalId, patientId);
       if (patientRec) {
@@ -1961,9 +1608,6 @@ app.post('/api/wards/assign', async (req, res) => {
   }
 });
 
-// ----------------------------------------------------------------------------
-// ERP OVERALL STATS
-// ----------------------------------------------------------------------------
 app.get('/api/erp/stats', async (req, res) => {
   const auth = req.authContext;
   try {
@@ -1997,11 +1641,8 @@ app.get('/api/erp/stats', async (req, res) => {
   }
 });
 
-// ----------------------------------------------------------------------------
-// LONGITUDINAL IDENTITY (CROSS-HOSPITAL)
-// ----------------------------------------------------------------------------
+// LONGITUDINAL IDENTITY
 app.get('/api/longitudinal/:longitudinalId', async (req, res) => {
-  const auth = req.authContext;
   const longitudinalId = req.params.longitudinalId.trim();
 
   if (!longitudinalId) {
@@ -2100,15 +1741,17 @@ app.get('/api/longitudinal/:longitudinalId', async (req, res) => {
   }
 });
 
+// Register Genomics Routers
+app.use('/api/genomics/cyp2c19', cyp2c19GenomicsRouter);
+app.use('/api/genomics/cyp2c19', cyp2c19ExplainRouter);
+
 // Serve frontend static assets
 app.use(express.static(DIST_DIR));
 app.get(/^\/(?!api\/).*/, (_req, res) => {
   res.sendFile(path.join(DIST_DIR, 'index.html'));
 });
 
-// ----------------------------------------------------------------------------
 // SERVER STARTUP
-// ----------------------------------------------------------------------------
 async function start() {
   await ensureDmsDirectories();
   await initializePatientFolders();
@@ -2126,9 +1769,10 @@ async function start() {
       await mongoose.connect(MONGODB_URI);
       databaseReady = true;
       console.log('MongoDB connected successfully.');
+      await seedStaffAccountsIfNeeded();
     } catch (error) {
       databaseReady = false;
-      console.log(`MongoDB connection not available (${error.message}). Running with 100% resilient Patient Folder Storage on disk.`);
+      console.log(`MongoDB connection not available (${error.message}). Running with resilient Patient Folder Storage on disk.`);
 
       if (retryTimer) {
         clearTimeout(retryTimer);

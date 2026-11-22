@@ -30,3 +30,16 @@ dist-ssr/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Exclude personal and unwanted demo assets
+/src/assets/Ansh pic.jpeg
+/src/assets/Arpit pic.jpeg
+/src/assets/bhandara pic.jpeg
+/src/assets/bhavya pic.jpeg
+/src/assets/devang pic.jpeg
+/src/assets/devyansh pic.jpeg
+/src/assets/dna-hero.jpg
+/src/assets/lakshay pic.jpeg
+/src/assets/riddima pic.jpeg
+/src/assets/riya pic.jpeg
+/src/assets/shukla pic.jpeg

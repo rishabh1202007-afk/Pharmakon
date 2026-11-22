@@ -47,11 +47,11 @@ const evidenceTraceSteps = [
     key: 'final-decision',
     title: 'Final Decision',
     claim: 'Recommendation is reproducible and reviewable',
-    evidence: ['Dose reduction / alternative recommended', 'Decision path, rule version, timestamp logged'],
+    evidence: ['Synthetic research output; no treatment recommendation generated', 'Decision path, rule version, timestamp logged'],
     tag: 'Audit log • Deterministic output',
     tracePath: {
       claim: 'Recommendation is reproducible and reviewable',
-      evidence: ['Dose reduction / alternative recommended', 'Decision path, rule version, timestamp logged'],
+      evidence: ['Synthetic research output; no treatment recommendation generated', 'Decision path, rule version, timestamp logged'],
       tag: 'Audit log • Deterministic output',
     },
     animation: 'complete',
@@ -186,84 +186,84 @@ const systemGuarantees = [
     result: 'System defaults to safety, not assumption',
   },
   {
-    label: 'VALIDATION BEFORE DEPLOYMENT',
+    label: 'RESEARCH-STAGE FOUNDATION',
     icon: '🧪',
-    headline: 'Validated before exposure to real patients',
+    headline: 'Research-stage prototype architecture',
     lead: null,
-    points: ['12,000+ simulated clinical cases', 'Rule concordance with CPIC guidelines', 'Site-specific validation workflows'],
-    result: 'Performance verified before clinical use',
+    points: ['Synthetic test cases and prototype rule mapping', 'CPIC guideline data structure reference', 'Configurable site-specific evaluation workflows'],
+    result: 'Architecture demonstrated for research and evaluation',
   },
 ] as const;
 
 const sampleClinicalOutput: AiDraftOutput = {
-  patient_id: 'PT-2041',
-  drug: 'Citalopram',
+  patient_id: 'SYNTHETIC-DEMO',
+  drug: 'Citalopram (Demo Reference)',
   timestamp: '2026-04-02T09:42:00Z',
   risk_assessment: {
-    risk_label: 'High risk',
-    confidence_score: 0.94,
-    severity: 'high',
+    risk_label: 'Synthetic Reference Only',
+    confidence_score: 0.0,
+    severity: 'moderate',
   },
   pharmacogenomic_profile: {
-    primary_gene: 'CYP2C19',
-    diplotype: '*2/*2',
-    phenotype: 'Poor Metabolizer',
+    primary_gene: 'CYP2C19 (Research Prototype)',
+    diplotype: 'Synthetic Reference (*2/*2)',
+    phenotype: 'Research Prototype Classification',
     detected_variants: [
       {
         rsid: 'rs4244285',
-        evidence: 'loss-of-function',
+        evidence: 'Synthetic variant reference',
       },
     ],
   },
   clinical_recommendation: {
-    action:
-      'Avoid standard starting dose. Consider 50% dose reduction or an alternative antidepressant not primarily metabolized by CYP2C19.',
-    rationale: 'CPIC SSRI–CYP2C19 Level A rule indicates elevated exposure risk in poor metabolizers.',
+    action: 'CLINICAL MATCHING AND PRESCRIBING DISABLED. SYNTHETIC DEMO ONLY.',
+    rationale: 'This example illustrates structured evidence parsing in a research prototype. No treatment decision is generated or authorized.',
   },
   llm_generated_explanation: {
-    summary: 'Variant-supported phenotype suggests increased adverse-event risk under standard dosing.',
-    next_step: 'Route recommendation for clinician and pharmacy review before order entry.',
+    summary: 'Synthetic demonstration of structured evidence formatting.',
+    next_step: 'For research evaluation only. Not for clinical use.',
   },
   quality_metrics: {
     vcf_parsing_success: true,
     variant_line_count: 1,
-    file_name: 'de-identified_case_002.vcf',
+    file_name: 'synthetic_demo_case.vcf',
   },
 };
 
 const sampleGuidelineEvidence = {
-  source: 'CPIC SSRI–CYP2C19',
-  level: 'CPIC Level A',
-  ruleMatch: 'Poor metabolizer dosing recommendation triggered',
+  source: 'CPIC Guideline Reference (Synthetic Demo)',
+  level: 'Research Reference',
+  ruleMatch: 'Synthetic prototype rule reference',
 } as const;
 
 const sampleAuditTrail = {
-  ruleVersion: 'PGX-Ruleset v2026.03',
-  reviewStatus: 'Pending clinician sign-off',
-  decisionPath: 'rs4244285 → CYP2C19 → CPIC SSRI rule → High risk classification',
+  ruleVersion: 'Research Prototype v2026.03',
+  reviewStatus: 'Synthetic Demo — Not for Clinical Use',
+  decisionPath: 'Synthetic evidence parsing demonstration',
 } as const;
 
 const fullDecisionTrace = {
+  notice: 'SYNTHETIC DEMO — NOT FOR CLINICAL USE',
   variant: {
     rsid: 'rs4244285',
     gene: 'CYP2C19',
-    call: 'loss-of-function',
+    call: 'Synthetic reference',
   },
-  diplotype: '*2/*2',
-  phenotype: 'Poor metabolizer',
+  diplotype: 'Synthetic reference (*2/*2)',
+  phenotype: 'Research prototype classification',
   guideline: {
-    source: 'CPIC SSRI CYP2C19',
-    level: 'Level A',
-    rule: 'Poor metabolizer dosing recommendation',
+    source: 'CPIC Reference',
+    level: 'Research Only',
+    rule: 'Synthetic structure demonstration',
   },
-  recommendation: 'Dose reduction / alternative',
+  recommendation: 'Clinical matching and prescribing disabled',
 } as const;
 
 const systemDepthScale = [
-  { label: 'Variants processed', value: '2.4M+' },
-  { label: 'Gene–drug relationships', value: '180+' },
-  { label: 'CPIC-aligned clinical rules', value: '320+' },
-  { label: 'Simulated clinical cases', value: '12,000+' },
+  { label: 'Variants processed', value: 'Engineering Foundation' },
+  { label: 'Gene–drug relationships', value: 'Registry Metadata' },
+  { label: 'CPIC-aligned clinical rules', value: 'Guideline Reference' },
+  { label: 'Simulated clinical cases', value: 'Synthetic Demo Data' },
 ] as const;
 
 const systemDepthCoverage = {
@@ -298,18 +298,13 @@ const systemDepthSafetyPipeline = [
 ] as const;
 
 const sampleReasoningChain = [
-  'rs4244285 detected',
-  'CYP2C19 reduced activity inferred',
-  'Poor metabolizer phenotype assigned',
-  'CPIC Level A SSRI rule matched',
-  'High-risk recommendation generated',
+  'Synthetic variant reference (rs4244285)',
+  'Research prototype gene mapping (CYP2C19)',
+  'Synthetic phenotype classification reference',
+  'CPIC guideline data structure reference',
+  'Synthetic demonstration output generated',
 ] as const;
 
-const riskPillClassBySeverity: Record<AiDraftOutput['risk_assessment']['severity'], string> = {
-  moderate: 'risk-pill--moderate',
-  high: 'risk-pill--high',
-  critical: 'risk-pill--high',
-};
 
 function formatUtcTimestamp(isoTimestamp: string): string {
   return new Date(isoTimestamp).toISOString().replace('T', ' ').slice(0, 16);
@@ -377,31 +372,31 @@ const simulationPanelsByMode: Record<SimulationMode, { left: SimulationPanel; ce
       items: [
         {
           key: 'with-variant',
-          text: 'Variant: rs4244285',
+          text: 'Variant: rs4244285 (Synthetic)',
           step: 1,
-          tooltip: 'rsID identifies a specific genomic variant used for deterministic rule mapping.',
+          tooltip: 'Synthetic rsID reference for prototype demonstration.',
         },
-        { key: 'with-gene', text: 'Gene: CYP2C19', step: 1 },
+        { key: 'with-gene', text: 'Gene: CYP2C19 (Prototype)', step: 1 },
       ],
     },
     center: {
-      title: 'Clinical inference',
+      title: 'Research-stage interpretation',
       items: [
-        { key: 'with-phenotype', text: 'Phenotype: Poor metabolizer', step: 2 },
+        { key: 'with-phenotype', text: 'Phenotype: Research Reference', step: 2 },
         {
           key: 'with-cpic',
-          text: 'CPIC Level A matched',
+          text: 'CPIC Guideline Reference',
           step: 3,
-          tooltip: 'Strong prescribing recommendation',
+          tooltip: 'Research reference mapping',
         },
       ],
     },
     right: {
-      title: 'Prescribing decision',
+      title: 'Synthetic demonstration output',
       items: [
-        { key: 'with-recommendation', text: 'Dose adjusted / alternative recommended', step: 4 },
-        { key: 'with-risk', text: 'Risk flagged', step: 4 },
-        { key: 'with-confidence', text: 'Confidence: 94%', step: 4 },
+        { key: 'with-recommendation', text: 'Clinical matching disabled (Synthetic Demo)', step: 4 },
+        { key: 'with-risk', text: 'Synthetic evaluation reference', step: 4 },
+        { key: 'with-confidence', text: 'Confidence: Not applicable', step: 4 },
       ],
     },
   },
@@ -445,8 +440,6 @@ export function LandingPage() {
   };
 
   const primaryVariant = sampleClinicalOutput.pharmacogenomic_profile.detected_variants[0];
-  const riskPillClass = riskPillClassBySeverity[sampleClinicalOutput.risk_assessment.severity];
-  const confidencePercent = Math.round(sampleClinicalOutput.risk_assessment.confidence_score * 100);
   const generatedAtUtc = formatUtcTimestamp(sampleClinicalOutput.timestamp);
 
   const withoutFlowNodes = ['Hidden Variant', 'Blind Decision', 'Risk'] as const;
@@ -1048,6 +1041,7 @@ export function LandingPage() {
             <a href="#sample-output">Sign-off Output</a>
             <Link to="/architecture">Architecture</Link>
             <a href="#trust-signals">Trust Signals</a>
+            <Link to="/login" className="topbar-staff-login-btn" style={{ marginLeft: '1rem', padding: '0.35rem 0.75rem', borderRadius: '4px', border: '1px solid rgba(123, 225, 255, 0.4)', background: 'rgba(123, 225, 255, 0.1)', color: 'inherit', textDecoration: 'none', fontWeight: 500, fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>Hospital Staff Login</Link>
           </nav>
         </div>
       </header>
@@ -1072,7 +1066,7 @@ export function LandingPage() {
                 View Sample Clinical Report
               </a>
               <Link className="entry-hero-link" to="/upload">
-                Upload De-identified VCF
+                Open VCF Research Intake
               </Link>
             </div>
           </div>
@@ -1090,15 +1084,12 @@ export function LandingPage() {
 
       <section className="landing-section" id="loss-surface" aria-labelledby="loss-title">
         <header className="landing-section__header">
-          <h2 id="loss-title">This is already happening in your system — you’re just not measuring it.</h2>
+          <p className="landing-question">Illustrative Financial Impact Scenario</p>
+          <h2 id="loss-title">Illustrative Financial Impact Scenario &amp; Assumptions</h2>
           <p id="loss-sub">
-            This is not projected loss. This is active exposure.
-            <br />
-            It does not show up in dashboards. It shows up in outcomes.
+            All results are calculated estimates based on adjustable assumptions, not measured hospital outcomes.
           </p>
         </header>
-
-        <p className="loss-surface-estimate-label">Estimated based on standard prescribing environments</p>
 
         <div className="loss-surface-grid">
           <section className="loss-surface-inputs" aria-label="Loss estimate inputs">
@@ -1137,34 +1128,45 @@ export function LandingPage() {
                 onChange={(event) => setLossAdverseBaselinePercent(Number(event.target.value))}
               />
             </label>
+
+            <div style={{ marginTop: '1.25rem', padding: '0.85rem', background: 'rgba(123, 225, 255, 0.05)', border: '1px solid rgba(123, 225, 255, 0.2)', borderRadius: '8px', fontSize: '0.84rem', color: 'var(--text-secondary)' }}>
+              <strong style={{ display: 'block', color: 'var(--text-primary)', marginBottom: '0.35rem' }}>Calculation Methodology &amp; Assumptions:</strong>
+              <ul style={{ margin: 0, paddingLeft: '1.2rem', display: 'grid', gap: '0.25rem' }}>
+                <li>Modeled event estimate = monthly prescriptions × PGx share × adverse-event baseline × 30% modeling factor.</li>
+                <li>Modeled cost equivalent = modeled event estimate × ₹8,000 assumed cost.</li>
+                <li>Modeled workflow cycles = monthly prescriptions × PGx share × 20% workflow-efficiency assumption.</li>
+              </ul>
+            </div>
           </section>
 
           <section className={`loss-surface-metrics${lossMetricsPulsing ? ' is-updating' : ''}`} aria-live="polite">
             <article className="loss-metric-card" id="loss-1">
-              <h3>Preventable Adverse Events</h3>
+              <h3>Illustrative Modeled Event Estimate</h3>
               <p className="loss-metric-card__value loss-metric-card__value--events">
                 ~ {Math.round(lossMetrics.adverseEventsPrevented).toLocaleString('en-IN')} events / month
               </p>
-              <p>→ this means treatment cost, escalation risk, and extended care cycles</p>
+              <p>→ modeled estimate based on user-adjustable sliders and 30% factor</p>
             </article>
 
             <article className="loss-metric-card" id="loss-2">
-              <h3>Recoverable Revenue</h3>
+              <h3>Illustrative Cost-Equivalent Estimate</h3>
               <p className="loss-metric-card__value loss-metric-card__value--cost">
                 ~ ₹ {Math.round(lossMetrics.costSavings).toLocaleString('en-IN')} / month
               </p>
-              <p>→ this results in sustained loss from incorrect first-line prescribing</p>
+              <p>→ modeled cost equivalent based on ₹8,000 assumed cost per event</p>
             </article>
 
             <article className="loss-metric-card" id="loss-3">
-              <h3>Operational Waste</h3>
+              <h3>Modeled Workflow Cycles</h3>
               <p className="loss-metric-card__value">~ {Math.round(lossMetrics.efficiencyGain).toLocaleString('en-IN')} rework cycles</p>
-              <p>→ this means unnecessary consultations, diagnostics, and therapy switches</p>
+              <p>→ modeled rework cycles based on 20% efficiency assumption</p>
             </article>
           </section>
         </div>
 
-        <p className="loss-surface-line" id="loss-line">These are not projections. These are unmeasured outcomes.</p>
+        <p className="loss-surface-line" id="loss-line" style={{ marginTop: '1rem', padding: '0.75rem', background: 'rgba(219, 154, 34, 0.1)', border: '1px solid rgba(219, 154, 34, 0.3)', borderRadius: '6px', color: '#f6ad55', fontSize: '0.86rem', textAlign: 'center' }}>
+          Illustrative scenario estimates based on adjustable assumptions. These are not measured hospital outcomes, verified savings, proven clinical benefits, or guaranteed revenue recovery.
+        </p>
       </section>
 
       <section
@@ -1264,7 +1266,7 @@ export function LandingPage() {
 
       <section className="landing-section" id="audit-simulation" aria-labelledby="audit-title">
         <header className="landing-section__header">
-          <h2 id="audit-title">Would your prescribing decisions survive an audit?</h2>
+          <h2 id="audit-title">Can your prescribing workflow make its evidence traceable?</h2>
           <p id="audit-sub">Decision quality is measured by traceability under review pressure.</p>
           <p className="audit-sim-tag">Audit scenario: adverse event review</p>
         </header>
@@ -1317,35 +1319,38 @@ export function LandingPage() {
 
       <section className={`landing-section${spotlightClassFor('sample-output')}`} id="sample-output" aria-labelledby="sample-output-title">
         <header className="landing-section__header">
-          <p className="landing-question">This is what a defensible decision looks like</p>
-          <h2 id="sample-output-title">Clinical Sign-off Output Panel</h2>
-          <p>Illustrative recommendation generated from detected variant evidence and guideline-linked deterministic rules.</p>
+          <p className="landing-question">Simulated Pharmacogenomic Analysis</p>
+          <h2 id="sample-output-title">Simulated Pharmacogenomic Analysis</h2>
+          <div style={{ margin: '0.75rem 0', padding: '0.5rem 1rem', background: 'rgba(219, 154, 34, 0.15)', border: '1px solid rgba(219, 154, 34, 0.4)', borderRadius: '6px', color: '#f6ad55', fontWeight: 700, fontSize: '0.85rem', letterSpacing: '0.05em', textAlign: 'center' }}>
+            SYNTHETIC DEMO — NOT FOR CLINICAL USE (Clinical matching &amp; prescribing disabled)
+          </div>
+          <p>Illustrative research-stage demonstration. No clinical diagnosis, treatment recommendation, or validated confidence score is generated or authorized.</p>
         </header>
 
         <div className="clinical-output-panel">
           <div className="clinical-output-panel__top">
             <article className="decision-chip" data-output-step="1">
-              <p className="decision-chip__label">Decision First</p>
+              <p className="decision-chip__label">Synthetic Demo Reference</p>
               <h3>
                 {sampleClinicalOutput.drug} · {sampleClinicalOutput.pharmacogenomic_profile.primary_gene}
               </h3>
-              <p className="decision-chip__meta">Phenotype: {sampleClinicalOutput.pharmacogenomic_profile.phenotype}</p>
+              <p className="decision-chip__meta">Classification: {sampleClinicalOutput.pharmacogenomic_profile.phenotype}</p>
             </article>
 
             <article className="decision-chip" data-output-step="2">
-              <p className="decision-chip__label">Risk Classification</p>
-              <p className={`risk-pill ${riskPillClass}`}>{sampleClinicalOutput.risk_assessment.risk_label}</p>
+              <p className="decision-chip__label">Status</p>
+              <p className="risk-pill risk-pill--moderate">{sampleClinicalOutput.risk_assessment.risk_label}</p>
               <p className="decision-chip__meta">Guideline strength: {sampleGuidelineEvidence.level}</p>
-              <p className="decision-chip__meta decision-chip__meta--confidence">Confidence: {confidencePercent}%</p>
+              <p className="decision-chip__meta decision-chip__meta--confidence">Confidence: Not Applicable</p>
             </article>
           </div>
 
           <div className="clinical-output-panel__grid">
             <section className="clinical-output-card clinical-output-card--facts" data-output-step="1">
-              <h3>Evidence Summary</h3>
+              <h3>Synthetic Evidence Summary</h3>
               <div className="clinical-kv-list">
                 <p>
-                  <span>Drug</span>
+                  <span>Reference Drug</span>
                   <strong>{sampleClinicalOutput.drug}</strong>
                 </p>
                 <p>
@@ -1353,7 +1358,7 @@ export function LandingPage() {
                   <strong>{sampleClinicalOutput.pharmacogenomic_profile.primary_gene}</strong>
                 </p>
                 <p>
-                  <span>Phenotype</span>
+                  <span>Classification</span>
                   <strong>{sampleClinicalOutput.pharmacogenomic_profile.phenotype}</strong>
                 </p>
                 <p>
@@ -1365,7 +1370,7 @@ export function LandingPage() {
               </div>
 
               <div className="guideline-evidence" data-output-step="4">
-                <h4>Guideline Evidence</h4>
+                <h4>Guideline Reference</h4>
                 <p>
                   <span>Guideline Source</span>
                   <strong>{sampleGuidelineEvidence.source}</strong>
@@ -1380,18 +1385,18 @@ export function LandingPage() {
                 </p>
                 <p>
                   <span>Source references</span>
-                  <strong>CPIC / PharmGKB</strong>
+                  <strong>Research Prototype</strong>
                 </p>
               </div>
             </section>
 
             <section className="clinical-output-card clinical-output-card--recommendation" data-output-step="3">
-              <h3>Clinical Recommendation</h3>
+              <h3>Research Prototype Notice</h3>
               <p>{sampleClinicalOutput.clinical_recommendation.action}</p>
               <p>{sampleClinicalOutput.clinical_recommendation.rationale}</p>
 
               <div className="reasoning-chain">
-                <h4>Visible Reasoning Chain</h4>
+                <h4>Visible Evidence Walkthrough (Synthetic)</h4>
                 <ol>
                   {sampleReasoningChain.map((step) => (
                     <li key={step}>{step}</li>
@@ -1573,7 +1578,7 @@ export function LandingPage() {
               </span>
               <p>
                 <span>Recommendation</span>
-                <strong>Dose reduction / alternative</strong>
+                <strong>Clinical matching and prescribing disabled</strong>
               </p>
             </div>
             <p className="explainability-card__note">Each step is traceable, auditable, and reproducible.</p>
@@ -1938,10 +1943,10 @@ export function LandingPage() {
         </div>
         <div className="landing-hero-actions">
           <a className="topbar-cta" href="#sample-output">
-            Request Clinical Evaluation
+            View Synthetic Analysis
           </a>
         </div>
-        <p className="decision-point-subtext">No integration required. Real decision. Real output.</p>
+        <p className="decision-point-subtext">Explore a synthetic research workflow. No clinical decision is generated.</p>
       </section>
 
       <div className="final-pressure-strip" role="note" aria-label="Genomic risk statement">
@@ -1950,8 +1955,8 @@ export function LandingPage() {
 
       <section className="landing-section landing-section--cta" aria-label="Primary conversion action">
         <div>
-          <p className="landing-question">Ready for clinical review?</p>
-          <h2>Test one real prescribing decision.</h2>
+          <p className="landing-question">Explore the Pharmakon research prototype</p>
+          <h2>Explore one synthetic prescribing scenario.</h2>
           <p>
             Takes one case to see the gap.
             <br />
@@ -1959,16 +1964,19 @@ export function LandingPage() {
           </p>
         </div>
         <div className="landing-hero-actions">
-          <a className="topbar-cta" href="#sample-output">
-            Run Clinical Validation
+          <a className="topbar-cta" href="#audit-simulation">
+            Explore Research Workflow
           </a>
           <a className="topbar-login" href="#sample-output">
-            Inspect Decision Output
+            View Evidence Walkthrough
           </a>
           <Link className="topbar-tertiary" to="/upload">
-            Upload De-identified VCF
+            Open VCF Research Intake
           </Link>
         </div>
+        <p className="decision-point-subtext" style={{ marginTop: '1rem', fontSize: '0.85rem', color: 'var(--text-secondary)', textAlign: 'center' }}>
+          Research/demo intake only. Use synthetic or appropriately de-identified test data. This workflow does not provide clinical validation, prescribing recommendations, or treatment decisions.
+        </p>
       </section>
     </main>
   );

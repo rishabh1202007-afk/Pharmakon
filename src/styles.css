@@ -47,6 +47,12 @@ a {
 
 .landing-page {
   padding-bottom: 4rem;
+  scroll-padding-top: 6rem;
+}
+
+.landing-page .landing-section,
+.landing-page section[id] {
+  scroll-margin-top: 6rem;
 }
 
 .auth-page {

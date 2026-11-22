@@ -2,6 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { TrendChart, type TrendSeries } from './TrendChart';
 import type { AiDraftOutput, AuditLogEntry, CloudFieldEdit, CloudPatientNote } from '../../types/domain';
 import type { LabRealtimeViewModel } from '../../services/labAIAgent';
+import { GenomicsOllamaPanel } from './GenomicsPanelOllama';
 
 interface PanelContext {
   patientId: string;
@@ -251,6 +252,8 @@ export function GenomicsPanel(context: PanelContext) {
           </li>
         </ul>
       </article>
+
+      <GenomicsOllamaPanel gene={context.primaryGene} drug={context.patientOutput?.drug} phenotype={context.phenotype} />
     </section>
   );
 }
@@ -279,7 +282,7 @@ export function MedicationsPanel(context: PanelContext) {
             </thead>
             <tbody>
               <tr>
-                <td>{context.patientOutput?.drug ?? 'DRUG_NAME'}</td>
+                <td>{context.patientOutput?.drug ?? 'Clopidogrel'}</td>
                 <td>{context.riskLabel}</td>
                 <td>{context.primaryGene} {context.phenotype} metabolic effect</td>
                 <td>{context.patientOutput?.clinical_recommendation.action ?? 'Immediate specialist review required'}</td>
@@ -454,11 +457,8 @@ export function ReportsPanel({
 
 export function AuditPanel({
   patientId,
-  patientOutput,
   outputTimestamp,
   variantCount,
-  riskLabel,
-  severityLabel,
   fieldValues,
   edits,
   notes,
@@ -500,31 +500,28 @@ export function AuditPanel({
     if (!canEditManualFields) {
       return;
     }
-
     if (!activeFieldKey) {
       return;
     }
 
-    setIsSaving(true);
     try {
+      setIsSaving(true);
       await onSaveField(activeFieldKey, draftValue, draftNote);
-      cancelEdit();
+      setActiveFieldKey(null);
+      setDraftValue('');
+      setDraftNote('');
     } finally {
       setIsSaving(false);
     }
   };
 
   const submitNote = async () => {
-    if (!canAddNotes) {
+    if (!canAddNotes || !noteInput.trim()) {
       return;
     }
 
-    if (!noteInput.trim()) {
-      return;
-    }
-
-    setIsSaving(true);
     try {
+      setIsSaving(true);
       await onAddNote(noteInput.trim());
       setNoteInput('');
     } finally {
@@ -535,144 +532,82 @@ export function AuditPanel({
   return (
     <section className="operations-panel-stack">
       <article className="card-shell panel-headline">
-        <p className="verdict-kicker">Audit and Traceability</p>
-        <h2>FULL DECISION CHAIN RETAINED FOR LEGAL-CLINICAL REVIEW</h2>
-        <p className="verdict-meta">Patient: {patientId} | Data source: {patientOutput?.quality_metrics.file_name ?? 'No intake file'} | Timestamp: {outputTimestamp}</p>
+        <p className="verdict-kicker">Auditability & Traceability</p>
+        <h2>COMPLIANCE LEDGER — IMMUTABLE RECORD OF ACTIONS</h2>
+        <p className="verdict-meta">Patient: {patientId} | Evidence records: {variantCount} | Last sync: {outputTimestamp}</p>
       </article>
 
       <article className="card-shell">
-        <h2 className="ops-heading">Immutable Event Trail</h2>
+        <h2 className="ops-heading">Operational Fields & Authorization State</h2>
         <div className="alert-log-wrap">
-          <table className="ops-table" aria-label="Immutable event trail">
-            <thead>
-              <tr>
-                <th>Time</th>
-                <th>Actor</th>
-                <th>Event</th>
-                <th>Evidence</th>
-                <th>Outcome</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>{outputTimestamp}</td>
-                <td>Intake Console</td>
-                <td>VCF parse and JSON generation</td>
-                <td>{variantCount} variant lines</td>
-                <td>Stored</td>
-              </tr>
-              <tr>
-                <td>{outputTimestamp}</td>
-                <td>Decision Engine</td>
-                <td>Risk classification</td>
-                <td>{riskLabel} / {severityLabel}</td>
-                <td>Issued</td>
-              </tr>
-              <tr>
-                <td>{outputTimestamp}</td>
-                <td>Dashboard Renderer</td>
-                <td>Clinical presentation refresh</td>
-                <td>Patient-scoped data binding</td>
-                <td>Complete</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </article>
-
-      <article className="card-shell">
-        <h2 className="ops-heading">AI-Derived Fields (Read-Only)</h2>
-        <div className="alert-log-wrap">
-          <table className="ops-table" aria-label="AI derived fields read only">
+          <table className="ops-table" aria-label="Operational fields">
             <thead>
               <tr>
                 <th>Field</th>
                 <th>Current Value</th>
-                <th>Edit Policy</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Risk Label</td>
-                <td>{riskLabel}</td>
-                <td>Locked · AI-derived</td>
-              </tr>
-              <tr>
-                <td>Severity</td>
-                <td>{severityLabel}</td>
-                <td>Locked · AI-derived</td>
-              </tr>
-              <tr>
-                <td>Primary Gene</td>
-                <td>{String(fieldValues.primaryGene ?? patientOutput?.pharmacogenomic_profile.primary_gene ?? 'GENE_SYMBOL')}</td>
-                <td>Locked · AI-derived</td>
-              </tr>
-              <tr>
-                <td>Phenotype</td>
-                <td>{String(fieldValues.phenotype ?? patientOutput?.pharmacogenomic_profile.phenotype ?? 'Unknown')}</td>
-                <td>Locked · AI-derived</td>
-              </tr>
-              <tr>
-                <td>Variant Count</td>
-                <td>{variantCount}</td>
-                <td>Locked · AI-derived</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </article>
-
-      <article className="card-shell">
-        <h2 className="ops-heading">Manual Operational Overrides (Editable)</h2>
-        <div className="alert-log-wrap">
-          <table className="ops-table" aria-label="Manual editable operational fields">
-            <thead>
-              <tr>
-                <th>Field</th>
-                <th>Current Value</th>
-                <th>Last Edit</th>
+                <th>Last Editor</th>
                 <th>Action</th>
               </tr>
             </thead>
             <tbody>
               {editableFields.map((field) => {
-                const value = fieldValues[field.key];
-                const displayValue = value === undefined || value === null || value === '' ? field.fallback : String(value);
+                const currentVal = fieldValues[field.key] ?? field.fallback;
                 const lastEdit = latestByField.get(field.key);
+                const isEditing = activeFieldKey === field.key;
 
                 return (
                   <tr key={field.key}>
                     <td>{field.label}</td>
-                    <td>{displayValue}</td>
                     <td>
-                      {lastEdit
-                        ? `${lastEdit.editedBy} · ${new Date(lastEdit.timestamp).toLocaleString()}${lastEdit.note ? ` · ${lastEdit.note}` : ''}`
-                        : 'No edits logged'}
+                      {isEditing ? (
+                        <input
+                          type="text"
+                          value={draftValue}
+                          onChange={(e) => setDraftValue(e.target.value)}
+                          style={{ width: '100%', padding: '4px 8px', borderRadius: '4px', border: '1px solid #cbd5e1' }}
+                        />
+                      ) : (
+                        <strong>{String(currentVal)}</strong>
+                      )}
+                      {lastEdit && !isEditing ? (
+                        <span style={{ display: 'block', fontSize: '0.75rem', color: '#64748b' }}>
+                          Updated by {lastEdit.editedBy} ({new Date(lastEdit.timestamp).toLocaleTimeString()})
+                        </span>
+                      ) : null}
                     </td>
+                    <td>{lastEdit?.editedBy || 'System / Initial'}</td>
                     <td>
-                      {!canEditManualFields ? (
-                        <span className="meta-line">Locked for current role</span>
-                      ) : activeFieldKey === field.key ? (
-                        <div className="audit-inline-edit">
-                          <input value={draftValue} onChange={(event) => setDraftValue(event.target.value)} />
-                          <input
-                            value={draftNote}
-                            onChange={(event) => setDraftNote(event.target.value)}
-                            placeholder="Edit note"
-                          />
-                          <div className="audit-inline-actions">
-                            <button type="button" onClick={submitFieldEdit} disabled={isSaving}>
+                      {canEditManualFields ? (
+                        isEditing ? (
+                          <div style={{ display: 'flex', gap: '6px' }}>
+                            <button
+                              type="button"
+                              onClick={submitFieldEdit}
+                              disabled={isSaving}
+                              style={{ background: '#16a34a', color: '#fff', border: 'none', padding: '4px 8px', borderRadius: '4px', cursor: 'pointer' }}
+                            >
                               Save
                             </button>
-                            <button type="button" onClick={cancelEdit} disabled={isSaving}>
+                            <button
+                              type="button"
+                              onClick={cancelEdit}
+                              disabled={isSaving}
+                              style={{ background: '#cbd5e1', color: '#334155', border: 'none', padding: '4px 8px', borderRadius: '4px', cursor: 'pointer' }}
+                            >
                               Cancel
                             </button>
                           </div>
-                        </div>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={() => beginEdit(field.key)}
+                            style={{ background: '#2563eb', color: '#fff', border: 'none', padding: '4px 10px', borderRadius: '4px', cursor: 'pointer' }}
+                          >
+                            Edit
+                          </button>
+                        )
                       ) : (
-                        <button type="button" className="audit-edit-btn" onClick={() => beginEdit(field.key)}>
-                          Edit
-                        </button>
+                        <span style={{ fontSize: '0.8rem', color: '#94a3b8' }}>Read-only</span>
                       )}
                     </td>
                   </tr>
@@ -681,142 +616,91 @@ export function AuditPanel({
             </tbody>
           </table>
         </div>
-      </article>
-
-      <article className="card-shell">
-        <h2 className="ops-heading">Field Edit Log (User Attributed)</h2>
-        <div className="alert-log-wrap">
-          <table className="ops-table" aria-label="Field edit log">
-            <thead>
-              <tr>
-                <th>Time</th>
-                <th>User</th>
-                <th>Field</th>
-                <th>Value</th>
-                <th>Note</th>
-              </tr>
-            </thead>
-            <tbody>
-              {latestEdits.length ? (
-                latestEdits.slice(0, 20).map((edit, index) => (
-                  <tr key={`${edit.timestamp}-${edit.fieldKey}-${index}`}>
-                    <td>{new Date(edit.timestamp).toLocaleString()}</td>
-                    <td>{edit.editedBy}</td>
-                    <td>{edit.fieldKey}</td>
-                    <td>{String(edit.value)}</td>
-                    <td>{edit.note || '—'}</td>
-                  </tr>
-                ))
-              ) : (
-                <tr>
-                  <td colSpan={5}>No edits logged.</td>
-                </tr>
-              )}
-            </tbody>
-          </table>
-        </div>
+        {activeFieldKey ? (
+          <div style={{ marginTop: '12px' }}>
+            <label style={{ display: 'block', fontSize: '0.85rem', color: '#475569', marginBottom: '4px' }}>Justification / Edit Note:</label>
+            <input
+              type="text"
+              value={draftNote}
+              onChange={(e) => setDraftNote(e.target.value)}
+              placeholder="Reason for change..."
+              style={{ width: '100%', padding: '6px 10px', borderRadius: '4px', border: '1px solid #cbd5e1' }}
+            />
+          </div>
+        ) : null}
       </article>
 
       <article className="card-shell">
         <h2 className="ops-heading">Clinical Notes</h2>
-        {!canAddNotes ? <p className="meta-line">Read-only for current role. Notes are visible but cannot be edited.</p> : null}
-        <div className="audit-note-entry">
-          <textarea
-            value={noteInput}
-            onChange={(event) => setNoteInput(event.target.value)}
-            rows={3}
-            disabled={!canAddNotes}
-            placeholder="Add note for audit trail and downstream review"
-          />
-          <button type="button" onClick={submitNote} disabled={isSaving || !noteInput.trim() || !canAddNotes}>
-            Save Note
-          </button>
-        </div>
-        <ul className="focus-list" style={{ marginTop: '0.6rem' }}>
+        {canAddNotes ? (
+          <div style={{ marginBottom: '16px', display: 'flex', gap: '8px' }}>
+            <input
+              type="text"
+              value={noteInput}
+              onChange={(e) => setNoteInput(e.target.value)}
+              placeholder="Append clinical observation note..."
+              style={{ flex: 1, padding: '8px 12px', borderRadius: '6px', border: '1px solid #cbd5e1' }}
+            />
+            <button
+              type="button"
+              onClick={submitNote}
+              disabled={isSaving || !noteInput.trim()}
+              style={{ background: '#2563eb', color: '#fff', border: 'none', padding: '8px 16px', borderRadius: '6px', cursor: 'pointer', fontWeight: 600 }}
+            >
+              Add Note
+            </button>
+          </div>
+        ) : null}
+
+        <div className="alert-log-wrap">
           {notes.length ? (
-            notes
-              .slice()
-              .sort((left, right) => new Date(right.timestamp).getTime() - new Date(left.timestamp).getTime())
-              .slice(0, 12)
-              .map((note, index) => (
-                <li key={`${note.timestamp}-${index}`}>
+            <ul className="focus-list">
+              {notes.map((note, index) => (
+                <li key={index}>
                   <strong>{note.author}</strong>
-                  <span>
-                    {new Date(note.timestamp).toLocaleString()}
-                    {note.authorEmail ? ` · ${note.authorEmail}` : ''}
-                  </span>
                   <span>{note.text}</span>
+                  <small style={{ color: '#94a3b8', display: 'block' }}>{new Date(note.timestamp).toLocaleString()}</small>
                 </li>
-              ))
+              ))}
+            </ul>
           ) : (
-            <li>
-              <strong>No notes logged</strong>
-              <span>Add notes to preserve clinical context and reviewer intent.</span>
-            </li>
+            <p style={{ color: '#64748b', fontSize: '0.9rem' }}>No clinical notes appended yet.</p>
           )}
-        </ul>
+        </div>
       </article>
 
       <article className="card-shell">
-        <h2 className="ops-heading">Immutable Audit Records</h2>
+        <h2 className="ops-heading">Audit Trail (Immutable Activity Log)</h2>
         <div className="alert-log-wrap">
-          <table className="ops-table" aria-label="Immutable audit records">
+          <table className="ops-table" aria-label="Audit logs">
             <thead>
               <tr>
-                <th>user_id</th>
-                <th>role</th>
-                <th>patient_id</th>
-                <th>action</th>
-                <th>ai_suggestion</th>
-                <th>final_decision</th>
-                <th>timestamp</th>
-                <th>justification</th>
+                <th>Timestamp</th>
+                <th>Actor</th>
+                <th>Role</th>
+                <th>Action</th>
+                <th>Justification</th>
               </tr>
             </thead>
             <tbody>
               {auditLogs.length ? (
-                auditLogs
-                  .slice()
-                  .sort((left, right) => new Date(right.timestamp).getTime() - new Date(left.timestamp).getTime())
-                  .slice(0, 40)
-                  .map((entry, index) => (
-                    <tr key={`${entry.timestamp}-${entry.action}-${index}`}>
-                      <td>{entry.user_id}</td>
-                      <td>{entry.role}</td>
-                      <td>{entry.patient_id}</td>
-                      <td>{entry.action}</td>
-                      <td>{entry.ai_suggestion || '—'}</td>
-                      <td>{entry.final_decision || '—'}</td>
-                      <td>{new Date(entry.timestamp).toLocaleString()}</td>
-                      <td>{entry.justification || '—'}</td>
-                    </tr>
-                  ))
+                auditLogs.map((log, index) => (
+                  <tr key={index}>
+                    <td>{new Date(log.timestamp).toLocaleTimeString()}</td>
+                    <td>{log.user_id}</td>
+                    <td>{log.role}</td>
+                    <td>{log.action}</td>
+                    <td>{log.justification || log.final_decision || '—'}</td>
+                  </tr>
+                ))
               ) : (
                 <tr>
-                  <td colSpan={8}>No immutable audit events logged yet.</td>
+                  <td colSpan={5}>No audit logs recorded for this record yet.</td>
                 </tr>
               )}
             </tbody>
           </table>
         </div>
-      </article>
-
-      <article className="card-shell">
-        <h2 className="ops-heading">Control Assertions</h2>
-        <ul className="focus-list">
-          <li>
-            <strong>Provenance maintained</strong>
-            <span>All decision outputs remain linked to source intake artifact and timestamp.</span>
-          </li>
-          <li>
-            <strong>Determinism maintained</strong>
-            <span>Equivalent inputs and rule versions produce equivalent outputs.</span>
-          </li>
-          <li>
-            <strong>Accountability maintained</strong>
-            <span>Escalation and report issuance remain tied to named procedural owners.</span>
-          </li>
-        </ul>
       </article>
     </section>
   );

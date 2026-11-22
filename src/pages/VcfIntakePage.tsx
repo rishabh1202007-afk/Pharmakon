@@ -13,23 +13,9 @@ import { useIntake } from '../state/intakeStore';
 import { useAuth } from '../state/authStore';
 import type { AiDraftOutput, AiDraftVariant } from '../types/domain';
 import { Button } from '../ui/Button';
-
-interface ParsedVariant extends AiDraftVariant {
-  chrom: string;
-  pos: string;
-  ref: string;
-  alt: string;
-  gene: string | null;
-}
+import { parseVcfVariants, VARIANT_RULES } from '../utils/vcfParser';
 
 type ImpactLevel = 'high' | 'medium' | 'low';
-
-interface VariantRule {
-  gene: string;
-  diplotype: string;
-  phenotype: string;
-  impact: ImpactLevel;
-}
 
 const DRUG_GENE_TARGETS: Record<string, string> = {
   Warfarin: 'CYP2C9',
@@ -37,15 +23,6 @@ const DRUG_GENE_TARGETS: Record<string, string> = {
   Codeine: 'CYP2D6',
   Simvastatin: 'SLCO1B1',
   Tacrolimus: 'CYP3A5',
-};
-
-const VARIANT_RULES: Record<string, VariantRule> = {
-  rs4244285: { gene: 'CYP2C19', diplotype: '*2/*2', phenotype: 'Poor Metabolizer', impact: 'high' },
-  rs776746: { gene: 'CYP3A5', diplotype: '*3/*3', phenotype: 'Non-Expresser', impact: 'medium' },
-  rs1799853: { gene: 'CYP2C9', diplotype: '*1/*2', phenotype: 'Intermediate Metabolizer', impact: 'medium' },
-  rs1057910: { gene: 'CYP2C9', diplotype: '*1/*3', phenotype: 'Intermediate Metabolizer', impact: 'medium' },
-  rs3892097: { gene: 'CYP2D6', diplotype: '*4/*4', phenotype: 'Poor Metabolizer', impact: 'high' },
-  rs4149056: { gene: 'SLCO1B1', diplotype: 'c.521TC', phenotype: 'Decreased Function', impact: 'medium' },
 };
 
 function generateRefreshPatientId(): string {
@@ -72,52 +49,6 @@ function calculateAgeFromDateOfBirth(dateOfBirth: string): number | null {
   }
 
   return age >= 0 ? age : null;
-}
-
-function parseInfoField(infoField: string): Record<string, string> {
-  return infoField
-    .split(';')
-    .map((chunk) => chunk.trim())
-    .filter(Boolean)
-    .reduce<Record<string, string>>((accumulator, item) => {
-      const [rawKey, ...valueParts] = item.split('=');
-      if (!rawKey) {
-        return accumulator;
-      }
-
-      const key = rawKey.trim().toUpperCase();
-      const value = valueParts.join('=').trim();
-      if (value) {
-        accumulator[key] = value;
-      }
-      return accumulator;
-    }, {});
-}
-
-function parseVcfVariants(rawVcf: string): ParsedVariant[] {
-  const lines = rawVcf.split(/\r?\n/);
-
-  return lines
-    .filter((line) => line.trim() && !line.startsWith('#'))
-    .map((line) => line.split('\t'))
-    .filter((parts) => parts.length >= 5)
-    .map((parts) => {
-      const [chrom, pos, id, ref, alt, , , info = ''] = parts;
-      const normalizedRsid = id && id !== '.' ? id : `${chrom}:${pos}`;
-      const infoMap = parseInfoField(info);
-      const mappedRuleGene = VARIANT_RULES[normalizedRsid.toLowerCase()]?.gene ?? null;
-      const parsedGene = infoMap.GENE || infoMap.GENE_SYMBOL || infoMap.SYMBOL || mappedRuleGene;
-
-      return {
-        rsid: normalizedRsid,
-        evidence: `${chrom}:${pos} ${ref}>${alt}`,
-        chrom,
-        pos,
-        ref,
-        alt,
-        gene: parsedGene ? parsedGene.toUpperCase() : null,
-      };
-    });
 }
 
 function buildFallbackPatientId(file: File): string {
